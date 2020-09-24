@@ -995,4 +995,14 @@
 				holder = 0
 			}
 		}
+		d_pommerania = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
+		d_nordmark = {
+			1440.1.1 = {
+				holder = 0
+			}
+		}
 #}
