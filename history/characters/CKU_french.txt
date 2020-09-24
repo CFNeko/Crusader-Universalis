@@ -5,6 +5,7 @@
 	# Valois = {
 		CKU_francien_1 = {
 			name = "Charles"
+			dna = CKU_francien_1_dna
 			dynasty = 101
 			religion = "catholic"
 			culture = french
@@ -176,6 +177,7 @@
 		
 		CKU_bourgogne_3 = {
 			name = "Philippe"
+			dna = CKU_bourgogne_3_dna
 			religion = catholic
 			culture = french
 			dynasty = CKU_valois_bourgogne
@@ -191,12 +193,13 @@
 				birth = yes
 			}
 			1419.9.10 = {
-				set_relation_nemesis  = character:CKU_francien_1 # Due to murder of his father, King of France was suspected.
+				set_relation_nemesis = character:CKU_francien_1 # Due to murder of his father, King of France was suspected.
 			}
 			1430.1.7 = {
 				#add_spouse = # Isabel, daughter of the king of Portugal
 			}
 			1435.9.21 = { # Treaty of Arras
+				remove_relation_nemesis = character:CKU_francien_1
 				set_relation_rival = character:CKU_francien_1 # King of France pleaded not guilty but promised to prosecute the real perpetrators. Philippe did not believe the King of France.
 				effect = {
 					vassal_contract_set_obligation_level = {

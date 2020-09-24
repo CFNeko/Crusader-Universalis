@@ -69,6 +69,23 @@
 
 		animation = disapproval
 	}
+	
+	character = {
+		name = "bookmark_1444_europe_burgundy"
+		dynasty = CKU_valois_bourgogne
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1396.7.31
+		title = d_burgundy
+		government = feudal_government
+		culture = french
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = CKU_bourgogne_3
+		position = { 375 980 }
+
+		animation = disapproval
+	}
 
 	character = {
 		name = "bookmark_europe_1444_pope"

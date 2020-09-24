@@ -4,7 +4,8 @@ bookmark_europe_1444_byzantium={
 	type=male
 	id=1640726692
 	age=0.485000
-	genes={ 		hair_color={ 179 229 109 239 }
+	genes={ 		
+	hair_color={ 179 229 109 239 }
 	skin_color={ 167 113 175 104 }
 	eye_color={ 68 186 31 147 }
 	gene_chin_forward={ "chin_forward_neg" 156 "chin_forward_neg" 123 }

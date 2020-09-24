@@ -43,6 +43,11 @@ CKU_cubello = {
 	culture = sardinian
 }
 
+CKU_dampierre_flanders = {
+	name = "dynn_dampierre_flanders"
+	culture = sardinian
+}
+
 CKU_de_bardi = {
 	name = "dynn_de_bardi"
 	culture = tuscan
