@@ -5,6 +5,16 @@
 			holder = CKU_francien_1
 		}
 	}
+	d_dauphine = {
+		1440.1.1 = {
+			holder = CKU_francien_1
+		}
+	}
+	d_provence = {
+		1440.1.1 = {
+			holder = CKU_francien_1
+		}
+	}
 	c_tourraine = {
 		1440.1.1 = {
 			holder = CKU_francien_1
@@ -33,6 +43,11 @@
 				}
 			}
 			c_provence = {
+				1440.1.1 = {
+					holder = CKU_anjou_1
+				}
+			}
+			c_nice = {
 				1440.1.1 = {
 					holder = CKU_anjou_1
 				}

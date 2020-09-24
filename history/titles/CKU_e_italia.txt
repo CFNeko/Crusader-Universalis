@@ -1,0 +1,349 @@
+# Florence = {
+	c_firenze = {
+		government = republic_government
+		1434.10.6 = {
+			holder = CKU_florence_1
+			liege = "e_hre"
+		}
+	}
+
+	c_arezzo = {
+		1434.10.6 = {
+			holder = CKU_florence_1
+		}
+	}
+
+	c_pisa = {
+		1434.10.6 = {
+			holder = CKU_florence_1
+		}
+	}
+#}
+# Milan = {
+	d_lombardia = {
+		1339.8.1 = {
+			holder = 463147
+		}
+		1354.10.5 = {
+			holder = 463151
+		}
+		1378.8.4 = {
+			holder = 463152
+		}
+		1395.1.1 = {
+			holder = CKU_milan_0
+		}
+		1402.1.1 = {
+			holder = CKU_milan_02
+		}
+		1412.5.16 = {
+			holder = CKU_milan_1
+			liege = "e_hre"
+		}
+	}
+	
+	c_como = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_cremona = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_novara = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_pavia = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_parma = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+	
+	c_tortona = {
+		1412.1.1 = {
+			holder = CKU_milan_1
+		}
+	}
+#}
+# Monferrat = {
+	c_monferrato = {
+		1338.1.1 = {
+			holder = 465523
+		}
+		1372.4.19 = {
+			holder = CKU_montferrat_1
+		}
+		1378.1.1 = {
+			holder = CKU_montferrat_2
+		}
+		1381.8.25 = {
+			holder = CKU_montferrat_3
+		}
+		1418.1.1 = {
+			holder = CKU_montferrat_6
+			liege = "e_hre"
+		}
+		1445.3.12 = {
+			holder = CKU_montferrat_9
+		}
+	}
+#}
+# Sienna = {
+	c_siena = {
+		government = republic_government
+		1358.1.1 = {
+			holder = 413017
+			liege = "e_hre"
+		}
+	}
+#}
+# Savoy = {
+	d_savoie = {
+		1440.1.6 = {
+			holder = CKU_savoy_1
+			liege = "e_hre"
+		}
+	}
+	
+	c_cuneo = {
+		1440.1.6 = {
+			holder = CKU_savoy_1
+		}
+	}
+	
+	c_turin = {
+		1440.1.6 = {
+			holder = CKU_savoy_1
+		}
+	}
+	
+	c_bresse = {
+		1440.1.6 = {
+			holder = CKU_savoy_1
+		}
+	}
+	
+	b_monaco = {
+		1440.1.6 = {
+			holder = CKU_savoy_1
+		}
+	}
+#}
+# Venice = {
+	k_venice = {
+		government = republic_government
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	d_venice = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_venezia = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_veneto = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_padua = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_treviso = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_verona = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_polesine = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_aquileia = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_friuli = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_pula = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_cherso = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_lika = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_zadar = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_pagania = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_buthrotum = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_cremona = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_brescia = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_cetina = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_knin = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_ravenna = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+	
+	c_naxos = {
+		1440.1.1 = {
+			holder = CKU_naxos_1
+			liege = k_venice
+		}
+	}
+	
+	c_euboea = {
+		1440.1.1 = {
+			holder = CKU_venice_1
+		}
+	}
+#}
+# Sardinia = {
+	c_arborea = {
+		1427.9.9 = {
+			holder = CKU_sardinia_1
+		}
+	}
+	
+	b_oristano = {
+		1427.9.9 = {
+			holder = CKU_sardinia_1
+		}
+	}
+#}
+# Genoa = {
+	k_genoa = {
+		government = republic_government
+		1443.1.28 = {
+			holder = CKU_genoa_1
+			liege = "e_hre"
+		}
+	}
+	
+	d_genoa = {
+		1443.1.28 = {
+			holder = CKU_genoa_1
+		}
+	}
+	
+	d_corsica = {
+		1347.1.1 = {
+			holder = CKU_genoa_1
+		}
+	}
+	
+	c_chios = {
+		1363.6.8 = {
+			holder = CKU_genoa_1
+		}
+	}
+	
+	c_kerch = {
+		1363.6.8 = {
+			holder = CKU_genoa_1
+		}
+	}
+	
+	c_lesbos = {
+		1363.6.8 = {
+			holder = CKU_genoa_1
+		}
+	}
+	
+	c_azov = {
+		1363.6.8 = {
+			holder = CKU_genoa_1
+		}
+	}
+	
+	c_tanas = {
+		1363.6.8 = {
+			holder = CKU_genoa_1
+		}
+	}
+#}
