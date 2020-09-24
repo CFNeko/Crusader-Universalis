@@ -44,12 +44,6 @@ d_holland = {
 	}
 }
 
-d_flanders = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
-	}
-}
-
 d_luxembourg = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
@@ -88,12 +82,6 @@ c_zeeland = {
 	}
 }
 
-c_aachen = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
-	}
-}
-
 c_amiens = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
@@ -106,23 +94,43 @@ c_vermandois = {
 	}
 }
 
-b_grevelines = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_8
-		liege = d_burgundy
-	}
-}
-
-b_saint_omer = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_8
-		liege = d_burgundy
-	}
-}
-
-b_mons = {
+c_boulogne = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
+	}
+}
+
+	# Duchy of Flanders = {
+		c_brugge = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_minor_21 # Governor
+				liege = d_burgundy
+			}
+		}
+
+		c_yperen = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_minor_21 # Governor
+			}
+		}
+
+		c_lille = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_minor_21 # Governor
+			}
+		}
+	#}
+
+c_guines = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_8
+		liege = d_burgundy
+	}
+}
+
+c_hainaut = {
+	1429.1.1 = {
+		holder = CKU_bourgogne_minor_13 # Governor
 	}
 }
 
@@ -138,15 +146,10 @@ b_malboden = {
 	}
 }
 
-b_namur = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_7 # Governor
-	}
-}
-
-b_charleroi = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
+c_namur = {
+	1429.1.1 = {
+		holder = CKU_bourgogne_minor_13 # Governor
+		liege = d_burgundy
 	}
 }
 
@@ -159,5 +162,12 @@ b_la_roche = {
 b_bar_sur_seine = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
+	}
+}
+
+b_limbourg = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+		liege = "d_burgundy"
 	}
 }

@@ -23,8 +23,18 @@ CKU_bueri = {
 	culture = tuscan
 }
 
+CKU_clyte = {
+	name = "dynn_clyte"
+	culture = french
+}
+
 CKU_crequy = {
 	name = "dynn_crequy"
+	culture = french
+}
+
+CKU_croy = {
+	name = "dynn_croy"
 	culture = french
 }
 

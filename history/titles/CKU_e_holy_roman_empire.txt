@@ -582,7 +582,7 @@
 					liege = "e_hre"
 				}
 			}
-			b_aachen = {
+			c_aachen = {
 				1440.1.1 = {
 					holder = CKU_rhenish_major_1
 					liege = "e_hre"
