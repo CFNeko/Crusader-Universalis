@@ -13,7 +13,13 @@
 # Bosnia = {
 	d_bosna = {
 		1440.1.1 = {
-			holder = CKU_dracul_1
+			holder = CKU_bosnian_1
+			liege = 0
+		}
+	}
+	d_usora = {
+		1440.1.1 = {
+			holder = CKU_bosnian_1
 			liege = 0
 		}
 	}
@@ -21,19 +27,19 @@
 # Serbia = {
 	d_rashka = {
 		1440.1.1 = {
-			holder = CKU_dracul_1
+			holder = CKU_serbian_1
 			liege = 0
 		}
 	}
 	d_macva = {
 		1440.1.1 = {
-			holder = CKU_dracul_1
+			holder = CKU_serbian_1
 			liege = 0
 		}
 	}
 	d_duklja = {
 		1440.1.1 = {
-			holder = CKU_dracul_1
+			holder = CKU_serbian_1
 			liege = 0
 		}
 	}

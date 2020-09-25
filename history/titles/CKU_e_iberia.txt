@@ -11,7 +11,7 @@
 		}
 	}
 
-	k_galicia = {
+	k_spanish_galicia = {
 		1440.1.1 = {
 			holder = CKU_castille_1
 		}
