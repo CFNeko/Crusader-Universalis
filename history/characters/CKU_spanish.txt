@@ -1,5 +1,5 @@
 ﻿
-# Aragon {
+# Aragon = {
 	CKU_aragorn_1 = {
 		name = "Alfonso"
 		religion = catholic
@@ -20,11 +20,12 @@
 	}
 
 	CKU_aragorn_2 = {
-		name = "Melvasul"
+		name = "John"
 		religion = catholic
-		culture = sicilian
-		learning = 69
-		1420.1.1 = {
+		culture = aragonese
+		father = CKU_aragorn_1
+		dynasty = 774
+		1398.6.29 = {
 			birth = yes
 		}
 	}
@@ -40,10 +41,24 @@
 		}
 	}
 #}
-# Castille {
+# Portugal = {
 	CKU_portugal_1 = {
 		religion = catholic
 		culture = portuguese
+		1420.1.1 = {
+			birth = yes
+		}
+	}
+#}
+# Navarra = {
+	
+#}
+# Granada = {
+	CKU_granada_1 = {
+		name = "Muhammad"
+		religion = muwalladi
+		culture = andalusian
+		dynasty = 101904
 		1420.1.1 = {
 			birth = yes
 		}
