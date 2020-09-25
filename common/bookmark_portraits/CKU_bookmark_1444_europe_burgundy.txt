@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:CKU_bourgogne_3
-bookmark_1444_europe_burgundy={
+bookmark_europe_1444_burgundy={
 	type=male
 	id=0
 	age=0.520000

@@ -143,6 +143,15 @@
 				birth = yes
 			}
 		}
+		CKU_francien_minor_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_luxembourg_ligny
+			1395.1.1 = {
+				birth = yes
+			}
+		}
 	#}
 #}
 # Burgundian = {
@@ -274,11 +283,14 @@
 			religion = catholic
 			culture = french
 			dynasty = CKU_valois_bourgogne
-			trait= bastard
+			trait= bastard_founder
 			father = CKU_bourgogne_3
 			#mother = # (Catherine Schaers)
 			1420.1.1 = {
 				birth = yes
+			}
+			1443.1.1 = {
+				create_cadet_branch = yes
 			}
 		}
 		

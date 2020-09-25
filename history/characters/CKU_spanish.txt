@@ -35,7 +35,7 @@
 		religion = catholic
 		culture = castilian
 		dynasty = 774
-		1420.1.1 = {
+		1405.3.6 = {
 			birth = yes
 		}
 	}

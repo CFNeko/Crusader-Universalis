@@ -181,7 +181,7 @@
 			trait = calm
 			trait = shy
 			trait = education_diplomacy_3
-			1415.1.1 = {
+			1415.9.21 = {
 				birth = yes
 			}
 		}
@@ -901,7 +901,7 @@
 			name = "Albert"
 			religion = catholic
 			culture = pommeranian
-			dynasty = CKU_mecklenburg
+			dynasty = CKU_mecklenburg_werle
 			1438.1.1 = {
 				birth = yes #unknown
 			}

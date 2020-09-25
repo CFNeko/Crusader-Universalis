@@ -53,9 +53,24 @@ CKU_de_bardi = {
 	culture = tuscan
 }
 
+CKU_jagiellon = {
+	name = "dynn_jagiellon"
+	culture = polish
+}
+
 CKU_luxembourg = {
 	name = "dynn_luxembourg"
-	culture = walloon
+	culture = french
+}
+
+CKU_luxembourg_bohemia = {
+	name = "dynn_luxembourg_bohemia"
+	culture = czech
+}
+
+CKU_luxembourg_ligny = {
+	name = "dynn_luxembourg_ligny"
+	culture = french
 }
 
 CKU_de_medici = {
@@ -88,6 +103,11 @@ CKU_valois_bourgogne = {
 	culture = "french"
 }
 
+CKU_visconti = {
+	name = "dynn_Visconti"
+	culture = "italian"
+}
+
 CKU_von_Walsee = {
 	prefix = "dynnp_von"
 	name = "dynn_Walsee"
@@ -102,5 +122,11 @@ CKU_bogdan = {
 CKU_mecklenburg = {
 	prefix = "dynnp_von"
 	name = "dynn_Mecklenburg"
+	culture = "pommeranian"
+}
+
+CKU_mecklenburg_werle = {
+	prefix = "dynnp_von"
+	name = "dynn_Mecklenburg_werle"
 	culture = "pommeranian"
 }
