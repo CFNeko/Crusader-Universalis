@@ -18,6 +18,11 @@ CKU_bar = {
 	culture = ligurian
 }
 
+CKU_berry = {
+	name = "dynn_berry"
+	culture = ligurian
+}
+
 CKU_bueil = {
 	name = "dynn_bueil"
 	culture = french

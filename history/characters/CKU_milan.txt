@@ -90,8 +90,11 @@ CKU_milan_1 = {
 	1392.9.3 = {
 		birth = yes
 	}
-	1412 = {
+	1412.1.1 = {
 		add_spouse = CKU_milan_1_1
+	}
+	1428.1.1 = {
+		add_spouse = CKU_savoy_8
 	}
 	1447.8.13 = {
 		death = yes
@@ -115,5 +118,8 @@ CKU_milan_1_1 = {
 
 	1372.1.1 = {
 		birth = yes
+	}
+	1418.9.13 = {
+		death = yes
 	}
 }

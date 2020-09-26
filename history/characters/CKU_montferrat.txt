@@ -192,6 +192,9 @@ CKU_montferrat_6_0 = {
 
 	female = yes
 
+	father = CKU_savoy_2
+	mother = CKU_savoy_2_1
+
 	1392.7.16 = {
 		birth = yes
 	}

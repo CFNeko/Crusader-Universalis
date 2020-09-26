@@ -9,7 +9,7 @@
 			}
 		}
 	}
-		# Archduchy of Austria = {
+	# Archduchy of Austria = {
 			k_austria = {
 				1439.1.1 = {
 					holder = CKU_austrian_3
