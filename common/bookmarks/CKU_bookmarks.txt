@@ -92,22 +92,22 @@ CKU_1444_europe = {
 		animation = disapproval
 	}
 	
-	character = {
-		name = "bookmark_1444_europe_pope"
-		dynasty = 774
-		dynasty_splendor_level = 5
-		type = male
-		birth = 1396.2.24
-		title = k_papal_state
-		government = feudal_government
-		culture = aragonese
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_aragorn_1
-		position = { 450 920 }
+	#character = {
+	#	name = "bookmark_1444_europe_pope"
+	#	dynasty = 774
+	#	dynasty_splendor_level = 5
+	#	type = male
+	#	birth = 1396.2.24
+	#	title = k_papal_state
+	#	government = feudal_government
+	#	culture = aragonese
+	#	religion = catholic
+	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+	#	history_id = CKU_aragorn_1
+	#	position = { 450 920 }
 
-		animation = disapproval
-	}
+	#	animation = disapproval
+	#}
 	
 	#character = {
 	#	name = "bookmark_1444_europe_burgundy"
@@ -189,7 +189,7 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 109500
-		position = { 850 850 }
+		position = { 500 850 }
 
 		animation = disapproval
 	}
