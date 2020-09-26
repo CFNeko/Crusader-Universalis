@@ -277,6 +277,9 @@ CKU_montferrat_9 = {
 	1412.6.24 = {
 		birth = yes
 	}
+	1458.1.1 = {
+		add_spouse = CKU_savoy_15
+	}
 	1464.1.19 = {
 		death = yes
 	}
