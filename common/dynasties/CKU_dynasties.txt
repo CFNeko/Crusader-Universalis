@@ -3,6 +3,11 @@
 	culture = ligurian
 }
 
+CKU_aviz = {
+	name = "dynn_aviz"
+	culture = portuguese
+}
+
 CKU_bar = {
 	name = "dynn_bar"
 	culture = ligurian
@@ -96,6 +101,11 @@ CKU_lascaris = {
 CKU_osman = {
 	name = "dynn_osman"
 	culture = turkish
+}
+
+CKU_palatinate_neumarkt = {
+	name = "dynn_palatinate_neumarkt"
+	culture = bavarian
 }
 
 CKU_valois_bourgogne = {

@@ -45,7 +45,8 @@
 	CKU_portugal_1 = {
 		religion = catholic
 		culture = portuguese
-		1420.1.1 = {
+		dynasty = CKU_aviz
+		1432.1.15 = {
 			birth = yes
 		}
 	}
@@ -58,7 +59,6 @@
 		name = "Muhammad"
 		religion = muwalladi
 		culture = andalusian
-		dynasty = 101904
 		1420.1.1 = {
 			birth = yes
 		}
