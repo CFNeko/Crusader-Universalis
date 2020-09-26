@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:CKU_italian_1
-bookmark_1444_europe_pope={
+bookmark_europe_1444_pope={
 	type=male
 	id=1214862846
 	age=0.610000
