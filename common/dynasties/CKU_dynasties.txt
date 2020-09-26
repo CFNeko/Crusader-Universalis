@@ -3,6 +3,11 @@
 	culture = ligurian
 }
 
+CKU_arrigucci = {
+	name = "dynn_arrigucci"
+	culture = tuscan
+}
+
 CKU_bar = {
 	name = "dynn_bar"
 	culture = ligurian
@@ -53,6 +58,46 @@ CKU_de_bardi = {
 	culture = tuscan
 }
 
+CKU_de_sizi = {
+	name = "dynn_de_sizi"
+	culture = tuscan
+}
+
+CKU_luxembourg_bohemia = {
+	name = "dynn_luxembourg_bohemia"
+	culture = czech
+}
+
+CKU_luxembourg_ligny = {
+	name = "dynn_luxembourg_ligny"
+	culture = french
+}
+
+CKU_de_medici = {
+	name = "dynn_de_medici"
+	culture = tuscan
+}
+
+CKU_donati = {
+	name = "dynn_donati"
+	culture = tuscan
+}
+
+CKU_foscari = {
+	name = "dynn_foscari"
+	culture = venetian
+}
+
+CKU_lalaing = {
+	name = "dynn_lalaing"
+	culture = flemish
+}
+
+CKU_lascaris = {
+	name = "dynn_lascaris"
+	culture = lombard
+}
+
 CKU_jagiellon = {
 	name = "dynn_jagiellon"
 	culture = polish
@@ -73,29 +118,14 @@ CKU_luxembourg_ligny = {
 	culture = french
 }
 
-CKU_de_medici = {
-	name = "dynn_de_Medici"
-	culture = florentine
-}
-
-CKU_foscari = {
-	name = "dynn_foscari"
-	culture = venetian
-}
-
-CKU_lalaing = {
-	name = "dynn_lalaing"
-	culture = flemish
-}
-
-CKU_lascaris = {
-	name = "dynn_lascaris"
-	culture = lombard
-}
-
 CKU_osman = {
 	name = "dynn_osman"
 	culture = turkish
+}
+
+CKU_spina = {
+	name = "dynn_spina"
+	culture = tuscan
 }
 
 CKU_valois_bourgogne = {

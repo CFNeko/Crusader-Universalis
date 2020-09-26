@@ -4,13 +4,12 @@
 # Francien {
 	# Valois = {
 		CKU_francien_1 = {
-			name = "Charles"
-			dna = CKU_francien_1_dna
+			name = "Charles VII"
 			dynasty = 101
 			religion = "catholic"
 			culture = french
 			father = CKU_valois_4
-			1400.1.1 = {
+			1403.2.22 = {
 				birth = yes
 			}
 		}

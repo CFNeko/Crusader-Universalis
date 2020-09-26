@@ -1,0 +1,17 @@
+c_firenze = {
+	1434.10.6 = {
+		holder = CKU_de_medici_54
+	}
+}
+
+c_arezzo = {
+	1434.10.6 = {
+		holder = CKU_de_medici_54
+	}
+}
+
+c_pisa = {
+	1434.10.6 = {
+		holder = CKU_de_medici_54
+	}
+}
