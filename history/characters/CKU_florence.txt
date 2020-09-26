@@ -1184,7 +1184,7 @@ CKU_de_medici_45 = {
 
 	father = CKU_de_medici_44 #Averardo
 	mother = CKU_de_medici_44_1 #Giacoma
-    1360.2.1 = {
+    1360.3.1 = {
         birth = yes
     }
     1402.1.1 = {
