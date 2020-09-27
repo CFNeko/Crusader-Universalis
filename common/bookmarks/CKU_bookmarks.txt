@@ -42,18 +42,18 @@ CKU_1444_europe = {
 	#}
 	
 	character = {
-		name = "bookmark_1444_europe_england"
-		dynasty = 100058
+		name = "bookmark_1444_europe_castille"
+		dynasty = 774
 		dynasty_splendor_level = 5
 		type = male
-		birth = 1421.12.6
-		title = k_england
+		birth = 1405.3.6
+		title = k_castille
 		government = feudal_government
-		culture = english
+		culture = castilian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_english_1
-		position = { 0 470 }
+		history_id = CKU_castille_1
+		position = { 0 750 }
 
 		animation = disapproval
 	}
@@ -70,35 +70,18 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_francien_1
-		position = { 0 650 }
+		position = { 0 550 }
 
 		animation = disapproval
 	}
 	
 	character = {
-		name = "bookmark_1444_europe_castille"
-		dynasty = 774
-		dynasty_splendor_level = 5
-		type = male
-		birth = 1405.3.6
-		title = k_castille
-		government = feudal_government
-		culture = castilian
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_castille_1
-		position = { 0 830 }
-
-		animation = disapproval
-	}
-	
-	character = {
-		name = "bookmark_1444_europe_denmark"
+		name = "bookmark_1444_europe_england"
 		dynasty = 100058
 		dynasty_splendor_level = 5
 		type = male
 		birth = 1421.12.6
-		title = e_kalmar_union
+		title = k_england
 		government = feudal_government
 		culture = english
 		religion = catholic
@@ -138,7 +121,7 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_austrian_1
-		position = { 500 850 }
+		position = { 625 450 }
 
 		animation = disapproval
 	}
@@ -189,7 +172,6 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = 109500
-<<<<<<< HEAD
 		position = { 700 850 }
 
 		animation = disapproval
@@ -208,9 +190,6 @@ CKU_1444_europe = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_english_1
 		position = { 900 250 }
-=======
-		position = { 900 900 }
->>>>>>> master
 
 		animation = disapproval
 	}
@@ -244,11 +223,7 @@ CKU_1444_europe = {
 		culture = turkish
 		religion = muwalladi
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-<<<<<<< HEAD
 		position = { 1200 750 }
-=======
-		position = { 1250 900 }
->>>>>>> master
 
 		animation = rage
 	}
