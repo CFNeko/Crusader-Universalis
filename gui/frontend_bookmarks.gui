@@ -9,8 +9,8 @@ widget = {
 
 		widget = {
 			parentanchor = center
-			size = { 1920 1200 }
-			scale = "[ScaleToFitElementOutside('(int32)1920', '(int32)1200')]"
+			size = { 1920 1080 }
+			scale = "[ScaleToFitElementOutside('(int32)1920', '(int32)1080')]"
 
 			state = {
 				name = "bookmark_change"
