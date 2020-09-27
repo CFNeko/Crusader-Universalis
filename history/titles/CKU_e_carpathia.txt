@@ -28,6 +28,7 @@
 	d_rashka = {
 		1440.1.1 = {
 			holder = CKU_serbian_1
+			name = CKU_Serbia
 			liege = 0
 		}
 	}
