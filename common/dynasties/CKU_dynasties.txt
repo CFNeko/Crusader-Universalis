@@ -1,4 +1,16 @@
-﻿CKU_adorno = {
+﻿CKU_valois_bourgogne = {
+	name = "dynn_valois_bourgogne"
+	culture = "french"
+}
+
+CKU_luxembourg = {
+	name = "dynn_luxembourg"
+	culture = french
+}
+
+
+
+CKU_adorno = {
 	name = "dynn_adorno"
 	culture = ligurian
 }
@@ -25,11 +37,6 @@ CKU_berry = {
 
 CKU_bueil = {
 	name = "dynn_bueil"
-	culture = french
-}
-
-CKU_bourgogne_nevers = {
-	name = "dynn_bourgogne_nevers"
 	culture = french
 }
 
@@ -78,21 +85,6 @@ CKU_jagiellon = {
 	culture = polish
 }
 
-CKU_luxembourg = {
-	name = "dynn_luxembourg"
-	culture = french
-}
-
-CKU_luxembourg_bohemia = {
-	name = "dynn_luxembourg_bohemia"
-	culture = czech
-}
-
-CKU_luxembourg_ligny = {
-	name = "dynn_luxembourg_ligny"
-	culture = french
-}
-
 CKU_de_medici = {
 	name = "dynn_de_Medici"
 	culture = florentine
@@ -126,11 +118,6 @@ CKU_palatinate_neumarkt = {
 CKU_spina = {
 	name = "dynn_spina"
 	culture = tuscan
-}
-
-CKU_valois_bourgogne = {
-	name = "dynn_valois_bourgogne"
-	culture = "french"
 }
 
 CKU_visconti = {

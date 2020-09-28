@@ -143,11 +143,12 @@
 				birth = yes
 			}
 		}
+		######## Test Character ########
 		CKU_francien_minor_3 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = CKU_luxembourg_ligny
+			dynasty_house = luxembourg_ligny
 			1395.1.1 = {
 				birth = yes
 			}
@@ -368,7 +369,7 @@
 			name = "Philippe"
 			religion = catholic
 			culture = french
-			dynasty = CKU_bourgogne_nevers
+			dynasty_house = house_bourgogne_nevers
 			father = CKU_bourgogne_1
 			mother = CKU_flemish_2
 			1389.10.1 = {
@@ -383,7 +384,7 @@
 			name = "Charles"
 			religion = catholic
 			culture = french
-			dynasty = CKU_bourgogne_nevers
+			dynasty_house = house_bourgogne_nevers
 			father = CKU_bourgogne_12
 			1414.1.1 = {
 				birth = yes
@@ -394,7 +395,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = CKU_bourgogne_nevers
+			dynasty_house = house_bourgogne_nevers
 			father = CKU_bourgogne_12
 			1415.1.1 = {
 				birth = yes
@@ -409,7 +410,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = CKU_bourgogne_nevers
+			dynasty_house = house_bourgogne_nevers
 			father = CKU_bourgogne_14
 			mother = CKU_bourgogne_minor_5
 			1439.8.24 = {

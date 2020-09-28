@@ -1,0 +1,327 @@
+﻿# Nassau = {
+	# Nassau-Wiesbaden {
+		CKU_nassau_0 = {
+			name = "Friedrich"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1335.1.1 = {
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_1 = {
+			name = "Agnes"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1336.1.1 = {
+				birth = yes
+			}
+			1376.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_2 = {
+			name = "Johann"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1353.1.1 = {
+				birth = yes
+			}
+			1419.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_3 = {
+			name = "Margarethe"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1351.1.1 = {
+				birth = yes
+			}
+			1379.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_4 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1345.1.1 = {
+				birth = yes
+			}
+			1389.2.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_5 = {
+			name = "Adolf"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1353.1.1 = {
+				birth = yes
+			}
+			1390.2.6 = {
+				death = yes
+			}
+		}
+		CKU_nassau_6 = {
+			name = "Katharina"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1362.1.1 = {
+				birth = yes
+			}
+			1403.3.21 = {
+				death = yes
+			}
+		}
+		CKU_nassau_7 = {
+			name = "Walram"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1354.1.1 = {
+				birth = yes
+			}
+			1393.11.7 = {
+				death = yes
+			}
+		}
+		CKU_nassau_8 = {
+			name = "Johann"
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462364
+			mother = 487027
+			1360.1.1 = {
+				birth = yes
+			}
+			1419.9.23 = {
+				death = yes
+			}
+		}
+		CKU_nassau_9 = {
+			name = "Adolf"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_7
+			#mother = ???
+			# Married Bertha von Westerburg
+			1386.1.1 = {
+				birth = yes
+			}
+			1426.7.26 = {
+				death = yes
+			}
+		}
+		CKU_nassau_10 = {
+			name = "Margarethe"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_7
+			#mother = ???
+			# Married Count Heinrich VII of Waldeck
+			1375.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_11 = {
+			name = "Johann"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			# Married Maria von Nassau-Siegen
+			1419.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_12 = {
+			name = "Anna"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			# Married Everhard von Eppstein
+			1421.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_13 = {
+			name = "Margarethe"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			1420.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_14 = {
+			name = "Adolf"
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			1423.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_nassau_15 = {
+			name = "Agnes"
+			female = yes
+			dynasty_house = house_nassau_wiesbaden
+			religion = "catholic"
+			culture = franconian
+			father = CKU_nassau_9
+			#mother = ???
+			# Married Conrad von Bickenbach
+			1428.1.1 = {
+				birth = yes
+			}
+		}
+		
+		######### Minor Characters Employed by Nassau-Wiesbaden #########
+		CKU_nassau_minor_1 = {
+			name = "Agnes"
+			female = yes
+			religion = "catholic"
+			culture = rhenish
+			1333.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				add_spouse = 462365
+			}
+			1386.1.1 = {
+				death = yes
+			}
+		}
+		
+	# }
+	# Nassau-Weilburg {
+		CKU_nassau_16 = {
+			name = "Johanna"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Hermann II von Hessen
+			1362.1.1 = {
+				birth = yes
+			}
+			1383.1.1 = {
+				death = yes
+			}
+		}
+		CKU_nassau_17 = {
+			name = "Philipp"
+			dynasty_house = house_nassau_weilburg
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Elisabeth von Lothringen
+			1368.1.1 = {
+				birth = yes
+			}
+			1429.7.2 = {
+				death = yes
+			}
+		}
+		CKU_nassau_18 = {
+			name = "Margarete"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Friedrich von Veldenz
+			1371.1.1 = {
+				birth = yes
+			}
+			1427.1.22 = {
+				death = yes
+			}
+		}
+		CKU_nassau_19 = {
+			name = "Schonette"
+			female = yes
+			dynasty = 263
+			religion = "catholic"
+			culture = franconian
+			father = 462366
+			mother = 462367
+			# Married Otto von Braunschweig
+			1375.1.1 = {
+				birth = yes
+			}
+			1436.4.25 = {
+				death = yes
+			}
+		}
+		
+		######### Minor Characters Employed by Nassau-Wiesbaden #########
+		CKU_nassau_minor_2 = {
+			name = "Agnes"
+			female = yes
+			religion = "catholic"
+			culture = rhenish
+			1333.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				add_spouse = 462365
+			}
+			1386.1.1 = {
+				death = yes
+			}
+		}
+		
+	# }
+# }
