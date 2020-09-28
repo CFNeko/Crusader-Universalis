@@ -33,6 +33,7 @@
 # Castille {
 	CKU_castille_1 = {
 		name = "Juan"
+		dna = CKU_castille_1_dna
 		religion = catholic
 		culture = castilian
 		dynasty = 774

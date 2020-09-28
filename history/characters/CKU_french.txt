@@ -10,7 +10,7 @@
 			religion = "catholic"
 			culture = french
 			father = CKU_valois_4
-			1400.1.1 = {
+			1403.2.22 = {
 				birth = yes
 			}
 		}

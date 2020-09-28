@@ -14,9 +14,11 @@
 		}
 	}
 	CKU_rurikid_1 = {
+		name = "Vasily"
 		religion = orthodox
 		culture = russian
-		1410.1.1 = {
+		dynasty = 705
+		1415.3.10 = {
 			birth = yes
 		}
 	}

@@ -53,7 +53,7 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_castille_1
-		position = { 0 750 }
+		position = { 50 750 }
 
 		animation = disapproval
 	}
@@ -63,14 +63,14 @@ CKU_1444_europe = {
 		dynasty = 101
 		dynasty_splendor_level = 5
 		type = male
-		birth = 1430.1.1
+		birth = 1403.2.22
 		title = k_france
 		government = feudal_government
-		culture = basque
+		culture = french
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_francien_1
-		position = { 0 550 }
+		position = { 100 525 }
 
 		animation = disapproval
 	}
@@ -87,7 +87,7 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_english_1
-		position = { 350 120 }
+		position = { 350 125 }
 
 		animation = disapproval
 	}
@@ -121,27 +121,27 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_austrian_1
-		position = { 625 450 }
+		position = { 550 550 }
 
 		animation = disapproval
 	}
 
-	#character = {
-	#	name = "bookmark_1444_europe_brandenburg"
-	#	dynasty = 442
-	#	dynasty_splendor_level = 5
-	#	type = male
-	#	birth = 828.1.1
-	#	title = c_brandenburg
-	#	government = feudal_government
-	#	culture = castilian
-	#	religion = catholic
-	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-	#	history_id = 109500
-	#	position = { 425 220 }
+	character = {
+		name = "bookmark_1444_europe_brandenburg"
+		dynasty = 12476
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1413.11.19
+		title = d_ostmark
+		government = feudal_government
+		culture = franconian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = CKU_hohenzollern_2
+		position = { 750 225 }
 
-	#	animation = disapproval
-	#}
+		animation = disapproval
+	}
 
 	#character = {
 	#	name = "bookmark_1444_europe_bohemia"
@@ -162,37 +162,37 @@ CKU_1444_europe = {
 
 	character = {
 		name = "bookmark_1444_europe_hungary"
-		dynasty = 442
+		dynasty = CKU_hunyadi
 		dynasty_splendor_level = 5
 		type = male
-		birth = 828.1.1
+		birth = 1406.1.1
 		title = k_hungary
 		government = feudal_government
-		culture = castilian
+		culture = hungarian
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 109500
-		position = { 700 850 }
+		history_id = CKU_hungarian_1
+		position = { 650 750 }
 
 		animation = disapproval
 	}
 	
-	character = {
-		name = "bookmark_1444_europe_denmark"
-		dynasty = 100058
-		dynasty_splendor_level = 5
-		type = male
-		birth = 1421.12.6
-		title = e_kalmar_union
-		government = feudal_government
-		culture = english
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_english_1
-		position = { 900 250 }
-
-		animation = disapproval
-	}
+	#character = {
+	#	name = "bookmark_1444_europe_denmark"
+	#	dynasty = 100058
+	#	dynasty_splendor_level = 5
+	#	type = male
+	#	birth = 1421.12.6
+	#	title = e_kalmar_union
+	#	government = feudal_government
+	#	culture = english
+	#	religion = catholic
+	#	difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+	#	history_id = CKU_english_1
+	#	position = { 900 250 }
+	#
+	#	animation = disapproval
+	#}
 	
 	character = {
 		name = "bookmark_1444_europe_poland"
@@ -206,7 +206,7 @@ CKU_1444_europe = {
 		religion = catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = CKU_polish_1
-		position = { 1250 450 }
+		position = { 1150 450 }
 
 		animation = disapproval
 	}
@@ -223,24 +223,24 @@ CKU_1444_europe = {
 		culture = turkish
 		religion = muwalladi
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1200 750 }
+		position = { 1200 700 }
 
 		animation = rage
 	}
 	
 	character = {
 		name = "bookmark_1444_europe_muscovy"
-		dynasty = 442
+		dynasty = 705
 		dynasty_splendor_level = 5
 		type = male
-		birth = 828.1.1
-		title = k_muscovy
+		birth = 1415.3.10
+		title = k_opolye
 		government = feudal_government
-		culture = castilian
+		culture = russian
 		religion = orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 109500
-		position = { 1250 120 }
+		history_id = CKU_rurikid_1
+		position = { 1300 120 }
 	
 		animation = disapproval
 	}

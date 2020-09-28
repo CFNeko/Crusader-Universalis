@@ -68,6 +68,11 @@ CKU_de_bardi = {
 	culture = tuscan
 }
 
+CKU_hunyadi = {
+	name = "dynn_hunyadi"
+	culture = polish
+}
+
 CKU_jagiellon = {
 	name = "dynn_jagiellon"
 	culture = polish
