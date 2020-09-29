@@ -148,7 +148,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty_house = luxembourg_ligny
+			dynasty = house_luxembourg_ligny
 			1395.1.1 = {
 				birth = yes
 			}
@@ -291,7 +291,13 @@
 				birth = yes
 			}
 			1443.1.1 = {
-				create_cadet_branch = yes
+				#create_cadet_branch = yes
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
 			}
 		}
 		
@@ -445,6 +451,14 @@
 			1418.1.1 = {
 				add_spouse = CKU_bourgogne_minor_2
 			}
+			1433.1.1 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
 		}
 		
 		CKU_bourgogne_minor_2 = {
@@ -583,6 +597,14 @@
 			dynasty = CKU_croy
 			1380.1.1 = {
 				birth = yes
+			}
+			1419.9.10 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
 			}
 			1428.1.1 = {
 				add_spouse = CKU_bourgogne_minor_12
