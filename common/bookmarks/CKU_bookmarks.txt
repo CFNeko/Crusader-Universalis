@@ -239,7 +239,7 @@ CKU_1444_europe = {
 		culture = russian
 		religion = orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = CKU_rurikid_1
+		history_id = CKU_rurikid_1_dna
 		position = { 1300 120 }
 	
 		animation = disapproval

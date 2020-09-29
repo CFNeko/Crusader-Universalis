@@ -340,79 +340,100 @@ house_nassau_weilburg = {
 	color2 = "yellow"
 	
 	colored_emblem = {
-		texture = "ce_billet.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { position = { 0.17 0.05 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.33 0.05 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.40 0.06 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.10 0.13 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.10 0.26 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.15 0.25 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.10 0.42 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.16 0.40 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.20 0.44 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.33 0.42 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.37 0.40 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.40 0.35 } scale = { 0.05 0.05 }  }
-		
-		instance = { position = { 0.67 0.55 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.83 0.55 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.90 0.56 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.60 0.63 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.60 0.76 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.65 0.75 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.60 0.92 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.66 0.90 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.70 0.94 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.83 0.92 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.87 0.90 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.90 0.85 } scale = { 0.05 0.05 }  }
-	}
-	colored_emblem = {
-		texture = "ce_cross_couped.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { position = { 0.67 0.05 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.83 0.05 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.90 0.05 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.61 0.14 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.58 0.27 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.62 0.24 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.60 0.42 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.65 0.40 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.69 0.44 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.83 0.43 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.88 0.42 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.91 0.36 } scale = { 0.05 0.05 }  }
-		
-		instance = { position = { 0.17 0.55 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.33 0.55 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.40 0.55 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.11 0.64 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.08 0.77 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.12 0.74 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.10 0.92 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.15 0.90 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.19 0.94 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.33 0.93 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.38 0.92 } scale = { 0.05 0.05 }  }
-		instance = { position = { 0.41 0.86 } scale = { 0.05 0.05 }  }
-	}
-	colored_emblem = {
 		texture = "ce_lion_rampant.dds"
 		color1 = "yellow"
 		color2 = "red"
-		instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 }  }		
-		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }		
+		instance = { position = { 0.25 0.25 } scale = { 0.60 0.60 }  }		
+		instance = { position = { 0.75 0.75 } scale = { 0.60 0.60 }  }		
 	}
 	colored_emblem = {
 		texture = "ce_lion_rampant_crown.dds"
 		color1 = "white"
 		color2 = "red"
+		instance = { position = { 0.75 0.25 } scale = { 0.60 0.60 }  }		
+		instance = { position = { 0.25 0.75 } scale = { 0.60 0.60 }  }		
+	}
+}
+
+house_nassau_siegen = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"	
+	color2 = "yellow"	
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}
+	colored_emblem = {
+		texture = "ce_billet.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.17 0.09 } scale = { 0.12 0.12 }  }			
+		instance = { position = { 0.35 0.09 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.65 0.09 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.84 0.09 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.17 0.50 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.62 0.47 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.17 0.70 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.36 0.78 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.68 0.78 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.82 0.68 } scale = { 0.12 0.12 }  }			
+	}	
+}
+
+house_nassau_beilstein = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"	
+	color2 = "yellow"	
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}
+	colored_emblem = {
+		texture = "ce_billet.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.17 0.09 } scale = { 0.12 0.12 }  }			
+		instance = { position = { 0.35 0.09 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.65 0.09 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.84 0.09 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.17 0.50 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.62 0.47 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.17 0.70 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.36 0.78 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.68 0.78 } scale = { 0.12 0.12 }  }		
+		instance = { position = { 0.82 0.68 } scale = { 0.12 0.12 }  }			
+	}	
+}
+
+house_nassau_dillenburg = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"	
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_quarterly.dds"
+		color1 = "blue"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}
+
+	colored_emblem = {
+		texture = "ce_block_03.dds"
+		color1 = "white"
 		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }		
 		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 }  }		
 	}
+
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
+	}	
 }
 
 CKU_foscari = {

@@ -122,6 +122,11 @@
 		#}
 		# Electoral Mainz = {
 			c_mainz = {
+				1346.1.1 = {
+					government = theocracy_government
+					holder = 462368
+					liege = "e_hre"
+				}
 				1381.1.1 = {
 					government = theocracy_government
 					holder = CKU_nassau_5
@@ -342,6 +347,14 @@
 			c_saarbrucken = {
 				1381.1.1 = {
 					holder = CKU_nassau_17
+					liege = d_upper_lorraine
+				}
+				1429.7.2 = {
+					holder = CKU_nassau_20
+					liege = d_upper_lorraine
+				}
+				1442.4.4 = {
+					holder = CKU_nassau_23
 					liege = d_upper_lorraine
 				}
 			}

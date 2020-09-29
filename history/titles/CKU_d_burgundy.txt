@@ -37,12 +37,43 @@ d_brabant = {
 		holder = CKU_bourgogne_3
 	}
 }
+	# Duchy of Brabant = {
+		c_brabant = {
+			1440.1.1 = {
+				holder = CKU_nassau_44 # Governor
+				liege = d_burgundy
+			}
+		}
+		c_antwerpen = {
+			1440.1.1 = {
+				holder = CKU_nassau_44 # Governor
+			}
+		}
+	#}
 
 d_holland = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
 	}
 }
+	# Duchy of Holland & Zeeland = {
+		c_holland = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_minor_1 # Governor
+				liege = d_burgundy
+			}
+		}
+		c_westfriesland = { # No longer existed since 1200, should be merged with c_holland
+			1440.1.1 = {
+				holder = CKU_bourgogne_minor_1 # Governor
+			}
+		}
+		c_zeeland = {
+			1440.1.1 = {
+				holder = CKU_bourgogne_minor_1 # Governor
+			}
+		}
+	#}
 
 d_luxembourg = {
 	1440.1.1 = {
@@ -63,25 +94,6 @@ d_luxembourg = {
 		}
 	#}
 
-c_holland = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_minor_1 # Governor
-		liege = d_burgundy
-	}
-}
-
-c_westfriesland = { # No longer existed since 1200, should be merged with c_holland
-	1440.1.1 = {
-		holder = CKU_bourgogne_minor_1 # Governor
-	}
-}
-
-c_zeeland = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_minor_1 # Governor
-	}
-}
-
 c_amiens = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
@@ -100,6 +112,11 @@ c_boulogne = {
 	}
 }
 
+d_flanders = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_3
+	}
+}
 	# Duchy of Flanders = {
 		c_brugge = {
 			1440.1.1 = {

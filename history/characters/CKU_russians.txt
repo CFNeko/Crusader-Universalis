@@ -15,6 +15,7 @@
 	}
 	CKU_rurikid_1 = {
 		name = "Vasily"
+		dna = CKU_rurikid_1_dna
 		religion = orthodox
 		culture = russian
 		dynasty = 705
