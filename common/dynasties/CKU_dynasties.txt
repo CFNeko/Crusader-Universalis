@@ -1,13 +1,22 @@
-﻿CKU_valois_bourgogne = {
-	name = "dynn_valois_bourgogne"
-	culture = "french"
-}
-
-CKU_luxembourg = {
+﻿CKU_luxembourg = {
 	name = "dynn_luxembourg"
 	culture = french
 }
 
+CKU_tour_auvergene = {
+	name = "dynn_tour_auvergene"
+	culture = french
+}
+
+CKU_valois_bourgogne = {
+	name = "dynn_valois_bourgogne"
+	culture = "french"
+}
+
+CKU_josne = {
+	name = "dynn_josne"
+	culture = "french"
+}
 
 
 CKU_adorno = {

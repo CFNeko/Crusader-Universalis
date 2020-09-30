@@ -166,6 +166,9 @@
 			1342.1.17 = {
 				birth = yes
 			}
+			1356.9.19 = {
+				give_nickname = nick_the_bold
+			}
 			1404.4.27 = {
 				death = yes
 			}
@@ -179,6 +182,9 @@
 			father = CKU_bourgogne_1
 			1371.5.28 = {
 				birth = yes
+			}
+			1396.9.25 = {
+				give_nickname = nick_the_fearless
 			}
 			1419.9.10 = {
 				death = yes
@@ -424,6 +430,156 @@
 			}
 		}
 		
+		######### Extra Characters Dead #########
+		CKU_bourgogne_17 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_1
+			#mother = Marguerite de Dampierre
+			# Married Wilhelm von Wittelsbach
+			1374.10.16 = {
+				birth = yes
+			}
+			1441.3.8 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_18 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_1
+			#mother = Marguerite de Dampierre
+			# Married Leopold von Habsburg
+			1378.1.1 = {
+				birth = yes
+			}
+			1425.1.26 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_19 = {
+			name = "Antoine"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_1
+			#mother = Marguerite de Dampierre
+			# Married Jeanne de Saint Pol
+			1384.8.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_20 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_19
+			#mother = Jeanne de Saint Pol
+			# Married Jakobäa von Wittelsbach
+			1403.6.11 = {
+				birth = yes
+			}
+			1427.4.17 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_21 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_19
+			#mother = Jeanne de Saint Pol
+			# Married Yolande d'Anjou
+			1404.7.25 = {
+				birth = yes
+			}
+			1430.8.4 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_22 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_2
+			#mother = Margarete von Wittelsbach
+			# Married Adolf von Kleve
+			1394.1.1 = {
+				birth = yes
+			}
+			1406.1.1 = {
+				add_spouse = CKU_marck_1
+			}
+		}
+		
+		CKU_bourgogne_23 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_2
+			#mother = Margarete von Wittelsbach
+			# Married Arthur de Montfort
+			1393.12.8 = {
+				birth = yes
+			}
+			1423.1.1 = {
+				add_spouse = CKU_montfort_5
+			}
+			1442.2.2 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_24 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_valois_bourgogne
+			father = CKU_bourgogne_2
+			#mother = Margarete von Wittelsbach
+			# Married John of Lancaster
+			1404.9.30 = {
+				birth = yes
+			}
+			1432.11.13 = {
+				death = yes
+			}
+		}
+		
+		CKU_bourgogne_25 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			#dynasty = CKU_valois_bourgogne
+			trait= bastard
+			father = CKU_bourgogne_2
+			mother = CKU_bourgogne_minor_23
+			1404.1.1 = {
+				birth = yes
+			}
+		}
+		
 		######### Minor Characters Employed by Burgundians #########
 		CKU_bourgogne_minor_0 = {
 			name = "Othon"
@@ -595,6 +751,7 @@
 			religion = catholic
 			culture = flemish
 			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
 			1380.1.1 = {
 				birth = yes
 			}
@@ -706,6 +863,49 @@
 			mother = CKU_bourgogne_minor_18
 			1401.1.1 = {
 				birth = yes
+			}
+		}
+		CKU_bourgogne_minor_22 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			1365.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_23 = {
+			name = "Agnès"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
+			1387.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_24 = {
+			name = "Robert"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			1371.1.1 = {
+				birth = yes
+			}
+			1435.9.21 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
 			}
 		}
 	# }
@@ -935,6 +1135,19 @@
 			mother = CKU_bourgogne_16
 			1442.1.1 = {
 				birth = yes
+			}
+		}
+	# }
+	# Auvergne {
+		CKU_tour_auvergne_1 = {
+			name = "Bertrand"
+			religion = catholic
+			culture = french
+			dynasty = CKU_tour_auvergene
+			#father = ???
+			1390.1.1 = {
+				birth = yes
+				add_unpressed_claim = c_boulogne
 			}
 		}
 	# }

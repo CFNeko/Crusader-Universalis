@@ -94,21 +94,22 @@ d_luxembourg = {
 		}
 	#}
 
-c_amiens = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
-	}
-}
-
 c_vermandois = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
 	}
 }
 
+c_amiens = {
+	1440.1.1 = {
+		holder = CKU_bourgogne_minor_24
+		liege = d_burgundy
+	}
+}
+
 c_boulogne = {
 	1440.1.1 = {
-		holder = CKU_bourgogne_3
+		holder = CKU_bourgogne_minor_24
 	}
 }
 

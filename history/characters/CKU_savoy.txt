@@ -99,6 +99,7 @@ CKU_savoy_3 = {
 
 CKU_savoy_3_1 = {
 	name = "Marie"
+	female = yes
 	dynasty = CKU_valois_bourgogne
 	martial = 3
 	diplomacy = 6
@@ -111,8 +112,7 @@ CKU_savoy_3_1 = {
 	trait = arrogant
 	trait = education_martial_3
 
-	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	father = CKU_bourgogne_1
 	1386.9.1 = {
 		birth = yes
 	}

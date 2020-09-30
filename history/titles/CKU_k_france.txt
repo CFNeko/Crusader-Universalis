@@ -151,7 +151,7 @@
 			}
 			c_auvergne = {
 				1440.1.1 = {
-					holder = CKU_francien_minor_3 # Has claim on c_boulogne
+					holder = CKU_tour_auvergne_1
 					liege = d_bourbon
 				}
 			}
