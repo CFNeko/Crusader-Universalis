@@ -358,9 +358,6 @@
 					liege = d_upper_lorraine
 				}
 			}
-			
-			#b_wiesbaden = {
-			#}
 		#}
 		# Bavarian/Austrian Minors = {
 			c_salzburg = {

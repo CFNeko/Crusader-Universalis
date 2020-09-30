@@ -684,6 +684,14 @@
 			1410.8.1 = {
 				birth = yes
 			}
+			1430.8.4 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
 		}
 		CKU_nassau_45 = {
 			name = "Heinrich"

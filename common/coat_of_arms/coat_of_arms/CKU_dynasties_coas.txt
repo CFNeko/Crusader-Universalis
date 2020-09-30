@@ -339,20 +339,16 @@ house_nassau_weilburg = {
 	color1 = "blue"	
 	color2 = "yellow"
 	
-	colored_emblem = {
-		texture = "ce_lion_rampant.dds"
-		color1 = "yellow"
-		color2 = "red"
-		instance = { position = { 0.25 0.25 } scale = { 0.60 0.60 }  }		
-		instance = { position = { 0.75 0.75 } scale = { 0.60 0.60 }  }		
-	}
-	colored_emblem = {
-		texture = "ce_lion_rampant_crown.dds"
-		color1 = "white"
-		color2 = "red"
-		instance = { position = { 0.75 0.25 } scale = { 0.60 0.60 }  }		
-		instance = { position = { 0.25 0.75 } scale = { 0.60 0.60 }  }		
-	}
+	sub = {
+        parent = "263"  # defined elsewhere
+        instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+        instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    }
+	sub = {
+        parent = "c_saarbrucken"  # defined elsewhere
+        instance = { offset = { 0.5 0.0 } scale = { 0.5 0.5 }  } # top left
+        instance = { offset = { 0.0 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    }
 }
 
 house_nassau_siegen = {
@@ -426,14 +422,12 @@ house_nassau_dillenburg = {
 		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }		
 		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 }  }		
 	}
-
-	colored_emblem = {
-		texture = "ce_lion_rampant.dds"
-		color1 = "yellow"
-		color2 = "red"
-		instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 }  }
-		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 }  }
-	}	
+	
+	sub = {
+        parent = "263"  # defined elsewhere
+        instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+        instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    }	
 }
 
 CKU_foscari = {
@@ -811,7 +805,8 @@ CKU_crequy = {
 263 = { # Nassau
 	pattern = "pattern_solid.dds"
 	color1 = "blue"	
-	color2 = "yellow"	
+	color2 = "yellow"
+	
 	colored_emblem = {
 		texture = "ce_lion_rampant.dds"
 		color1 = "yellow"
@@ -832,7 +827,7 @@ CKU_crequy = {
 		instance = { position = { 0.36 0.78 } scale = { 0.12 0.12 }  }		
 		instance = { position = { 0.68 0.78 } scale = { 0.12 0.12 }  }		
 		instance = { position = { 0.82 0.68 } scale = { 0.12 0.12 }  }			
-	}	
+	}
 }
 
 774 = { # Trastamara

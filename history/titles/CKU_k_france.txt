@@ -149,6 +149,12 @@
 					holder = CKU_bourbon_2
 				}
 			}
+			c_auvergne = {
+				1440.1.1 = {
+					holder = CKU_francien_minor_3 # Has claim on c_boulogne
+					liege = d_bourbon
+				}
+			}
 			c_forez = {
 				1440.1.1 = {
 					holder = CKU_bourbon_2
