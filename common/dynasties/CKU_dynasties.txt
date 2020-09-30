@@ -44,6 +44,11 @@ CKU_berry = {
 	culture = ligurian
 }
 
+CKU_bogdan = {
+	name = "dynn_Bogdan"
+	culture = "vlach"
+}
+
 CKU_bueil = {
 	name = "dynn_bueil"
 	culture = french
@@ -96,7 +101,7 @@ CKU_jagiellon = {
 
 CKU_de_medici = {
 	name = "dynn_de_Medici"
-	culture = florentine
+	culture = tuscan
 }
 
 CKU_foscari = {
@@ -112,6 +117,17 @@ CKU_lalaing = {
 CKU_lascaris = {
 	name = "dynn_lascaris"
 	culture = lombard
+}
+
+CKU_mecklenburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Mecklenburg"
+	culture = "pommeranian"
+}
+
+CKU_orsini = {
+	name = "dynn_orsini"
+	culture = neapolitan
 }
 
 CKU_osman = {
@@ -138,17 +154,6 @@ CKU_von_Walsee = {
 	prefix = "dynnp_von"
 	name = "dynn_Walsee"
 	culture = "bavarian"
-}
-
-CKU_bogdan = {
-	name = "dynn_Bogdan"
-	culture = "vlach"
-}
-
-CKU_mecklenburg = {
-	prefix = "dynnp_von"
-	name = "dynn_Mecklenburg"
-	culture = "pommeranian"
 }
 
 CKU_mecklenburg_werle = {
