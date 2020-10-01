@@ -101,17 +101,16 @@
 	#}
 	
 	# Price-Bishopric Cambrésis = {
-		CKU_french_bishop_1 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = CKU_valois_bourgogne
-			father = CKU_bourgogne_2
-			#trait= bastard
-			1404.1.1 = {
-				birth = yes
-			}
-		}
+		# CKU_french_bishop_1 = {
+		#	name = "Jean"
+		#	religion = catholic
+		#	culture = french
+		#	dynasty = ???
+		#	father = ???
+		#	1404.1.1 = {
+		#		birth = yes
+		#	}
+		# }
 	#}
 	
 	# Abby of Vézelay = {
@@ -143,8 +142,72 @@
 				birth = yes
 			}
 		}
-		######## Test Character ########
 		CKU_francien_minor_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			1360.1.1 = {
+				birth = yes
+			}
+			1431.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_4 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			father = CKU_francien_minor_3
+			1400.3.15 = {
+				birth = yes
+			}
+			1435.9.21 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
+		}
+		CKU_francien_minor_5 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			father = CKU_francien_minor_3
+			1388.11.23 = {
+				birth = yes
+			}
+			1429.1.1 = {
+				give_council_position = councillor_court_chaplain # Does not work properly
+			}
+		}
+		CKU_francien_minor_6 = {
+			name = "Michel"
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			father = CKU_francien_minor_3
+			1408.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_francien_minor_7 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			father = CKU_francien_minor_3
+			1410.10.14 = {
+				birth = yes
+			}
+			# Archbishop of Reims
+		}
+		######## Test Character ########
+		CKU_francien_test_1 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
@@ -430,7 +493,7 @@
 			}
 		}
 		
-		######### Extra Characters Dead #########
+		######### Extra Characters #########
 		CKU_bourgogne_17 = {
 			name = "Marguerite"
 			female = yes
@@ -897,6 +960,40 @@
 			culture = flemish
 			dynasty = CKU_josne
 			1371.1.1 = {
+				birth = yes
+			}
+			1435.9.21 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
+		}
+		CKU_bourgogne_minor_25 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			# dynasty = ???
+			1390.1.1 = {
+				birth = yes
+			}
+			1435.9.21 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
+		}
+		CKU_bourgogne_minor_26 = {
+			name = "Jehan"
+			religion = catholic
+			culture = french
+			#dynasty = ???
+			1392.1.1 = {
 				birth = yes
 			}
 			1435.9.21 = {
