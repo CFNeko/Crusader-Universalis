@@ -892,7 +892,7 @@ CKU_juvénal_des_ursins = {
 		texture = "ce_flower.dds"
 		color1 = "red"
 		color2 = "green"
-		instance = { position = { 0.50 0.20 } scale = { 0.40 0.40 }  }
+		instance = { position = { 0.50 0.20 } scale = { 0.35 0.35 }  }
 	}
 	
 	colored_emblem = {
@@ -973,6 +973,25 @@ CKU_juvénal_des_ursins = {
 		instance = { position = { 0.36 0.78 } scale = { 0.12 0.12 }  }		
 		instance = { position = { 0.68 0.78 } scale = { 0.12 0.12 }  }		
 		instance = { position = { 0.82 0.68 } scale = { 0.12 0.12 }  }			
+	}
+}
+
+100146 = { # Bourbon
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.30 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.70 0.30 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.50 0.70 } scale = { 0.5 0.5 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_ordinary_bend_dexter_5.dds"
+		color1 = "red"
 	}
 }
 

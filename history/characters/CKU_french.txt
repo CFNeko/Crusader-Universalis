@@ -634,7 +634,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			#dynasty = CKU_valois_bourgogne
+			dynasty = CKU_valois_bourgogne
 			trait= bastard
 			father = CKU_bourgogne_2
 			mother = CKU_bourgogne_minor_23
@@ -1122,19 +1122,25 @@
 			name = "Charles"
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
+			father = CKU_bourbon_17
+			# mother = Marie de Auvergne
+			# Married Agnès de Valois-Burgundy
 			1401.1.1 = {
 				birth = yes
 			}
 			1425.9.17 = {
 				add_spouse = CKU_bourgogne_16
 			}
+			1456.12.4 = {
+				death = yes
+			}
 		}
 		CKU_bourbon_3 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1426.1.1 = {
@@ -1146,7 +1152,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1428.1.1 = {
@@ -1157,7 +1163,7 @@
 			name = "Charles"
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1433.1.1 = {
@@ -1169,7 +1175,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1434.1.1 = {
@@ -1180,7 +1186,7 @@
 			name = "Pierre"
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1438.12.1 = {
@@ -1191,7 +1197,7 @@
 			name = "Louis"
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1438.1.1 = {
@@ -1203,7 +1209,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1434.2.5 = {
@@ -1215,7 +1221,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1440.1.1 = {
@@ -1227,11 +1233,172 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 329
+			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
 			1442.1.1 = {
 				birth = yes
+			}
+		}
+		
+		######### Extra Characters #########
+		CKU_bourbon_12 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Charles de Valois
+			1338.2.3 = {
+				birth = yes
+			}
+			1350.4.8 = {
+				add_spouse = CKU_valois_3
+			}
+			1378.2.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_13 = {
+			name = "Blanche"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Pedro de Ivrea
+			1339.1.1 = {
+				birth = yes
+			}
+			1361.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_14 = {
+			name = "Bonne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Amedeo di Savoia
+			1341.1.1 = {
+				birth = yes
+			}
+			1355.9.1 = {
+				add_spouse = 462155
+			}
+			1402.1.19 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_15 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Jean IV de Harcourt
+			1341.1.1 = {
+				birth = yes
+			}
+			1402.1.19 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_16 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Arnaud-Amanieu de Albret
+			1344.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_17 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455658
+			# mother = Anne de Auvergne
+			# Married Marie de Auvergne
+			1381.1.1 = {
+				birth = yes
+			}
+			1434.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_18 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_17
+			# mother = Marie de Auvergne
+			# Married Jeanne de Auvergne
+			1405.1.1 = {
+				birth = yes
+			}
+			1486.5.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_19 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_18
+			# mother = Jeanne de Auvergne
+			1443.1.1 = {
+				birth = yes
+			}
+			1496.10.15 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_20 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455658
+			# mother = Anne de Auvergne
+			1388.1.1 = {
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_21 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455658
+			# mother = Anne de Auvergne
+			1384.1.1 = {
+				birth = yes
+			}
+			1451.1.1 = {
+				death = yes
 			}
 		}
 	# }
