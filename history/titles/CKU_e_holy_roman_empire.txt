@@ -209,10 +209,11 @@
 				}
 			}
 		#}
-		# Price-Bishopric Cambrésis = {
-			b_cambrai = {
+		# Price-Bishopric Cambrésis = { # Is its own county
+			c_cambray = {
 				1440.1.1 = {
-					holder = CKU_french_bishop_1
+					government = theocracy_government
+					holder = CKU_bourgogne_25
 					liege = "e_hre"
 				}
 			}

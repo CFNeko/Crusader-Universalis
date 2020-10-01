@@ -155,6 +155,7 @@ d_sunni = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
 }
 
 d_shiite = {
@@ -165,6 +166,7 @@ d_shiite = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
 }
 
 d_masmudi = {
@@ -175,6 +177,7 @@ d_masmudi = {
 	no_automatic_claims = yes
 	always_follows_primary_heir = yes
 	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
 }
 
 e_golden_horde = {
@@ -483,6 +486,14 @@ k_sakya_trizin = {
 	destroy_if_invalid_heir = yes
 }
 
+#Guiyi Circuit
+k_guiyi = {
+	color = { 181 135 55 }
+	color2 = { 255 255 255 }
+	
+	capital = c_shazhou # Shazhou/Dunhuang
+}
+
 k_switzerland = {
 	color = { 255 80 80 }
 	color2 = { 200 50 50 }
@@ -784,13 +795,6 @@ d_swiss = {
 	color = { 255 1 1 }
 	
 	capital = c_bern
-}
-
-d_socotra = {
-	color = { 142 255 85 }
-	color2 = { 255 255 255 }
-	
-	capital = c_socotra
 }
 
 #Shen clan leaders of Eternal Bön
@@ -1189,7 +1193,7 @@ e_britannia = {
 			c_durham = {
 				color = { 255 15 15 }
 				color2 = { 255 255 255 }
-							
+				
 				cultural_names = {
 					anglo_saxon = cn_dunholm
 					old_saxon = cn_dunholm
@@ -1209,6 +1213,8 @@ e_britannia = {
 						french = cn_duresm
 						outremer = cn_duresm
 						occitan = cn_duresm
+						norse = cn_ulfreksfjordr
+						norwegian = cn_ulfreksfjordr
 					}
 
 					color = { 255 15 15 }
@@ -1612,15 +1618,30 @@ e_britannia = {
 			
 			capital = c_norfolk # Norwich
 			
+			cultural_names = {
+				norse = cn_jarnamoda
+				norwegian = cn_jarnamoda
+			}
+
 			c_norfolk = {
 				color = { 210 100 0 }
 				color2 = { 255 255 255 }
-			
+
+				cultural_names = {
+					norse = cn_jarnamoda
+					norwegian = cn_jarnamoda
+				}
+
 				b_norwich = {
 					province = 1522
 
 					color = { 210 100 0 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norse = cn_jarnamoda
+						norwegian = cn_jarnamoda
+					}
 				}
 				b_thetford = {
 					province = 1523
@@ -1698,6 +1719,11 @@ e_britannia = {
 
 					color = { 205 145 5 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norse = cn_linn
+						norwegian = cn_linn
+					}
 				}
 			}
 		}
@@ -2368,16 +2394,27 @@ e_britannia = {
 			
 			capital = c_cardiganshire # Cardigan
 
-			c_cardiganshire = {
+			c_cardiganshire = {	#Ceredigion
 				color = { 110 10 0 }
 				color2 = { 255 255 255 }
 
-				b_cardigan = {
+				cultural_names = {
+					norman = cn_cardiganshire
+					english = cn_cardiganshire
+				}
+
+				b_cardigan = {	#Aberteifi
 					province = 1657
 
 					color = { 110 10 0 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norman = cn_cardigan
+						english = cn_cardigan
+					}
 				}
+
 				b_aberystwyth = {
 					province = 1658
 
@@ -2386,16 +2423,22 @@ e_britannia = {
 				}
 			}
 
-			c_merioneth = {
+			c_merioneth = {	#Merionnydd
 				color = { 105 20 20 }
 				color2 = { 255 255 255 }
 
-				b_dolgellau = {
+				cultural_names = {
+					norman = cn_merionethshire
+					english = cn_merionethshire
+				}
+
+				b_dolgellau = {	#Harlech
 					province = 1665
 
 					color = { 105 20 20 }
 					color2 = { 255 255 255 }
 				}
+
 				b_corwen = {
 					province = 1666
 
@@ -2404,16 +2447,13 @@ e_britannia = {
 				}
 			}
 
-			c_caernarfonshire = {
+			c_caernarfonshire = {	#Eryri
 				color = { 90 25 0 }
 				color2 = { 255 255 255 }
 		
 				cultural_names = {
-					pictish = 	cn_eryri
-					welsh = 	cn_eryri
-					cumbrian = 	cn_eryri
-					cornish = 	cn_eryri
-					breton = 	cn_eryri
+					norman = cn_caernarvonshire
+					english = cn_caernarvonshire
 				}
 				
 				b_caernarfon = {
@@ -2422,12 +2462,14 @@ e_britannia = {
 					color = { 90 25 0 }
 					color2 = { 255 255 255 }
 				}
+
 				b_llyn = {
 					province = 1668
 
 					color = { 90 25 0 }
 					color2 = { 255 255 255 }
 				}
+
 				b_llandudno = {
 					province = 1669
 
@@ -2435,9 +2477,15 @@ e_britannia = {
 					color2 = { 255 255 255 }	
 				}
 			}
-			c_anglesey = {
+
+			c_anglesey = {	#Ynys Mon
 				color = { 85 0 0 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					norman = cn_anglesey
+					english = cn_anglesey
+				}
 
 				b_yns_mon = {
 					province = 1673
@@ -2445,49 +2493,62 @@ e_britannia = {
 					color = { 85 0 0 }
 					color2 = { 255 255 255 }
 				}
-				b_holyhead = {
+
+				b_holyhead = {	#Caer Gybi
 					province = 1674
 
 					color = { 85 0 0 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_caer_gybi
+						norman = cn_holyhead
+						english = cn_holyhead
 					}
 				}
 			}
-			c_denbighshire = {
+
+			c_denbighshire = {	#Perfeddwlad
 				color = { 125 0 10 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					norman = cn_denbighshire
+					english = cn_denbighshire
+				}
 				
-				b_denbigh = {
+				b_denbigh = {	#Dinbych
 					province = 1670
 
 					color = { 125 0 10 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_dinbych
+						norman = cn_denbigh
+						english = cn_denbigh
 					}
 				}
-				b_wrexham = {
+
+				b_wrexham = {	#Tegeingl
 					province = 1671
 
 					color = { 125 0 10 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_wrecsam
+						norman = cn_wrexham
+						english = cn_wrexham
 					}
 				}
-				b_ruthin = {
+
+				b_ruthin = {	#Rhuthun
 					province = 1672
 					
 					color = { 125 0 10 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_rhuthun
+						norman = cn_ruthin
+						english = cn_ruthin
 					}
 				}
 			}
@@ -2499,64 +2560,105 @@ e_britannia = {
 			
 			capital = c_maldwyn # Maldwyn / Mathrafal near Welshpool
 
-			c_maldwyn = {
+			c_maldwyn = {	#Penllyn (Cantrefi, not the peninsula)
 				color = { 110 25 25 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					norman = cn_montgomeryshire
+					english = cn_montgomeryshire
+				}
 				
-				b_welshpool = {
+				b_welshpool = {	#Mathrafal
 					province = 1663
 
 					color = { 110 25 25 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_y_trallwng
+						#Technically a different town: Welshpool is Y Trallwng, whereas b_welshpool is currently Mathrafal, historic seat of the Princes of Powys.
+						norman = cn_welshpool
+						english = cn_welshpool
 					}
 				}
-				b_newtown = {
+
+				b_newtown = {	#Machynlleth
 					province = 1664
 
 					color = { 110 25 25 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_machynlleth	#Technically a different settlement, but Newtown wouldn't be founded till the 1300s regardless.
+						#Technically a different settlement, as Newtown wouldn't be founded till the 1300s, but b_newtown is currently Machynlleth, which was a more important Welsh site previously.
+						norman = cn_newtown
+						english = cn_newtown
 					}
 				}
 			}
-			c_sir_faesyfed = {
+
+			c_sir_faesyfed = {	#Ferlix
 				color = { 95 30 30 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					norman = cn_radnorshire
+					english = cn_radnorshire
+				}
 
 				b_llandrindod = {
 					province = 1661
 
+					cultural_names = {
+						norman = cn_llandrindod_wells
+						english = cn_llandrindod_wells
+					}
+
 					color = { 95 30 30 }
 					color2 = { 255 255 255 }
 				}
-				b_rhayader = {
+
+				b_rhayader = {	#Rhaeadr Gwy
 					province = 1662
+
+					 cultural_names = {
+						norman = cn_rhayader
+						english = cn_rhayader
+					}
 
 					color = { 95 30 30 }
 					color2 = { 255 255 255 }
 				}
 			}
+
 			c_hereford = {
 				color = { 110 45 35 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					#This name is actually Anglo-Saxon, but the original Welsh name, Ergyng, is long dead by 867. Arcenefelde is the archaic term for the area after the conquest, and the name used by/to refer to the Welsh-speaking portions of the county, with Herefordshire referring to the Anglo-Saxons/English.
+					welsh = cn_arcenefelde
+					cumbrian = cn_arcenefelde
+				}
 				
 				b_hereford = {
 					province = 1632
 
+					cultural_names = {
+						welsh = cn_hennffordd
+						cumbrian = cn_hennffordd
+					}
+
 					color = { 110 45 35 }
 					color2 = { 255 255 255 }
 				}
+
 				b_wigmore = {
 					province = 1633
 				
 					color = { 110 45 35 }
 					color2 = { 255 255 255 }
 				}
+
 				b_clifford = {
 					province = 1634
 
@@ -2572,126 +2674,198 @@ e_britannia = {
 			
 			capital = c_carmarthenshire # Dyfed
 			
-			c_carmarthenshire = {
+			c_carmarthenshire = {	#Sir Gaerfyrddin
 				color = { 245 170 100 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					norman = cn_carmarthenshire
+					english = cn_carmarthenshire
+				}
 			
-				b_carmarthen = {
+				b_carmarthen = {	#Caerfyrddin
 					province = 1652
 
 					color = { 245 170 100 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_caerfyrddin
+						norman = cn_carmarthen
+						english = cn_carmarthen
 					}
 				}
-				b_llandovery = {
+
+				b_llandovery = {	#Llanymddyfri
 					province = 1653
 
 					color = { 245 170 100 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_llanymddyfri
+						norman = cn_llandovery
+						english = cn_llandovery
 					}
 				}
 			}
-			c_pembrokeshire = {
+
+			c_pembrokeshire = {	#Dyfed
 				color = { 210 140 90 }
 				color2 = { 255 255 255 }
 
-				b_pembroke = {
+				cultural_names = {
+					norman = cn_pembrokeshire
+					english = cn_pembrokeshire
+				}
+
+				b_pembroke = {	#Penfro
 					province = 1654
 
 					color = { 210 140 90 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_penfro
+						norman = cn_pembroke
+						english = cn_pembroke
 					}
 				}
-				b_st_davids = {
+
+				b_st_davids = {	#Tyddewi
 					province = 1655
 
 					color = { 210 140 90 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_tyddewi
+						norman = cn_st_davids
+						english = cn_st_davids
 					}
 				}
-				b_fishguard = {
+
+				b_fishguard = {	#Abergwaun
 					province = 1656
 
 					color = { 210 140 90 }
 					color2 = { 255 255 255 }
+
+					#Technically, not established till the mid-to-late 900s.
 					
 					cultural_names = {
-						welsh = cn_abergwaun
+						#Pre-Anglicisation name of Fishguard.
+						norman = cn_fiscard
+						english = cn_fiscard
 					}
 				}
 			}
-			c_glamorgan = {
+
+			c_glamorgan = {	#Morgannwg
 				color = { 220 190 145 }
 				color2 = { 255 0 0 }
-			
-				b_cardiff = {
+
+				cultural_names = {
+					norman = cn_glamorgan
+					english = cn_glamorgan
+				}
+
+				b_cardiff = {	#Caerdydd
 					province = 1649
 
 					color = { 220 190 145 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norman = cn_cardiff
+						english = cn_cardiff
+					}
 				}
-				b_swansea = {
+
+				b_swansea = {	#Abertawe
 					province = 1650
 
 					color = { 220 190 145 }
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						welsh = cn_abertawe
+						norman = cn_swansea
+						english = cn_swansea
 					}
 				}
-				b_caerphilly = {
+
+				b_caerphilly = {	#Caerffili
 					province = 1651
 
 					color = { 220 190 145 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norman = cn_caerphilly
+						english = cn_caerphilly
+					}
 				}
 			}
-			c_monmouthshire = {
+
+			c_monmouthshire = {	#Gwent
 				color = { 210 165 60 }
 				color2 = { 255 255 255 }
-			
-				b_casnewydd = {
+
+				cultural_names = {
+					norman = cn_monmouthshire
+					english = cn_monmouthshire
+				}
+
+				b_casnewydd = {	#Caerllion
 					province = 1630
 
 					color = { 210 165 60 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norman = cn_caerleon
+						english = cn_caerleon
+					}
 				}
-				b_monmouth = {
+
+				b_monmouth = {	#Trefynwy
 					province = 1631
 
 					color = { 210 165 60 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norman = cn_monmouth
+						english = cn_monmouth
+					}
 				}
 			}
 
-			c_brecknockshire = {
+			c_brecknockshire = {	#Brycheiniog"
 				color = { 215 150 115 }
 				color2 = { 255 255 255 }
 
-				b_brecon = {
+				cultural_names = {
+					norman = cn_brecknockshire
+					english = cn_brecknockshire
+				}
+
+				b_brecon = {	#Aberhonddu
 					province = 1659
 
 					color = { 215 150 115 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						#Brecon is the modern form.
+						norman = cn_brecknock
+						english = cn_brecknock
+					}
 				}
+				
 				b_talgarth = {
 					province = 1660
 
 					color = { 215 150 115 }
 					color2 = { 255 255 255 }
+
+					#Talgarth is actually the modern & historic name in both English & Welsh, albeit accented in Old Welsh.
 				}
 			}
 		}
@@ -2886,22 +3060,42 @@ e_britannia = {
 			color2 = { 255 255 255 }
 
 			capital = c_isle_of_man # Isle of Man
+
+			cultural_names = {
+				norse = cn_mon
+				norwegian = cn_mon
+			}
 			
 			c_isle_of_man = {
 				color = { 180 90 0 }
 				color2 = { 255 255 255 }
+
+				cultural_names = {
+					norse = cn_mon
+					norwegian = cn_mon
+				}
 				
 				b_castletown = {
 					province = 1698
 
 					color = { 180 90 0 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norse = cn_holmatun
+						norwegian = cn_holmatun
+					}
 				}
 				b_ramsey = {
 					province = 1699
 
 					color = { 180 90 0 }
 					color2 = { 255 255 255 }
+
+					cultural_names = {
+						norse = cn_hramsa
+						norwegian = cn_hramsa
+					}
 				}
 			}
 		}
@@ -5739,14 +5933,14 @@ e_germany = {
 				color = { 95 80 135 }
 				color2 = { 255 255 255 }
 				
-				b_valenciennes = {
-					province = 2119
+				b_cambrai = {
+					province = 2118
 
 					color = { 95 80 135 }
 					color2 = { 255 255 255 }
 				}
-				b_cambrai = {
-					province = 2118
+				b_valenciennes = {
+					province = 2119
 
 					color = { 95 80 135 }
 					color2 = { 255 255 255 }

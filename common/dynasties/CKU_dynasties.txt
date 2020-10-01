@@ -18,6 +18,13 @@ CKU_josne = {
 	culture = "french"
 }
 
+CKU_juvénal_des_ursins = {
+	name = "dynn_juvénal_des_ursins"
+	culture = "french"
+}
+
+
+
 
 CKU_adorno = {
 	name = "dynn_adorno"
