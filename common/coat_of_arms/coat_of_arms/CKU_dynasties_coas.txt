@@ -764,7 +764,7 @@ CKU_crequy = {
 	}
 }
 
-CKU_tour_auvergene = { # c_auvergne k_france ce_tower
+CKU_tour_auvergene = { #
 	pattern = "pattern_solid.dds"
 	color1 = "red"
 	color2 = "white"
@@ -910,6 +910,62 @@ CKU_juvénal_des_ursins = {
 	}
 }
 
+house_alencon = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_square_border_shield_thick.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+	
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.05 0.05 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.50 0.05 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.95 0.05 } scale = { 0.20 0.20 }  }
+		
+		instance = { position = { 0.05 0.50 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.95 0.50 } scale = { 0.20 0.20 }  }
+		
+		instance = { position = { 0.05 0.95 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.50 0.95 } scale = { 0.20 0.20 }  }
+		instance = { position = { 0.95 0.95 } scale = { 0.20 0.20 }  }
+	}
+}
+
+house_anjou = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_square_border_shield_thick.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+}
+
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -930,9 +986,9 @@ CKU_juvénal_des_ursins = {
 	colored_emblem = {
 		texture = "ce_fleur.dds"
 		color1 = "yellow"
-		instance = { position = { 0.30 0.30 } scale = { 0.5 0.5 }  }
-		instance = { position = { 0.70 0.30 } scale = { 0.5 0.5 }  }
-		instance = { position = { 0.50 0.70 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
 	}
 }
 
@@ -973,25 +1029,6 @@ CKU_juvénal_des_ursins = {
 		instance = { position = { 0.36 0.78 } scale = { 0.12 0.12 }  }		
 		instance = { position = { 0.68 0.78 } scale = { 0.12 0.12 }  }		
 		instance = { position = { 0.82 0.68 } scale = { 0.12 0.12 }  }			
-	}
-}
-
-100146 = { # Bourbon
-	pattern = "pattern_solid.dds"	
-	color1 = "blue"
-	color2 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_fleur.dds"
-		color1 = "yellow"
-		instance = { position = { 0.30 0.30 } scale = { 0.5 0.5 }  }
-		instance = { position = { 0.70 0.30 } scale = { 0.5 0.5 }  }
-		instance = { position = { 0.50 0.70 } scale = { 0.5 0.5 }  }
-	}
-	
-	colored_emblem = {
-		texture = "ce_ordinary_bend_dexter_5.dds"
-		color1 = "red"
 	}
 }
 
@@ -1040,6 +1077,25 @@ CKU_juvénal_des_ursins = {
 		color2 = "yellow"
 		instance = { position = { 0.25 0.26 } scale = { 0.75 0.75 }  }
 		instance = { position = { 0.75 0.26 } scale = { 0.75 0.75 }  }
+	}
+}
+
+100146 = { # Bourbon
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_ordinary_bend_dexter_5.dds"
+		color1 = "red"
 	}
 }
 

@@ -354,10 +354,13 @@
 				religion = catholic
 				culture = bavarian
 				dynasty = 217
-				1403.9.1 = {
+				1368.1.1 = {
 					birth = yes
 				}
-				1445.4.7 = {
+				1413.10.1 = {
+					add_spouse = CKU_alencon_4
+				}
+				1447.5.1 = {
 					death = yes
 				}
 			}
