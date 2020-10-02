@@ -15,6 +15,11 @@
 			holder = CKU_francien_1
 		}
 	}
+	d_champagne = {
+		1422.10.21 = {
+			holder = CKU_francien_1
+		}
+	}
 	c_tourraine = {
 		1440.1.1 = {
 			holder = CKU_francien_1
@@ -22,6 +27,11 @@
 	}
 	c_chartres = {
 		1440.1.1 = {
+			holder = CKU_francien_1
+		}
+	}
+	c_montargis = {
+		1188.1.1 = {
 			holder = CKU_francien_1
 		}
 	}
@@ -65,12 +75,7 @@
 					liege = k_france
 				}
 			}
-			c_valois = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_montargis = {
+			d_valois = {
 				1440.1.1 = {
 					holder = CKU_orleans_1
 				}
@@ -80,32 +85,17 @@
 					holder = CKU_orleans_1
 				}
 			}
-			c_orleans = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_vendome = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
-				}
-			}
-			c_angouleme = {
+			c_angouleme = { # Held by Cadet branch of the Valois-Orleans house, the Valois-Orléans-Angoulême house.
 				1440.1.1 = {
 					holder = CKU_orleans_1
 				}
 			}
 		#}
 		# Duchy of Armagnac = {
-			c_brie_francaise = {
-				1440.1.1 = {
-					holder = CKU_bourbon_1
-					liege = k_france
-				}
-			}
 			c_la_marche = {
 				1440.1.1 = {
 					holder = CKU_bourbon_1
+					liege = k_france
 				}
 			}
 			c_rouergue = {
@@ -199,6 +189,15 @@
 			c_sancerre = {
 				1440.1.1 = {
 					holder = CKU_sancerre_1
+					liege = d_orleans
+				}
+			}
+		#}
+		# Archdiocese of Reims = {
+			c_troyes = {
+				1444.4.4 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_7
 					liege = k_france
 				}
 			}

@@ -16,6 +16,9 @@
 	1351.10.16 = {
 		birth = yes
 	}
+	1360.10.8 = {
+		add_spouse = CKU_valois_12
+	}
 	1380.11.15 = {
 		add_spouse = CKU_milan_01
 	}

@@ -10,11 +10,16 @@
 			1403.2.22 = {
 				birth = yes
 			}
+			1403.2.22 = {
+				add_pressed_claim = d_normandy
+			}
 			1422.12.18 = {
-				add_spouse = CKU_francien_1
+				add_spouse = CKU_anjou_14
+			}
+			1461.7.22 = {
+				death = yes
 			}
 		}
-		
 		CKU_valois_2 = {
 			name = "John"
 			dynasty = 101
@@ -28,7 +33,6 @@
 				death = yes
 			}
 		}
-
 		CKU_valois_3 = {
 			name = "Charles"
 			dynasty = 101
@@ -42,7 +46,6 @@
 				death = yes
 			}
 		}
-
 		CKU_valois_4 = {
 			name = "Charles"
 			dynasty = 101
@@ -56,6 +59,132 @@
 				death = yes
 			}
 		}
+		CKU_valois_5 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_2
+			# mother = Bonne von Luxembourg
+			# Married Jeanne de Armagnac
+			# Married Jeanne de Auvergne
+			1340.11.30 = {
+				birth = yes
+			}
+			1416.6.15 = {
+				death = yes
+			}
+		}
+		CKU_valois_6 = {
+			name = "Bonne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			# Married Amedeo de Savoia
+			1362.1.1 = {
+				birth = yes
+			}
+			1435.12.30 = {
+				death = yes
+			}
+		}
+		CKU_valois_7 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			1371.1.1 = {
+				birth = yes
+			}
+			1383.1.1 = {
+				death = yes
+			}
+		}
+		CKU_valois_8 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			# Married Jean de Bourbon
+			1375.1.1 = {
+				birth = yes
+			}
+			1434.6.1 = {
+				death = yes
+			}
+		}
+		CKU_valois_9 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			# Married Catherine de Valois
+			# Married Anne de Bourbon
+			1376.1.1 = {
+				birth = yes
+			}
+			1390.1.1 = {
+				birth = CKU_bourbon_33
+			}
+			1401.1.1 = {
+				death = yes
+			}
+		}
+		CKU_valois_10 = {
+			name = "Jeanne"
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			# Married Charles de Evreux
+			1343.6.24 = {
+				birth = yes
+			}
+			1373.11.3 = {
+				death = yes
+			}
+		}
+		CKU_valois_11 = {
+			name = "Marie"
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			# Married Robert de Scarpone
+			1344.9.12 = {
+				birth = yes
+			}
+			1404.10.1 = {
+				death = yes
+			}
+		}
+		CKU_valois_12 = {
+			name = "Isabelle"
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_5
+			# mother = Bonne von Luxembourg
+			# Married Gian Galeazzo Visconti
+			1348.10.1 = {
+				birth = yes
+			}
+			1372.9.11 = {
+				death = yes
+			}
+		}
 	#}
 	
 	# Valois-Orleans = {
@@ -66,6 +195,9 @@
 			culture = french
 			1400.1.1 = {
 				birth = yes
+			}
+			1408.12.4 = {
+				add_unpressed_claim = d_lombardia
 			}
 		}
 	#}
@@ -319,7 +451,9 @@
 			1410.10.14 = {
 				birth = yes
 			}
-			# Archbishop of Reims
+			1457.3.12 = {
+				death = yes
+			}
 		}
 		######## Test Character ########
 		CKU_francien_test_1 = {
@@ -1136,6 +1270,9 @@
 				birth = yes
 				add_pressed_claim = k_sicily
 				add_pressed_claim = d_naples
+				# As part of the Duchy of Anjou
+				add_pressed_claim = c_sable
+				add_pressed_claim = c_maine
 			}
 			1420.10.20 = {
 				add_spouse = CKU_swabian_lord_2
@@ -1155,6 +1292,9 @@
 				birth = yes
 				add_pressed_claim = k_sicily
 				add_pressed_claim = d_naples
+				# As part of the Duchy of Anjou
+				add_pressed_claim = c_sable
+				add_pressed_claim = c_maine
 			}
 			1444.1.1 = {
 				add_spouse = CKU_bourbon_4
@@ -1382,7 +1522,7 @@
 			culture = french
 			dynasty = 100146
 			father = CKU_bourbon_17
-			# mother = Marie de Auvergne
+			mother = CKU_valois_8
 			# Married Agnès de Valois-Burgundy
 			1401.1.1 = {
 				birth = yes
@@ -1597,6 +1737,9 @@
 			1381.1.1 = {
 				birth = yes
 			}
+			1400.1.1 = {
+				add_spouse = CKU_valois_8
+			}
 			1434.1.1 = {
 				death = yes
 			}
@@ -1607,7 +1750,7 @@
 			culture = french
 			dynasty = 100146
 			father = CKU_bourbon_17
-			# mother = Marie de Auvergne
+			mother = CKU_valois_8
 			# Married Jeanne de Auvergne
 			1405.1.1 = {
 				birth = yes
@@ -1656,6 +1799,233 @@
 				birth = yes
 			}
 			1451.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_22 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			# Married Bouchard de Montoire
+			1340.1.1 = {
+				birth = yes
+			}
+			1371.5.15 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_23 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			1342.1.1 = {
+				birth = yes
+			}
+			1362.4.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_24 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			# Married Catherine de Montoire
+			1344.1.1 = {
+				birth = yes
+			}
+			1393.6.11 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_25 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			# Married Marguerite Préaulx
+			1345.1.1 = {
+				birth = yes
+			}
+			1417.9.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_26 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Beatriz de Navarra
+			# Married Marguerite de Blois
+			# Married Jeanne de Bourbon
+			1380.1.1 = {
+				birth = yes
+			}
+			1438.9.24 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_27 = {
+			name = "Elenore"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_26
+			# mother = Beatriz de Navarra
+			# Married Bernard de Armagnac
+			1407.9.7 = {
+				birth = yes
+			}
+			1463.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_28 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_25
+			# mother = Marguerite Préaulx 
+			1368.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_29 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_25
+			# mother = Marguerite Préaulx
+			# Married Élisabeth of Montagu
+			1390.1.1 = {
+				birth = yes
+			}
+			1422.10.11 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_30 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_25
+			# mother = Marguerite Préaulx
+			1391.1.1 = {
+				birth = yes
+			}
+			1429.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_31 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Jeanne de Laval
+			1376.1.1 = {
+				birth = yes
+			}
+			1446.12.21 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_32 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_31
+			# mother = Jeanne de Laval
+			1428.1.1 = {
+				birth = yes
+			}
+			1477.1.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_33 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Jean de Valois
+			1380.1.1 = {
+				birth = yes
+			}
+			1408.9.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_34 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Jeanne de Vendômois
+			1383.3.1 = {
+				birth = yes
+			}
+			1458.4.29 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_35 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			1387.1.1 = {
+				birth = yes
+			}
+			1465.9.11 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_36 = {
+			name = "Charlotte"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Janus de Lusignan (King of Cyprus)
+			1392.1.1 = {
+				birth = yes
+			}
+			1422.1.25 = {
 				death = yes
 			}
 		}

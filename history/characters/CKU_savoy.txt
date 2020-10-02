@@ -39,33 +39,9 @@ CKU_savoy_2 = {
 		birth = yes
 	}
 	1377.1.1 = {
-		add_spouse = CKU_savoy_2_1
+		add_spouse = CKU_valois_6
 	}
 	1391.11.1 = {
-		death = yes
-	}
-}
-
-CKU_savoy_2_1 = {
-	name = "Bona"
-	dynasty = 240
-	martial = 3
-	diplomacy = 6
-	intrigue = 4
-	stewardship = 7
-	religion = "catholic"
-	culture = venetian
-	trait = wrathful
-	trait = deceitful
-	trait = arrogant
-	trait = education_martial_3
-	dynasty = CKU_berry
-
-	female = yes
-	1362.2.25 = {
-		birth = yes
-	}
-	1435.12.30 = {
 		death = yes
 	}
 }
@@ -85,7 +61,7 @@ CKU_savoy_3 = {
 	trait = education_martial_3
 
 	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	mother = CKU_valois_6
 	1383.9.4 = {
 		birth = yes
 	}
@@ -141,7 +117,7 @@ CKU_savoy_4 = {
 	female = yes
 
 	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	mother = CKU_valois_6
 	1388.10.11 = {
 		birth = yes
 	}
@@ -170,7 +146,7 @@ CKU_savoy_4_1 = {
 	female = yes
 
 	father = CKU_savoy_2
-	mother = CKU_savoy_2_1
+	mother = CKU_valois_6
 	1388.10.11 = {
 		birth = yes
 	}
