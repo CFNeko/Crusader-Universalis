@@ -25,6 +25,14 @@ d_burgundy = {
 			}
 		}
 	#}
+	# Governor of Auxerre  = {
+		c_auxerre = {
+			1435.9.21 = {
+				holder = CKU_bourgogne_minor_26
+				liege = d_burgundy
+			}
+		}
+	#}
 
 d_upper_burgundy = {
 	1440.1.1 = {
@@ -95,20 +103,21 @@ d_luxembourg = {
 	#}
 
 c_vermandois = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
+	1435.9.21 = {
+		holder = CKU_bourgogne_minor_25
+		liege = d_burgundy
 	}
 }
 
 c_amiens = {
-	1440.1.1 = {
+	1435.9.21 = {
 		holder = CKU_bourgogne_minor_24
 		liege = d_burgundy
 	}
 }
 
 c_boulogne = {
-	1440.1.1 = {
+	1435.9.21 = {
 		holder = CKU_bourgogne_minor_24
 	}
 }
@@ -149,18 +158,6 @@ c_guines = {
 c_hainaut = {
 	1429.1.1 = {
 		holder = CKU_bourgogne_minor_13 # Governor
-	}
-}
-
-b_valenciennes = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
-	}
-}
-
-b_malboden = {
-	1440.1.1 = {
-		holder = CKU_bourgogne_3
 	}
 }
 

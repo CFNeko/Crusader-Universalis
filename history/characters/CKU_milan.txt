@@ -12,8 +12,7 @@
 	trait = arrogant
 	trait = education_martial_3
 
-	#father = 463151
-	#we will add it back once PDX fix his history files
+	father = 463151
 	1351.10.16 = {
 		birth = yes
 	}

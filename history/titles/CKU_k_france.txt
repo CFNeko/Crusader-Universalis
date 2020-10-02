@@ -203,7 +203,15 @@
 				}
 			}
 		#}
-		# Tournaisis = {
+		# Governorship of Troyes = {
+			c_troyes = {
+				1440.1.1 = {
+					holder = CKU_francien_minor_4
+					liege = k_france
+				}
+			}
+		#}
+		# Tournaisis = { # Is its own county
 			b_tournai = {
 				1440.1.1 = {
 					holder = CKU_francien_minor_2
