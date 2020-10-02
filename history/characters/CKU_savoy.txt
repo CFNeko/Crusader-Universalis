@@ -640,3 +640,21 @@ CKU_savoy_19 = {
 		death = yes
 	}
 }
+
+CKU_savoy_20 = {
+	name = "Margherita"
+	dynasty = 240
+	religion = "catholic"
+	culture = venetian
+
+	father = CKU_savoy_3
+	mother = CKU_savoy_3_1
+
+	female = yes
+	1420.8.7 = {
+		birth = yes
+	}
+	1479.9.30 = {
+		death = yes
+	}
+}
