@@ -958,6 +958,20 @@ count_obligation_improvements_for_vassal = {
 			subtract = 1
 		}
 	}
+	#########################################
+	if = {
+		limit = {
+			local_var:special_contract != vassal_contract_obligation_level:special_contract
+		}
+		if = {
+			limit = { local_var:special_contract != 0 }
+			subtract = 1
+		}
+		else = {
+			add = 1
+		}
+	}
+	#########################################
 }
 
 count_total_obligation_changes = {
@@ -1016,12 +1030,14 @@ count_total_obligation_changes = {
 		}
 		add = 1
 	}
+	#########################################
 	if = {
 		limit = {
 			local_var:special_contract != vassal_contract_obligation_level:special_contract
 		}
 		add = 1
 	}
+	#########################################
 }
 
 # Requires local_var:<obligation_type> to be set for feudal obligations
