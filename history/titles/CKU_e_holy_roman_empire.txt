@@ -5,7 +5,6 @@
 			succession_laws = {
 				princely_elective_succession_law
 				male_only_law
-				hre_law_1
 			}
 		}
 	}

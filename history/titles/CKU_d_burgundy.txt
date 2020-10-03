@@ -2,6 +2,9 @@ d_burgundy = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
 		liege = k_france
+		succession_laws = {
+			male_only_law
+		}
 	}
 }
 	# County of Nevers and Rethel  = {
