@@ -966,6 +966,81 @@ house_anjou = {
 	}
 }
 
+house_orleans = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_label_03.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+}
+
+house_angouleme = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_label_03.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+	
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "red"
+		instance = { position = { 0.25 0.30 } scale = { 0.05 0.05 }  }
+		instance = { position = { 0.50 0.30 } scale = { 0.05 0.05 }  }
+		instance = { position = { 0.75 0.30 } scale = { 0.05 0.05 }  }
+	}
+}
+
+house_longueville = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.30 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.70 0.35 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.50 0.65 } scale = { 0.45 0.45 }  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_label_03.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+	
+	colored_emblem = {
+		texture = "ce_bend_thin.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.50 } scale = { 1.0 1.0 } rotation = 90 }
+	}
+}
+
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"

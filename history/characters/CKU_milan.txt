@@ -74,6 +74,30 @@ CKU_milan_02 = {
 	}
 }
 
+CKU_milan_03 = {
+	name = "Valentina"
+	female = yes
+	dynasty = CKU_visconti
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = lombard
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = education_martial_3
+
+	father = CKU_milan_0
+	1371.1.1 = {
+		birth = yes
+	}
+	1408.12.4 = {
+		death = yes
+	}
+}
+
 CKU_milan_1 = {
 	name = "Filippo Maria"
 	dynasty = CKU_visconti

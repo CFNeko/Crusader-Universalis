@@ -21,7 +21,7 @@
 			}
 		}
 		CKU_valois_2 = {
-			name = "John"
+			name = "Jean"
 			dynasty = 101
 			religion = "catholic"
 			culture = french
@@ -133,8 +133,11 @@
 			1376.1.1 = {
 				birth = yes
 			}
+			1386.1.1 = {
+				add_spouse = CKU_orleans_13
+			}
 			1390.1.1 = {
-				birth = CKU_bourbon_33
+				add_spouse = CKU_bourbon_33
 			}
 			1401.1.1 = {
 				death = yes
@@ -142,6 +145,7 @@
 		}
 		CKU_valois_10 = {
 			name = "Jeanne"
+			female = yes
 			religion = catholic
 			culture = french
 			dynasty = 101
@@ -157,6 +161,7 @@
 		}
 		CKU_valois_11 = {
 			name = "Marie"
+			female = yes
 			religion = catholic
 			culture = french
 			dynasty = 101
@@ -172,6 +177,7 @@
 		}
 		CKU_valois_12 = {
 			name = "Isabelle"
+			female = yes
 			religion = catholic
 			culture = french
 			dynasty = 101
@@ -185,19 +191,177 @@
 				death = yes
 			}
 		}
+		CKU_orleans_13 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 101
+			father = CKU_valois_3
+			mother = CKU_bourbon_12
+			# Married Jean de Valois
+			1378.2.4 = {
+				birth = yes
+			}
+			1388.11.1 = {
+				death = yes
+			}
+		}
 	#}
 	
 	# Valois-Orleans = {
 		CKU_orleans_1 = {
-			name = "Charles"
-			dynasty = 100138
-			religion = "catholic"
+			name = "Louis"
+			religion = catholic
 			culture = french
-			1400.1.1 = {
+			dynasty_house = house_orleans
+			father = CKU_valois_3
+			mother = CKU_bourbon_12
+			# Married Valentina Visconti
+			trait = lustful
+			trait = deviant
+			1372.3.13 = {
 				birth = yes
 			}
-			1408.12.4 = {
-				add_unpressed_claim = d_lombardia
+			1389.1.1 = {
+				add_spouse = CKU_milan_03
+			}
+			1407.11.23 = {
+				death = yes
+			}
+		}
+		CKU_orleans_2 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty_house = house_orleans
+			father = CKU_orleans_1
+			mother = CKU_milan_03
+			# Married Maria von Kleve
+			1394.11.24 = {
+				birth = yes
+			}
+			1440.11.6 = {
+				add_spouse = CKU_marck_2
+			}
+			1465.1.5 = {
+				death = yes
+			}
+		}
+		CKU_orleans_3 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_orleans
+			father = CKU_orleans_2
+			#mother = Isabelle de Valois
+			# Married Jean de Alençon
+			1409.9.11 = {
+				birth = yes
+			}
+			1424.1.1 = {
+				add_spouse = CKU_alencon_7
+			}
+			1432.5.19 = {
+				death = yes
+			}
+		}
+		CKU_orleans_4 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty_house = house_orleans
+			father = CKU_orleans_1
+			mother = CKU_milan_03
+			1396.24.7 = {
+				birth = yes
+			}
+			1420.9.1 = {
+				death = yes
+			}
+		}
+		CKU_orleans_5 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty_house = house_orleans
+			father = CKU_orleans_4
+			#mother = Unknown
+			trait = bastard
+			1419.1.1 = {
+				birth = yes
+			}
+			1436.1.1 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_orleans_6 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty_house = house_angouleme
+			father = CKU_orleans_1
+			mother = CKU_milan_03
+			1399.6.28 = {
+				birth = yes
+			}
+			1467.4.30 = {
+				death = yes
+			}
+		}
+		CKU_orleans_7 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_orleans
+			father = CKU_orleans_1
+			mother = CKU_milan_03
+			# Married Richard de Montfort
+			1406.12.4 = {
+				birth = yes
+			}
+			1466.4.24 = {
+				death = yes
+			}
+		}
+		CKU_orleans_8 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty_house = house_longueville
+			father = CKU_orleans_1
+			#mother = Mistress
+			# Married Marie Louvet
+			trait = bastard
+			1402.11.23 = {
+				birth = yes
+			}
+			1468.11.24 = {
+				death = yes
+			}
+		}
+		CKU_orleans_9 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty_house = house_longueville
+			father = CKU_orleans_8
+			#mother = Marie Louvet
+			1443.1.1 = {
+				birth = yes
+			}
+			1453.1.1 = {
+				death = yes
 			}
 		}
 	#}

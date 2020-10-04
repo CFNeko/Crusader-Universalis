@@ -188,6 +188,7 @@
 
 		CKU_austrian_2 = {
 			name = "Ladislaus"
+			dna = CKU_austrian_2_dna
 			religion = catholic
 			culture = bavarian #CTU_austrian
 			dynasty = 51
@@ -737,6 +738,22 @@
 				birth = yes #unknown
 			}
 			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_marck_2 = {
+			name = "Maria"
+			female = yes
+			religion = catholic
+			culture = rhenish
+			dynasty = 7117
+			father = CKU_marck_1
+			mother = CKU_bourgogne_22
+			# Married Charles de Orleans
+			1426.9.19 = {
+				birth = yes
+			}
+			1486.8.23 = {
 				death = yes
 			}
 		}

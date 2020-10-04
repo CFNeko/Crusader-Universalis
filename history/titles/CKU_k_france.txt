@@ -75,23 +75,24 @@
 		# Duchy of Orleans = {
 			d_orleans = {
 				1440.1.1 = {
-					holder = CKU_orleans_1
+					holder = CKU_orleans_2
 					liege = k_france
 				}
 			}
 			d_valois = {
 				1440.1.1 = {
-					holder = CKU_orleans_1
+					holder = CKU_orleans_2
 				}
 			}
-			c_blois = {
-				1440.1.1 = {
-					holder = CKU_orleans_1
+			c_angouleme = {
+				1407.11.23 = {
+					holder = CKU_orleans_6
+					liege = k_france
 				}
 			}
-			c_angouleme = { # Held by Cadet branch of the Valois-Orleans house, the Valois-Orléans-Angoulême house.
-				1440.1.1 = {
-					holder = CKU_orleans_1
+			c_blois = { # Governor
+				1436.1.1 = {
+					holder = CKU_orleans_5
 				}
 			}
 		#}
@@ -197,6 +198,17 @@
 				}
 			}
 		#}
+		
+		
+		
+		#c_perigord = {
+		#	1437.1.1 = {
+		#		holder = House de Chatillon
+		#	}
+		#}
+		
+		
+		
 		# Archdiocese of Reims = {
 			c_troyes = {
 				1444.4.4 = {
