@@ -80,6 +80,9 @@
 			1340.11.30 = {
 				birth = yes
 			}
+			1360.1.1 = {
+				add_spouse = CKU_armagnac_13
+			}
 			1416.6.15 = {
 				death = yes
 			}
@@ -91,7 +94,7 @@
 			culture = french
 			dynasty = 101
 			father = CKU_valois_5
-			# mother = Bonne von Luxembourg
+			mother = CKU_armagnac_13
 			# Married Amedeo de Savoia
 			1362.1.1 = {
 				birth = yes
@@ -106,7 +109,7 @@
 			culture = french
 			dynasty = 101
 			father = CKU_valois_5
-			# mother = Bonne von Luxembourg
+			mother = CKU_armagnac_13
 			1371.1.1 = {
 				birth = yes
 			}
@@ -121,7 +124,7 @@
 			culture = french
 			dynasty = 101
 			father = CKU_valois_5
-			# mother = Bonne von Luxembourg
+			mother = CKU_armagnac_13
 			# Married Jean de Bourbon
 			1375.1.1 = {
 				birth = yes
@@ -136,7 +139,7 @@
 			culture = french
 			dynasty = 101
 			father = CKU_valois_5
-			# mother = Bonne von Luxembourg
+			mother = CKU_armagnac_13
 			# Married Catherine de Valois
 			# Married Anne de Bourbon
 			1376.1.1 = {
@@ -158,7 +161,7 @@
 			religion = catholic
 			culture = french
 			dynasty = 101
-			father = CKU_valois_5
+			father = CKU_valois_2
 			# mother = Bonne von Luxembourg
 			# Married Charles de Evreux
 			1343.6.24 = {
@@ -174,7 +177,7 @@
 			religion = catholic
 			culture = french
 			dynasty = 101
-			father = CKU_valois_5
+			father = CKU_valois_2
 			# mother = Bonne von Luxembourg
 			# Married Robert de Scarpone
 			1344.9.12 = {
@@ -190,7 +193,7 @@
 			religion = catholic
 			culture = french
 			dynasty = 101
-			father = CKU_valois_5
+			father = CKU_valois_2
 			# mother = Bonne von Luxembourg
 			# Married Gian Galeazzo Visconti
 			1348.10.1 = {
@@ -492,7 +495,7 @@
 			dynasty_house = house_orleans
 			father = CKU_orleans_1
 			mother = CKU_milan_03
-			1396.24.7 = {
+			1396.7.24 = {
 				birth = yes
 			}
 			1420.9.1 = {
@@ -693,6 +696,9 @@
 			}
 			1415.10.25 = {
 				add_pressed_claim = c_alencon
+			}
+			1437.4.30 = {
+				add_spouse = CKU_armagnac_3
 			}
 			1476.9.8 = {
 				death = yes
@@ -1682,14 +1688,20 @@
 			# Married Isabelle de Lorraine
 			1409.1.16 = {
 				birth = yes
-				add_pressed_claim = k_sicily
-				add_pressed_claim = d_naples
 				# As part of the Duchy of Anjou
 				add_pressed_claim = c_sable
 				add_pressed_claim = c_maine
 			}
 			1420.10.20 = {
 				add_spouse = CKU_swabian_lord_2
+			}
+			1434.11.12 = {
+				set_primary_title_to = title:d_anjou
+			}
+			1435.2.2 = {
+				add_pressed_claim = k_sicily
+				add_pressed_claim = d_naples
+				add_pressed_claim = k_jerusalem
 			}
 			1480.7.10 = {
 				death = yes
@@ -1704,11 +1716,9 @@
 			mother = CKU_swabian_lord_2
 			1426.8.2 = {
 				birth = yes
-				add_pressed_claim = k_sicily
-				add_pressed_claim = d_naples
-				# As part of the Duchy of Anjou
-				add_pressed_claim = c_sable
-				add_pressed_claim = c_maine
+			}
+			1435.2.2 = {
+				add_pressed_claim = d_calabria
 			}
 			1444.1.1 = {
 				add_spouse = CKU_bourbon_4
@@ -1882,6 +1892,17 @@
 			1414.10.14 = {
 				birth = yes
 			}
+			1434.1.1 = {
+				add_pressed_claim = c_maine
+			}
+			1440.1.1 = {
+				effect = {
+					vassal_contract_set_obligation_level = {
+						type = special_contract
+						level = 4
+					}
+				}
+			}
 			1472.4.10 = {
 				death = yes
 			}
@@ -1940,6 +1961,9 @@
 			# Married Agnès de Valois-Burgundy
 			1401.1.1 = {
 				birth = yes
+			}
+			1410.1.1 = {
+				add_spouse = CKU_armagnac_9
 			}
 			1425.9.17 = {
 				add_spouse = CKU_bourgogne_16
@@ -2457,17 +2481,6 @@
 			}
 		}
 	# }
-	# foix {
-		CKU_foix_1 = {
-			name = "Gaston"
-			religion = catholic
-			culture = french
-			dynasty = 684
-			1422.1.1 = {
-				birth = yes
-			}
-		}
-	# }
 	# albret {
 		CKU_albret_1 = {
 			name = "Jean"
@@ -2564,6 +2577,406 @@
 				birth = yes
 			}
 			1446.12.18 = {
+				death = yes
+			}
+		}
+	# }
+# }
+
+# Gascon = {
+	# Armagnac {
+		CKU_armagnac_1 = {
+			name = "Bernard"
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = 455646
+			# mother = Jeanne de Périgord
+			# Married Bonne de Berry
+			1360.1.1 = {
+				birth = yes
+			}
+			1393.1.1 = {
+				add_spouse = CKU_valois_6
+			}
+			1418.6.12 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_2 = {
+			name = "Jean"
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_1
+			mother = CKU_valois_6
+			# Married Isabelle de Evreux
+			1396.10.15 = {
+				birth = yes
+			}
+			1450.11.5 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_3 = {
+			name = "Marie"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_2
+			# mother = Isabelle de Evreux
+			# Married Jean de Alençon
+			1420.1.1 = {
+				birth = yes
+			}
+			1473.7.25 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_4 = {
+			name = "Jean"
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_2
+			# mother = Isabelle de Evreux
+			1420.1.1 = {
+				birth = yes
+			}
+			1473.3.6 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_5 = {
+			name = "Elenore"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_2
+			# mother = Isabelle de Evreux
+			1423.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_6 = {
+			name = "Charles"
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_2
+			# mother = Isabelle de Evreux
+			1425.1.1 = {
+				birth = yes
+			}
+			1497.6.3 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_7 = {
+			name = "Isabelle"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_2
+			# mother = Isabelle de Evreux
+			1430.1.1 = {
+				birth = yes
+			}
+			1476.1.1 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_8 = {
+			name = "Anne"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_1
+			mother = CKU_valois_6
+			# Married Charles de Albret
+			1402.1.1 = {
+				birth = yes
+			}
+			1473.3.1 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_9 = {
+			name = "Bonne"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_1
+			mother = CKU_valois_6
+			# Married Charles de Orleans
+			1399.2.19 = {
+				birth = yes
+			}
+			1435.1.1 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_10 = {
+			name = "Bernard"
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_1
+			mother = CKU_valois_6
+			# Married Elenore de Bourbon
+			1400.3.29 = {
+				birth = yes
+			}
+			1429.1.1 = {
+				add_spouse = CKU_bourbon_27
+			}
+			1462.1.1 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_11 = {
+			name = "Jacques"
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_10
+			mother = CKU_bourbon_27
+			1433.1.1 = {
+				birth = yes
+			}
+			1477.8.4 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_12 = {
+			name = "Bonne"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = CKU_armagnac_10
+			mother = CKU_bourbon_27
+			1430.1.1 = {
+				birth = yes
+			}
+			1462.1.1 = {
+				death = yes
+			}
+		}
+		CKU_armagnac_13 = {
+			name = "Jeanne"
+			female = yes
+			dynasty = 5100
+			religion = "catholic"
+			culture = gascon
+			father = 455640
+			mother = 455725
+			1346.1.1 = {
+				birth = yes
+			}
+			1388.1.30 = {
+				death = yes
+			}
+		}
+	# }
+	# Foix {
+		CKU_foix_1 = {
+			name = "Roger-Bernard"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = 455544
+			mother = 455545
+			# Married Constance de Luna
+			1310.1.1 = {
+				birth = yes
+			}
+			1350.1.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_2 = {
+			name = "Roger-Bernard"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_1
+			# mother = Constance de Luna
+			# Married Geraude de Navailles
+			1333.1.1 = {
+				birth = yes
+			}
+			1381.1.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_3 = {
+			name = "Mathieu"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_2
+			# mother = Geraude de Navailles
+			# Married Juana de Barcelona
+			1363.1.1 = {
+				birth = yes
+			}
+			1398.8.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_4 = {
+			name = "Isabelle"
+			female = yes
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_2
+			# mother = Geraude de Navailles
+			# Married Archambaud de Grailly
+			1361.11.2 = {
+				birth = yes
+			}
+			1428.1.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_5 = {
+			name = "Jean"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			# father = Archambaud de Grailly
+			mother = CKU_foix_4
+			# Married Jeanne de Albret
+			1382.1.1 = {
+				birth = yes
+			}
+			1436.5.4 = {
+				death = yes
+			}
+		}
+		CKU_foix_6 = {
+			name = "Gaston"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_5
+			# mother = Jeanne de Albret
+			# Married Elenore de Trastamara
+			1423.2.26 = {
+				birth = yes
+			}
+			1472.7.25 = {
+				death = yes
+			}
+		}
+		CKU_foix_7 = {
+			name = "Gaston"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_6
+			# mother = Elenore de Trastamara
+			1444.1.1 = {
+				birth = yes
+			}
+			1470.11.23 = {
+				death = yes
+			}
+		}
+		CKU_foix_8 = {
+			name = "Pierre"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_5
+			# mother = Jeanne de Albret
+			1429.1.1 = {
+				birth = yes
+			}
+			1454.9.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_9 = {
+			name = "Gaston"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			# father = Archambaud de Grailly
+			mother = CKU_foix_4
+			# Married Marguerite de Albret
+			1383.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_10 = {
+			name = "Jean"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			father = CKU_foix_9
+			# mother = Marguerite de Albret
+			1425.1.1 = {
+				birth = yes
+			}
+			1485.12.5 = {
+				death = yes
+			}
+		}
+		CKU_foix_11 = {
+			name = "Archambaud"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			# father = Archambaud de Grailly
+			mother = CKU_foix_4
+			# Married Sança Ximenis de Cabrera
+			1384.1.1 = {
+				birth = yes
+			}
+			1419.1.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_12 = {
+			name = "Mathieu"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			# father = Archambaud de Grailly
+			mother = CKU_foix_4
+			# Married Marguerite de Comminges
+			1400.1.1 = {
+				birth = yes
+			}
+			1453.1.1 = {
+				death = yes
+			}
+		}
+		CKU_foix_13 = {
+			name = "Pierre"
+			dynasty = 684
+			religion = "catholic"
+			culture = gascon
+			# father = Archambaud de Grailly
+			mother = CKU_foix_4
+			1386.1.1 = {
+				birth = yes
+			}
+			1464.12.13 = {
 				death = yes
 			}
 		}
