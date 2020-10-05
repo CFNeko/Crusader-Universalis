@@ -167,6 +167,9 @@
 			1343.6.24 = {
 				birth = yes
 			}
+			1352.2.1 = {
+				add_spouse = 455813
+			}
 			1373.11.3 = {
 				death = yes
 			}
@@ -642,6 +645,7 @@
 			dynasty_house = house_alencon
 			father = CKU_alencon_1
 			# mother = Marie Chamaillart
+			# Married Pierre de Evreux
 			# Married Ludwig VII von Wittelsbach
 			1396.1.1 = {
 				birth = yes
@@ -701,6 +705,169 @@
 				add_spouse = CKU_armagnac_3
 			}
 			1476.9.8 = {
+				death = yes
+			}
+		}
+	#}
+	# Evreux = {
+		CKU_evreux_1 = {
+			name = "Charles"
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_10
+			mother = 455813
+			# Married Elenore de Trastamara
+			1361.7.22 = {
+				birth = yes
+			}
+			1425.9.8 = {
+				death = yes
+			}
+		}
+		CKU_evreux_2 = {
+			name = "Marie"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_10
+			mother = 455813
+			# Married Alfonso de Aragon
+			1365.1.1 = {
+				birth = yes
+			}
+			1420.1.1 = {
+				death = yes
+			}
+		}
+		CKU_evreux_3 = {
+			name = "Pierre"
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_10
+			mother = 455813
+			# Married Catherine de Alençon
+			1366.4.5 = {
+				birth = yes
+			}
+			1411.1.1 = {
+				add_spouse = CKU_alencon_4
+			}
+			1412.7.29 = {
+				death = yes
+			}
+		}
+		CKU_evreux_4 = {
+			name = "Isabelle"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_10
+			mother = 455813
+			1367.1.1 = {
+				birth = yes
+			}
+			1376.1.1 = {
+				death = yes
+			}
+		}
+		CKU_evreux_5 = {
+			name = "Jeanne"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_10
+			mother = 455813
+			# Married Jean de Montfort
+			# Married Henry IV Lancaster
+			1370.1.1 = {
+				birth = yes
+			}
+			1437.7.9 = {
+				death = yes
+			}
+		}
+		CKU_evreux_6 = {
+			name = "Jeanne"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_evreux_1
+			# mother = Elenore de Trastamara
+			# Married Jean de Foix
+			1382.11.8 = {
+				birth = yes
+			}
+			1413.7.1 = {
+				death = yes
+			}
+		}
+		CKU_evreux_7 = {
+			name = "Blanche"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_evreux_1
+			# mother = Elenore de Trastamara
+			# Married Martín de Aragón
+			# Married Juan de Aragón
+			1387.7.6 = {
+				birth = yes
+			}
+			1441.4.1 = {
+				death = yes
+			}
+		}
+		CKU_evreux_8 = {
+			name = "Béatrice"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_evreux_1
+			# mother = Elenore de Trastamara
+			# Married Jacques de Bourbon
+			1392.1.1 = {
+				birth = yes
+			}
+			1407.12.13 = {
+				death = yes
+			}
+		}
+		CKU_evreux_9 = {
+			name = "Isabelle"
+			female = yes
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_evreux_1
+			# mother = Elenore de Trastamara
+			# Married Jean de Armagnac
+			1395.7.13 = {
+				birth = yes
+			}
+			1450.8.31 = {
+				death = yes
+			}
+		}
+		CKU_evreux_10 = {
+			name = "Godefroy"
+			dynasty = 353
+			religion = "catholic"
+			culture = french
+			father = CKU_evreux_1
+			# mother = Unknown
+			trait = bastard
+			1394.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
 				death = yes
 			}
 		}
@@ -877,7 +1044,8 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = house_luxembourg_ligny
+			# dynasty = 353
+			martial = 20
 			1395.1.1 = {
 				birth = yes
 			}
@@ -2190,8 +2358,12 @@
 			father = CKU_bourbon_17
 			mother = CKU_valois_8
 			# Married Jeanne de Auvergne
+			# Married Gabrielle de la Tour-Auvergne
 			1405.1.1 = {
 				birth = yes
+			}
+			1442.2.15 = {
+				add_spouse = CKU_tour_auvergne_4
 			}
 			1486.5.1 = {
 				death = yes
@@ -2203,7 +2375,7 @@
 			culture = french
 			dynasty = 100146
 			father = CKU_bourbon_18
-			# mother = Jeanne de Auvergne
+			mother = CKU_tour_auvergne_4
 			1443.1.1 = {
 				birth = yes
 			}
@@ -2313,6 +2485,9 @@
 			1380.1.1 = {
 				birth = yes
 			}
+			1406.9.14 = {
+				add_spouse = CKU_evreux_8
+			}
 			1438.9.24 = {
 				death = yes
 			}
@@ -2324,7 +2499,7 @@
 			culture = french
 			dynasty = 100146
 			father = CKU_bourbon_26
-			# mother = Beatriz de Navarra
+			mother = CKU_evreux_8
 			# Married Bernard de Armagnac
 			1407.9.7 = {
 				birth = yes
@@ -2472,12 +2647,94 @@
 		CKU_tour_auvergne_1 = {
 			name = "Bertrand"
 			religion = catholic
-			culture = french
+			culture = occitan
 			dynasty = CKU_tour_auvergene
-			#father = ???
+			# father = Bertrand IV de Tour-Auvergne
+			# mother = Marie de Auvergne
+			# Married Jacquette du Peschin
 			1390.1.1 = {
 				birth = yes
+			}
+			1437.1.1 = {
 				add_unpressed_claim = c_boulogne
+			}
+			1461.3.22 = {
+				death = yes
+			}
+		}
+		CKU_tour_auvergne_2 = {
+			name = "Bertrand"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_tour_auvergene
+			father = CKU_tour_auvergne_1
+			# mother = Jacquette du Peschin
+			# Married Louise de la Tremoille
+			1417.1.1 = {
+				birth = yes
+			}
+			1497.9.26 = {
+				death = yes
+			}
+		}
+		CKU_tour_auvergne_3 = {
+			name = "Godefroy"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_tour_auvergene
+			father = CKU_tour_auvergne_1
+			# mother = Jacquette du Peschin
+			1430.1.1 = {
+				birth = yes
+			}
+			1469.7.4 = {
+				death = yes
+			}
+		}
+		CKU_tour_auvergne_4 = {
+			name = "Gabrielle"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_tour_auvergene
+			father = CKU_tour_auvergne_1
+			# mother = Jacquette du Peschin
+			# Married Louis de Bourbon
+			1420.1.1 = {
+				birth = yes
+			}
+			1490.1.1 = {
+				death = yes
+			}
+		}
+		CKU_tour_auvergne_5 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_tour_auvergene
+			father = CKU_tour_auvergne_1
+			# mother = Jacquette du Peschin
+			1425.1.1 = {
+				birth = yes
+			}
+			1488.9.8 = {
+				death = yes
+			}
+		}
+		CKU_tour_auvergne_6 = {
+			name = "Thibaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_tour_auvergene
+			father = CKU_tour_auvergne_1
+			# mother = Unknown
+			trait = bastard
+			1430.1.1 = {
+				birth = yes
+			}
+			1499.1.1 = {
+				death = yes
 			}
 		}
 	# }
@@ -2614,6 +2871,9 @@
 			1396.10.15 = {
 				birth = yes
 			}
+			1419.5.10 = {
+				add_spouse = CKU_evreux_9
+			}
 			1450.11.5 = {
 				death = yes
 			}
@@ -2625,7 +2885,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_armagnac_2
-			# mother = Isabelle de Evreux
+			mother = CKU_evreux_9
 			# Married Jean de Alençon
 			1420.1.1 = {
 				birth = yes
@@ -2640,7 +2900,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_armagnac_2
-			# mother = Isabelle de Evreux
+			mother = CKU_evreux_9
 			1420.1.1 = {
 				birth = yes
 			}
@@ -2655,7 +2915,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_armagnac_2
-			# mother = Isabelle de Evreux
+			mother = CKU_evreux_9
 			1423.1.1 = {
 				birth = yes
 			}
@@ -2669,7 +2929,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_armagnac_2
-			# mother = Isabelle de Evreux
+			mother = CKU_evreux_9
 			1425.1.1 = {
 				birth = yes
 			}
@@ -2684,7 +2944,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_armagnac_2
-			# mother = Isabelle de Evreux
+			mother = CKU_evreux_9
 			1430.1.1 = {
 				birth = yes
 			}
@@ -2856,9 +3116,13 @@
 			culture = gascon
 			# father = Archambaud de Grailly
 			mother = CKU_foix_4
+			# Married Jeanne de Evreux
 			# Married Jeanne de Albret
 			1382.1.1 = {
 				birth = yes
+			}
+			1402.10.12 = {
+				add_spouse = CKU_evreux_6
 			}
 			1436.5.4 = {
 				death = yes

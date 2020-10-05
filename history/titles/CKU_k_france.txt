@@ -171,7 +171,7 @@
 				}
 			}
 			c_auvergne = {
-				1440.1.1 = {
+				1437.1.1 = {
 					holder = CKU_tour_auvergne_1
 					liege = d_bourbon
 				}
@@ -242,11 +242,11 @@
 		
 		
 		
-		#c_perigord = {
-		#	1437.1.1 = {
-		#		holder = House de Chatillon
-		#	}
-		#}
+		c_perigord = {
+			1437.1.1 = {
+				holder = CKU_francien_test_1 # House de Chatillon
+			}
+		}
 		
 		
 		
