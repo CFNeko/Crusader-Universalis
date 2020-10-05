@@ -204,8 +204,14 @@
 			culture = bavarian #CTU_austrian
 			father = CKU_austrian_6
 			dynasty = 51
-			1439.1.1 = {
+			1427.10.26 = {
 				birth = yes
+			}
+			1433.1.1 = {
+				create_betrothal = CKU_valois_22
+			}
+			1496.3.4 = {
+				death = yes
 			}
 		}
 		# Daddy Chin

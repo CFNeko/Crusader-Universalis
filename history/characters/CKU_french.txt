@@ -7,14 +7,17 @@
 			religion = "catholic"
 			culture = french
 			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Marie de Anjou
 			1403.2.22 = {
 				birth = yes
-			}
-			1403.2.22 = {
 				add_pressed_claim = d_normandy
 			}
 			1422.12.18 = {
 				add_spouse = CKU_anjou_14
+			}
+			1443.1.1 = {
+				set_relation_lover = character:CKU_francien_minor_8
 			}
 			1461.7.22 = {
 				death = yes
@@ -52,8 +55,14 @@
 			religion = "catholic"
 			culture = french
 			father = CKU_valois_3
+			mother = CKU_bourbon_12
+			# Married Isabeau von Wittelsbach
+			trait = lunatic_genetic
 			1368.12.3 = {
 				birth = yes
+			}
+			1392.1.1 = {
+				give_nickname = nick_the_mad
 			}
 			1422.10.21 = {
 				death = yes
@@ -134,7 +143,7 @@
 				birth = yes
 			}
 			1386.1.1 = {
-				add_spouse = CKU_orleans_13
+				add_spouse = CKU_valois_13
 			}
 			1390.1.1 = {
 				add_spouse = CKU_bourbon_33
@@ -191,7 +200,7 @@
 				death = yes
 			}
 		}
-		CKU_orleans_13 = {
+		CKU_valois_13 = {
 			name = "Catherine"
 			female = yes
 			religion = catholic
@@ -204,6 +213,215 @@
 				birth = yes
 			}
 			1388.11.1 = {
+				death = yes
+			}
+		}
+		CKU_valois_14 = {
+			name = "Isabelle"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Richard II of Plantagenet
+			# Married Charles de Orleans
+			1389.11.9 = {
+				birth = yes
+			}
+			1406.6.29 = {
+				add_spouse = CKU_orleans_2
+			}
+			1409.9.13 = {
+				death = yes
+			}
+		}
+		CKU_valois_15 = {
+			name = "Jeanne"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Jean de Montfort
+			1391.1.24 = {
+				birth = yes
+			}
+			1433.9.27 = {
+				death = yes
+			}
+		}
+		CKU_valois_16 = {
+			name = "Marie"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			1393.8.22 = {
+				birth = yes
+			}
+			1438.8.19 = {
+				death = yes
+			}
+		}
+		CKU_valois_17 = {
+			name = "Michelle"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Philippe de Valois-Burgundy
+			1395.1.11 = {
+				birth = yes
+			}
+			1422.7.8 = {
+				death = yes
+			}
+		}
+		CKU_valois_18 = {
+			name = "Louis"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Marguerite de Valois-Burgundy
+			1397.1.22 = {
+				birth = yes
+			}
+			1404.8.30 = {
+				add_spouse = CKU_bourgogne_23
+			}
+			1415.12.8 = {
+				death = yes
+			}
+		}
+		CKU_valois_19 = {
+			name = "Jean"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Jakobäa von Wittelsbach
+			1398.8.31 = {
+				birth = yes
+			}
+			1417.4.5 = {
+				death = yes
+			}
+		}
+		CKU_valois_20 = {
+			name = "Catherine"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_valois_4
+			# mother = Isabeau von Wittelsbach
+			# Married Henry V Lancaster
+			# Married Owen Tudor
+			1401.10.27 = {
+				birth = yes
+			}
+			1437.1.3 = {
+				death = yes
+			}
+		}
+		CKU_valois_21 = {
+			name = "Louis"
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_francien_1
+			mother = CKU_anjou_14
+			# Married Margeret Stewart
+			1423.7.3 = {
+				birth = yes
+			}
+			1483.8.30 = {
+				death = yes
+			}
+		}
+		CKU_valois_22 = {
+			name = "Radegonde"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_francien_1
+			mother = CKU_anjou_14
+			# Betrothed Sigismund von Habsburg
+			1428.8.1 = {
+				birth = yes
+			}
+			1445.3.19 = {
+				death = yes
+			}
+		}
+		CKU_valois_23 = {
+			name = "Catherine"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_francien_1
+			mother = CKU_anjou_14
+			# Betrothed Charles de Valois-Burgundy
+			1428.1.1 = {
+				birth = yes
+			}
+			1446.7.13 = {
+				death = yes
+			}
+		}
+		CKU_valois_24 = {
+			name = "Yolande"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_francien_1
+			mother = CKU_anjou_14
+			1434.9.23 = {
+				birth = yes
+			}
+			1478.8.23 = {
+				death = yes
+			}
+		}
+		CKU_valois_25 = {
+			name = "Jeanne"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_francien_1
+			mother = CKU_anjou_14
+			1435.5.4 = {
+				birth = yes
+			}
+			1482.5.4 = {
+				death = yes
+			}
+		}
+		CKU_valois_26 = {
+			name = "Madeleine"
+			female = yes
+			dynasty = 101
+			religion = "catholic"
+			culture = french
+			father = CKU_francien_1
+			mother = CKU_anjou_14
+			1443.12.1 = {
+				birth = yes
+			}
+			1495.1.21 = {
 				death = yes
 			}
 		}
@@ -619,6 +837,35 @@
 				death = yes
 			}
 		}
+		CKU_francien_minor_8 = {
+			name = "Agnès Sorel"
+			female = yes
+			religion = "catholic"
+			culture = french
+			trait = beauty_good_3
+			1422.1.1 = {
+				birth = yes
+			}
+			1450.2.9 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_9 = {
+			name = "Marie"
+			female = yes
+			religion = "catholic"
+			culture = french
+			dynasty = 101
+			father = CKU_francien_1
+			mother = CKU_francien_minor_8
+			trait = bastard
+			1444.8.1 = {
+				birth = yes
+			}
+			1473.1.1 = {
+				death = yes
+			}
+		}
 		######## Test Character ########
 		CKU_francien_test_1 = {
 			name = "Jean"
@@ -686,6 +933,9 @@
 			}
 			1419.9.10 = {
 				set_relation_nemesis = character:CKU_francien_1 # Due to murder of his father, King of France was suspected.
+			}
+			1409.6.1 = {
+				add_spouse = CKU_valois_17
 			}
 			1430.1.7 = {
 				#add_spouse = # Isabel, daughter of the king of Portugal
@@ -756,8 +1006,8 @@
 			1433.11.10 = {
 				birth = yes
 			}
-			1433.11.10 = {
-				#add_spouse = # Catherine, daughter of the king of France
+			1435.9.21 = {
+				create_betrothal = CKU_valois_23
 			}
 		}
 		
@@ -2254,6 +2504,9 @@
 			father = CKU_montfort_1
 			1389.12.29 = {
 				birth = yes
+			}
+			1396.1.1 = {
+				add_spouse = CKU_valois_15
 			}
 			1442.8.29 = {
 				death = yes
