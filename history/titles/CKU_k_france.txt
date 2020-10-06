@@ -43,7 +43,7 @@
 			d_anjou = {
 				1434.11.12 = {
 					holder = CKU_anjou_1
-					liege = k_france
+					#liege = k_france
 				}
 			}
 			d_bar = {
@@ -242,11 +242,11 @@
 		
 		
 		
-		c_perigord = {
-			1437.1.1 = {
-				holder = CKU_francien_test_1 # House de Chatillon
-			}
-		}
+		#c_perigord = {
+		#	1437.1.1 = {
+		#		holder = CKU_francien_test_1 # House de Chatillon
+		#	}
+		#}
 		
 		
 		
@@ -263,6 +263,37 @@
 			c_troyes = {
 				1440.1.1 = {
 					holder = CKU_francien_minor_4
+					liege = k_france
+				}
+			}
+		#}
+		# Count of Montfort = {
+			b_montfort = {
+				1427.2.15 = {
+					holder = CKU_montfort_3
+				}
+			}
+		#}
+		# Count of Étampes = {
+			b_etampes = {
+				1442.1.1 = {
+					holder = CKU_bourgogne_14
+					liege = c_ile_de_france
+				}
+			}
+		#}
+		# Count of Dreux = {
+			b_dreux = {
+				1442.1.1 = {
+					holder = CKU_albret_13
+					liege = c_chartres
+				}
+			}
+		#}
+		# Viscount of Tartas = {
+			b_tartas = {
+				1425.1.1 = {
+					holder = CKU_albret_11
 					liege = k_france
 				}
 			}
