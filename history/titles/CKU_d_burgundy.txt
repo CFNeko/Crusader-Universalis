@@ -51,6 +51,7 @@ d_brabant = {
 	# Duchy of Brabant = {
 		c_brabant = {
 			1440.1.1 = {
+				government = CKU_governor_government
 				holder = CKU_nassau_44 # Governor
 				liege = d_burgundy
 			}
