@@ -17,11 +17,15 @@
 
 			CKU_hohenzollern_2 = {	#Irontooth
 				name = "Friedrich"
+				dna = CKU_hohenzollern_2_dna
 				religion = catholic
 				culture = franconian #CTU_saxon
 				dynasty = 12476
 				father = CKU_hohenzollern_1
 				give_nickname = nick_irontooth
+				trait = diligent
+				trait = ambitious
+				trait = stubborn
 				1413.11.19 = {
 					birth = yes
 				}
@@ -173,13 +177,15 @@
 	#Habsburgs = {
 		CKU_austrian_1 = {
 			name = "Friedrich"
+			dna = CKU_austrian_1_dna
 			religion = catholic
 			culture = bavarian #CTU_austrian
 			dynasty = 51
 			father = CKU_austrian_7
-			trait = chaste
 			trait = calm
+			trait = patient
 			trait = shy
+			trait = chaste
 			trait = education_diplomacy_3
 			1415.9.21 = {
 				birth = yes

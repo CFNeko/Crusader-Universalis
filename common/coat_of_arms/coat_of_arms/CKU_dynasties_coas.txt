@@ -1086,6 +1086,26 @@ house_longueville = {
 	}
 }
 
+93 = { # Lusignan
+	pattern = "pattern_barruly_10.dds"
+	color1 = "white"	
+	color2 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_lion_rampant_small.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.25 0.20 } scale = { 0.25 0.25 }  }		
+		instance = { position = { 0.50 0.20 } scale = { 0.25 0.25 }  }		
+		instance = { position = { 0.75 0.20 } scale = { 0.25 0.25 }  }		
+		
+		instance = { position = { 0.25 0.50 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.75 0.50 } scale = { 0.25 0.25 }  }		
+		
+		instance = { position = { 0.50 0.80 } scale = { 0.25 0.25 }  }		
+	}
+}
+
 100 = { # Artois
 	pattern = "pattern_solid.dds"
 	color1 = "blue"

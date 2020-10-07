@@ -6,6 +6,9 @@
 			dynasty = 101
 			religion = "catholic"
 			culture = french
+			trait = brave
+			trait = ambitious
+			trait = arbitrary
 			father = CKU_valois_4
 			# mother = Isabeau von Wittelsbach
 			# Married Marie de Anjou
