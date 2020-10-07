@@ -34,11 +34,6 @@
 			holder = CKU_francien_1
 		}
 	}
-	c_ile_de_france = {
-		1440.1.1 = {
-			holder = CKU_francien_1
-		}
-	}
 		# Duchy of Anjou = {
 			d_anjou = {
 				1434.11.12 = {
@@ -71,12 +66,6 @@
 			d_upper_lorraine = {
 				1440.1.1 = {
 					holder = CKU_swabian_lord_2
-				}
-			}
-			d_languedoc = {
-				1440.1.1 = {
-					holder = CKU_anjou_13
-					liege = k_france
 				}
 			}
 		#}
@@ -176,13 +165,6 @@
 					liege = d_bourbon
 				}
 			}
-			c_lyon = {
-				1444.6.6 = {
-					government = theocracy_government
-					holder = CKU_bourbon_5
-					liege = d_dauphine
-				}
-			}
 			c_clermont_sur_allier = {
 				1440.1.1 = {
 					holder = CKU_bourbon_18
@@ -239,34 +221,6 @@
 				}
 			}
 		#}
-		
-		
-		
-		#c_perigord = {
-		#	1437.1.1 = {
-		#		holder = CKU_francien_test_1 # House de Chatillon
-		#	}
-		#}
-		
-		
-		
-		# Archdiocese of Reims = {
-			c_reims = {
-				1444.4.4 = {
-					government = theocracy_government
-					holder = CKU_francien_minor_7
-					liege = k_france
-				}
-			}
-		#}
-		# Governorship of Troyes = {
-			c_troyes = {
-				1440.1.1 = {
-					holder = CKU_francien_minor_4
-					liege = k_france
-				}
-			}
-		#}
 		# Count of Montfort = {
 			b_montfort = {
 				1427.2.15 = {
@@ -298,7 +252,70 @@
 				}
 			}
 		#}
-		# Tournaisis = { # Is its own county
+		
+		
+		
+		# Archdiocese of Reims = {
+			c_reims = {
+				1444.4.4 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_7
+					liege = k_france
+				}
+			}
+		#}
+		# Archdiocese of Reims = {
+			c_lyon = {
+				1444.6.6 = {
+					government = theocracy_government
+					holder = CKU_bourbon_5
+					liege = d_dauphine
+				}
+			}
+		#}
+		
+		
+		
+		# Governorship of Ile de France = {
+			c_ile_de_france = {
+				1397.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_artois_5
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Brie Francaise = {
+			c_brie_francaise = {
+				1397.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_artois_5
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Languedoc = {
+			d_languedoc = {
+				1440.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_anjou_13
+					liege = k_france
+				}
+			}
+		#}
+		# Governorship of Troyes = {
+			c_troyes = {
+				1440.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_francien_minor_4
+					liege = k_france
+				}
+			}
+		#}
+		
+		
+		
+		# Tournaisis = { # Should be independent county
 			b_tournai = {
 				1440.1.1 = {
 					holder = CKU_francien_minor_2
@@ -306,4 +323,13 @@
 				}
 			}
 		#}
+		
+		
+		
+		
+		c_perigord = {
+			1437.1.1 = {
+				holder = CKU_harcourt_1 # House de Chatillon
+			}
+		}
 #}

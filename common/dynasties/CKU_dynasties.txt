@@ -23,6 +23,16 @@ CKU_juvénal_des_ursins = {
 	culture = "french"
 }
 
+CKU_juvénal_des_ursins = {
+	name = "dynn_juvénal_des_ursins"
+	culture = "french"
+}
+
+CKU_clermont = {
+	name = "dynn_clermont"
+	culture = "french"
+}
+
 
 
 
