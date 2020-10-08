@@ -94,7 +94,7 @@
 				}
 			}
 		#}
-		# County of Armagnac = {
+		# House Armagnac = {
 			c_armagnac = {
 				1418.1.1 = {
 					holder = CKU_armagnac_2
@@ -107,8 +107,18 @@
 					liege = d_bourbon
 				}
 			}
+			b_pardiac = {
+				1418.1.1 = {
+					holder = CKU_armagnac_10
+				}
+			}
+			b_carlat = {
+				1435.1.1 = {
+					holder = CKU_armagnac_10
+				}
+			}
 		#}
-		# Duchy of Foix = {
+		# House Foix = {
 			c_foix = {
 				1436.5.4 = {
 					holder = CKU_foix_6
@@ -221,6 +231,22 @@
 				}
 			}
 		#}
+		# County of Périgord = {
+			c_perigord = {
+				1437.1.1 = {
+					holder = CKU_chatillon_8
+					liege = k_france
+				}
+			}
+		#}
+		# Viscount of Limoges = {
+			c_limousin = {
+				1404.1.1 = {
+					holder = CKU_chatillon_11
+					liege = k_france
+				}
+			}
+		#}
 		# Count of Montfort = {
 			b_montfort = {
 				1427.2.15 = {
@@ -233,14 +259,6 @@
 				1442.1.1 = {
 					holder = CKU_bourgogne_14
 					liege = c_ile_de_france
-				}
-			}
-		#}
-		# Count of Dreux = {
-			b_dreux = {
-				1442.1.1 = {
-					holder = CKU_albret_13
-					liege = c_chartres
 				}
 			}
 		#}
@@ -264,12 +282,21 @@
 				}
 			}
 		#}
-		# Archdiocese of Reims = {
+		# Bishop of Lyon = {
 			c_lyon = {
 				1444.6.6 = {
 					government = theocracy_government
 					holder = CKU_bourbon_5
 					liege = d_dauphine
+				}
+			}
+		#}
+		# Bishop of Chalon = {
+			c_chalons = {
+				1440.7.1 = {
+					government = theocracy_government
+					holder = CKU_francien_minor_10
+					liege = k_france
 				}
 			}
 		#}
@@ -326,10 +353,9 @@
 		
 		
 		
-		
-		c_perigord = {
-			1437.1.1 = {
-				holder = CKU_harcourt_1 # House de Chatillon
-			}
-		}
+		#c_perigord = {
+		#	1437.1.1 = {
+		#		holder = CKU_francien_test_1
+		#	}
+		#}
 #}

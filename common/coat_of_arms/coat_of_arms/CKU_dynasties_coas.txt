@@ -1099,8 +1099,8 @@ house_longueville = {
 		instance = { position = { 0.50 0.20 } scale = { 0.25 0.25 }  }		
 		instance = { position = { 0.75 0.20 } scale = { 0.25 0.25 }  }		
 		
-		instance = { position = { 0.25 0.50 } scale = { 0.25 0.25 }  }
-		instance = { position = { 0.75 0.50 } scale = { 0.25 0.25 }  }		
+		instance = { position = { 0.25 0.55 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.75 0.55 } scale = { 0.25 0.25 }  }		
 		
 		instance = { position = { 0.50 0.80 } scale = { 0.25 0.25 }  }		
 	}
