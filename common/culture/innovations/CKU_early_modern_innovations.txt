@@ -218,4 +218,24 @@ innovation_civic_8 = {
 	
 }
 
+innovation_gallowglass = {
+	group = culture_group_regional
+	culture_era = culture_era_early_modern
 
+	potential = {
+		OR = {
+			this = culture:gaelic
+			this = culture:scottish
+		}
+	}
+
+	icon = @maa_01
+	
+	modifier = {
+		mercenary_count_mult = 1
+		same_culture_mercenary_hire_cost_mult = -0.25
+	}
+
+	flag = global_regional
+	flag = early_modern_era_regional
+}

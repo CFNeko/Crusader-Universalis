@@ -180,3 +180,8 @@ CKU_mecklenburg_werle = {
 	name = "dynn_Mecklenburg_werle"
 	culture = "pommeranian"
 }
+
+CKU_kastrioti = {
+	name = "dynn_Kastrioti"
+	culture = "albanian"
+}
