@@ -2,6 +2,7 @@
  # CULTURES #############
 
  # ALBANIAN
+ illyrian_group:0 "Illyrian"
  albanian:0 "Albanian"
  albanian_collective_noun:0 "Albanians"
 
@@ -44,6 +45,8 @@
  tuscan_collective_noun: "Tuscan"
  venetian: "Venetian"
  venetian_collective_noun: "Venetian"
+ maltese:0 "Maltese"
+ maltese_collective_noun:1 "Maltese"
 
  # SLAVIC
  sorbian:0 "Sorbian"
