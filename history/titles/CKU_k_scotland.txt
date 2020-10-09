@@ -3,3 +3,23 @@ k_scotland = {
 		holder = CKU_scottish_4
 	}
 }
+
+d_the_isles = {
+	1423.1.1 = {
+		holder = CKU_scottish_5
+		liege = k_scotland
+	}
+	1449.1.1 = {
+		holder = CKU_scottish_6
+	}
+}
+
+d_western_isles  = {
+	1423.1.1 = {
+		holder = CKU_scottish_5
+		liege = k_scotland
+	}
+	1449.1.1 = {
+		holder = CKU_scottish_6
+	}
+}

@@ -185,3 +185,8 @@ CKU_kastrioti = {
 	name = "dynn_Kastrioti"
 	culture = "albanian"
 }
+
+CKU_MacDonald = {
+	name = "dynn_Macdonald"
+	culture = "scots"
+}
