@@ -1,0 +1,21 @@
+﻿colonisable_holding = {
+	primary_building = colonisable_01
+
+	buildings = {
+		longhouses_01
+	}
+
+	flag = tribal
+}
+
+colony_holding = {
+	primary_building = colony_01
+
+	buildings = {
+		outposts_01
+		pastures_01
+		common_tradeport_01
+	}
+
+	can_be_inherited = yes
+}

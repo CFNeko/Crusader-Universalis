@@ -452,17 +452,4 @@ d_count_palatinate = {
 		@better_than_the_alternatives_score = 50
 	}
 }
-e_timurids = {
-	color = { 140 20 20 }
-	color2 = { 140 20 20 }
-	definite_form = yes
-	ruler_uses_title_name = yes
-	no_automatic_claims = yes
-	landless = yes
-	
-	capital = c_herat
-	
-	ai_primary_priority = {
-		@better_than_the_alternatives_score = 100
-	}
-}
+
