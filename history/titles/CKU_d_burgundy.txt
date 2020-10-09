@@ -55,6 +55,9 @@ d_brabant = {
 				government = CKU_governor_government
 				holder = CKU_nassau_44 # Governor
 				liege = d_burgundy
+				succession_laws = {
+					stadholder_succession_law
+				}
 			}
 		}
 		c_antwerpen = {
