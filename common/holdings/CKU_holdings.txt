@@ -12,9 +12,8 @@ colony_holding = {
 	primary_building = colony_01
 
 	buildings = {
-		outposts_01
-		pastures_01
-		common_tradeport_01
+		colony_housing_district_01
+		colony_housing_district_02
 	}
 
 	can_be_inherited = yes

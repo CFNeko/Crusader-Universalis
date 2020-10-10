@@ -114,13 +114,14 @@ innovation_military_6 = {
 }
 
 #culture_group_civic
-innovation_civic_1 = {
+innovation_colonising = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @majesty_01
+	icon = @civil_construction_1
 	
-	unlock_law = single_heir_succession_law
-	unlock_law = single_heir_succession_law_youngest
+	modifier = {
+		development_growth_factor = 0.1
+	}
 
 	flag = global_regular
 	flag = early_modern_era_regular

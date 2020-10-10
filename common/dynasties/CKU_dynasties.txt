@@ -43,7 +43,6 @@ CKU_amboise = {
 	culture = "french"
 }
 
-
 CKU_adorno = {
 	name = "dynn_adorno"
 	culture = ligurian
@@ -196,5 +195,15 @@ CKU_kastrioti = {
 
 CKU_MacDonald = {
 	name = "dynn_Macdonald"
+	culture = "scots"
+}
+
+CKU_Dunbar = {
+	name = "dynn_Dunbar"
+	culture = "scots"
+}
+
+CKU_Hamilton = {
+	name = "dynn_Hamilton"
 	culture = "scots"
 }

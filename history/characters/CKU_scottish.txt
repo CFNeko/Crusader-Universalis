@@ -86,4 +86,65 @@
 			death = yes
 		}
 	}
+	CKU_scottish_8 = {
+		name = "Thomas"
+		religion = catholic
+		culture = scottish
+		dynasty = CKU_Dunbar
+		1370.1.1 = {
+			birth = yes
+		}
+		1422.1.1 = {
+			death = yes
+		}
+	}
+	CKU_scottish_9 = {
+		name = "Thomas"
+		religion = catholic
+		culture = scottish
+		dynasty = CKU_Dunbar
+		father = CKU_scottish_8
+		1390.1.1 = {
+			birth = yes
+		}
+		1429.1.1 = {
+			death = yes
+		}
+	}
+	CKU_scottish_10 = {
+		name = "James"
+		religion = catholic
+		culture = scottish
+		dynasty = CKU_Dunbar
+		father = CKU_scottish_9
+		1415.1.1 = {
+			birth = yes
+		}
+		1455.1.1 = {
+			death = yes
+		}
+	}
+	CKU_scottish_11 = {
+		name = "James"
+		religion = catholic
+		culture = scottish
+		dynasty = CKU_Hamilton
+		1415.1.1 = {
+			birth = yes
+		}
+		1479.1.1 = {
+			death = yes
+		}
+	}
+	CKU_scottish_12 = {  #Fictional
+		name = "Edward"
+		religion = catholic
+		culture = scottish
+		1415.1.1 = {
+			birth = yes
+		}
+		1455.1.1 = {
+			death = yes
+		}
+	}
 #}

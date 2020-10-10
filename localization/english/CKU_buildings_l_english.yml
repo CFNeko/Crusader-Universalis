@@ -8,7 +8,7 @@
 ##### COLONIAL SHIT #####
  colonisable_government:0 "Native"
  colonisable_holding:0 "Native"
- building_type_colonisalble_01:0 "Unreformed Tribe"
+ building_type_colonisable_01:0 "Unreformed Tribe"
  building_colonisalble_01:0 "Small Village"
  building_colonisable_01_desc:0 "An unreformed tribe with a tiny population which can be colonised"
  colonise_colonisable_holding_interaction:0 "Colonise Holding"

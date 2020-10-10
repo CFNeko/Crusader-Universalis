@@ -80,3 +80,75 @@ colony_01 = {
 		base = 1
 	}
 }
+
+colony_housing_district_01 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = colony_01
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_1_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_1
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+	
+	next_building = colony_housing_district_02
+
+	type_icon = "icon_building_guild_halls.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = colonial_government
+			}
+		}
+	}
+}
+colony_housing_district_02 = {
+	construction_time = standard_construction_time
+
+	can_construct_potential = {
+		has_building_or_higher = colony_01
+		culture = {
+			has_innovation = innovation_colonising
+		}
+	}
+
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	cost_gold = normal_building_tier_2_cost
+	
+	province_modifier = {
+		monthly_income = normal_building_tax_tier_2
+	}
+	county_modifier = {
+		development_growth_factor = 0.15
+	}
+	
+	#next_building = colony_housing_district_03
+
+	type_icon = "icon_building_guild_halls.dds"
+	
+	ai_value = {
+		base = 500
+		modifier = {
+			add = 500
+			scope:holder = {
+				has_government = colonial_government
+			}
+		}
+	}
+}
