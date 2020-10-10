@@ -35,8 +35,6 @@
 	culture = irish
 	religion = insular_celtic
 	terrain = hills
-
-	holding = colonisable_holding
 	
 }
 

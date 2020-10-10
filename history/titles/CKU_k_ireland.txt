@@ -382,13 +382,13 @@ d_ulster = {
 c_ulster = {
 	750.1.1 = {
 		holder = 160194
-		government = colonisable_government
+		government = tribal_government
 	}
 	857.1.1 = {
 		holder = 163114
 	}
 	935.1.1 = {
-		#government = feudal_government	#Ahistorical, just for ease of bookmarks.
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1066.1.1 = {
 		holder = 6180
@@ -428,9 +428,6 @@ c_ulster = {
 	}
 	1329.7.29 = {
 		holder = 454613
-	}
-	1333.6.6 = {
-		government = colonisable_government
 	}
 	
 	
