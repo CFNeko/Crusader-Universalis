@@ -23,11 +23,6 @@ CKU_juvénal_des_ursins = {
 	culture = "french"
 }
 
-CKU_juvénal_des_ursins = {
-	name = "dynn_juvénal_des_ursins"
-	culture = "french"
-}
-
 CKU_clermont = {
 	name = "dynn_clermont"
 	culture = "french"
@@ -40,6 +35,16 @@ CKU_tremoille = {
 
 CKU_amboise = {
 	name = "dynn_amboise"
+	culture = "french"
+}
+
+CKU_belleville = {
+	name = "dynn_belleville"
+	culture = "french"
+}
+
+CKU_breze = {
+	name = "dynn_breze"
 	culture = "french"
 }
 

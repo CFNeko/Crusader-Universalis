@@ -28,18 +28,6 @@ d_gascogne = {
 	}
 }
 
-c_maine = {
-	1440.1.1 = {
-		holder = CKU_english_1
-	}
-}
-
-c_sable = {
-	1440.1.1 = {
-		holder = CKU_english_1
-	}
-}
-
 b_calais = {
 	1440.1.1 = {
 		holder = CKU_english_1

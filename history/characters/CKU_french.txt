@@ -3014,9 +3014,9 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			# dynasty = Unknown
+			dynasty = CKU_belleville
 			# father = Unknown
-			# Marguerite de Valois
+			# Married Marguerite de Valois
 			1411.1.1 = {
 				birth = yes
 			}
@@ -3027,12 +3027,78 @@
 				death = yes
 			}
 		}
+		CKU_francien_minor_12 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			# dynasty = Unknown
+			# father = Unknown
+			1400.1.1 = {
+				birth = yes
+			}
+			1471.4.21 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_13 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = CKU_breze
+			# father = Pierre de Breze
+			# Married Jeanne de Crespin
+			1410.1.1 = {
+				birth = yes
+			}
+			1465.7.16 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_14 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = CKU_breze
+			father = CKU_francien_minor_13
+			1440.1.1 = {
+				birth = yes
+			}
+			1494.8.14 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_15 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			# father = Unknown
+			1406.1.28 = {
+				birth = yes
+			}
+			1486.9.2 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_16 = {
+			name = "Yuan"
+			religion = catholic
+			culture = castilian
+			# dynasty = Borgia
+			# father = Unknown
+			1418.1.1 = {
+				birth = yes
+			}
+			1461.1.1 = {
+				death = yes
+			}
+		}
 		######## Test Character ########
 		CKU_francien_test_1 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
-			# dynasty = CKU_amboise
+			dynasty = 681
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -4102,9 +4168,6 @@
 			# Married Isabelle de Lorraine
 			1409.1.16 = {
 				birth = yes
-				# As part of the Duchy of Anjou
-				add_pressed_claim = c_sable
-				add_pressed_claim = c_maine
 			}
 			1420.10.20 = {
 				add_spouse = CKU_swabian_lord_2
@@ -4308,9 +4371,6 @@
 			# Married Isabelle von Luxembourg
 			1414.10.14 = {
 				birth = yes
-			}
-			1434.1.1 = {
-				add_pressed_claim = c_maine
 			}
 			1472.4.10 = {
 				death = yes

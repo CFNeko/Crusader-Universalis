@@ -66,3 +66,9 @@ house_longueville = { # Cadet branch of Valois-Orleans
 	name = "dynn_longueville"
 	dynasty = 101
 }
+
+# Ivrea
+house_chalon = {
+	name = "dynn_chalon"
+	dynasty = 681
+}
