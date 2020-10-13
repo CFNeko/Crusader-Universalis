@@ -582,10 +582,6 @@
 			1402.11.23 = {
 				birth = yes
 			}
-			1439.1.1 = {
-				employer = CKU_francien_1
-				give_council_position = councillor_chancellor
-			}
 			1468.11.24 = {
 				death = yes
 			}
@@ -2922,6 +2918,10 @@
 			1400.3.15 = {
 				birth = yes
 			}
+			1444.1.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_chancellor
+			}
 			1472.3.23 = {
 				death = yes
 			}
@@ -2936,6 +2936,7 @@
 				birth = yes
 			}
 			1429.1.1 = {
+				employer = CKU_francien_1
 				give_council_position = councillor_court_chaplain # Does not work properly
 			}
 			1473.7.14 = {
@@ -2970,6 +2971,7 @@
 		}
 		CKU_francien_minor_8 = {
 			name = "Agnès Sorel"
+			dna = CKU_francien_minor_8_dna
 			female = yes
 			religion = "catholic"
 			culture = french
@@ -3090,6 +3092,60 @@
 				birth = yes
 			}
 			1461.1.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_17 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			# dynasty = # Culant
+			# father = # Jean Culant
+			1413.1.1 = {
+				birth = yes
+			}
+			1441.3.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_marshal
+			}
+			1454.12.1 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_18 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			# dynasty = # Bureau
+			# father = # Simon Culant
+			trait = military_engineer
+			trait = education_martial_4
+			trait = brave
+			trait = diligent
+			trait = intellect_good_1
+			1390.1.1 = {
+				birth = yes
+			}
+			1463.7.2 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_19 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			# dynasty = # Cœur
+			# father = # Pierre Cœur
+			trait = education_stewardship_4
+			trait = education_learning_3
+			trait = diligent
+			trait = stubborn
+			trait = ambitious
+			trait = intellect_good_2
+			1395.1.1 = {
+				birth = yes
+			}
+			1456.11.25 = {
 				death = yes
 			}
 		}
@@ -4862,6 +4918,10 @@
 			# Married Jeanne de Laval
 			1376.1.1 = {
 				birth = yes
+			}
+			1408.1.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_steward
 			}
 			1446.12.21 = {
 				death = yes

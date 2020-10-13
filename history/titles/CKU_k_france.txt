@@ -191,7 +191,8 @@
 			c_vendome = {
 				1403.1.1 = {
 					holder = CKU_bourbon_31
-					liege = d_orleans
+					liege = k_france
+					#liege = d_orleans
 				}
 			}
 		#}
