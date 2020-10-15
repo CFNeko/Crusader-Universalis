@@ -101,12 +101,12 @@ innovation_military_6 = {
 	icon =  @weapons_and_armor_02
 	
 	maa_upgrade = {
-		type = heavy_infantry
-		toughness = 3
+		type = culverin
+		siege_value = 0.1
+		damage = 50
 	}
-	maa_upgrade = {
-		type = heavy_cavalry
-		toughness = 3
+	modifier = {
+		men_at_arms_maintenance = 0.10
 	}
 	flag = global_regular
 	flag = early_modern_era_regular
