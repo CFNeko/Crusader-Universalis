@@ -592,7 +592,508 @@
 		}
 	}
 #}
-
+# mahra = {
+	d_mahra = {
+		1435.1.1 = {
+			holder = CKU_mahra_1
+			liege = 0
+		}
+	}
+	c_socotra = {
+		1435.1.1 = {
+			holder = CKU_mahra_1
+		}
+	}
+#}
+# kathiri = {
+	d_hadramawt = {
+		1444.1.1 = {
+			holder = CKU_kathiri_1
+			liege = 0
+		}
+	}
+#}
+# aden = {
+	d_taizz = {
+		1442.1.1 = {
+			holder = CKU_aden_1
+		}
+	}
+	c_jawf-al-yamani = {
+		1442.1.1 = {
+			holder = CKU_aden_1
+		}
+	}
+#}
+# yemen = {
+	d_sanaa = {
+		1443.1.1 = {
+			holder = CKU_yemen_1
+		}
+	}
+	c_mandab = {
+		1443.1.1 = {
+			holder = CKU_yemen_1
+		}
+	}
+#}
+# rasulid = {
+	k_yemen = {
+		1443.1.1 = {
+			holder = CKU_rasulid_1
+		}
+	}
+	c_wabar = {
+		1443.1.1 = {
+			holder = CKU_rasulid_1
+		}
+	}
+	c_najran = {
+		1443.1.1 = {
+			holder = CKU_rasulid_1
+		}
+	}
+	c_sanaa = {
+		1443.1.1 = {
+			holder = CKU_rasulid_1
+		}
+	}
+#}
+# mamluks = {
+	k_egypt = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	k_syria = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	d_palestine = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	d_urdunn = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	d_oultrejourdain = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	d_shammar = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	d_bazin = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	c_aydhab = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	c_allaqi = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+	c_maab = {
+		1438.1.1 = {
+			holder = CKU_mamluks_1
+		}
+	}
+#}
+# hejaz = {
+	d_mecca = {
+		1444.1.1 = {
+			holder = CKU_hejaz_1
+			liege = k_egypt
+		}
+	}
+	c_harrat_rahat = {
+		1444.1.1 = {
+			holder = CKU_hejaz_1
+		}
+	}
+#}
+# madinah = {
+	d_medina = {
+		1444.1.1 = {
+			holder = CKU_medina_1
+			liege = k_egypt
+		}
+	}
+#}
+# al-Fadl = {
+	d_palmyra = {
+		1444.1.1 = {
+			holder = CKU_fadl_1
+			liege = k_egypt
+		}
+	}
+	c_syrrusafa = {
+		1444.1.1 = {
+			holder = CKU_fadl_1
+		}
+	}
+	c_juwair = {
+		1444.1.1 = {
+			holder = CKU_fadl_1
+		}
+	}
+#}
+# anizah = {
+	c_tabuk = {
+		1444.1.1 = {
+			holder = CKU_anizah_1
+			liege = 0
+		}
+	}
+	c_tayma = {
+		1444.1.1 = {
+			holder = CKU_anizah_1
+		}
+	}
+	c_sirhan = {
+		1444.1.1 = {
+			holder = CKU_anizah_1
+		}
+	}
+	c_jilat = {
+		1444.1.1 = {
+			holder = CKU_anizah_1
+		}
+	}
+	c_balqa = {
+		1444.1.1 = {
+			holder = CKU_anizah_1
+		}
+	}
+	c_hauran = {
+		1444.1.1 = {
+			holder = CKU_anizah_1
+		}
+	}
+#}
+# shammar = {
+	d_jawf = {
+		1444.1.1 = {
+			holder = CKU_shammar_1
+		}
+	}
+	c_shaqiq = {
+		1444.1.1 = {
+			holder = CKU_shammar_1
+		}
+	}
+	c_hail = {
+		1444.1.1 = {
+			holder = CKU_shammar_1
+		}
+	}
+#}
+# najd = {
+	d_najd = {
+		1444.1.1 = {
+			holder = CKU_najd_1
+		}
+	}
+	c_al-arid = {
+		1444.1.1 = {
+			holder = CKU_najd_1
+		}
+	}
+#}
+# dawasir = {
+	d_asir = {
+		1444.1.1 = {
+			holder = CKU_dawasir_1
+		}
+	}
+	d_yamama = {
+		1444.1.1 = {
+			holder = CKU_dawasir_1
+		}
+	}
+#}
+# dulkadir = {
+	d_edessa = {
+		1444.1.1 = {
+			holder = CKU_dulkadir_1
+		}
+	}
+	c_elbistan = {
+		1444.1.1 = {
+			holder = CKU_dulkadir_1
+		}
+	}
+	c_azysia = {
+		1444.1.1 = {
+			holder = CKU_dulkadir_1
+		}
+	}
+#}
+# ramazan = {
+	d_cilicia = {
+		1444.1.1 = {
+			holder = CKU_ramazan_1
+		}
+	}
+#}
+# sinope = {
+	c_sinope = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+	c_paflagonya = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+#}
+# karamanids = {
+	d_anatolia = {
+		1444.1.1 = {
+			holder = CKU_karamanids_1
+		}
+	}
+	d_cappadocia = {
+		1444.1.1 = {
+			holder = CKU_karamanids_1
+		}
+	}
+	d_charsianon = {
+		1444.1.1 = {
+			holder = CKU_karamanids_1
+		}
+	}
+	c_pamphylia = {
+		1444.1.1 = {
+			holder = CKU_karamanids_1
+		}
+	}
+#}
+# trebizond = {
+	c_trapezous = {
+		1444.1.1 = {
+			holder = CKU_trebizond_1
+		}
+	}
+	c_kerasous = {
+		1444.1.1 = {
+			holder = CKU_trebizond_1
+		}
+	}
+#}
+# tunis = {
+	k_africa = {
+		1444.1.1 = {
+			holder = CKU_tunis_1
+		}
+	}
+	d_bejaia = {
+		1444.1.1 = {
+			holder = CKU_tunis_1
+		}
+	}
+	c_algier = {
+		1444.1.1 = {
+			holder = CKU_tunis_1
+		}
+	}
+	c_djerba = {
+		1444.1.1 = {
+			holder = CKU_tunis_1
+		}
+	}
+#}
+# tripolitana = {
+	d_tripolitania = {
+		1444.1.1 = {
+			holder = CKU_tripolitana_1
+		}
+	}
+	c_labda = {
+		1444.1.1 = {
+			holder = CKU_tripolitana_1
+		}
+	}
+#}
+# cyrenaica = {
+	c_syrte = {
+		1444.1.1 = {
+			holder = CKU_cyrenaica_1
+		}
+	}
+#}
+# tlemcen = {
+	k_tahert = {
+		1444.1.1 = {
+			holder = CKU_tlemcen_1
+		}
+	}
+#}
+# morocco = {
+	k_maghreb = {
+		1444.1.1 = {
+			holder = CKU_tlemcen_1
+		}
+	}
+#}
+# marrakesh = {
+	c_marrakesh = {
+		1444.1.1 = {
+			holder = CKU_marrakesh_1
+		}
+	}
+	c_asfi = {
+		1444.1.1 = {
+			holder = CKU_marrakesh_1
+		}
+	}
+	c_tamasna = {
+		1444.1.1 = {
+			holder = CKU_marrakesh_1
+		}
+	}
+	c_tinmallal = {
+		1444.1.1 = {
+			holder = CKU_marrakesh_1
+		}
+	}
+#}
+# sous = {
+	c_sous = {
+		1444.1.1 = {
+			holder = CKU_sous_1
+		}
+	}
+	c_agadir = {
+		1444.1.1 = {
+			holder = CKU_sous_1
+		}
+	}
+	c_ifni = {
+		1444.1.1 = {
+			holder = CKU_sous_1
+		}
+	}
+#}
+# draa = {
+	c_draa = {
+		1444.1.1 = {
+			holder = CKU_draa_1
+		}
+	}
+	c_tudgha = {
+		1444.1.1 = {
+			holder = CKU_draa_1
+		}
+	}
+	c_ziz = {
+		1444.1.1 = {
+			holder = CKU_draa_1
+		}
+	}
+	c_sijilmasa = {
+		1444.1.1 = {
+			holder = CKU_draa_1
+		}
+	}
+#}
+# fezzan = {
+	d_fezzan = {
+		1444.1.1 = {
+			holder = CKU_fezzan_1
+		}
+	}
+#}
+# ghadames = {
+	c_ghadames = {
+		1444.1.1 = {
+			holder = CKU_ghadames_1
+		}
+	}
+	c_ghat = {
+		1444.1.1 = {
+			holder = CKU_ghadames_1
+		}
+	}
+#}
+# mzab = {
+	c_hodna = {
+		1444.1.1 = {
+			holder = CKU_mzab_1
+		}
+	}
+	c_biskra = {
+		1444.1.1 = {
+			holder = CKU_mzab_1
+		}
+	}
+	c_ashir = {
+		1444.1.1 = {
+			holder = CKU_mzab_1
+		}
+	}
+#}
+# touggourt = {
+	c_laghwat = {
+		1444.1.1 = {
+			holder = CKU_touggourt_1
+		}
+	}
+	c_ghardaia = {
+		1444.1.1 = {
+			holder = CKU_touggourt_1
+		}
+	}
+#}
+# djerid = {
+	c_arigh = {
+		1444.1.1 = {
+			holder = CKU_djerid_1
+		}
+	}
+	c_qashtiliya = {
+		1444.1.1 = {
+			holder = CKU_djerid_1
+		}
+	}
+	c_souf = {
+		1444.1.1 = {
+			holder = CKU_djerid_1
+		}
+	}
+#}
+# tuat = {
+	c_touat = {
+		1444.1.1 = {
+			holder = CKU_tuat_1
+		}
+	}
+	c_tamentit = {
+		1444.1.1 = {
+			holder = CKU_tuat_1
+		}
+	}
+#}
+# figuig = {
+	c_figuig = {
+		1444.1.1 = {
+			holder = CKU_figuig_1
+		}
+	}
+#}
 
 
 
