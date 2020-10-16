@@ -29,6 +29,9 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+
 #culture_group_military
 innovation_military_1 = {
 	group = culture_group_military
@@ -43,7 +46,7 @@ innovation_military_1 = {
 innovation_military_2 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon = @siege_weapons
+	icon = @culverin
 
 	unlock_maa = bombard
 
@@ -69,7 +72,7 @@ innovation_military_3 = {
 innovation_military_4 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon = @leadership_2
+	icon = @arquebus
 	
 	modifier = {
 		men_at_arms_cap = 1
