@@ -4307,12 +4307,15 @@
 		}
 		CKU_anjou_6 = {
 			name = "Marguerite"
+			dna = CKU_anjou_6_dna
 			female = yes
 			religion = catholic
 			culture = french
 			dynasty_house = house_anjou
 			father = CKU_anjou_1
 			mother = CKU_swabian_lord_2
+			trait = ambitious
+			trait = diligent
 			1430.3.23 = {
 				birth = yes
 			}
@@ -4434,6 +4437,7 @@
 		}
 		CKU_anjou_14 = {
 			name = "Marie"
+			dna = CKU_anjou_14_dna
 			female = yes
 			religion = catholic
 			culture = french

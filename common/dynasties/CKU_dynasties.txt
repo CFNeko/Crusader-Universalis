@@ -1,9 +1,11 @@
 ﻿CKU_luxembourg = {
+	prefix = "dynnp_de"
 	name = "dynn_luxembourg"
 	culture = french
 }
 
 CKU_tour_auvergene = {
+	prefix = "dynnp_de_la"
 	name = "dynn_tour_auvergene"
 	culture = french
 }
@@ -14,36 +16,42 @@ CKU_valois_bourgogne = {
 }
 
 CKU_josne = {
+	prefix = "dynnp_de"
 	name = "dynn_josne"
 	culture = "french"
 }
 
 CKU_juvénal_des_ursins = {
-	name = "dynn_juvénal_des_ursins"
+	name = "dynn_juvenal_des_ursins"
 	culture = "french"
 }
 
 CKU_clermont = {
+	prefix = "dynnp_de"
 	name = "dynn_clermont"
 	culture = "french"
 }
 
 CKU_tremoille = {
+	prefix = "dynnp_de_la"
 	name = "dynn_tremoille"
 	culture = "french"
 }
 
 CKU_amboise = {
+	prefix = "dynnp_d_"
 	name = "dynn_amboise"
 	culture = "french"
 }
 
 CKU_belleville = {
+	prefix = "dynnp_de"
 	name = "dynn_belleville"
 	culture = "french"
 }
 
 CKU_breze = {
+	prefix = "dynnp_de"
 	name = "dynn_breze"
 	culture = "french"
 }
@@ -64,11 +72,13 @@ CKU_arrigucci = {
 }
 
 CKU_bar = {
+	prefix = "dynnp_de"
 	name = "dynn_bar"
 	culture = ligurian
 }
 
 CKU_berry = {
+	prefix = "dynnp_de"
 	name = "dynn_berry"
 	culture = ligurian
 }
@@ -79,6 +89,7 @@ CKU_bogdan = {
 }
 
 CKU_bueil = {
+	prefix = "dynnp_de"
 	name = "dynn_bueil"
 	culture = french
 }
@@ -89,6 +100,7 @@ CKU_bueri = {
 }
 
 CKU_clyte = {
+	prefix = "dynnp_de_la"
 	name = "dynn_clyte"
 	culture = french
 }
@@ -141,6 +153,7 @@ CKU_foscari = {
 }
 
 CKU_lalaing = {
+	prefix = "dynnp_de"
 	name = "dynn_lalaing"
 	culture = flemish
 }
