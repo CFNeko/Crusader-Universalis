@@ -425,7 +425,7 @@
 # mamluks = {
 	CKU_mamluks_1 = {
 		name = "Sayf ad-Din Jaqmaq"
-		dynasty = dynn_burji
+		dynasty = dynn_a_burji
 		religion = muwalladi
 		culture = egyptian
 		1373.1.1 = {
@@ -577,7 +577,7 @@
 	}
 #}
 # tripolitana = {
-	CKU_tripolitania_1 = {
+	CKU_tripolitana_1 = {
 		name = "Abd al-Wahid Banû"
 		dynasty = dynn_hafs
 		religion = muwalladi
@@ -621,7 +621,7 @@
 	}
 #}
 # marrakesh = {
-	CKU_marrakech_1 = {
+	CKU_marrakesh_1 = {
 		name = "Shantuf"
 		dynasty = dynn_hintata
 		religion = muwalladi
@@ -659,7 +659,9 @@
 		dynasty = dynn_khattab
 		religion = muwalladi
 		culture = butr
-		
+		1404.1.1 = {
+			birth = yes
+		}
 	}
 #}
 # ghadames = {
@@ -728,27 +730,4 @@
 		}
 	}
 #}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
