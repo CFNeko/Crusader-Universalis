@@ -1,10 +1,4 @@
-﻿CKU_luxembourg = {
-	prefix = "dynnp_de"
-	name = "dynn_luxembourg"
-	culture = french
-}
-
-CKU_tour_auvergene = {
+﻿CKU_tour_auvergene = {
 	prefix = "dynnp_de_la"
 	name = "dynn_tour_auvergene"
 	culture = french
@@ -105,6 +99,18 @@ CKU_croy = {
 	prefix = "dynnp_de"
 	name = "dynn_croy"
 	culture = french
+}
+
+CKU_chamaillard = {
+	prefix = "dynnp_de"
+	name = "dynn_chamaillard"
+	culture = "french"
+}
+
+CKU_melun = {
+	prefix = "dynnp_de"
+	name = "dynn_melun"
+	culture = "french"
 }
 
 CKU_dampierre_flanders = {
