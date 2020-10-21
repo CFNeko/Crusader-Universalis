@@ -573,7 +573,7 @@
 				death = yes
 			}
 		}
-		CKU_orleans_8 = {
+		CKU_orleans_8 = { # Check
 			name = "Jean"
 			religion = catholic
 			culture = french
@@ -587,7 +587,7 @@
 				birth = yes
 			}
 			1439.10.26 = {
-				add_spouse = CKU_harcourt_13
+				add_spouse = CKU_harcourt_15
 			}
 			1468.11.24 = {
 				death = yes
@@ -599,7 +599,7 @@
 			culture = french
 			dynasty_house = house_longueville
 			father = CKU_orleans_8
-			#mother = Marie Louvet
+			mother = CKU_harcourt_15
 			1443.1.1 = {
 				birth = yes
 			}
@@ -902,7 +902,7 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
+			mother = CKU_melun_11
 			# Married Simon de Thouars
 			1353.1.1 = {
 				birth = yes
@@ -917,7 +917,7 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
+			mother = CKU_melun_11
 			1355.1.1 = {
 				birth = yes
 			}
@@ -931,7 +931,7 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
+			mother = CKU_melun_11
 			# Married Jeanne de Anjou-Durazzo
 			1356.1.1 = {
 				birth = yes
@@ -946,7 +946,7 @@
 			religion = "catholic"
 			culture = french
 			father = 455520
-			# mother = Isabelle de Melun
+			mother = CKU_melun_11
 			# Married Marie de Valois
 			1358.1.1 = {
 				birth = yes
@@ -1573,6 +1573,9 @@
 			1385.1.1 = {
 				birth = yes
 			}
+			1417.1.1 = {
+				add_spouse = CKU_melun_14
+			}
 			1428.1.1 = {
 				death = yes
 			}
@@ -1599,7 +1602,7 @@
 			culture = french
 			dynasty = 530
 			father = CKU_harcourt_12
-			# mother = Marguerite de Melun
+			mother = CKU_melun_14
 			# Married Péronnelle de Thouars
 			1420.1.1 = {
 				birth = yes
@@ -1608,6 +1611,22 @@
 				add_spouse = CKU_amboise_9
 			}
 			1487.11.14 = {
+				death = yes
+			}
+		}
+		CKU_harcourt_15 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 530
+			father = CKU_harcourt_12
+			mother = CKU_melun_14
+			# Married Jean de Orleans
+			1420.1.1 = {
+				birth = yes
+			}
+			1464.9.1 = {
 				death = yes
 			}
 		}
@@ -2930,6 +2949,270 @@
 				death = yes
 			}
 		}
+		CKU_melun_6 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			# Married Jeanne de Crespin
+			1325.1.1 = {
+				birth = yes
+			}
+			1382.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_7 = {
+			name = "Adam"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			1327.1.1 = {
+				birth = yes
+			}
+			1362.4.22 = {
+				death = yes
+			}
+		}
+		CKU_melun_8 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			1328.1.1 = {
+				birth = yes
+			}
+			1376.5.3 = {
+				death = yes
+			}
+		}
+		CKU_melun_9 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Jeanne de Tancarville
+			# Married Isabelle de Chatenoy
+			1327.1.1 = {
+				birth = yes
+			}
+			1378.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_10 = {
+			name = "Hugues"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Isabelle de Antoing
+			# Married Marguerite de Picquigny
+			# Married Béatrix de Beaumont
+			1330.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_11 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_2
+			# mother = Isabelle de Antoing
+			# Married Pierre de Dreux
+			# Married Jean de Artois
+			1332.1.1 = {
+				birth = yes
+			}
+			1352.7.11 = {
+				add_spouse = 455520
+			}
+			1389.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_12 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_6
+			# mother = Jeanne de Crespin
+			1335.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_13 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_6
+			# mother = Jeanne de Crespin
+			# Married Jeanne de Parthenay
+			1337.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_melun_14 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_13
+			# mother = Jeanne de Parthenay
+			# Married Jacques de Harcourt
+			1392.1.1 = {
+				birth = yes
+			}
+			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_15 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_9
+			# mother = Isabelle de Chatenoy
+			1350.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_16 = {
+			name = "Isabeau"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_10
+			# mother = Marguerite de Picquigny
+			# Married Bertrand de la Bouverie
+			1376.1.1 = {
+				birth = yes
+			}
+			1409.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_17 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_10
+			# mother = Béatrix de Beaumont
+			# Married Jeanne de Luxembourg
+			# Married Jeanne de Abbeville
+			1396.1.1 = {
+				birth = yes
+			}
+			1419.1.1 = {
+				add_spouse = CKU_luxembourg_ligny_23
+			}
+			1484.2.15 = {
+				death = yes
+			}
+		}
+		CKU_melun_18 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_10
+			# mother = Béatrix de Beaumont
+			# Married Jacques de Montmorency
+			1330.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_19 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			1430.1.1 = {
+				birth = yes
+			}
+			1513.10.25 = {
+				death = yes
+			}
+		}
+		CKU_melun_20 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			# Married Thibaud de Luxembourg-Ligny
+			1420.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_21 = {
+			name = "Helene"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			1431.1.1 = {
+				birth = yes
+			}
+			1472.1.1 = {
+				death = yes
+			}
+		}
+		CKU_melun_22 = {
+			name = "Jean"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_melun
+			father = CKU_melun_17
+			# mother = Jeanne de Abbeville
+			1433.1.1 = {
+				birth = yes
+			}
+			1446.1.1 = {
+				death = yes
+			}
+		}
 	#}
 	# Sancerre = {
 		CKU_sancerre_1 = {
@@ -3364,7 +3647,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = CKU_melun
+			dynasty = CKU_louvet
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -3503,6 +3786,7 @@
 			trait = rowdy
 			trait = wrathful
 			trait = ambitious
+			trait = zealous
 			1433.11.10 = {
 				birth = yes
 			}
@@ -4791,6 +5075,9 @@
 			# Married Philippe de Melun
 			1410.1.1 = {
 				birth = yes
+			}
+			1441.1.1 = {
+				add_spouse = CKU_melun_20
 			}
 			1477.9.1 = {
 				death = yes
@@ -6188,6 +6475,9 @@
 			1298.1.1 = {
 				birth = yes
 			}
+			1343.1.1 = {
+				add_spouse = CKU_melun_11
+			}
 			1345.11.3 = {
 				death = yes
 			}
@@ -6215,7 +6505,7 @@
 			culture = french
 			dynasty = 86
 			father = CKU_montfort_21
-			# mother = Isabelle de Melun
+			mother = CKU_melun_11
 			1345.7.10 = {
 				birth = yes
 			}

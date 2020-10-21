@@ -1046,6 +1046,57 @@ CKU_melun = {
 	}
 }
 
+CKU_louvet = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_barry_06.dds"
+		color1 = "red"
+		color2 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } rotation = 90  }
+	}
+	
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { position = { 0.10 0.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.30 0.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.50 0.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.70 0.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.90 0.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.00 0.20 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.20 0.20 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.40 0.20 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.60 0.20 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.80 0.20 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 1.00 0.20 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.10 0.40 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.30 0.40 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.50 0.40 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.70 0.40 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.90 0.40 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.00 0.60 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.20 0.60 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.40 0.60 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.60 0.60 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.80 0.60 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 1.00 0.60 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.10 0.80 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.30 0.80 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.50 0.80 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.70 0.80 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.90 0.80 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.00 1.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.20 1.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.40 1.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.60 1.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 0.80 1.00 } scale = { @sLysX @sLysY }  }
+		instance = { position = { 1.00 1.00 } scale = { @sLysX @sLysY }  }
+	}	
+}
+
 house_alencon = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
@@ -1186,6 +1237,7 @@ house_dreux_montfort = {
 		texture = "ce_ermine_pattern.dds"
 		color1 = "black"
 		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.5 1.5 }  }
 	}
 }
 
