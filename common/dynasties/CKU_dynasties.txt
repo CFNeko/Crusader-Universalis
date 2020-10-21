@@ -187,3 +187,13 @@ CKU_Hamilton = {
 	name = "dynn_Hamilton"
 	culture = "scots"
 }
+
+CKU_York = {
+	name = "dynn_York"
+	culture = "english"
+}
+
+CKU_Beaufort = {
+	name = "dynn_Beaufort"
+	culture = "english"
+}
