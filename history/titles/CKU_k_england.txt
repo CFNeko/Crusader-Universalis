@@ -33,3 +33,38 @@ b_calais = {
 		holder = CKU_english_1
 	}
 }
+
+d_gloucester = {
+	1440.1.1 = {
+		holder = CKU_english_2
+		liege = k_england
+	}
+}
+
+d_york = {
+	1440.1.1 = {
+		holder = CKU_english_3
+		liege = k_england
+	}
+}
+
+d_norfolk = {
+	1440.1.1 = {
+		holder = CKU_english_4
+		liege = k_england
+	}
+}
+
+d_cornwall = {
+	1440.1.1 = {
+		holder = CKU_english_5
+		liege = k_england
+	}
+}
+
+d_somerset = {
+	1440.1.1 = {
+		holder = CKU_english_6
+		liege = k_england
+	}
+}
