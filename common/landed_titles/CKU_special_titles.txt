@@ -506,7 +506,7 @@ k_tunis = {
 }
 k_karaman = {
 	color = { 135 240 250 }
-	color2 = { 255 255 255 }
+	olor2 = { 255 255 255 }
 	definite_form = yes
 	landless = yes
 	
