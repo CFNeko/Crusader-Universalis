@@ -24,11 +24,6 @@
 			holder = CKU_francien_1
 		}
 	}
-	d_berry = {
-		1419.1.15 = {
-			holder = CKU_francien_1
-		}
-	}
 	c_tourraine = {
 		1440.1.1 = {
 			holder = CKU_francien_1
@@ -282,14 +277,6 @@
 			c_chartres = {
 				1441.1.1 = {
 					holder = CKU_albret_10
-					liege = k_france
-				}
-			}
-		#}
-		# Count of Dunois = {
-			b_chateaudun = {
-				1430.1.1 = {
-					holder = CKU_orleans_8
 					liege = k_france
 				}
 			}

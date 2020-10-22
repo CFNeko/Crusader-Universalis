@@ -49,9 +49,6 @@
  dynn_orleans: "Orléans"
  dynn_angouleme: "Angoulême"
  dynn_longueville: "Longueville"
- dynn_dreux_montfort: "Dreux-Montfort"
- dynn_chamaillard: "Chamaillard"
- dynn_melun: "Melun"
  
  dynn_aviz: "Avis"
  dynn_jagiellon: "Jagiellonian"
@@ -81,5 +78,3 @@
  dynn_Macdonald:0 "MacDonald"
  dynn_Dunbar:0 "Dunbar"
  dynn_Hamilton:0 "Hamilton"
-
- dynn_Beaufort:0 "Beaufort"
