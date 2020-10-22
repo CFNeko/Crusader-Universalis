@@ -87,7 +87,7 @@ innovation_military_4 = {
 innovation_military_5 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon = @arquebus
+	icon = @weapons_and_armor_01
 	
 	modifier = {
 		siege_phase_time = -0.1
@@ -119,7 +119,7 @@ innovation_military_6 = {
 innovation_military_7 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @special_maa_01
+	icon =  @weapons_and_armor_02
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -137,7 +137,7 @@ innovation_military_7 = {
 innovation_military_8 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @special_maa_01
+	icon =  @weapons_and_armor_02
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -155,7 +155,7 @@ innovation_military_8 = {
 innovation_military_9 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @culverin
+	icon =  @weapons_and_armor_02
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -173,7 +173,7 @@ innovation_military_9 = {
 innovation_military_10 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @maa_02
+	icon =  @weapons_and_armor_02
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -219,7 +219,7 @@ innovation_civic_2 = {
 innovation_civic_3 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @administration_1
+	icon = @nobility_03
 	
 	modifier = {
 		direct_vassal_opinion = 5
@@ -245,7 +245,7 @@ innovation_civic_4 = {
 innovation_civic_5 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @administration_2
+	icon = @majesty_03
 	
 	modifier = {
 		monthly_prestige_gain_mult = 0.1
@@ -272,7 +272,7 @@ innovation_civic_6 = {
 innovation_civic_7 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @civil_construction_2
+	icon = @misc_inventions
 
 	custom = reduce_develop_county_penalty_04
 	flag = global_regular
@@ -283,7 +283,7 @@ innovation_civic_7 = {
 innovation_civic_8 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @majesty_03
+	icon = @administration_1
 
 	modifier = {
 		development_growth_factor = 0.1
@@ -296,7 +296,7 @@ innovation_civic_8 = {
 innovation_civic_9 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @levy_building
+	icon = @administration_1
 
 	modifier = {
 		development_growth_factor = 0.1
@@ -309,7 +309,7 @@ innovation_civic_9 = {
 innovation_civic_10 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @leadership_1
+	icon = @administration_1
 
 	modifier = {
 		development_growth_factor = 0.1
