@@ -34,13 +34,13 @@ house_nassau_dillenburg = {
 house_luxembourg_bohemia = {
 	prefix = "dynnp_de"
 	name = "dynn_luxembourg_bohemia"
-	dynasty = 420
+	dynasty = CKU_luxembourg
 }
 
 house_luxembourg_ligny = {
 	prefix = "dynnp_de"
 	name = "dynn_luxembourg_ligny"
-	dynasty = 420
+	dynasty = CKU_luxembourg
 }
 
 # Valois
@@ -78,10 +78,4 @@ house_longueville = { # Cadet branch of Valois-Orleans
 house_chalon = {
 	name = "dynn_chalon"
 	dynasty = 681
-}
-
-# Dreux
-house_dreux_montfort = {
-	name = "dynn_dreux_montfort"
-	dynasty = 86
 }
