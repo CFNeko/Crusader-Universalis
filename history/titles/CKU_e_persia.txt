@@ -62,7 +62,6 @@
 	c_talish = {
 		1444.1.1 = {
 			holder = CKU_biapas_1
-			liege = 0
 		}
 	}
 	c_gilan = {
@@ -75,7 +74,6 @@
 	c_ruyan = {
 		1444.1.1 = {
 			holder = CKU_gilan_1
-			liege = 0
 		}
 	}
 #}
@@ -83,7 +81,6 @@
 	c_mazandaran = {
 		1444.1.1 = {
 			holder = CKU_mazandaran_1
-			liege = 0
 		}
 	}
 	c_baduspan = {
@@ -401,12 +398,11 @@
 	}
 #}
 # Qara = {
-	k_kara_koyunlu = {
-		1435.1.1 = {
-			holder = CKU_kara_1
-			liege = 0
-		}
-	}
+	#k_kara_koyunlu = {
+	#	1435.1.1 = {
+	#		holder = CKU_kara_1
+	#	}
+	#}
 	k_jazira = {
 		1435.1.1 = {
 			holder = CKU_kara_1
@@ -499,7 +495,7 @@
 	c_vaspurakan = {
 		1444.1.1 = {
 			holder = CKU_bitlis_1
-			liege = k_kara_koyunlu
+			liege = k_jazira
 		}
 	}
 	c_bagrewand = {
@@ -512,7 +508,7 @@
 	c_hakkari = {
 		1433.1.1 = {
 			holder = CKU_ayyubids_1
-			liege = k_kara_koyunlu
+			liege = k_jazira
 		}
 	}
 #}
@@ -521,7 +517,7 @@
 		1441.1.1 = {
 			holder = CKU_musha_1
 			government = theocracy_government
-			liege = k_kara_koyunlu
+			liege = k_jazira
 		}
 	}
 	d_wasit = {
@@ -549,7 +545,7 @@
 	d_al-hasa = {
 		1444.1.1 = {
 			holder = CKU_hasa_1
-			liege = k_kara_koyunlu
+			liege = k_jazira
 		}
 	}
 	d_bahrain = {
@@ -601,7 +597,6 @@
 	d_mahra = {
 		1435.1.1 = {
 			holder = CKU_mahra_1
-			liege = 0
 		}
 	}
 	c_socotra = {
@@ -614,7 +609,6 @@
 	d_hadramawt = {
 		1444.1.1 = {
 			holder = CKU_kathiri_1
-			liege = 0
 		}
 	}
 #}
@@ -665,11 +659,11 @@
 	}
 #}
 # mamluks = {
-	e_mamluks = {
-		1438.1.1 = {
-			holder = CKU_mamluks_1
-		}
-	}
+	#e_mamluks = {
+	#	1438.1.1 = {
+	#		holder = CKU_mamluks_1
+	#	}
+	#}
 	k_egypt = {
 		1438.1.1 = {
 			holder = CKU_mamluks_1
@@ -725,7 +719,7 @@
 	d_mecca = {
 		1444.1.1 = {
 			holder = CKU_hejaz_1
-			liege = e_mamluks
+			liege = k_egypt
 		}
 	}
 	c_harrat_rahat = {
@@ -738,7 +732,7 @@
 	d_medina = {
 		1444.1.1 = {
 			holder = CKU_medina_1
-			liege = e_mamluks
+			liege = k_egypt
 		}
 	}
 #}
@@ -746,7 +740,7 @@
 	d_palmyra = {
 		1444.1.1 = {
 			holder = CKU_fadl_1
-			liege = e_mamluks
+			liege = k_egypt
 		}
 	}
 	c_syrrusafa = {
@@ -764,7 +758,6 @@
 	c_tabuk = {
 		1444.1.1 = {
 			holder = CKU_anizah_1
-			liege = 0
 		}
 	}
 	c_tayma = {
@@ -838,7 +831,7 @@
 	d_edessa = {
 		1444.1.1 = {
 			holder = CKU_dulkadir_1
-			liege = e_mamluks
+			liege = k_egypt
 		}
 	}
 	c_ablastha = {
@@ -856,7 +849,7 @@
 	d_cilicia = {
 		1444.1.1 = {
 			holder = CKU_ramazan_1
-			liege = e_mamluks
+			liege = k_egypt
 		}
 	}
 #}
@@ -864,7 +857,6 @@
 	c_sinope = {
 		1444.1.1 = {
 			holder = CKU_sinope_1
-			liege = 0
 		}
 	}
 	c_paphlagonia = {
@@ -918,11 +910,11 @@
 	}
 #}
 # tunis = {
-	k_tunis = {
-		1444.1.1 = {
-			holder = CKU_tunis_1
-		}
-	}
+	#k_tunis = {
+	#	1444.1.1 = {
+	#		holder = CKU_tunis_1
+	#	}
+	#}
 	k_africa = {
 		1444.1.1 = {
 			holder = CKU_tunis_1
@@ -953,7 +945,7 @@
 	d_tripolitania = {
 		1444.1.1 = {
 			holder = CKU_tripolitana_1
-			liege = k_tunis
+			liege = k_africa
 		}
 	}
 	c_labda = {
@@ -966,7 +958,7 @@
 	c_syrte = {
 		1444.1.1 = {
 			holder = CKU_cyrenaica_1
-			liege = k_tunis
+			liege = k_africa
 		}
 	}
 #}
@@ -1151,15 +1143,3 @@
 	}
 	
 #}
-
-
-
-
-
-
-
-
-
-
-
-

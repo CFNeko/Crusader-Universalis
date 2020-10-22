@@ -1,8 +1,7 @@
 # mali = {
 	k_mali = {
 		1438.1.1 = {
-			holder = CKU_mali_1
-			liege = 0
+			holder = CKU_mali_1			
 		}
 	}
 	d_lobi = {
@@ -151,8 +150,7 @@
 # zafunu = {
 	d_diafunu = {
 		1444.1.1 = {
-			holder = CKU_zafunu_1
-			liege = 0
+			holder = CKU_zafunu_1			
 		}
 	}
 	d_tagant = {
@@ -181,8 +179,7 @@
 # tuareg = {
 	d_timbuktu = {
 		1444.1.1 = {
-			holder = CKU_tuareg_1
-			liege = 0
+			holder = CKU_tuareg_1			
 		}
 	}
 	c_kouga = {
@@ -199,8 +196,7 @@
 # songhay = {
 	k_songhay = {
 		1444.1.1 = {
-			holder = CKU_songhay_1
-			liege = 0
+			holder = CKU_songhay_1			
 		}
 	}
 	c_upper_gurma = {
@@ -232,8 +228,7 @@
 # wagadugu = {
 	d_wagadugu = {
 		1444.1.1 = {
-			holder = CKU_wagadugu_1
-			liege = 0
+			holder = CKU_wagadugu_1			
 		}
 	}
 	d_yatenga = {
@@ -256,8 +251,7 @@
 # mossi = {
 	d_borgu = {
 		1444.1.1 = {
-			holder = CKU_mossi_1
-			liege = 0
+			holder = CKU_mossi_1			
 			government = feudal
 		}
 	}
@@ -285,8 +279,7 @@
 # nupe = {
 	d_nupe = {
 		1444.1.1 = {
-			holder = CKU_nupe_1
-			liege = 0
+			holder = CKU_nupe_1			
 			government = feudal
 		}
 	}
@@ -294,8 +287,7 @@
 # oyo = {
 	d_oyo = {
 		1444.1.1 = {
-			holder = CKU_oyo_1
-			liege = 0
+			holder = CKU_oyo_1			
 			government = feudal
 		}
 	}
@@ -303,8 +295,7 @@
 # benin = {
 	d_benin = {
 		1444.1.1 = {
-			holder = CKU_benin_1
-			liege = 0
+			holder = CKU_benin_1			
 			government = colonisable_government
 		}
 	}
@@ -318,7 +309,6 @@
 	c_igala = {
 		1444.1.1 = {
 			holder = CKU_igala_1
-			liege = 0
 			government = feudal
 		}
 	}
@@ -336,8 +326,7 @@
 # kwarafa = {
 	c_kwararafa = {
 		1444.1.1 = {
-			holder = CKU_kwarafa_1
-			liege = 0
+			holder = CKU_kwarafa_1			
 			government = feudal
 		}
 	}
@@ -355,8 +344,7 @@
 # bornu = {
 	d_bornu = {
 		1444.1.1 = {
-			holder = CKU_bornu_1
-			liege = 0
+			holder = CKU_bornu_1			
 		}
 	}
 	d_wandala = {
@@ -383,8 +371,7 @@
 # air = {
 	d_air = {
 		1444.1.1 = {
-			holder = CKU_air_1
-			liege = 0
+			holder = CKU_air_1			
 			government = tribal
 		}
 	}
