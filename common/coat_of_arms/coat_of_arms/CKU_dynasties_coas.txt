@@ -1097,6 +1097,19 @@ CKU_louvet = {
 	}	
 }
 
+CKU_wavrin = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_shield_01.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.50 } scale = { 0.40 0.40 } }
+	}
+}
+
 house_alencon = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"

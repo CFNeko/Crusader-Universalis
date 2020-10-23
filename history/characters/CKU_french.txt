@@ -1116,14 +1116,14 @@
 				death = yes
 			}
 		}
-		CKU_clermont_8 = { # Check
+		CKU_clermont_8 = {
 			name = "Raoul"
 			religion = catholic
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_5
 			# mother = Marguerite de Thourotte
-			# Married Jeanne de Chambly
+			# Married Jeanne de Chambly # Too insignificant
 			1292.1.1 = {
 				birth = yes
 			}
@@ -1139,7 +1139,7 @@
 			dynasty = CKU_clermont
 			father = CKU_clermont_5
 			# mother = Marguerite de Thourotte
-			# Married Jean de Dampierre
+			# Married Jean de Dampierre #Dampierre family died out in 1429
 			1300.1.1 = {
 				birth = yes
 			}
@@ -1155,7 +1155,7 @@
 			dynasty = CKU_clermont
 			father = CKU_clermont_5
 			# mother = Marguerite de Thourotte
-			# Married Bernard de Moreuil
+			# Married Bernard de Moreuil # Too insignificant
 			1299.1.1 = {
 				birth = yes
 			}
@@ -1170,7 +1170,7 @@
 			dynasty = CKU_clermont
 			father = CKU_clermont_6
 			mother = CKU_mello_21
-			# Married Jeanne de Bruyères
+			# Married Jeanne de Bruyères # Too insignificant
 			# Married Isabelle de Thouars
 			1326.1.1 = {
 				birth = yes
@@ -1190,11 +1190,14 @@
 			1332.1.1 = {
 				birth = yes
 			}
+			1350.1.1 = {
+				add_spouse = CKU_wavrin_26
+			}
 			1356.12.19 = {
 				death = yes
 			}
 		}
-		CKU_clermont_13 = {
+		CKU_clermont_13 = {  # Check
 			name = "Jean"
 			religion = catholic
 			culture = french
@@ -1260,7 +1263,7 @@
 			culture = french
 			dynasty = CKU_clermont
 			father = CKU_clermont_12
-			# mother = Alix de Wavrin
+			mother = CKU_wavrin_26
 			# Married Mahaut de Wavrin
 			1350.1.1 = {
 				birth = yes
@@ -2360,6 +2363,23 @@
 				birth = yes
 			}
 			1404.3.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_26 = {
+			name = "Eustachie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = 7482
+			mother = 161359
+			# Married Daniel de Bethune
+			# Married Robert de Wavrin
+			1210.1.1 = {
+				birth = yes
+			}
+			1280.1.1 = {
 				death = yes
 			}
 		}
@@ -3789,6 +3809,492 @@
 			}
 		}
 	# }
+	# Wavrin = {
+		CKU_wavrin_1 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			# father = Unknown
+			# mother = Unknown
+			# Married Eustachie de Chatillon
+			# Married Mathilde de Bethune
+			1207.1.1 = {
+				birth = yes
+			}
+			1227.1.1 = {
+				add_spouse = CKU_chatillon_26
+			}
+			1280.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_2 = {
+			name = "Hellin"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Marie de Malannoy
+			1235.1.1 = {
+				birth = yes
+			}
+			1284.6.8 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_3 = {
+			name = "Sibylle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Hugues de Antoing
+			1237.1.1 = {
+				birth = yes
+			}
+			1284.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_4 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Gilbert
+			1238.1.1 = {
+				birth = yes
+			}
+			1265.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_5 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Marie de Roye
+			1245.1.1 = {
+				birth = yes
+			}
+			1308.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_6 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Rasse de Gavre
+			1230.1.1 = {
+				birth = yes
+			}
+			1245.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_7 = {
+			name = "Guillaumette"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Jan de Gavre
+			1278.1.1 = {
+				birth = yes
+			}
+			1312.2.16 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_8 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_1
+			mother = CKU_chatillon_26
+			# Married Erard van Beveren
+			1280.1.1 = {
+				birth = yes
+			}
+			1310.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_9 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_2
+			# mother = Marie de Malannoy
+			# Married Ide Crequy
+			1255.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_10 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_9
+			# mother = Ide Crequy
+			# Married Alix Quiéret
+			1280.1.1 = {
+				birth = yes
+			}
+			1350.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_11 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_10
+			# mother = Alix Quiéret
+			# Married Isabelle de Fiennes
+			1300.1.1 = {
+				birth = yes
+			}
+			1364.4.20 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_12 = {
+			name = "Béatrix"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_10
+			# mother = Alix Quiéret
+			# Married Jean de Olhain
+			1306.5.19 = {
+				birth = yes
+			}
+			1350.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_13 = {
+			name = "Mathieu"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_10
+			# mother = Alix Quiéret
+			# Married Jeanne de Bryas
+			1312.1.1 = {
+				birth = yes
+			}
+			1384.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_14 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_10
+			# mother = Alix Quiéret
+			# Married Marie de Arleux
+			1318.1.1 = {
+				birth = yes
+			}
+			1382.11.27 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_15 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_11
+			# mother = Isabelle de Fiennes
+			# Married Agnès le Cambière
+			1325.1.1 = {
+				birth = yes
+			}
+			1382.11.27 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_16 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_14
+			# mother = Marie de Arleux
+			# Married Marguerite de Flandres
+			# Married Jeanne de Caucourt
+			# Married Michelle de la Croix
+			1365.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_17 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_14
+			# mother = Marie de Arleux
+			# Married Jean du Maisnil
+			1368.1.1 = {
+				birth = yes
+			}
+			1442.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_18 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_16
+			# mother = Marguerite de Flandres
+			# Married Jeanne de Crequy
+			1385.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_19 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_5
+			# mother = Marie de Roye
+			# Married Marie-Marguerite de Cuinchy
+			1283.1.1 = {
+				birth = yes
+			}
+			1346.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_20 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_5
+			# mother = Marie de Roye
+			# Married Jean Malet
+			1290.1.1 = {
+				birth = yes
+			}
+			1320.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_21 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_5
+			# mother = Marie de Roye
+			# Married Henri de Blois
+			1275.1.1 = {
+				birth = yes
+			}
+			1310.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_22 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_19
+			# mother = Marie-Marguerite de Cuinchy
+			# Married Laure de Mauvoisin
+			1315.1.1 = {
+				birth = yes
+			}
+			1388.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_23 = {
+			name = "Beatrice"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_22
+			# mother = Laure de Mauvoisin
+			# Married Hugues de Melun
+			1340.1.1 = {
+				birth = yes
+			}
+			1358.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_24 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_22
+			# mother = Laure de Mauvoisin
+			# Married Colard de Rely
+			1350.1.1 = {
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_25 = {
+			name = "Eustachie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_11
+			# mother = Isabelle de Fiennes
+			# Married Thierry de Saint-Omer
+			1319.1.1 = {
+				birth = yes
+			}
+			1379.11.27 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_26 = {
+			name = "Alix"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_11
+			# mother = Isabelle de Fiennes
+			# Married Guillaume de Clermont
+			1332.1.1 = {
+				birth = yes
+			}
+			1393.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_27 = {
+			name = "Colard"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			# father = Unknown
+			# mother = Unknown
+			# Married Jeanne de Auberchicourt
+			1350.1.1 = {
+				birth = yes
+			}
+			1400.11.6 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_28 = {
+			name = "Thomas"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_27
+			# mother = Jeanne de Auberchicourt
+			# Married Jeanne de Epinoy
+			1385.1.1 = {
+				birth = yes
+			}
+			1468.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_29 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_28
+			# mother = Jeanne de Epinoy
+			1425.1.1 = {
+				birth = yes
+			}
+			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_30 = {
+			name = "Colard"
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_28
+			# mother = Jeanne de Epinoy
+			# Married Jeanne de Corbehem
+			1426.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wavrin_31 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_wavrin
+			father = CKU_wavrin_28
+			# mother = Jeanne de Epinoy
+			# Married Etienne du Martroit
+			1428.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+	# }
 	# Reginar-Montfort = {
 		CKU_reginar_montfort_1 = {
 			name = "Adèle"
@@ -4302,7 +4808,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 5057
+			dynasty = CKU_wavrin
 			martial = 20
 			1395.1.1 = {
 				birth = yes
