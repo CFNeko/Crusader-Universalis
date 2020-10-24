@@ -31,6 +31,12 @@
 
 @arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
 @culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+@inquisition = "gfx/interface/icons/culture_innovations/inquisition.dds"
+@colonization = "gfx/interface/icons/culture_innovations/colonization.dds"
+@medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
+@art = "gfx/interface/icons/culture_innovations/art.dds"
+
+
 
 #culture_group_military
 innovation_military_1 = {
@@ -87,7 +93,7 @@ innovation_military_4 = {
 innovation_military_5 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon = @weapons_and_armor_01
+	icon = @arquebus
 	
 	modifier = {
 		siege_phase_time = -0.1
@@ -119,7 +125,7 @@ innovation_military_6 = {
 innovation_military_7 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @weapons_and_armor_02
+	icon =   @special_maa_01
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -137,7 +143,7 @@ innovation_military_7 = {
 innovation_military_8 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @weapons_and_armor_02
+	icon =   @special_maa_01
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -155,7 +161,7 @@ innovation_military_8 = {
 innovation_military_9 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @weapons_and_armor_02
+	icon =  @culverin
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -173,7 +179,7 @@ innovation_military_9 = {
 innovation_military_10 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @weapons_and_armor_02
+	icon =  @maa_02
 	
 	maa_upgrade = {
 		type = heavy_infantry
@@ -219,7 +225,7 @@ innovation_civic_2 = {
 innovation_civic_3 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @nobility_03
+	icon =  @administration_1
 	
 	modifier = {
 		direct_vassal_opinion = 5
@@ -245,7 +251,7 @@ innovation_civic_4 = {
 innovation_civic_5 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @majesty_03
+	icon = @administration_2
 	
 	modifier = {
 		monthly_prestige_gain_mult = 0.1
@@ -259,7 +265,7 @@ innovation_civic_5 = {
 innovation_civic_6 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @nobility_02
+	icon = @medicine
 	
 	modifier = {
 		domain_limit = 1
@@ -272,7 +278,7 @@ innovation_civic_6 = {
 innovation_civic_7 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @misc_inventions
+	icon = @civil_construction_2
 
 	custom = reduce_develop_county_penalty_04
 	flag = global_regular
@@ -283,7 +289,7 @@ innovation_civic_7 = {
 innovation_civic_8 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @administration_1
+	icon = @inquisition
 
 	modifier = {
 		development_growth_factor = 0.1
@@ -296,7 +302,7 @@ innovation_civic_8 = {
 innovation_civic_9 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @administration_1
+	icon = @levy_building
 
 	modifier = {
 		development_growth_factor = 0.1
@@ -309,8 +315,7 @@ innovation_civic_9 = {
 innovation_civic_10 = {
 	group = culture_group_civic
 	culture_era = culture_era_early_modern
-	icon = @administration_1
-
+	icon = @colonization
 	modifier = {
 		development_growth_factor = 0.1
 	}
