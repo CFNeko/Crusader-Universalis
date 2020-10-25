@@ -1,0 +1,5 @@
+﻿on_game_start = {
+	events = {
+		CKU_On_Game_Start #CKU_On_Game_Start.
+	}
+}

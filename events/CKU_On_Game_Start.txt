@@ -1,0 +1,20 @@
+﻿namespace = CKU_On_Game_Start
+
+CKU_On_Game_Start.1 = {
+	type = character_event
+	title = CKU_On_Game_Start.t
+	desc = CKU_On_Game_Start.d
+	trigger = {
+		is_ai = no
+	}
+	theme = hunting
+	
+	left_portrait = {
+		character = root
+		animation = sadness
+	}
+	
+	option = {
+		name = CKU_On_Game_Start.a
+	}
+}
