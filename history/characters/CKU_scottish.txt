@@ -34,8 +34,9 @@
 			birth = yes
 		}
 	}
-	CKU_scottish_4 = {
+	CKU_scottish_4 = { #James II of Scotland
 		name = "James"
+		dna = CKU_scottish_1
 		religion = catholic
 		culture = scottish
 		dynasty = 3134

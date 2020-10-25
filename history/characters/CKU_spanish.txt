@@ -45,8 +45,10 @@
 		}
 	}
 #}
-# Portugal = {
-	CKU_portugal_1 = {
+# Portugal = { 
+	CKU_portugal_1 = { #Alfonso V
+		name = "Alfonso"
+		dna = CKU_portuguese_1
 		religion = catholic
 		culture = portuguese
 		dynasty = CKU_aviz
