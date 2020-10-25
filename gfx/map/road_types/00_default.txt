@@ -1,0 +1,16 @@
+﻿default = {	
+	spline = {
+		uv_scale = 1
+		width = 1
+		uv_rounding = no	
+		smooth_fade_distance = 5
+		smooth_iterations = 0
+		smooth_kernel_size = 1
+		tesselation_max_angle = 5.0
+		tesselation_min_distance = 0.01
+		tesselation_max_distance = 0.05	
+		opacity_fade_distance = 1.0
+	}
+}
+
+
