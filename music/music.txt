@@ -422,6 +422,6 @@ mx_cue_secret = {
 
 main_theme_track = {
 	music = "file:/music/music/loadingtheme.ogg"
-	can_be_interrupted = yes
+	can_be_interrupted = no
 }
 
