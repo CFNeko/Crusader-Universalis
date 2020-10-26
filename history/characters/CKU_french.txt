@@ -328,7 +328,7 @@
 		CKU_valois_20 = {
 			name = "Catherine"
 			female = yes
-			dynasty_house = CKU_house_tudor			# Changed dynasty to tudor so she is in that family tree - patosav
+			dynasty = 101			# Changed dynasty to tudor so she is in that family tree - patosav
 			religion = "catholic"
 			culture = french
 			father = CKU_valois_4
