@@ -1,23 +1,8 @@
 ﻿
 # England {
-
-	CKU_english_Edward_3 = { # Edward III
-		name = "Edward"
-		dynasty = CKU_Plantagenet
-		religion = catholic
-		culture = english
-		1312.1.1 = {
-			birth = yes
-		}
-		1377.1.1 = {
-			death = yes
-		}
-	}
-
-
 	CKU_english_1 = { # Henry VI
 		name = "Henry"
-		dynasty_house = CKU_house_lancaster
+		dynasty_house = 100058
 		dna = CKU_english_1_dna
 		religion = catholic
 		culture = english
@@ -37,7 +22,7 @@
 
 	CKU_english_2 = {
 		name = "Humphrey"
-		dynasty_house = CKU_house_lancaster
+		dynasty_house = 100058
 		religion = catholic
 		culture = english
 		father = CKU_english_10
@@ -100,24 +85,9 @@
 
 ####### basic dukes ^
 ####### more dynastic members and shit below (sorry for bad ordering)
-
-CKU_english_7 = {  # Black Prince
-	name = "Edward"
-	dynasty = CKU_Plantagenet
-	religion = catholic
-	culture = english
-	father = CKU_english_Edward_3
-	1330.1.1 = {
-		birth = yes
-	}
-	1376.1.1 = {
-		death = yes
-	}
-}
-
 CKU_english_8 = {  # Henry V (the chad)
 	name = "Henry"
-	dynasty_house = CKU_house_lancaster
+	dynasty_house = 100058
 	religion = catholic
 	culture = english
 	father = CKU_english_10
@@ -135,10 +105,10 @@ CKU_english_8 = {  # Henry V (the chad)
 
 CKU_english_9 = {  # John of Gaunt
 	name = "John"
-	dynasty = CKU_Plantagenet
+	dynasty_house = 100058
 	religion = catholic
 	culture = english
-	father = CKU_english_Edward_3
+	father = 454500
 	1340.1.1 = {
 		birth = yes
 	}
@@ -149,7 +119,7 @@ CKU_english_9 = {  # John of Gaunt
 
 CKU_english_10 = {  # Henry IV
 	name = "Henry"
-	dynasty = CKU_Plantagenet
+	dynasty_house = 100058
 	religion = catholic
 	culture = english
 	father = CKU_english_9
@@ -163,28 +133,14 @@ CKU_english_10 = {  # Henry IV
 
 CKU_english_11 = {  # Edmund of York
 	name = "Edmund"
-	dynasty = CKU_Plantagenet
+	dynasty_house = CKU_house_york
 	religion = catholic
 	culture = english
-	father = CKU_english_Edward_3
+	father = 454500
 	1341.1.1 = {
 		birth = yes
 	}
 	1402.1.1 = {
-		death = yes
-	}
-}
-
-CKU_english_12 = {  # Richard of Cambridge
-	name = "Richard"
-	dynasty = CKU_Plantagenet
-	religion = catholic
-	culture = english
-	father = CKU_english_11
-	1375.1.1 = {
-		birth = yes
-	}
-	1415.1.1 = {
 		death = yes
 	}
 }
@@ -205,10 +161,10 @@ CKU_english_12 = {  # Richard of Cambridge
 
 CKU_english_13 = {  # Richard II
 	name = "Richard"
-	dynasty = CKU_Plantagenet
+	dynasty = 106
 	religion = catholic
 	culture = english
-	father = CKU_english_7
+	father = 454501
 	1367.1.1 = {
 		birth = yes
 	}

@@ -93,17 +93,18 @@ house_dreux_montfort = {
 	dynasty = 86
 }
 
+# Plantagenet
 CKU_house_york = {
 	name = "dynn_York"
-	dynasty = CKU_Plantagenet
+	dynasty = 106
 }
 
-CKU_house_lancaster = {
+100058 = {
 	name = "dynn_Lancaster"
-	dynasty = CKU_Plantagenet
+	dynasty = 106
 }
 
 CKU_house_tudor = {
 	name = "dynn_Tudor"
-	dynasty = CKU_Plantagenet
+	dynasty = 106
 }
