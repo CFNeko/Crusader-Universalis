@@ -194,12 +194,27 @@ CKU_Hamilton = {
 	culture = "scots"
 }
 
-CKU_York = {
-	name = "dynn_York"
-	culture = "english"
-}
+#CKU_York = {
+#	name = "dynn_York"
+#	culture = "english"
+#}
 
 CKU_Beaufort = {
 	name = "dynn_Beaufort"
+	culture = "english"
+}
+
+CKU_Beauchamp = {
+	name = "dynn_Beauchamp"
+	culture = "english"
+}
+
+CKU_Plantagenet = {
+	name = "dynn_Plantagenet"
+	culture = "english"
+}
+
+CKU_Neville = {
+	name = "dynn_Neville"
 	culture = "english"
 }

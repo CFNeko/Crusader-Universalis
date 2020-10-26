@@ -1,43 +1,64 @@
 ﻿
 # England {
-	CKU_english_1 = {
+
+	CKU_english_Edward_3 = { # Edward III
+		name = "Edward"
+		dynasty = CKU_Plantagenet
+		religion = catholic
+		culture = english
+		1312.1.1 = {
+			birth = yes
+		}
+		1377.1.1 = {
+			death = yes
+		}
+	}
+
+
+	CKU_english_1 = { # Henry VI
 		name = "Henry"
-		dynasty = 100058
+		dynasty_house = CKU_house_lancaster
 		dna = CKU_english_1_dna
 		religion = catholic
 		culture = english
+		father = CKU_english_8
+		mother = CKU_valois_20
 		trait = craven
 		trait = shy
 		trait = compassionate
 		1421.12.6 = {
 			birth = yes
 		}
+		1421.1.1 = {
+			add_spouse = CKU_anjou_6
+		}
+		# the surrender of maine
 	}
-
-
 
 	CKU_english_2 = {
 		name = "Humphrey"
-		dynasty = 100058
+		dynasty_house = CKU_house_lancaster
 		religion = catholic
 		culture = english
+		father = CKU_english_10
 		1390.10.3 = {
 			birth = yes
 		}
 		1447.4.4 = {
-			birth = yes
+			death = yes
 		}
 	}
-	CKU_english_3 = {
-		name = "Humphrey"
-		dynasty = CKU_York
+	CKU_english_3 = {  # Richard of York
+		name = "Richard"
+		dynasty_house = CKU_house_york
 		religion = catholic
 		culture = english
+		father = CKU_english_12
 		1411.9.21 = {
 			birth = yes
 		}
 		1460.12.30 = {
-			birth = yes
+			death = yes
 		}
 	}
 	CKU_english_4 = {
@@ -49,19 +70,19 @@
 			birth = yes
 		}
 		1461.11.6 = {
-			birth = yes
+			death = yes
 		}
 	}
 	CKU_english_5 = {
 		name = "John"
-		dynasty = 100058
+		dynasty_house = CKU_house_lancaster
 		religion = catholic
 		culture = english
 		1395.3.29 = {
 			birth = yes
 		}
 		1447.8.5 = {
-			birth = yes
+			death = yes
 		}
 	}
 	CKU_english_6 = {
@@ -73,7 +94,247 @@
 			birth = yes
 		}
 		1455.5.22 = {
-			birth = yes
+			death = yes
 		}
 	}
+
+####### basic dukes ^
+####### more dynastic members and shit below (sorry for bad ordering)
+
+CKU_english_7 = {  # Black Prince
+	name = "Edward"
+	dynasty = CKU_Plantagenet
+	religion = catholic
+	culture = english
+	father = CKU_english_Edward_3
+	1330.1.1 = {
+		birth = yes
+	}
+	1376.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_8 = {  # Henry V (the chad)
+	name = "Henry"
+	dynasty_house = CKU_house_lancaster
+	religion = catholic
+	culture = english
+	father = CKU_english_10
+	1386.1.1 = {
+		birth = yes
+	}
+	#Marries Catherine de Valois
+	1421.1.1 = {
+		add_spouse = CKU_valois_20
+	}
+	1422.1.1 = {
+		death = yes    # F in chat
+	}
+}
+
+CKU_english_9 = {  # John of Gaunt
+	name = "John"
+	dynasty = CKU_Plantagenet
+	religion = catholic
+	culture = english
+	father = CKU_english_Edward_3
+	1340.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_10 = {  # Henry IV
+	name = "Henry"
+	dynasty = CKU_Plantagenet
+	religion = catholic
+	culture = english
+	father = CKU_english_9
+	1366.1.1 = {
+		birth = yes
+	}
+	1413.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_11 = {  # Edmund of York
+	name = "Edmund"
+	dynasty = CKU_Plantagenet
+	religion = catholic
+	culture = english
+	father = CKU_english_Edward_3
+	1341.1.1 = {
+		birth = yes
+	}
+	1402.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_12 = {  # Richard of Cambridge
+	name = "Richard"
+	dynasty = CKU_Plantagenet
+	religion = catholic
+	culture = english
+	father = CKU_english_11
+	1375.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_12 = {  # Richard of Cambridge
+	name = "Richard"
+	dynasty_house = CKU_house_york
+	religion = catholic
+	culture = english
+	father = CKU_english_11
+	1375.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_13 = {  # Richard II
+	name = "Richard"
+	dynasty = CKU_Plantagenet
+	religion = catholic
+	culture = english
+	father = CKU_english_7
+	1367.1.1 = {
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_14 = {  # Edward IV
+	name = "Edward"
+	dynasty_house = CKU_house_york
+	religion = catholic
+	culture = english
+	father = CKU_english_3
+	1442.1.1 = {
+		birth = yes
+	}
+	1483.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_15 = {  # Owen Tudor
+	name = "Owen"
+	dynasty_house = CKU_house_tudor
+	religion = catholic
+	culture = welsh    # I know, I know, but he's relevant here not in welsh
+	1385.1.1 = {
+		birth = yes
+	}
+	1432.1.1 = {
+		add_spouse = CKU_valois_20
+	}
+	1461.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_16 = {  # Edmund Tudor
+	name = "Edmund"
+	dynasty_house = CKU_house_tudor
+	religion = catholic
+	culture = english
+	father = CKU_english_15
+	mother = CKU_valois_20
+	1431.1.1 = {
+		birth = yes
+	}
+	1456.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_17 = {  # Henry Tudor (Henry the 7th)
+	name = "Henry"
+	dynasty_house = CKU_house_tudor
+	religion = catholic
+	culture = english
+	father = CKU_english_16
+	#mother = Margaret Beaufort
+	1457.1.1 = {
+		birth = yes
+	}
+	# Not born in game start so irrelevant, wait why did I even add him. ah well future bookmarks will exist eventually
+	1485.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_18 = {  # Henry Beauchamp
+	name = "Henry"
+	dynasty = CKU_Beauchamp
+	religion = catholic
+	culture = english
+	father = CKU_english_20
+	1425.1.1 = {
+		birth = yes
+	}
+	1446.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_19 = {  # Anne Beauchamp
+	name = "Anne"
+	female = yes
+	dynasty = CKU_Beauchamp
+	religion = catholic
+	culture = english
+	father = CKU_english_20
+	1426.1.1 = {
+		birth = yes
+	}
+	1492.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_20 = {  # Richard Beauchamp
+	name = "Richard"
+	dynasty = CKU_Beauchamp
+	religion = catholic
+	culture = english
+	1382.1.1 = {
+		birth = yes
+	}
+	1439.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_21 = {  # Richard Neville "the kingmaker" (big important guy)
+	name = "Richard"
+	dynasty = CKU_Neville
+	religion = catholic
+	culture = english
+	1428.1.1 = {
+		birth = yes
+	}
+	1436.1.1 = {
+		add_spouse = CKU_english_19			# He inherited the duchy when she died
+	}
+	1471.1.1 = {
+		death = yes
+	}
+}
+
+
 #}

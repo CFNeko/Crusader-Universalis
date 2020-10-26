@@ -92,3 +92,18 @@ house_dreux_montfort = {
 	name = "dynn_dreux_montfort"
 	dynasty = 86
 }
+
+CKU_house_york = {
+	name = "dynn_York"
+	dynasty = CKU_Plantagenet
+}
+
+CKU_house_lancaster = {
+	name = "dynn_Lancaster"
+	dynasty = CKU_Plantagenet
+}
+
+CKU_house_tudor = {
+	name = "dynn_Tudor"
+	dynasty = CKU_Plantagenet
+}

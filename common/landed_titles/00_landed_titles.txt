@@ -1734,7 +1734,11 @@ e_britannia = {
 			color2 = { 255 255 255 }
 			
 			capital = c_warwickshire # Warwick
-			
+
+			cultural_names = {
+				english = cn_warwick
+			}
+
 			ai_primary_priority = {
 				if = {
 					limit = {

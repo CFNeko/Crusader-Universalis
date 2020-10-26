@@ -1,5 +1,17 @@
 k_england = {
-	1440.1.1 = {
+	1327.1.1 = {
+		holder = CKU_english_Edward_3
+	}
+	1377.1.1 = {
+		holder = CKU_english_13
+	}
+	1399.1.1 = {
+		holder = CKU_english_10
+	}
+	1413.1.1 = {
+		holder = CKU_english_8
+	}
+	1421.1.1 = {
 		holder = CKU_english_1
 	}
 }
@@ -66,5 +78,37 @@ d_somerset = {
 	1440.1.1 = {
 		holder = CKU_english_6
 		liege = k_england
+	}
+}
+
+d_hereford = {
+	1440.1.1 = {
+		holder = CKU_english_18
+		liege = k_england
+	}
+	1449.1.1 = {
+		holder = CKU_english_21
+		liege = k_england
+	}
+}
+
+c_warwickshire = {
+	1440.1.1 = {
+		holder = CKU_english_21
+		liege = d_hereford
+	}
+}
+
+c_northamptonshire = {
+	1440.1.1 = {
+		holder = CKU_english_21
+		liege = d_hereford
+	}
+}
+
+c_huntingdonshire = {
+	1440.1.1 = {
+		holder = CKU_english_21
+		liege = d_hereford
 	}
 }
