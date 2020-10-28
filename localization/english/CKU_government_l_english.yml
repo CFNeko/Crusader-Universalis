@@ -1,0 +1,6 @@
+﻿l_english:
+    horde_government: "Steppe Horde"
+    horde_government_adjective: "Steppe Horde"
+    horde_government_realm: "Horde"
+    horde_government_desc: "$game_concept_tribal_desc$\n\n#F In the hordes, strength means everything. A steppe horde leader depends on respect and renown rather than coin to develop their realm and bolster their armies.#!"
+    
