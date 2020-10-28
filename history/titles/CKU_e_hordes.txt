@@ -3,6 +3,7 @@
 		1440.1.1 = {
 			holder = CKU_crimea_1
 			liege = 0
+			government = horde_government
 		}
 	}
 	d_azov = {
@@ -25,6 +26,7 @@
 	d_kazan = {
 		1440.1.1 = {
 			holder = CKU_kazan_1
+			government = horde_government
 		}
 	}
 	d_mordvinia = {
@@ -44,6 +46,7 @@
 		1440.1.1 = {
 			holder = CKU_golden_horde_1
 			name = CKU_golden_horde
+			government = horde_government
 		}
 	}
 	d_itil = {
