@@ -1,0 +1,55 @@
+﻿####################
+# MARRIAGE EFFECT EVENTS
+####################
+
+namespace = CKU_surrender_maine
+
+#MOTHER - Bastard secret is removed if you marry the right person
+CKU_surrender_maine.0001 = {
+	type = character_event
+	title = CKU_surrender_maine.0001.t
+	desc = CKU_surrender_maine.0001.desc
+	theme = marriage
+	
+	left_portrait = {
+		character = scope:king_henry_vi
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:marguerite_de_anjou
+		animation = happiness
+	}
+	
+	trigger = {
+		current_date = 1445.4.22
+		#Date == 22-4-1445
+	
+		#King of England == CKU_english_1
+		#King of England != prison
+		#King of England == betrothed to CKU_anjou_6
+		#King of England != married
+		
+		scope:k_england = {
+			holder = scope:king_henry_vi
+		}
+	}
+
+	on_trigger_fail = { }
+
+	immediate = {
+		character:CKU_english_1 = {
+			save_scope_as = king_henry_vi
+		}
+		character:CKU_anjou_6 = {
+			save_scope_as = marguerite_de_anjou
+		}
+	}
+
+	option = {
+		name = CKU_surrender_maine.0001.a
+
+		stress_impact = {
+			base = medium_stress_loss
+		}
+	}
+}

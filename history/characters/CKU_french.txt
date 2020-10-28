@@ -2313,16 +2313,18 @@
 			}
 		}
 		CKU_chatillon_22 = {
-			name = "Jean"
+			name = "Gaucher"
 			religion = catholic
 			culture = french
 			dynasty = 23113
-			father = CKU_chatillon_15
-			# mother = Marie de Rollaincourt
-			1335.1.1 = {
+			father = 455777
+			# mother = Elenore de Roye
+			# Married Jeanne de Guines/Coucy
+			# Married Allemande Flotte
+			1313.1.1 = {
 				birth = yes
 			}
-			1364.1.1 = {
+			1377.1.1 = {
 				death = yes
 			}
 		}
@@ -2386,6 +2388,281 @@
 				birth = yes
 			}
 			1280.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_27 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = 455777
+			# mother = Elenore de Roye
+			# Married Isabelle de Dampierre
+			1345.1.1 = {
+				birth = yes
+			}
+			1377.12.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_28 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = 455777
+			# mother = Elenore de Roye
+			# Married Guy de Laval
+			1340.1.1 = {
+				birth = yes
+			}
+			1413.1.13 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_29 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = 455777
+			# mother = Isabelle de Montmorency
+			# Married Jeanne de Coucy
+			1338.1.1 = {
+				birth = yes
+			}
+			1401.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_30 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = 455777
+			# mother = Isabelle de Montmorency
+			# Married Isabelle de Trie
+			1341.1.1 = {
+				birth = yes
+			}
+			1378.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_31 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_22
+			# mother = Allemande Flotte
+			# Married Isabelle de Coucy
+			# Married Marie de Montmorency
+			1335.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_32 = {
+			name = "Gaucher"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_22
+			# mother = Allemande Flotte
+			# Married Marie-Jeanne Cassinel
+			# Married Isabelle de Vendôme
+			1342.1.1 = {
+				birth = yes
+			}
+			1413.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_33 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_32
+			# mother = Marie-Jeanne Cassinel
+			# Married Marie des Essarts
+			1363.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_34 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_32
+			# mother = Marie-Jeanne Cassinel
+			# Married Elenore de Montigny
+			1364.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_35 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_32
+			# mother = Marie-Jeanne Cassinel
+			# Married Béatrix de Nantouillet
+			# Married Blanche de Gamaches
+			1368.1.1 = {
+				birth = yes
+			}
+			1443.10.29 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_36 = {
+			name = "Arthur"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_35
+			# mother = Blanche de Gamaches
+			# Married Jeanne de Bauquetin
+			1440.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_37 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_33
+			# mother = Marie des Essarts
+			1413.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_38 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_29
+			# mother = Jeanne de Coucy
+			# Married Pierre de Villiers
+			1371.1.1 = {
+				birth = yes
+			}
+			1457.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_39 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_30
+			# mother = Isabelle de Trie
+			# Married Jeanne de Saint-Gobert
+			1365.1.1 = {
+				birth = yes
+			}
+			1439.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_40 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_39
+			# mother = Jeanne de Saint-Gobert
+			# Married Charlotte du Plessis
+			1390.1.1 = {
+				birth = yes
+			}
+			1441.10.9 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_41 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_39
+			# mother = Jeanne de Saint-Gobert
+			1392.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_42 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_19
+			# mother = Jeanne de la Rivière
+			# Married Jeanne de Flotte
+			1398.1.1 = {
+				birth = yes
+			}
+			1446.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_43 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_19
+			# mother = Jeanne de la Rivière
+			# Married Philippe de Fosseux
+			1405.1.1 = {
+				birth = yes
+			}
+			1469.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chatillon_44 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 23113
+			father = CKU_chatillon_19
+			# mother = Jeanne de la Rivière
+			# Married David de Brimeu
+			1415.1.1 = {
+				birth = yes
+			}
+			1469.1.1 = {
 				death = yes
 			}
 		}
@@ -4814,7 +5091,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 100058
+			dynasty = 92
 			martial = 20
 			1395.1.1 = {
 				birth = yes

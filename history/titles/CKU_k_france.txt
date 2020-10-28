@@ -89,6 +89,13 @@
 			}
 			c_blois = { # Governor
 				1436.1.1 = {
+					government = CKU_governor_government
+					holder = CKU_orleans_5
+					liege = d_orleans
+				}
+			}
+			b_coucy = {
+				1443.1.1 = {
 					holder = CKU_orleans_5
 					liege = d_orleans
 				}
