@@ -18,3 +18,26 @@ CKU_On_Game_Start.1 = {
 		name = CKU_On_Game_Start.a
 	}
 }
+
+CKU_On_Game_Start.2 = { # English Start event
+	type = character_event
+	title = CKU_On_Game_Start.2.t
+	desc = CKU_On_Game_Start.2.d
+	#theme = hunting
+	override_background = {
+		event_background = throne_room_west
+	}
+	
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+	
+	trigger = {
+		is_ai = no
+	}
+	
+	option = {
+		name = CKU_On_Game_Start.2.a
+	}
+}

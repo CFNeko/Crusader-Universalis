@@ -4,15 +4,14 @@
 
 namespace = CKU_surrender_maine
 
-#MOTHER - Bastard secret is removed if you marry the right person
-CKU_surrender_maine.0001 = {
+CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 	type = character_event
 	title = CKU_surrender_maine.0001.t
 	desc = CKU_surrender_maine.0001.desc
 	theme = marriage
 	
 	left_portrait = {
-		character = scope:king_henry_vi
+		character = root
 		animation = happiness
 	}
 	right_portrait = {
@@ -21,42 +20,177 @@ CKU_surrender_maine.0001 = {
 	}
 	
 	trigger = {
-		scope:king_henry_vi = {
-			is_alive = yes
-			is_landed = yes
-			is_imprisoned = no
-		}
-		#scope:k_england = {
-		#	holder = CKU_english_1
-		#}
-		#King of England == CKU_english_1
-		#King of England != married
 	}
 
 	on_trigger_fail = {
 	}
 
 	immediate = {
-		character:CKU_english_1 = {
-			save_scope_as = king_henry_vi
-		}
 		character:CKU_anjou_6 = {
 			save_scope_as = marguerite_de_anjou
 		}
 	}
 
-	option = { #Yes
+	option = { #Yes, but I would have to divorce my current spouse
 		name = CKU_surrender_maine.0001.a
-
-		scope:king_henry_vi = {
+		
+		trigger = {
+			root = {
+				OR = {
+					is_married = yes
+					is_betrothed= yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				root = {
+					is_married = yes
+				}
+			}
+			divorce = root.primary_spouse
+		}
+		else = {
+			limit = {
+				root = {
+					is_betrothed= yes
+				}
+			}
+			break_betrothal = root.betrothed
+		}
+		root = {
 			marry = scope:marguerite_de_anjou
+			add_prestige = medium_prestige_loss
+		}
+		# landed_title:k_france.holder = {
+		character:character:CKU_french_1 = {
+			trigger_event = {
+				id = CKU_surrender_maine.0003
+				days = { 14 60 }
+			}
+		}
+	}
+	option = { #Yes
+		name = CKU_surrender_maine.0001.b
+		
+		trigger = {
+			root = {
+				is_married = no
+				is_betrothed= no
+			}
+		}
+		root = {
+			marry = scope:marguerite_de_anjou
+		}
+		character:character:CKU_french_1 = {
+			trigger_event = {
+				id = CKU_surrender_maine.0003
+				days = { 14 60 }
+			}
 		}
 	}
 	option = { #No
-		name = CKU_surrender_maine.0001.a
+		name = CKU_surrender_maine.0001.c
 		
-		scope:king_henry_vi = {
+		root = {
 			cancel_truce_both_ways = character:CKU_francien_1
 		}
+		trigger_event = {
+			id = CKU_surrender_maine.0004
+			days = { 14 60 }
+		}
+	}
+	option = { #I am already married
+		name = CKU_surrender_maine.0001.d
+		
+		trigger = {
+			root = {
+				OR = {
+					is_married = yes
+					is_betrothed= yes
+				}
+			}
+		}
+		add_prestige = medium_prestige_loss
+		trigger_event = {
+			id = CKU_surrender_maine.0004
+			days = { 14 60 }
+		}
+	}
+}
+
+CKU_surrender_maine.0002 = { #Henry VI is dead
+	type = character_event
+	title = CKU_surrender_maine.0002.t
+	desc = CKU_surrender_maine.0002.desc
+	theme = death
+	
+	trigger = {
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = CKU_surrender_maine.0002.a
+		
+		add_prestige = medium_prestige_loss
+	}
+}
+
+CKU_surrender_maine.0003 = { #Marriage between Henry VI and Marguerite d'Anjou has proceeded
+	type = character_event
+	title = CKU_surrender_maine.0003.t
+	desc = CKU_surrender_maine.0003.desc
+	theme = marriage
+	
+	trigger = {
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = { # What a joyous event!
+		name = CKU_surrender_maine.0003.a
+		
+		add_prestige = medium_prestige_loss
+	}
+	option = { # Lets send the king a gift
+		name = CKU_surrender_maine.0003.b
+		
+		add_prestige = medium_prestige_loss
+	}
+}
+
+CKU_surrender_maine.0004 = { #Marriage between Henry VI and Marguerite d'Anjou was rejected
+	type = character_event
+	title = CKU_surrender_maine.0004.t
+	desc = CKU_surrender_maine.0004.desc
+	theme = realm
+	
+	trigger = {
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = { # What is it he wants? Her father will surely be disappointed
+		name = CKU_surrender_maine.0004.a
+		
+		add_prestige = medium_prestige_loss
+	}
+	option = { # This is a disgrace! He will pay for this in time!
+		name = CKU_surrender_maine.0004.b
+		
+		add_prestige = medium_prestige_loss
 	}
 }

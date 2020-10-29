@@ -3,3 +3,7 @@
  CKU_On_Game_Start.1.d: "Welcome to Crusader Universalis, a mod that bridges CK3 with Eu4. This is still in early stages of development, but thanks to Crusader King's flavor mechanics, any player can have fun with the game. Currently, the most developed nations are: France, England, Scotland and technically Ireland which will be the focus on an update for the Hundred Years War.\n\nIf you have any feedback for us, tell us in our discord: https://discord.gg/DaaBgJM"
  CKU_On_Game_Start.1.a: "Okay!"
  
+ # English Start event
+ CKU_On_Game_Start.2.t: "Kingdom of England"
+ CKU_On_Game_Start.2.d: "The Hundred Years War which has torn France apart for over a century is currently halted by a truce following a number of key French victories. With the support of Joan of Arc, since martyred at the hands of the Flag of England English, and the support of the rich Flag of Provence Anjou family, Charles VII has reclaimed Paris and many of the French lands. Charles has also been acknowledged as the rightful King by the Dukes of Flag of Burgundy Burgundy in the treaty of Arras in 1435.\n\nHowever, the truce with England is tenuous. The English have still not relinquished their claims to the French throne, and one of the main demands of the new treaty, the surrender of Maine to France, has yet to materialize months later."
+ CKU_On_Game_Start.2.a: "Okay!"
