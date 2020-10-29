@@ -31,6 +31,8 @@
 
 @arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
 @culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+@pike_square = "gfx/interface/icons/culture_innovations/innovation_pike_square.dds"
+#@pike_shot = "gfx/interface/icons/culture_innovations/innovation_pike_shot.dds"
 @inquisition = "gfx/interface/icons/culture_innovations/inquisition.dds"
 @colonization = "gfx/interface/icons/culture_innovations/colonization.dds"
 @medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
@@ -125,7 +127,7 @@ innovation_military_6 = {
 innovation_military_7 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =   @special_maa_01
+	icon =   @pike_square
 	
 	maa_upgrade = {
 		type = heavy_infantry

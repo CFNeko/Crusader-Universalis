@@ -18,9 +18,18 @@
 			}
 			1422.12.18 = {
 				add_spouse = CKU_anjou_14
-			}
+			}	
 			1443.1.1 = {
 				set_relation_lover = character:CKU_francien_minor_8
+			}
+			1444.3.28 = {
+				effect = {
+					add_truce_both_ways = {
+						character = character:CKU_english_1
+						days = 563
+						name = TRUCE_HUNDRED_YEARS_WAR
+					}
+				}
 			}
 			1461.7.22 = {
 				death = yes

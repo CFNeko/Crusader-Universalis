@@ -21,20 +21,20 @@ CKU_surrender_maine.0001 = {
 	}
 	
 	trigger = {
-		current_date = 1445.4.22
-		#Date == 22-4-1445
-	
-		#King of England == CKU_english_1
-		#King of England != prison
-		#King of England == betrothed to CKU_anjou_6
-		#King of England != married
-		
-		scope:k_england = {
-			holder = scope:king_henry_vi
+		scope:king_henry_vi = {
+			is_alive = yes
+			is_landed = yes
+			is_imprisoned = no
 		}
+		#scope:k_england = {
+		#	holder = CKU_english_1
+		#}
+		#King of England == CKU_english_1
+		#King of England != married
 	}
 
-	on_trigger_fail = { }
+	on_trigger_fail = {
+	}
 
 	immediate = {
 		character:CKU_english_1 = {
@@ -45,11 +45,18 @@ CKU_surrender_maine.0001 = {
 		}
 	}
 
-	option = {
+	option = { #Yes
 		name = CKU_surrender_maine.0001.a
 
-		stress_impact = {
-			base = medium_stress_loss
+		scope:king_henry_vi = {
+			marry = scope:marguerite_de_anjou
+		}
+	}
+	option = { #No
+		name = CKU_surrender_maine.0001.a
+		
+		scope:king_henry_vi = {
+			cancel_truce_both_ways = character:CKU_francien_1
 		}
 	}
 }

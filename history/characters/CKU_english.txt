@@ -14,10 +14,6 @@
 		1421.12.6 = {
 			birth = yes
 		}
-		1421.1.1 = {
-			add_spouse = CKU_anjou_6
-		}
-		# the surrender of maine
 	}
 
 	CKU_english_2 = {
