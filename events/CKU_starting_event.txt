@@ -1,0 +1,43 @@
+﻿namespace = CKU_starting_event
+
+CKU_starting_event.0001 = { #??? Start event
+	type = character_event
+	title = CKU_starting_event.0001.t
+	desc = CKU_starting_event.0001.desc
+	theme = death
+	
+	trigger = {
+		is_ai = no
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = CKU_starting_event.0001.a
+	}
+}
+
+CKU_starting_event.0002 = { #English Start event
+	type = character_event
+	title = CKU_starting_event.0002.t
+	desc = CKU_starting_event.0002.desc
+	theme = death
+	
+	trigger = {
+		is_ai = no
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = CKU_starting_event.0002.a
+	}
+}

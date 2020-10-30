@@ -214,7 +214,7 @@
 				birth = yes
 			}
 			1433.1.1 = {
-				create_betrothal = CKU_valois_22
+				create_betrothal = character:CKU_valois_22
 			}
 			1496.3.4 = {
 				death = yes

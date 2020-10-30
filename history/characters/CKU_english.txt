@@ -56,7 +56,7 @@
 	}
 	CKU_english_5 = {
 		name = "John"
-		dynasty_house = CKU_house_lancaster
+		dynasty_house = 100058
 		religion = catholic
 		culture = english
 		1395.3.29 = {

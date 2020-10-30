@@ -190,7 +190,7 @@ on_game_start_after_lobby = {
 					is_landed = yes
 				}
 				trigger_event = {
-					id = CKU_On_Game_Start.2
+					id = CKU_starting_event.0002
 				}
 			}
 		}

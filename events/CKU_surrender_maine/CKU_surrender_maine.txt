@@ -62,8 +62,7 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 			marry = scope:marguerite_de_anjou
 			add_prestige = medium_prestige_loss
 		}
-		# landed_title:k_france.holder = {
-		character:character:CKU_french_1 = {
+		title:k_france.holder = {
 			trigger_event = {
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
@@ -82,7 +81,7 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 		root = {
 			marry = scope:marguerite_de_anjou
 		}
-		character:character:CKU_french_1 = {
+		title:k_france.holder = {
 			trigger_event = {
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
@@ -93,11 +92,13 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 		name = CKU_surrender_maine.0001.c
 		
 		root = {
-			cancel_truce_both_ways = character:CKU_francien_1
+			cancel_truce_both_ways = title:k_france.holder
 		}
-		trigger_event = {
-			id = CKU_surrender_maine.0004
-			days = { 14 60 }
+		title:k_france.holder = {
+			trigger_event = {
+				id = CKU_surrender_maine.0004
+				days = { 14 60 }
+			}
 		}
 	}
 	option = { #I am already married
@@ -112,9 +113,11 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 			}
 		}
 		add_prestige = medium_prestige_loss
-		trigger_event = {
-			id = CKU_surrender_maine.0004
-			days = { 14 60 }
+		title:k_france.holder = {
+			trigger_event = {
+				id = CKU_surrender_maine.0004
+				days = { 14 60 }
+			}
 		}
 	}
 }

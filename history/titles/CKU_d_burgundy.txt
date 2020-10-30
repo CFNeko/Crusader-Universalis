@@ -198,6 +198,5 @@ b_bar_sur_seine = {
 b_limbourg = {
 	1440.1.1 = {
 		holder = CKU_bourgogne_3
-		liege = "d_burgundy"
 	}
 }

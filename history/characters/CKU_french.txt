@@ -4604,6 +4604,40 @@
 				death = yes
 			}
 		}
+		CKU_reginar_montfort_2 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = 7466
+			# mother = Béatrix de Viennois
+			# Married Jeanne de Chateaudun
+			1228.1.1 = {
+				birth = yes
+			}
+			1249.1.1 = {
+				death = yes
+			}
+		}
+		CKU_reginar_montfort_3 = {
+			name = "Béatrice"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 4003
+			father = CKU_reginar_montfort_2
+			# mother = Jeanne de Chateaudun
+			# Married Robert de Dreux
+			1245.1.1 = {
+				birth = yes
+			}
+			1260.1.1 = {
+				add_spouse = 91239
+			}
+			1311.3.9 = {
+				death = yes
+			}
+		}
 	# }
 	# Sancerre = {
 		CKU_sancerre_1 = {
@@ -5100,7 +5134,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 92
+			dynasty = 4003
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -5244,7 +5278,7 @@
 				birth = yes
 			}
 			1435.9.21 = {
-				create_betrothal = CKU_valois_23
+				create_betrothal = character:CKU_valois_23
 			}
 			1477.1.5 = {
 				death = yes
@@ -5941,6 +5975,168 @@
 				birth = yes
 			}
 			1467.8.11 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_29 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
+			# Married Jean de Lannoy
+			1388.1.1 = {#?
+				birth = yes
+			}
+			1430.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_30 = {
+			name = "Antoine"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
+			# Married Marie de Roubaix
+			# Married Marguerite de Lorraine
+			1390.1.1 = {
+				birth = yes
+			}
+			1475.9.21 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_31 = {
+			name = "Jacqueline"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
+			# Married Antoine de Rubempré
+			1400.1.1 = {#?
+				birth = yes
+			}
+			1453.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_32 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
+			# Married Jean de Beauvoir
+			1398.1.1 = {#?
+				birth = yes
+			}
+			1460.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_32 = {
+			name = "Léon"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_22
+			# Married Jean de Beauvoir
+			1401.1.1 = {#?
+				birth = yes
+			}
+			1470.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_33 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_30
+			# mother = Marie de Roubaix
+			1440.1.1 = {
+				birth = yes
+			}
+			1459.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_34 = {
+			name = "Philippe"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_30
+			# mother = Marguerite de Lorraine
+			1433.1.1 = {
+				birth = yes
+			}
+			1511.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_35 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_30
+			# mother = Marguerite de Lorraine
+			1435.1.1 = {
+				birth = yes
+			}
+			1504.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_36 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_30
+			# mother = Marguerite de Lorraine
+			1436.1.1 = {
+				birth = yes
+			}
+			1505.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_37 = {
+			name = "Jacqueline"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_13
+			mother = CKU_bourgogne_minor_12
+			1430.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_38 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_croy
+			father = CKU_bourgogne_minor_13
+			mother = CKU_bourgogne_minor_12
+			1440.1.1 = {
+				birth = yes
+			}
+			1515.1.1 = {
 				death = yes
 			}
 		}
@@ -7970,7 +8166,7 @@
 			name = "Robert"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = 204989
 			# mother = Aénor de Saint-Valéry
 			# Married Agnès de Conde
@@ -7988,7 +8184,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_24
 			# mother = Clemence de Châteaudun
 			# Married Raoul de Clermont
@@ -8004,7 +8200,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_24
 			# mother = Clemence de Châteaudun
 			# Married Gauthier de Nemours
@@ -8021,7 +8217,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_24
 			# mother = Isabeau de Villebeon
 			# Married Gaucher de Chatillon
@@ -8039,7 +8235,7 @@
 			name = "Robert"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_24
 			# mother = Isabeau de Villebeon
 			# Married Yolande de Vendômois
@@ -8056,7 +8252,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_28
 			# mother = Yolande de Vendômois
 			# Married Barthelemy de Montbazon
@@ -8071,7 +8267,7 @@
 			name = "Robert"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_28
 			# mother = Yolande de Vendômois
 			# Married Béatrix de Courlandon
@@ -8088,14 +8284,14 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_28
 			# mother = Yolande de Vendômois
 			# Married Marguerite de La Roche
 			1290.1.1 = {
 				birth = yes
 			}
-			1340.1.1 = {#?
+			1347.1.1 = {#?
 				death = yes
 			}
 		}
@@ -8104,7 +8300,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Béatrix de Courlandon
 			# Married Pierre de Trousseau
@@ -8119,7 +8315,7 @@
 			name = "Robert"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Béatrix de Courlandon
 			# Married Isabeau des Barres
@@ -8135,7 +8331,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Béatrix de Courlandon
 			# Married Thibaud de Mathefelon
@@ -8151,7 +8347,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Isabeau de Saqueville
 			1320.1.1 = {
@@ -8166,7 +8362,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Isabeau de Saqueville
 			# Married Jean de Brie
@@ -8181,7 +8377,7 @@
 			name = "Robert"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Agnès de Thianges
 			# Married Yolande de Trie
@@ -8197,7 +8393,7 @@
 			female = yes
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_30
 			# mother = Agnès de Thianges
 			# Married Roger de Hellenvilliers
@@ -8212,7 +8408,7 @@
 			name = "Robert"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_33
 			# mother = Isabeau des Barres
 			1339.1.1 = {
@@ -8226,13 +8422,314 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 86
+			dynasty_house = house_dreux_beu
 			father = CKU_montfort_33
 			# mother = Isabeau des Barres
 			1340.1.1 = {
 				birth = yes
 			}
 			1370.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_41 = {
+			name = "Philippa"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_31
+			# mother = Marguerite de La Roche
+			# Married Jean de Pont-Audemar
+			1317.1.1 = {
+				birth = yes
+			}
+			1370.9.20 = {
+				death = yes
+			}
+		}
+		CKU_montfort_42 = {
+			name = "Aliénor"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_31
+			# mother = Marguerite de La Roche
+			1318.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_43 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_31
+			# mother = Marguerite de La Roche
+			# Married Amauri de Vendôme
+			1319.1.1 = {
+				birth = yes
+			}
+			1350.11.13 = {
+				death = yes
+			}
+		}
+		CKU_montfort_44 = {
+			name = "Etienne"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_31
+			# mother = Marguerite de La Roche
+			# Married Philippa de Mausigny
+			1330.1.1 = {
+				birth = yes
+			}
+			1395.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_45 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_31
+			# mother = Marguerite de La Roche
+			# Married Pierre de Sacquenville
+			1331.1.1 = {
+				birth = yes
+			}
+			1370.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_46 = {
+			name = "Simon"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			# Married Jeanne de Vendôme
+			1360.1.1 = {
+				birth = yes
+			}
+			1420.10.5 = {
+				death = yes
+			}
+		}
+		CKU_montfort_47 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			# Married Guillaume Morin
+			1362.1.1 = {
+				birth = yes
+			}
+			1413.4.18 = {
+				death = yes
+			}
+		}
+		CKU_montfort_48 = {
+			name = "Alix"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			1364.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_49 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			# Married Jeanne de Plessis
+			1366.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_montfort_50 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			# Married Guillaume Le Roy
+			1370.1.1 = {
+				birth = yes
+			}
+			1424.3.17 = {
+				death = yes
+			}
+		}
+		CKU_montfort_51 = {
+			name = "Gauvain"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			# Married Jeanne de Esneval
+			1372.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_montfort_52 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_44
+			# mother = Philippa de Mausigny
+			1375.1.1 = {
+				birth = yes
+			}
+			1406.6.18 = {
+				death = yes
+			}
+		}
+		CKU_montfort_53 = {
+			name = "Robert"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_51
+			# mother = Jeanne de Esneval
+			# Married Guillaumette de Segrie
+			1406.6.18 = {
+				birth = yes
+			}
+			1478.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_54 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_53
+			# mother = Guillaumette de Segrie
+			1437.1.1 = {
+				birth = yes
+			}
+			1498.6.14 = {
+				death = yes
+			}
+		}
+		CKU_montfort_55 = {
+			name = "Gauvain"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_53
+			# mother = Guillaumette de Segrie
+			1438.1.1 = {
+				birth = yes
+			}
+			1508.3.12 = {
+				death = yes
+			}
+		}
+		CKU_montfort_56 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_53
+			# mother = Guillaumette de Segrie
+			1440.1.1 = {
+				birth = yes
+			}
+			1493.10.2 = {
+				death = yes
+			}
+		}
+		CKU_montfort_57 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_53
+			# mother = Guillaumette de Segrie
+			1439.6.18 = {
+				birth = yes
+			}
+			1476.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_58 = {
+			name = "Austreberte"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_beu
+			father = CKU_montfort_53
+			# mother = Guillaumette de Segrie
+			1440.1.1 = {
+				birth = yes
+			}
+			1457.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_59 = {
+			name = "Gilles"
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_montfort
+			father = CKU_montfort_2
+			mother = CKU_valois_15
+			# Married 
+			1420.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_montfort_60 = {
+			name = "Jacquette"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_dreux_montfort
+			father = CKU_montfort_5
+			# mother = Unknown
+			trait = bastard
+			1443.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {
 				death = yes
 			}
 		}
@@ -8838,7 +9335,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_albret_11
-			mother = Catherine de Rohan
+			# mother = Catherine de Rohan
 			# Married Arthur de Montfort
 			1425.1.1 = {
 				birth = yes
@@ -8853,7 +9350,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_albret_11
-			mother = Catherine de Rohan
+			# mother = Catherine de Rohan
 			1428.1.1 = {
 				birth = yes
 			}
@@ -8867,7 +9364,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_albret_11
-			mother = Catherine de Rohan
+			# mother = Catherine de Rohan
 			1422.12.23 = {
 				birth = yes
 			}
@@ -8882,7 +9379,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_albret_11
-			mother = Catherine de Rohan
+			# mother = Catherine de Rohan
 			1426.1.1 = {
 				birth = yes
 			}
@@ -8910,7 +9407,7 @@
 			religion = "catholic"
 			culture = gascon
 			father = CKU_albret_11
-			mother = Catherine de Rohan
+			# mother = Catherine de Rohan
 			1440.1.1 = {
 				birth = yes
 			}
