@@ -1,5 +1,37 @@
 ﻿l_english:
  TRUCE_HUNDRED_YEARS_WAR:"Truce of Tours"
  
- CKU_surrender_maine.0001.t:0 "Test Title"
- CKU_surrender_maine.0001.desc:0 "Test Description"
+ CKU_surrender_maine.0001.t:0 "Marriage between Henry VI and Marguerite d'Anjou"
+ CKU_surrender_maine.0001.desc:0 "Marriage between Henry VI and Marguerite d'Anjou"
+ CKU_surrender_maine.0001.a:0 "Yes, but I would have to divorce my current spouse"
+ CKU_surrender_maine.0001.b:0 "Yes"
+ CKU_surrender_maine.0001.c:0 "No"
+ CKU_surrender_maine.0001.d:0 "I am already married"
+ 
+ CKU_surrender_maine.0002.t:0 "Henry VI is dead"
+ CKU_surrender_maine.0002.desc:0 "Henry VI is dead"
+ CKU_surrender_maine.0002.a:0 "Oh no, what now?"
+ 
+ CKU_surrender_maine.0003.t:0 "Marriage between Henry VI and Marguerite d'Anjou has proceeded"
+ CKU_surrender_maine.0003.desc:0 "Marriage between Henry VI and Marguerite d'Anjou has proceeded"
+ CKU_surrender_maine.0003.a:0 "What a joyous event!"
+ CKU_surrender_maine.0003.b:0 "Lets send the king a gift"
+ 
+ CKU_surrender_maine.0004.t:0 "Marriage between Henry VI and Marguerite d'Anjou was rejected"
+ CKU_surrender_maine.0004.desc:0 "Marriage between Henry VI and Marguerite d'Anjou was rejected"
+ CKU_surrender_maine.0004.a:0 "What is it he wants? Her father will surely be disappointed"
+ CKU_surrender_maine.0004.b:0 "This is a disgrace! He will pay for this in time!"
+ 
+ CKU_surrender_maine.0005.t:0 "Start discussion on Surrender of Maine"
+ CKU_surrender_maine.0005.desc:0 "Start discussion on Surrender of Maine"
+ CKU_surrender_maine.0005.a:0 "We should push the english king on this matter"
+ CKU_surrender_maine.0005.b:0 "I can take it whenever I want"
+ 
+ CKU_surrender_maine.0006.t:0 "King of France as cancelled the truce"
+ CKU_surrender_maine.0006.desc:0 "King of France as cancelled the truce"
+ CKU_surrender_maine.0006.a:0 "What will the future bring?"
+ 
+ CKU_surrender_maine.0007.t:0 "Demand Surrender of Maine"
+ CKU_surrender_maine.0007.desc:0 "Demand Surrender of Maine"
+ CKU_surrender_maine.0007.a:0 "Come and take it! This means war!"
+ CKU_surrender_maine.0007.b:0 "I shall honor our previous agremeent"

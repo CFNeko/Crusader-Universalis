@@ -68,6 +68,12 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 				days = { 14 60 }
 			}
 		}
+		title:k_france.holder = { # Start discussion on Surrender of Maine
+			trigger_event = {
+				id = CKU_surrender_maine.0005
+				years = 1
+			}
+		}
 	}
 	option = { #Yes
 		name = CKU_surrender_maine.0001.b
@@ -85,6 +91,12 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 			trigger_event = {
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
+			}
+		}
+		title:k_france.holder = { # Start discussion on Surrender of Maine
+			trigger_event = {
+				id = CKU_surrender_maine.0005
+				years = 1
 			}
 		}
 	}
@@ -111,6 +123,9 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 					is_betrothed= yes
 				}
 			}
+		}
+		root = {
+			cancel_truce_both_ways = title:k_france.holder
 		}
 		add_prestige = medium_prestige_loss
 		title:k_france.holder = {
@@ -195,5 +210,101 @@ CKU_surrender_maine.0004 = { #Marriage between Henry VI and Marguerite d'Anjou w
 		name = CKU_surrender_maine.0004.b
 		
 		add_prestige = medium_prestige_loss
+	}
+}
+
+CKU_surrender_maine.0005 = { #Start discussion on Surrender of Maine
+	type = character_event
+	title = CKU_surrender_maine.0005.t
+	desc = CKU_surrender_maine.0005.desc
+	theme = realm
+	
+	trigger = {
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = { # We should push the english king on this matter
+		name = CKU_surrender_maine.0005.a
+		
+		add_prestige = medium_prestige_loss
+		
+		title:k_england.holder = { # Demand Surrender of Maine
+			trigger_event = {
+				id = CKU_surrender_maine.0007
+				days = { 14 60 }
+			}
+		}
+	}
+	option = { # I can take it whenever I want
+		name = CKU_surrender_maine.0005.b
+		
+		root = {
+			cancel_truce_both_ways = title:k_england.holder
+		}
+		title:k_england.holder = { # Truce Cancelled
+			trigger_event = {
+				id = CKU_surrender_maine.0006
+				days = { 14 60 }
+			}
+		}
+	}
+}
+
+CKU_surrender_maine.0006 = { #King of France as cancelled the truce
+	type = character_event
+	title = CKU_surrender_maine.0006.t
+	desc = CKU_surrender_maine.0006.desc
+	theme = realm
+	
+	trigger = {
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = { # What will the future bring?
+		name = CKU_surrender_maine.0006.a
+		
+		add_prestige = medium_prestige_loss
+	}
+}
+
+CKU_surrender_maine.0007 = { #Demand Surrender of Maine
+	type = character_event
+	title = CKU_surrender_maine.0007.t
+	desc = CKU_surrender_maine.0007.desc
+	theme = realm
+	
+	trigger = {
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = { # Come and take it! This means war!
+		name = CKU_surrender_maine.0007.a
+		
+		start_war = {
+			cb = de_jure_cb
+			target = title:k_france.holder
+			claimant = title:k_england.holder
+			target_title = title:k_england
+			target_title = title:k_aquitaine
+		}
+	}
+	option = { # I shall honor our previous agremeent
+		name = CKU_surrender_maine.0007.b
+		
 	}
 }

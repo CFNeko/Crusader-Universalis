@@ -1008,6 +1008,22 @@
 				death = yes
 			}
 		}
+		CKU_artois_7 = {
+			name = "Catherine"
+			female = yes
+			dynasty = 100
+			religion = "catholic"
+			culture = french
+			father = CKU_artois_4
+			mother = CKU_valois_8
+			# Married Jean de Bourbon # Does not exist yet
+			1397.1.1 = {
+				birth = yes
+			}
+			1422.1.1 = {
+				death = yes
+			}
+		}
 	# }
 	# Clermont = {
 		CKU_clermont_1 = {
@@ -5129,6 +5145,35 @@
 				death = yes
 			}
 		}
+		CKU_francien_minor_31 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			father = CKU_francien_minor_3
+			# Married Pierre de Chailly
+			# Married Guichard de Appelvoisin
+			1394.1.24 = {
+				birth = yes
+			}
+			1460.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_francien_minor_32 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_juvénal_des_ursins
+			father = CKU_francien_minor_4
+			1425.1.1 = {
+				birth = yes
+			}
+			1492.5.8 = {
+				death = yes
+			}
+		}
 		######## Test Character ########
 		CKU_francien_test_1 = {
 			name = "Jean"
@@ -5622,6 +5667,8 @@
 			religion = catholic
 			culture = flemish
 			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_40
+			# mother = Isabelle de Montigny
 			1365.1.1 = {
 				birth = yes
 			}
@@ -5706,6 +5753,9 @@
 			1421.1.1 = {
 				birth = yes
 			}
+			1453.7.3 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_7 = {
 			name = "Jean"
@@ -5716,6 +5766,9 @@
 			mother = CKU_bourgogne_minor_2
 			1422.1.1 = {
 				birth = yes
+			}
+			1498.12.1 = {
+				death = yes
 			}
 		}
 		CKU_bourgogne_minor_8 = {
@@ -5729,6 +5782,9 @@
 			1422.1.1 = {
 				birth = yes
 			}
+			1497.8.15 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_9 = {
 			name = "Isabelle"
@@ -5740,6 +5796,9 @@
 			mother = CKU_bourgogne_minor_2
 			1430.1.1 = {
 				birth = yes
+			}
+			1490.6.21 = {
+				death = yes
 			}
 		}
 		CKU_bourgogne_minor_10 = {
@@ -5755,6 +5814,9 @@
 				#employer = ????
 				#give_council_position = councillor_marshal
 			}
+			1477.3.15 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_11 = {
 			name = "Josse"
@@ -5765,6 +5827,9 @@
 			1437.1.1 = {
 				birth = yes
 			}
+			1483.8.5 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_12 = {
 			name = "Marie"
@@ -5772,8 +5837,12 @@
 			religion = catholic
 			culture = flemish
 			dynasty = CKU_lalaing
-			1413.1.1 = {
+			father = CKU_bourgogne_minor_27
+			1390.1.1 = {
 				birth = yes
+			}
+			1475.1.20 = {
+				death = yes
 			}
 		}
 		
@@ -5843,14 +5912,17 @@
 			}
 		}
 		CKU_bourgogne_minor_18 = {
-			name = "Jeanne"
-			female = yes
+			name = "Jean"
 			religion = catholic
 			culture = flemish
-			1363.1.1 = {
+			dynasty = CKU_clyte
+			father = CKU_bourgogne_minor_19
+			# mother = Jeanne de Ghistelles
+			# Married Jeanne de Estouteville
+			1405.1.1 = {
 				birth = yes
 			}
-			1420.1.1 = {
+			1475.4.1 = {
 				death = yes
 			}
 		}
@@ -5860,7 +5932,9 @@
 			culture = flemish
 			dynasty = CKU_clyte
 			father = CKU_bourgogne_minor_17
-			mother = CKU_bourgogne_minor_18
+			# mother = Jeanne de Waziers
+			# Married Jeanne de Ghistelles
+			# Married Jeanne de Preures
 			1381.1.1 = {
 				birth = yes
 			}
@@ -5875,9 +5949,13 @@
 			culture = flemish
 			dynasty = CKU_clyte
 			father = CKU_bourgogne_minor_17
-			mother = CKU_bourgogne_minor_18
-			1385.1.1 = {
+			# mother = Jeanne de Waziers
+			# Married Olivier van Halewijn
+			1386.1.1 = {
 				birth = yes
+			}
+			1414.1.1 = {
+				death = yes
 			}
 		}
 		CKU_bourgogne_minor_21 = {
@@ -5886,9 +5964,14 @@
 			culture = flemish
 			dynasty = CKU_clyte
 			father = CKU_bourgogne_minor_17
-			mother = CKU_bourgogne_minor_18
+			# mother = Jeanne de Waziers
+			# Married Catherine van Haveskerke
+			# Married Marguerite van Arnemuyden
 			1401.1.1 = {
 				birth = yes
+			}
+			1453.5.8 = {
+				death = yes
 			}
 		}
 		CKU_bourgogne_minor_22 = {
@@ -5952,7 +6035,7 @@
 			religion = catholic
 			culture = flemish
 			dynasty = CKU_lalaing
-			# father = ???
+			father = CKU_bourgogne_minor_53
 			# mother = ???
 			# Married Jeanne de Barbancon
 			1370.1.1 = {
@@ -6137,6 +6220,321 @@
 				birth = yes
 			}
 			1515.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_39 = {
+			name = "Simon"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			# father = Nicolas de Lalaing
+			# mother = Agnès de Willerval
+			# Married Mahaud de Aspremont
+			1279.1.1 = {#?
+				birth = yes
+			}
+			1333.5.3 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_40 = {
+			name = "Nicolas"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_39
+			# mother = Mahaud de Aspremont
+			# Married Isabelle de Montigny
+			1300.1.1 = {#?
+				birth = yes
+			}
+			1369.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_41 = {
+			name = "Simon"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_39
+			# mother = Mahaud de Aspremont
+			# Married Jeanne de Roeulx
+			1300.1.1 = {#?
+				birth = yes
+			}
+			1386.9.13 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_42 = {
+			name = "Florence"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_39
+			# mother = Mahaud de Aspremont
+			# Married Gilles de Rumont
+			1328.1.1 = {#?
+				birth = yes
+			}
+			1380.8.13 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_43 = {
+			name = "Nicolas"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_40
+			# mother = Isabelle de Montigny
+			1347.1.1 = {#?
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_44 = {
+			name = "Simon"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_40
+			# mother = Isabelle de Montigny
+			1348.1.1 = {#?
+				birth = yes
+			}
+			1387.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_45 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_40
+			# mother = Isabelle de Montigny
+			# Married Pierre de Haveskerke
+			1355.1.1 = {#?
+				birth = yes
+			}
+			1426.4.26 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_46 = {
+			name = "Philippe"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_1
+			mother = CKU_bourgogne_minor_2
+			1430.1.1 = {
+				birth = yes
+			}
+			1465.7.16 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_47 = {
+			name = "Antoine"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_1
+			mother = CKU_bourgogne_minor_2
+			1435.1.1 = {#?
+				birth = yes
+			}
+			1470.1.8 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_48 = {
+			name = "Arnould"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_10
+			# mother = Jeanne de Gavre
+			1439.1.1 = {
+				birth = yes
+			}
+			1483.3.21 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_49 = {
+			name = "Simon"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_10
+			# mother = Jeanne de Gavre
+			1441.1.1 = {
+				birth = yes
+			}
+			1465.8.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_50 = {
+			name = "Philippe"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_10
+			# mother = Jeanne de Gavre
+			1442.1.1 = {
+				birth = yes
+			}
+			1464.12.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_51 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_10
+			# mother = Jeanne de Gavre
+			1444.1.1 = {
+				birth = yes
+			}
+			1477.3.2 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_52 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_10
+			# mother = Jeanne de Gavre
+			1433.1.1 = {
+				birth = yes
+			}
+			1498.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_53 = {
+			name = "Simon"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_41
+			# mother = Jeanne de Roeulx
+			# Married Jeanne de Ligne
+			1325.1.1 = {#?
+				birth = yes
+			}
+			1388.6.3 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_54 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_41
+			# mother = Jeanne de Roeulx
+			# Married Marie de Melun
+			1335.1.1 = {#?
+				birth = yes
+			}
+			1420.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_55 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_54
+			# mother = Unknown
+			# Married Jeanne le Josne
+			trait = bastard
+			1360.1.1 = {#?
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_56 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_41
+			# mother = Jeanne de Roeulx
+			# Married Marguerite de La Hamaide
+			1337.1.1 = {#?
+				birth = yes
+			}
+			1435.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_57 = {
+			name = "Jacqueline"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_56
+			# mother = Jeanne de Roeulx
+			# Married Raoul de Crequy
+			1362.1.1 = {#?
+				birth = yes
+			}
+			1441.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_58 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_41
+			# mother = Jeanne de Roeulx
+			# Married Guillaume de Ligne
+			# Married Englebert de Enghien
+			1340.1.1 = {#?
+				birth = yes
+			}
+			1416.12.16 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_59 = {
+			name = "Mahaut"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lalaing
+			father = CKU_bourgogne_minor_41
+			# mother = Jeanne de Roeulx
+			# Married Anselm de Trazegnies
+			1341.1.1 = {#?
+				birth = yes
+			}
+			1406.8.1 = {
 				death = yes
 			}
 		}
