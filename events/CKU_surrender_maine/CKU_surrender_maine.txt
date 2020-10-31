@@ -240,8 +240,20 @@ CKU_surrender_maine.0005 = { #Start discussion on Surrender of Maine
 			}
 		}
 	}
-	option = { # I can take it whenever I want
+	option = { # Lets sweet the deal a little
 		name = CKU_surrender_maine.0005.b
+		
+		add_prestige = medium_prestige_loss
+		
+		title:k_england.holder = { # Lets sweet the deal a little
+			trigger_event = {
+				id = CKU_surrender_maine.0008
+				days = { 14 60 }
+			}
+		}
+	}
+	option = { # I can take it whenever I want
+		name = CKU_surrender_maine.0005.c
 		
 		root = {
 			cancel_truce_both_ways = title:k_england.holder
@@ -295,16 +307,21 @@ CKU_surrender_maine.0007 = { #Demand Surrender of Maine
 	option = { # Come and take it! This means war!
 		name = CKU_surrender_maine.0007.a
 		
-		start_war = {
-			cb = de_jure_cb
-			target = title:k_france.holder
-			claimant = title:k_england.holder
-			target_title = title:k_england
-			target_title = title:k_aquitaine
+		title:k_england.holder = {
+			start_war = {
+				cb = claim_cb
+				target = title:k_france.holder
+				claimant = title:k_england.holder
+				target_title = k_france
+				target_title = k_aquitaine
+			}
 		}
 	}
 	option = { # I shall honor our previous agremeent
 		name = CKU_surrender_maine.0007.b
 		
+		title:k_france.holder = {
+			get_title = c_maine
+		}
 	}
 }

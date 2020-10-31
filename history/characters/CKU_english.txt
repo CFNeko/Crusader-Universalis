@@ -14,6 +14,13 @@
 		1421.12.6 = {
 			birth = yes
 		}
+		1422.8.31 = {
+			add_pressed_claim = k_france
+			add_pressed_claim = k_aquitaine
+		}
+		1471.5.21 = {
+			death = yes
+		}
 	}
 
 	CKU_english_2 = {

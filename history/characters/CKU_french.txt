@@ -6005,6 +6005,9 @@
 			religion = catholic
 			culture = flemish
 			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_62
+			# mother = Marie de Carnin
+			# Married Jeanne de Beauvoir de Lagnicourt
 			1371.1.1 = {
 				birth = yes
 			}
@@ -6535,6 +6538,231 @@
 				birth = yes
 			}
 			1406.8.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_60 = {
+			name = "Adam"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			# father = Gauthier Le Josne
+			# mother = Jeanne de Lens
+			# Married Blanche de Corbie
+			# Married Marie de Eudin
+			1311.1.1 = {
+				birth = yes
+			}
+			1364.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_61 = {
+			name = "Louise"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_60
+			# mother = Blanche de Corbie
+			# Married Guislain de Saulty
+			1333.1.1 = {
+				birth = yes
+			}
+			1379.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_62 = {
+			name = "Robert"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_60
+			# mother = Marie de Eudin
+			# Married Marie de Carnin
+			1340.1.1 = {
+				birth = yes
+			}
+			1380.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_63 = {
+			name = "Tassart"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_60
+			# mother = Marie de Eudin
+			# Married Jacqueline de Rumet
+			1342.1.1 = {
+				birth = yes
+			}
+			1380.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_64 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_62
+			# mother = Marie de Carnin
+			# Married Jeanne Danvin
+			1374.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_65 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_24
+			# mother = Jeanne de Beauvoir de Lagnicourt
+			# Married Marguerite de Hamel
+			1405.1.1 = {
+				birth = yes
+			}
+			1468.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_66 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_24
+			# mother = Jeanne de Beauvoir de Lagnicourt
+			1411.1.1 = {
+				birth = yes
+			}
+			1451.12.9 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_67 = {
+			name = "Philippe"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_24
+			# mother = Jeanne de Beauvoir de Lagnicourt
+			1412.1.1 = {#?
+				birth = yes
+			}
+			1468.4.19 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_68 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_24
+			# mother = Jeanne de Beauvoir de Lagnicourt
+			# Married Jean de Gosson
+			1413.1.1 = {#?
+				birth = yes
+			}
+			1470.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_69 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_24
+			# mother = Jeanne de Beauvoir de Lagnicourt
+			# Married Jean de Ranchicourt
+			1416.1.1 = {#?
+				birth = yes
+			}
+			1470.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_70 = {
+			name = "Louis"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_65
+			# mother = Marguerite de Hamel
+			1435.1.1 = {
+				birth = yes
+			}
+			1492.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_71 = {
+			name = "Marie-Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_65
+			# mother = Marguerite de Hamel
+			1430.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_72 = {
+			name = "Philippe"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_65
+			# mother = Marguerite de Hamel
+			1436.1.1 = {#?
+				birth = yes
+			}
+			1493.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_73 = {
+			name = "Louise"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_65
+			# mother = Marguerite de Hamel
+			1439.1.1 = {#?
+				birth = yes
+			}
+			1490.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourgogne_minor_70 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_josne
+			father = CKU_bourgogne_minor_65
+			# mother = Marguerite de Hamel
+			1440.1.1 = {#?
+				birth = yes
+			}
+			1490.1.1 = {#?
 				death = yes
 			}
 		}
@@ -7520,14 +7748,19 @@
 		}
 	# }
 	# bourbon {
-		CKU_bourbon_1 = { # Can not find any source for this, needs to be replaced
-			name = "Elenore"
+		CKU_bourbon_1 = {
+			name = "Isabelle"
+			female = yes
 			religion = catholic
 			culture = french
-			female = yes
-			dynasty = 100209
-			1407.1.1 = {
+			dynasty = 100146
+			father = CKU_bourbon_26
+			mother = CKU_evreux_8
+			1408.1.1 = {
 				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_2 = {
@@ -7558,8 +7791,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1426.1.1 = {
+			1426.8.30 = {
 				birth = yes
+			}
+			1488.4.1 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_4 = {
@@ -7573,6 +7809,9 @@
 			1428.1.1 = {
 				birth = yes
 			}
+			1448.7.7 = {
+				death = yes
+			}
 		}
 		CKU_bourbon_5 = { # Archbishop of Lyon in 1444 at age 11
 			name = "Charles"
@@ -7581,8 +7820,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1433.1.1 = {
+			1434.1.1 = {
 				birth = yes
+			}
+			1488.9.13 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_6 = {
@@ -7593,8 +7835,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1434.1.1 = {
+			1436.1.1 = {
 				birth = yes
+			}
+			1465.9.26 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_7 = {
@@ -7607,6 +7852,9 @@
 			1438.12.1 = {
 				birth = yes
 			}
+			1503.10.10 = {
+				death = yes
+			}
 		}
 		CKU_bourbon_8 = {
 			name = "Louis"
@@ -7615,8 +7863,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1438.1.1 = {
+			1437.1.1 = {
 				birth = yes
+			}
+			1482.8.30 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_9 = {
@@ -7627,8 +7878,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1434.2.5 = {
+			1438.2.5 = {
 				birth = yes
+			}
+			1483.4.24 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_10 = {
@@ -7639,8 +7893,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1440.1.1 = {
+			1439.1.1 = {#?
 				birth = yes
+			}
+			1469.5.21 = {
+				death = yes
 			}
 		}
 		CKU_bourbon_11 = {
@@ -7651,8 +7908,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_2
 			mother = CKU_bourgogne_16
-			1442.1.1 = {
+			1441.1.1 = {#?
 				birth = yes
+			}
+			1493.7.10 = {
+				death = yes
 			}
 		}
 		
@@ -7781,16 +8041,16 @@
 			}
 		}
 		CKU_bourbon_19 = {
-			name = "Gilbert"
+			name = "Philippe"
 			religion = catholic
 			culture = french
 			dynasty = 100146
-			father = CKU_bourbon_18
-			mother = CKU_tour_auvergne_4
-			1443.1.1 = {
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1428.2.11 = {
 				birth = yes
 			}
-			1496.10.15 = {
+			1445.1.1 = {
 				death = yes
 			}
 		}
@@ -7879,7 +8139,7 @@
 			1345.1.1 = {
 				birth = yes
 			}
-			1417.9.1 = {
+			1417.10.6 = {
 				death = yes
 			}
 		}
@@ -7915,7 +8175,7 @@
 			1407.9.7 = {
 				birth = yes
 			}
-			1463.1.1 = {
+			1464.8.21 = {
 				death = yes
 			}
 		}
@@ -7926,7 +8186,7 @@
 			dynasty = 100146
 			father = CKU_bourbon_25
 			# mother = Marguerite Préaulx 
-			1368.1.1 = {
+			1389.1.1 = {
 				birth = yes
 			}
 			1415.10.25 = {
@@ -7958,7 +8218,7 @@
 			1391.1.1 = {
 				birth = yes
 			}
-			1429.1.1 = {
+			1429.10.19 = {
 				death = yes
 			}
 		}
@@ -7970,7 +8230,7 @@
 			father = CKU_bourbon_24
 			# mother = Catherine de Montoire
 			# Married Jeanne de Laval
-			1376.1.1 = {
+			1382.1.1 = {
 				birth = yes
 			}
 			1408.1.1 = {
@@ -8004,7 +8264,8 @@
 			father = CKU_bourbon_24
 			# mother = Catherine de Montoire
 			# Married Jean de Valois
-			1380.1.1 = {
+			# Married Ludwig von Bayern
+			1375.1.1 = {
 				birth = yes
 			}
 			1408.9.1 = {
@@ -8018,11 +8279,12 @@
 			dynasty = 100146
 			father = CKU_bourbon_24
 			# mother = Catherine de Montoire
+			# Married Catherine de Artois
 			# Married Jeanne de Vendômois
-			1383.3.1 = {
+			1385.1.1 = {
 				birth = yes
 			}
-			1458.4.29 = {
+			1458.1.1 = {
 				death = yes
 			}
 		}
@@ -8034,10 +8296,11 @@
 			dynasty = 100146
 			father = CKU_bourbon_24
 			# mother = Catherine de Montoire
-			1387.1.1 = {
+			# Married Jean de Croix
+			1386.1.1 = {
 				birth = yes
 			}
-			1465.9.11 = {
+			1463.9.11 = {
 				death = yes
 			}
 		}
@@ -8053,7 +8316,79 @@
 			1392.1.1 = {
 				birth = yes
 			}
-			1422.1.25 = {
+			1434.12.15 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_37 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_26
+			mother = CKU_evreux_8
+			1410.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_38 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			1418.1.1 = {
+				birth = yes
+			}
+			1458.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_39 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			1424.2.1 = {
+				birth = yes
+			}
+			1481.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_40 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			# Married Antoinette de La Tour-Auvergne
+			1427.1.1 = {#?
+				birth = yes
+			}
+			1493.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_41 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			1428.1.1 = {#?
+				birth = yes
+			}
+			1492.1.1 = {
 				death = yes
 			}
 		}
