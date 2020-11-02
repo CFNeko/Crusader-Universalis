@@ -240,7 +240,7 @@
 		# Count of Sancerre = {
 			c_sancerre = {
 				1440.1.1 = {
-					holder = CKU_sancerre_1
+					holder = CKU_sancerre_17
 					liege = d_orleans
 				}
 			}

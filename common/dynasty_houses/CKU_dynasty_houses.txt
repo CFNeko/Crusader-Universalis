@@ -1,7 +1,18 @@
-﻿# Burgundians
+﻿# Valois-Bourgogne
 house_bourgogne_nevers = {
 	name = "dynn_bourgogne_nevers"
 	dynasty = CKU_valois_bourgogne
+}
+
+# Capet-Bourgogne
+house_bourgogne_montagu = {
+	name = "dynn_bourgogne_montagu"
+	dynasty = 741
+}
+
+house_bourgogne_aviz = {
+	name = "dynn_bourgogne_aviz"
+	dynasty = 741
 }
 
 # Nassau

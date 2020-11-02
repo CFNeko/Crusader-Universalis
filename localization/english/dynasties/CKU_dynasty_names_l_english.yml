@@ -33,6 +33,7 @@
  dynn_lalaing: "Lalaing"
  dynn_osman: "Osman"
  dynn_valois_bourgogne: "Valois-Bourgogne"
+ dynn_bourgogne_montagu: "Bourgogne-Montagu"
  dynn_Walsee: "Walsee"
  #dynn_Lomagne:1 "Lomagne-Armagnac" # Needs to overwrite the vanilla name "Lomagne", does not work yet.
  dynn_hunyadi: "Hunyadi"
@@ -54,7 +55,7 @@
  dynn_chamaillard: "Chamaillard"
  dynn_melun: "Melun"
  
- dynn_aviz: "Avis"
+ dynn_bourgogne_aviz: "Avis"
  dynn_jagiellon: "Jagiellonian"
  dynn_Mecklenburg: "Mecklenburg"
  dynn_Mecklenburg_werle: "Mecklenburg-Werle"

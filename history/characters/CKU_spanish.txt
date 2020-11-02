@@ -48,10 +48,10 @@
 # Portugal = { 
 	CKU_portugal_1 = { #Alfonso V
 		name = "Alfonso"
-		dna = CKU_portuguese_1
+		dna = CKU_portuguese_1_dna
 		religion = catholic
 		culture = portuguese
-		dynasty = CKU_aviz
+		dynasty_house = house_bourgogne_aviz
 		1432.1.15 = {
 			birth = yes
 		}

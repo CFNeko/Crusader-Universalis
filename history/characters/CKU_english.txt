@@ -38,6 +38,7 @@
 	}
 	CKU_english_3 = {  # Richard of York
 		name = "Richard"
+		dna = CKU_english_3_dna
 		dynasty_house = CKU_house_york
 		religion = catholic
 		culture = english
@@ -178,6 +179,7 @@ CKU_english_13 = {  # Richard II
 
 CKU_english_14 = {  # Edward IV
 	name = "Edward"
+	dna = CKU_english_14_dna
 	dynasty_house = CKU_house_york
 	religion = catholic
 	culture = english
