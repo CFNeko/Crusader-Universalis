@@ -98,6 +98,12 @@ house_chalon = {
 	dynasty = 681
 }
 
+# Foix
+house_foix_grailly = {
+	name = "dynn_foix_grailly"
+	dynasty = 684
+}
+
 # Dreux
 house_dreux_montfort = {
 	name = "dynn_dreux_montfort"

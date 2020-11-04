@@ -1110,6 +1110,42 @@ CKU_wavrin = {
 	}
 }
 
+CKU_grailly = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	
+	colored_emblem = {
+		texture = "ce_cross_large.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 1.0 1.0 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_clam.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.25 } scale = { 0.25 0.25 } }
+		instance = { position = { 0.25 0.50 } scale = { 0.25 0.25 } }
+		instance = { position = { 0.50 0.50 } scale = { 0.25 0.25 } }
+		instance = { position = { 0.75 0.50 } scale = { 0.25 0.25 } }
+		instance = { position = { 0.50 0.75 } scale = { 0.25 0.25 } }
+	}
+}
+
+house_foix_grailly = { # Foix-Grailly
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_verticle_stripes_02.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.1 1.0 }  }		
+	}
+}
+
 house_alencon = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"

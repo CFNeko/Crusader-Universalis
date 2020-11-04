@@ -172,6 +172,9 @@ CKU_english_13 = {  # Richard II
 	1367.1.1 = {
 		birth = yes
 	}
+	1382.1.1 = {
+		add_spouse = CKU_luxembourg_3
+	}
 	1399.1.1 = {
 		death = yes
 	}
@@ -293,6 +296,26 @@ CKU_english_21 = {  # Richard Neville "the kingmaker" (big important guy)
 		add_spouse = CKU_english_19			# He inherited the duchy when she died
 	}
 	1471.1.1 = {
+		death = yes
+	}
+}
+
+CKU_english_22 = { # Duke of Bedford
+	name = "John"
+	dynasty_house = 100058
+	religion = catholic
+	culture = english
+	father = CKU_english_10
+	1389.6.20 = {
+		birth = yes
+	}
+	1423.1.1 = {
+		add_spouse = CKU_bourgogne_24
+	}
+	1433.1.1 = {
+		add_spouse = CKU_luxembourg_ligny_25
+	}
+	1435.9.14 = {
 		death = yes
 	}
 }

@@ -36,3 +36,8 @@
  CKU_surrender_maine.0007.desc:0 "Demand Surrender of Maine"
  CKU_surrender_maine.0007.a:0 "Come and take it! This means war!"
  CKU_surrender_maine.0007.b:0 "I shall honor our previous agremeent"
+
+ CKU_surrender_maine.0008.t:0 "Lets sweet the deal a little"
+ CKU_surrender_maine.0008.desc:0 "Lets sweet the deal a little"
+ CKU_surrender_maine.0008.a:0 "War!"
+ CKU_surrender_maine.0008.b:0 "Yes"

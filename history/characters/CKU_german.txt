@@ -62,6 +62,23 @@
 					death = yes
 				}
 			}
+			CKU_hohenzollern_5 = {	
+				name = "Johann"
+				religion = catholic
+				culture = swabian #CTU_saxon
+				dynasty = 12476
+				father = 487031
+				# mother = Elisabeth von Wettin
+				1369.1.1 = {
+					birth = yes
+				}
+				1381.1.1 = {
+					add_spouse = CKU_luxembourg_8
+				}
+				1420.6.11 = {
+					death = yes
+				}
+			}
 		#}
 	# }
 	# Wettin {
@@ -287,6 +304,9 @@
 				1349.1.1 = {
 					birth = yes
 				}
+				1366.3.19 = {
+					add_spouse = CKU_luxembourg_2
+				}
 				1395.1.1 = {
 					death = yes
 				}
@@ -313,11 +333,30 @@
 				1397.1.1 = {
 					birth = yes
 				}
+				1422.1.1 = {
+					add_spouse = CKU_luxembourg_5
+				}
 				1439.1.1 = {
 					death = yes
 				}
 			}
 		#}
+		CKU_austrian_11 = {
+			name = "Rudolf"
+			religion = catholic
+			culture = bavarian #CTU_austrian
+			dynasty = 51
+			father = 462020
+			1339.10.1 = {
+				birth = yes
+			}
+			1357.1.1 = {
+				add_spouse = CKU_luxembourg_1
+			}
+			1365.7.27 = {
+				death = yes
+			}
+		}
 	#}
 #}
 # Bavarians {
@@ -386,6 +425,40 @@
 					birth = yes
 				}
 				1450.7.30 = {
+					death = yes
+				}
+			}
+			CKU_wittelsbach_6 = {
+				name = "Otto"
+				dynasty = 217
+				religion = "catholic"
+				culture = bavarian
+				father = 462740
+				mother = 462741
+				1346.1.1 = {
+					birth = yes
+				}
+				1366.3.9 = {
+					add_spouse = CKU_luxembourg_1
+				}
+				1379.10.15 = {
+					death = yes
+				}
+			}
+			CKU_wittelsbach_7 = {
+				name = "Johann"
+				dynasty = 217
+				religion = "catholic"
+				culture = bavarian
+				father = 462746
+				# mother = Margaret Piast
+				1374.1.1 = {
+					birth = yes
+				}
+				1418.1.1 = {
+					add_spouse = CKU_luxembourg_7
+				}
+				1425.1.1 = {
 					death = yes
 				}
 			}
@@ -602,6 +675,155 @@
 	#}
 #}
 # Franconians {
+	# Luxembourg {
+		CKU_luxembourg_1 = {
+			name = "Katharina"
+			female = yes
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462614
+			mother = 455537
+			# Married Rudolf IV von Habsburg
+			# Married Otto V von Wittelsbach
+			1342.1.1 = {
+				birth = yes
+			}
+			1395.4.26 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_2 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462614
+			mother = 455537
+			# Married Albrecht III von Habsburg
+			1358.4.19 = {
+				birth = yes
+			}
+			1373.9.4 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_3 = {
+			name = "Anna"
+			female = yes
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462614
+			mother = 455537
+			# Married Richard of Plantagenet
+			1366.5.11 = {
+				birth = yes
+			}
+			1394.6.7 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_4 = {
+			name = "Sigismund"
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462614
+			mother = 455537
+			# Married Maria de Anjou-Durazzo # Anjou-Durazzo died out with Ladislas King of Naples
+			# Married Barbara von Cilli
+			1368.2.15 = {
+				birth = yes
+			}
+			1437.12.9 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_5 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = CKU_luxembourg_4
+			# mother = Barbara von Cilli
+			# Married Albrecht von Habsburg
+			1409.2.28 = {
+				birth = yes
+			}
+			1442.12.19 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_6 = {
+			name = "Johann"
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462614
+			mother = 455537
+			# Married Katharina von Mecklemburg-Schwerin
+			1370.6.22 = {
+				birth = yes
+			}
+			1396.3.1 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_7 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = CKU_luxembourg_6
+			# mother = Katharina von Mecklemburg-Schwerin
+			# Married Antoine de Valois-Bourgogne
+			# Married Johann III von Wittelsbach
+			1390.11.1 = {
+				birth = yes
+			}
+			1451.8.3 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_8 = {
+			name = "Margaret"
+			female = yes
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462614
+			mother = 455537
+			# Married Johann von Hohenzollern
+			1373.9.29 = {
+				birth = yes
+			}
+			1410.6.4 = {
+				death = yes
+			}
+		}
+		CKU_luxembourg_9 = {
+			name = "Wenceslas"
+			dynasty = 420
+			religion = "catholic"
+			culture = franconian
+			father = 462610
+			mother = 455657
+			# Married Johanna Reginar
+			1337.2.25 = {
+				birth = yes
+			}
+			1354.1.1 = {
+				add_spouse = 487012
+			}
+			1383.12.7 = {
+				death = yes
+			}
+		}
+	# }
 	#Minor Lords = {
 		CKU_hohenlohe_1 = {	
 			name = "Kraft"

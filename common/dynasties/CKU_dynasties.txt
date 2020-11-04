@@ -1,7 +1,13 @@
-﻿CKU_tour_auvergene = {
+﻿CKU_grailly = {
+	prefix = "dynnp_de"
+	name = "dynn_grailly"
+	culture = "gascon"
+}
+
+CKU_tour_auvergene = {
 	prefix = "dynnp_de_la"
 	name = "dynn_tour_auvergene"
-	culture = french
+	culture = "french"
 }
 
 CKU_valois_bourgogne = {
