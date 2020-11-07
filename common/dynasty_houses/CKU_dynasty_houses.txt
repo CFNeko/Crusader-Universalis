@@ -104,6 +104,19 @@ house_foix_grailly = {
 	dynasty = 684
 }
 
+# Laval
+house_montmorency_laval = {
+	prefix = "dynnp_de"
+	name = "dynn_montmorency_laval"
+	dynasty = 319
+}
+
+house_montfort_laval = {
+	prefix = "dynnp_de"
+	name = "dynn_montfort_laval"
+	dynasty = 319
+}
+
 # Dreux
 house_dreux_montfort = {
 	name = "dynn_dreux_montfort"

@@ -183,7 +183,15 @@
 				}
 			}
 			c_auvergne = {
-				1437.1.1 = {
+				1404.9.28 = {
+					holder = CKU_auvergne_4
+					liege = d_bourbon
+				}
+				1424.1.1 = {
+					holder = CKU_auvergne_6
+					liege = d_bourbon
+				}
+				1437.8.7 = {
 					holder = CKU_tour_auvergne_1
 					liege = d_bourbon
 				}
@@ -240,7 +248,7 @@
 		# Count of Sancerre = {
 			c_sancerre = {
 				1440.1.1 = {
-					holder = CKU_sancerre_17
+					holder = CKU_bueil_17
 					liege = d_orleans
 				}
 			}

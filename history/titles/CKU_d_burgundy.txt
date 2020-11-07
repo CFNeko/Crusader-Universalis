@@ -129,7 +129,16 @@ d_luxembourg = {
 	}
 
 	c_boulogne = { # Governor
+		1404.9.28 = {
+			holder = CKU_auvergne_4
+			liege = k_france
+		}
+		1424.1.1 = {
+			holder = CKU_auvergne_6
+			liege = k_france
+		}
 		1435.9.21 = {
+			government = CKU_governor_government
 			holder = CKU_bourgogne_minor_24
 		}
 	}

@@ -41,3 +41,6 @@
  CKU_surrender_maine.0008.desc:0 "Lets sweet the deal a little"
  CKU_surrender_maine.0008.a:0 "War!"
  CKU_surrender_maine.0008.b:0 "Yes"
+
+#Custom Tooltips
+ CKU_surrender_maine.0008.b.tt:0 "[scope.GetName] will get Duchy of $d_anjou$"

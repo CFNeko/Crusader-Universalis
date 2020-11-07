@@ -320,5 +320,96 @@ CKU_english_22 = { # Duke of Bedford
 	}
 }
 
+# English Branch of Courtenay = {
+	CKU_eng_courtenay_1 = {
+		name = "William"
+		religion = catholic
+		culture = english
+		dynasty = 23100
+		father = 454594
+		mother = 454565
+		1342.1.1 = {
+			birth = yes
+		}
+		1396.7.31 = {
+			death = yes
+		}
+	}
+	CKU_eng_courtenay_2 = {
+		name = "Philip"
+		religion = catholic
+		culture = english
+		dynasty = 23100
+		father = 454594
+		mother = 454565
+		# Married Anne Wake
+		1355.1.1 = {
+			birth = yes
+		}
+		1406.7.29 = {
+			death = yes
+		}
+	}
+	CKU_eng_courtenay_3 = {
+		name = "Peter"
+		religion = catholic
+		culture = english
+		dynasty = 23100
+		father = 454594
+		mother = 454565
+		# Married Margaret Clyvedon
+		1346.1.1 = {
+			birth = yes
+		}
+		1405.1.1 = {
+			death = yes
+		}
+	}
+	CKU_eng_courtenay_4 = {
+		name = "Margaret"
+		female = yes
+		religion = catholic
+		culture = english
+		dynasty = 23100
+		father = 454594
+		mother = 454565
+		# Married John Cobham
+		1328.1.1 = {
+			birth = yes
+		}
+		1395.8.2 = {
+			death = yes
+		}
+	}
+	CKU_eng_courtenay_5 = {
+		name = "Richard"
+		religion = catholic
+		culture = english
+		dynasty = 23100
+		father = CKU_eng_courtenay_2
+		# mother = Anne Wake
+		1385.1.1 = {#?
+			birth = yes
+		}
+		1415.9.15 = {
+			death = yes
+		}
+	}
+	CKU_eng_courtenay_6 = {
+		name = "John"
+		religion = catholic
+		culture = english
+		dynasty = 23100
+		father = CKU_eng_courtenay_2
+		# mother = Anne Wake
+		# Married Joan Champernoun
+		1386.1.1 = {#?
+			birth = yes
+		}
+		1415.1.1 = {
+			death = yes
+		}
+	}
+#}
 
 #}

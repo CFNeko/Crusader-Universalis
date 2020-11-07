@@ -352,62 +352,28 @@ CKU_surrender_maine.0008 = { # Lets sweet the deal a little
 	option = { # That sounds too good to be true, I will take it!
 		name = CKU_surrender_maine.0008.b
 		
-		title:k_france.holder = {
-			if = {
-				limit = {
-					has_title = d_anjou
-					has_title = c_anjou
-					has_title = c_saumur
-					has_title = c_maine
-					has_title = c_sable
-
-					has_claim_on = d_gascogne
-					has_claim_on = c_bordeaux
-					has_claim_on = c_labourd
-					has_claim_on = c_albret
-					has_claim_on = c_marsan
-					has_claim_on = c_agenais
-
-					has_claim_on = d_poitou
-					has_claim_on = c_poitiers
-					has_claim_on = c_lusignan
-					has_claim_on = c_montaigu
-					has_claim_on = c_thouars
-
-					has_claim_on = d_normandy
-					has_claim_on = c_rouen
-					has_claim_on = c_evreux
-					has_claim_on = c_bayeux
-					has_claim_on = c_avranches
-					has_claim_on = c_alencon
-					has_claim_on = c_lisieux
-					has_claim_on = c_eu
-
-					has_claim_on = c_quercy
-					has_claim_on = c_perigord
-					has_claim_on = c_limousin
-					has_claim_on = c_saintonge
-					has_claim_on = b_calais
-				}
+		custom_tooltip = CKU_surrender_maine.0008.b.tt
+		hidden_effect = {
+			title:k_france.holder = {
 				get_title = d_anjou
 				get_title = c_anjou
 				get_title = c_saumur
 				get_title = c_maine
 				get_title = c_sable
-
+	
 				remove_claim = d_gascogne
 				remove_claim = c_bordeaux
 				remove_claim = c_labourd
 				remove_claim = c_albret
 				remove_claim = c_marsan
 				remove_claim = c_agenais
-
+	
 				remove_claim = d_poitou
 				remove_claim = c_poitiers
 				remove_claim = c_lusignan
 				remove_claim = c_montaigu
 				remove_claim = c_thouars
-
+	
 				remove_claim = d_normandy
 				remove_claim = c_rouen
 				remove_claim = c_evreux
@@ -416,71 +382,34 @@ CKU_surrender_maine.0008 = { # Lets sweet the deal a little
 				remove_claim = c_alencon
 				remove_claim = c_lisieux
 				remove_claim = c_eu
-
+	
 				remove_claim = c_quercy
 				remove_claim = c_perigord
 				remove_claim = c_limousin
 				remove_claim = c_saintonge
 				remove_claim = b_calais
 			}
-		}
-
-		title:k_england.holder = {
-			if = {
-				limit = {
-					has_claim_on = d_anjou
-					has_claim_on = c_anjou
-					has_claim_on = c_saumur
-					has_claim_on = c_maine
-					has_claim_on = c_sable					
-
-					has_title = d_gascogne
-					has_title = c_bordeaux
-					has_title = c_labourd
-					has_title = c_albret
-					has_title = c_marsan
-					has_title = c_agenais
-
-					has_title = d_poitou
-					has_title = c_poitiers
-					has_title = c_lusignan
-					has_title = c_montaigu
-					has_title = c_thouars
-
-					has_title = d_normandy
-					has_title = c_rouen
-					has_title = c_evreux
-					has_title = c_bayeux
-					has_title = c_avranches
-					has_title = c_alencon
-					has_title = c_lisieux
-					has_title = c_eu
-
-					has_title = c_quercy
-					has_title = c_perigord
-					has_title = c_limousin
-					has_title = c_saintonge
-					has_title = b_calais
-				}
+	
+			title:k_england.holder = {
 				remove_claim = d_anjou
 				remove_claim = c_anjou
 				remove_claim = c_saumur
 				remove_claim = c_maine
 				remove_claim = c_sable
-
+				
 				get_title = d_gascogne
 				get_title = c_bordeaux
 				get_title = c_labourd
 				get_title = c_albret
 				get_title = c_marsan
 				get_title = c_agenais
-
+	
 				get_title = d_poitou
 				get_title = c_poitiers
 				get_title = c_lusignan
 				get_title = c_montaigu
 				get_title = c_thouars
-
+	
 				get_title = d_normandy
 				get_title = c_rouen
 				get_title = c_evreux
@@ -489,13 +418,13 @@ CKU_surrender_maine.0008 = { # Lets sweet the deal a little
 				get_title = c_alencon
 				get_title = c_lisieux
 				get_title = c_eu
-
+	
 				get_title = c_quercy
 				get_title = c_perigord
 				get_title = c_limousin
 				get_title = c_saintonge
 				get_title = b_calais
-
+	
 				remove_claim = k_france
 				remove_claim = k_aquitaine
 			}

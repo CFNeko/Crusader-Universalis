@@ -22,6 +22,9 @@
 		1424.12.25 = {
 			birth = yes
 		}
+		1445.8.16 = {
+			death = yes
+		}
 	}
 	CKU_scottish_3 = {
 		name = "Isabella"
