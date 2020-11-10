@@ -7995,7 +7995,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 23115
+			dynasty = 559
 			martial = 20
 			1395.1.1 = {
 				birth = yes
