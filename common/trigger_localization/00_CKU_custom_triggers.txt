@@ -1,0 +1,6 @@
+﻿required_year = {
+	global = required_year_trigger
+}
+required_year_greater_or_equal = {
+	global = required_year_greater_or_equal_trigger
+}

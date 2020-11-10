@@ -1,0 +1,12 @@
+﻿l_english:
+
+# ARQUEBUS TYPE GAME CONCEPT
+ game_concept_arquebusier:0 "Arquebusier"
+ game_concept_arquebusiers:0 "Arquebusiers"
+ game_concept_arquebusier_desc:0 "Arquebusiers are [men_at_arms|E] who fight on foot with powerful ranged weapons utilizing gunpowder.\n\nWhile each kind of Arquebusier is unique, they generally [counter|E] [archers|E], [heavy_infantry|E] and [spearmen|E], and are in turn Countered by [heavy_cavalry|E] and [light_cavalry|E]."
+ game_concept_arquebusiers_desc:0 "Arquebusiers are [men_at_arms|E] who fight on foot with powerful ranged weapons utilizing gunpowder.\n\nWhile each kind of Arquebusier is unique, they generally [counter|E] [archers|E], [heavy_infantry|E] and [spearmen|E], and are in turn Countered by [heavy_cavalry|E] and [light_cavalry|E]."
+ game_concept_field_weapon:0 "Field Weapon"
+ game_concept_field_weapons:0 "Field Weapons"
+ game_concept_field_weapon_desc:0 "Field Weapons are [men_at_arms|E] that fight on foot with powerful ranged weapons utilizing gunpowder.\n\nWhile each kind of Field Weapon is unique, they generally [counter|E] [heavy_infantry|E], [skirmishers|E] and [spearmen|E], and are in turn Countered by [heavy_cavalry|E] and [light_cavalry|E]."
+ game_concept_field_weapons_desc:0 "Field Weapons are [men_at_arms|E] that fight on foot with powerful ranged weapons utilizing gunpowder.\n\nWhile each kind of Field Weapon is unique, they generally [counter|E] [heavy_infantry|E], [skirmishers|E] and [spearmen|E], and are in turn Countered by [heavy_cavalry|E] and [light_cavalry|E]."
+ 

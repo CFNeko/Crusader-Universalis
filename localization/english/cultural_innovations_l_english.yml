@@ -294,28 +294,41 @@
 ###CKU Here###
 
  culture_era_early_modern: "Renaissance"
-
+ 
+ #Cultural/Regional
  innovation_gallowglass: "Gallowglass"
  innovation_gallowglass_desc: "Gallowglasses were a type of mercenary in scotland"
+ innovation_janissary:0 "Devshirme"
+ innovation_janissary_desc:0 "The Nobility in our domain has grown far too strong in recent decades. It is time to overhaul the 'Kul' system of slavery to recruit the most loyal, well equipped and dedicated warriors our time."
+ innovation_tercio:0 "Spanish Third"
+ innovation_tercio_desc:0  "The use of the Arquebus has already proven its worth in numerous battles as of lately. We can carefully adopt this new innovation into our modernizing forces by introducing a third of our men to this new weapon."
+ innovation_yeoman_arquebusier:0 "Yeoman Gunnery"
+ innovation_yeoman_arquebusier_desc:0 "The age of the Longbow is fading, thanks to the introduction of the Arquebus. However, our renowned Yeomen have already proven themselves to be skilled shots, perhaps we can adapt their skillset to this new weapon?"
+ innovation_hussite_gunner:0 "Adaptive Tactics"
+ innovation_hussite_gunner_desc:0 "For far too long we've endured the brunt end of expansionist ambitions due to our lack of military capabilities. It would do us well to start acquiring gunpowder and put this firepower in the hands of the masses."
+ 
+ #Military
  innovation_military_1: "Bastions"
  innovation_military_2: "Culverins"
- innovation_military_3: "Professional soldiers"
+ innovation_military_2_desc:0 "Utilizing the same principles as the Arquebus, and its precursor the Handgonne, we have created the Culverin. This is a larger and more powerful version of the Arquebus adapted for use on the battlefield."
+ innovation_military_3: "Professional Soldiers"
  innovation_military_4: "Arquebus"
  innovation_military_5: "Musket"
  innovation_military_6: "Blast Furnaces"
  innovation_military_7: "Pike Square"
  innovation_military_8: "Pike & Shot"
- innovation_military_9: "Limbers and Caissons"
- innovation_military_10: "Comissioned officers"
-
+ innovation_military_9: "Limbers & Caissons"
+ innovation_military_10: "Commissioned Officers"
+ 
+ #Civic
  innovation_civic_1: "Governorship"
  innovation_civic_2: "Springs"
- innovation_civic_3: "Double-entry Bookeeping"
+ innovation_civic_3: "Double-Entry Bookeeping"
  innovation_civic_4: "Patronage"
  innovation_civic_5: "Printing Press"
  innovation_civic_6: "Learned Medicine"
  innovation_civic_7: "Workshops"
- innovation_civic_8: "Inquisitorial system"
+ innovation_civic_8: "Inquisitorial System"
  innovation_civic_9: "Scythe"
  innovation_civic_10: "Colonization"
 

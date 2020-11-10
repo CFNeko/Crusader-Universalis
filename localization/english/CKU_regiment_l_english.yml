@@ -1,0 +1,26 @@
+﻿l_english:
+
+ #MaA types
+ arquebusiers:2 "[arquebusiers|E]"
+ field_weapons:2 "[field_weapon|E]"
+ 
+ #Special MaA
+ arquebusier:0 "Arquebusiers"
+ musketeer:0 "Musketeers"
+ culverin:0 "Culverins"
+ 
+ #Cultural MaA
+ janissary:0 "Janissaries"
+ tercio:0 "Tercios"
+ yeoman_arquebusier:0 "Yeomen Arquebusiers"
+ hussite_gunner:0 "Baltic Gunners"
+ 
+ #MaA Descriptions
+ arquebusier_flavor:1 "#F Arquebusiers are lightly-armored soldiers clad in half-plate wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
+ janissary_flavor:1 "#F Janissaries are elite, lightly-armored, soldiers of the Ottoman Empire. This regiment in particular wields the Arquebus in battle.#!."
+ tercio_flavor:1 "#F Tercios are a regiment of mixed composition, mainly fielding Pikemen and Arquebusiers. This troop mixture makes them a powerful foe in combat.#!"
+ yeoman_arquebusier_flavor:1 "#F Yeomen Arquebusiers are elite light footmen wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
+ hussite_gunner_flavor:1 "#F Baltic Gunners are lightly-armored soldiers that utilize wagon carts as a defensive measure, wielding the deadly Arquebus.#!"
+ musketeer_flavor:1 "#F Musketeers are the evolution of the Arquebusier. They are deadlier and far more agile at the expense of armor for protection.#!"
+ culverin_flavor:1 "#F Culverins are thin horse-drawn cannons that fire grapeshot to ravage enemy formations. They are highly effective against infantry.#!"
+ 

@@ -1,0 +1,11 @@
+﻿l_english:
+
+ # ARQUEBUS IMPROVEMENT DECISION CHAIN #
+ improve_the_arquebus_decision:0 "Improve the Arquebus"
+ improve_the_arquebus_decision_confirm:0 "Dispatch your Marshal"
+ improve_the_arquebus_decision_tooltip:0 "Your Marshal will attempt to improve the Arquebus."
+ improve_the_arquebus_decision_desc:0 "You will dispatch your Marshal to the various parts of your realm and abroad to look for skilled war engineers."
+ 
+ # ARQUEBUS EVENT DECISION TOOLTIP
+ improve_the_arquebus_event_tooltip:0 "Upon their return you will be provided with options on how to begin your improvement project."
+ 

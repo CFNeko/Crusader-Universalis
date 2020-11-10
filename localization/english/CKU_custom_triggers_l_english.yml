@@ -1,0 +1,8 @@
+﻿l_english:
+ 
+ # REQUIRED YEAR TRIGGER
+ required_year_trigger:0 "The required year is $VALUE|V0$."
+ NOT_required_year_trigger:0 "The required year isn't $VALUE|V0$."
+ required_year_greater_or_equal_trigger:0 "The required year is $VALUE|V0$ or greater."
+ NOT_required_year_greater_or_equal_trigger:0 "The required year isn't $VALUE|V0$ or greater."
+ 

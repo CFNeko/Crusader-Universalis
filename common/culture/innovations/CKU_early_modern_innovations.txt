@@ -38,8 +38,6 @@
 @medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
 @art = "gfx/interface/icons/culture_innovations/art.dds"
 
-
-
 #culture_group_military
 innovation_military_1 = {
 	group = culture_group_military
@@ -56,7 +54,7 @@ innovation_military_2 = {
 	culture_era = culture_era_early_modern
 	icon = @culverin
 
-	unlock_maa = bombard
+	unlock_maa = culverin
 
 	flag = global_regular
 	flag = early_modern_era_regular
@@ -82,14 +80,48 @@ innovation_military_4 = {
 	culture_era = culture_era_early_modern
 	icon = @arquebus
 	
+	potential = {
+		NOT = {
+			#Turkic Group
+			this = culture:turkish
+			this = culture:pecheneg
+			this = culture:shatuo
+			this = culture:ongud
+			
+			#Iberian Group
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:aragonese
+			this = culture:portuguese
+			
+			#West Germanic Group
+			this = culture:english
+			this = culture:scottish
+			this = culture:irish
+			this = culture:welsh
+			
+			#Baltic Group
+			this = culture:czech
+			this = culture:polish
+			this = culture:lithuanian
+			this = culture:pommeranian
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#}
+	
 	modifier = {
 		men_at_arms_cap = 1
 		men_at_arms_limit = 5
 	}
 
+	unlock_maa = arquebusier
+
 	flag = global_regular
 	flag = early_modern_era_regular
-	
 }
 
 innovation_military_5 = {
@@ -100,10 +132,11 @@ innovation_military_5 = {
 	modifier = {
 		siege_phase_time = -0.1
 	}
+	
+	unlock_maa = musketeer
 
 	flag = global_regular
 	flag = early_modern_era_regular
-	
 }
 
 innovation_military_6 = {
@@ -119,6 +152,7 @@ innovation_military_6 = {
 	modifier = {
 		men_at_arms_maintenance = 0.10
 	}
+	
 	flag = global_regular
 	flag = early_modern_era_regular
 	

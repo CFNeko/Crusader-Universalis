@@ -1,0 +1,46 @@
+﻿arquebus_excellent_imp_modifier = {
+	icon = martial_positive
+	arquebusiers_damage_add = 10
+	arquebusiers_toughness_add = 5
+}
+
+arquebus_good_imp_modifier = {
+	icon = martial_positive
+	arquebusiers_damage_add = 5
+	arquebusiers_toughness_add = 3
+}
+
+arquebus_fair_imp_modifier = {
+	icon = martial_positive
+	arquebusiers_damage_add = 2
+	arquebusiers_toughness_add = 1
+}
+
+arquebus_employed_locals_modifier = {
+	icon = economy_negative
+	levy_size = -0.10
+	tax_mult = -0.05
+}
+
+arquebus_employed_artificer_modifier = {
+	icon = economy_negative
+	tax_mult = -0.05
+}
+
+arquebus_normal_progress_modifier = {
+	icon = economy_positive
+	stewardship = 1
+	tax_mult = 0.025
+}
+
+arquebus_good_progress_modifier = {
+	icon = economy_positive
+	stewardship = 1
+	tax_mult = 0.05
+}
+
+arquebus_bad_progress_modifier = {
+	icon = economy_negative
+	stewardship = -1
+	tax_mult = -0.05
+}

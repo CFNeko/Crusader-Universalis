@@ -29,6 +29,15 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+@pike_square = "gfx/interface/icons/culture_innovations/innovation_pike_square.dds"
+#@pike_shot = "gfx/interface/icons/culture_innovations/innovation_pike_shot.dds"
+@inquisition = "gfx/interface/icons/culture_innovations/inquisition.dds"
+@colonization = "gfx/interface/icons/culture_innovations/colonization.dds"
+@medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
+@art = "gfx/interface/icons/culture_innovations/art.dds"
+
 innovation_hird = {
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
@@ -674,4 +683,123 @@ innovation_repeating_crossbow = {
 	unlock_maa = chu_ko_nu
 	
 	flag = global_maa
+}
+
+#EARLY MODERN CULTURAL
+
+innovation_janissary = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		OR = {
+			this = culture:turkish
+			this = culture:pecheneg
+			this = culture:shatuo
+			this = culture:ongud
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = janissary
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_tercio = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		OR = {
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:aragonese
+			this = culture:portuguese
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = tercio
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_yeoman_arquebusier = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		OR = {
+			this = culture:english
+			this = culture:scottish
+			this = culture:irish
+			this = culture:welsh
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = yeoman_arquebusier
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_hussite_gunner = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		OR = {
+			this = culture:czech
+			this = culture:polish
+			this = culture:lithuanian
+			this = culture:pommeranian
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = hussite_gunner
+
+	flag = global_regular
+	flag = early_modern_era_regular
 }

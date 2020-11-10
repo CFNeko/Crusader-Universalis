@@ -1,0 +1,385 @@
+﻿
+namespace = CU_ARQ_main
+
+##################################################
+
+### The Arquebus - Event Chains
+# by SpectreTM
+# Adapted for use in Crusader Universalis
+
+# 0001 - Not in use.
+# 0010 - Beginning Arquebus improvements
+# 0013 - Collecting your improvement
+# 000X - X
+
+##################################################
+
+##################################################
+#         The Arquebus - Event Chains            #
+##################################################
+
+##################################################
+#             Improving the Arquebus             #
+##################################################
+CU_ARQ_main.0010 = { #Beginning Arquebus improvements
+	type = character_event
+	title = CU_ARQ_main.0010.t
+	desc = CU_ARQ_main.0010.desc
+	theme = martial
+	left_portrait = {
+		character = ROOT
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = personality_bold
+	}
+	
+	immediate = {
+		random_held_title = {
+			limit = {
+				tier = tier_county
+				county_opinion >= 0
+			}
+			weight = {
+				base = 1
+				modifier = {
+					add = 100
+					county_opinion >= 50
+				}
+			}
+			save_scope_as = target_county
+		}
+	}
+	
+	option = {
+		#Contract Master Artificer to work for you
+		name = CU_ARQ_main.0010.a
+		flavor = CU_ARQ_main.0010.a.flavor
+		custom_tooltip = CU_ARQ_main.0010.a.chance
+		
+		add_character_modifier = {
+			modifier = arquebus_employed_artificer_modifier
+			years = 5
+		}
+		
+		trigger = { gold >= major_gold_value }
+		show_as_unavailable = {
+			short_term_gold < major_gold_value
+		}
+		
+		remove_short_term_gold = major_gold_value
+		stress_impact = {
+			greedy = major_stress_impact_gain
+		}
+		
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0011
+				days = { 365 730 }
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
+	
+	option = {
+		#Employ local craftsmen
+		name = CU_ARQ_main.0010.b
+		flavor = CU_ARQ_main.0010.b.flavor
+		custom_tooltip = CU_ARQ_main.0010.b.chance
+		
+		scope:target_county = {
+			add_county_modifier = {
+				modifier = arquebus_employed_locals_modifier
+				years = 5
+			}
+		}
+		
+		trigger = { gold >= minor_gold_value }
+		show_as_unavailable = {
+			short_term_gold < minor_gold_value
+		}
+		
+		remove_short_term_gold = minor_gold_value
+		stress_impact = {
+			greedy = minor_stress_impact_gain
+		}
+		
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0011
+				days = { 547 912 }
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_energy = 0.5
+				ai_boldness = 0.25
+			}
+		}
+	}
+	
+	option = {
+		#Do nothing for now
+		name = CU_ARQ_main.0010.c
+		flavor = CU_ARQ_main.0010.c.flavor
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+CU_ARQ_main.0011 = { #Progress update early
+	type = character_event
+	title = CU_ARQ_main.0011.t
+	desc = CU_ARQ_main.0011.desc
+	theme = martial
+	left_portrait = {
+		character = cp:councillor_marshal
+		animation = stress
+	}
+	right_portrait = {
+		character = ROOT
+		animation = personality_cynical
+	}
+	
+	option = {
+		#Pay to potentially improve progress
+		name = CU_ARQ_main.0011.a
+		flavor = CU_ARQ_main.0011.a.flavor
+		
+		trigger = { gold >= medium_gold_value }
+		show_as_unavailable = {
+			short_term_gold < medium_gold_value
+		}
+		
+		remove_short_term_gold = medium_gold_value
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+		}
+		
+		random_list = {
+			10 = {
+				desc = CU_ARQ_main.0011.a.success
+				custom_tooltip = CU_ARQ_main.0011.a.success.chance
+				add_character_modifier = {
+					modifier = arquebus_good_progress_modifier
+					days = { 60 90 }
+				}
+			}
+			10 = {
+				desc = CU_ARQ_main.0011.a.fail
+				custom_tooltip = CU_ARQ_main.0011.a.fail.chance
+				add_character_modifier = {
+					modifier = arquebus_bad_progress_modifier
+					days = { 60 90 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
+	
+	option = {
+		#Let the contractors do their work
+		name = CU_ARQ_main.0011.b
+		flavor = CU_ARQ_main.0011.b.flavor
+		custom_tooltip = CU_ARQ_main.0011.b.chance
+		
+		add_character_modifier = {
+			modifier = arquebus_normal_progress_modifier
+			days = { 45 60 }
+		}
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	after = {
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0012
+				days = { 365 730 }
+			}
+		}
+	}
+}
+
+CU_ARQ_main.0012 = { #Progress update later
+	type = character_event
+	title = CU_ARQ_main.0012.t
+	desc = CU_ARQ_main.0012.desc
+	theme = martial
+	left_portrait = {
+		character = cp:councillor_marshal
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = ROOT
+		animation = personality_rational
+	}
+	
+	option = {
+		#Overseeing your Marshal
+		name = CU_ARQ_main.0012.a
+		
+		duel = {
+			skill = martial
+			value = decent_skill_rating
+			10 = {
+				desc = CU_ARQ_main.0012.a.success
+				custom_tooltip = CU_ARQ_main.0012.a.success.chance
+				add_character_modifier = {
+					modifier = arquebus_good_progress_modifier
+					days = { 60 90 }
+				}
+			}
+			10 = {
+				desc = CU_ARQ_main.0012.a.fail
+				custom_tooltip = CU_ARQ_main.0012.a.fail.chance
+				add_character_modifier = {
+					modifier = arquebus_bad_progress_modifier
+					days = { 60 90 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_energy = 0.5
+				ai_boldness = 0.25
+			}
+		}
+	}
+	
+	option = {
+		#Hire additional craftsmen
+		name = CU_ARQ_main.0012.b
+		flavor = CU_ARQ_main.0012.b.flavor
+		
+		trigger = { gold >= medium_gold_value }
+		show_as_unavailable = {
+			short_term_gold < medium_gold_value
+		}
+		
+		remove_short_term_gold = medium_gold_value
+		stress_impact = {
+			greedy = medium_stress_impact_gain
+		}
+		
+		random_list = {
+			10 = {
+				desc = CU_ARQ_main.0012.b.success
+				custom_tooltip = CU_ARQ_main.0012.b.success.chance
+				add_character_modifier = {
+					modifier = arquebus_good_progress_modifier
+					days = { 60 90 }
+				}
+			}
+			10 = {
+				desc = CU_ARQ_main.0012.b.fail
+				custom_tooltip = CU_ARQ_main.0012.b.fail.chance
+				add_character_modifier = {
+					modifier = arquebus_bad_progress_modifier
+					days = { 60 90 }
+				}
+			}
+		}
+		
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
+	
+	option = {
+		#Let your Marshal oversee the work alone
+		name = CU_ARQ_main.0012.c
+		flavor = CU_ARQ_main.0012.c.flavor
+		custom_tooltip = CU_ARQ_main.0012.c.chance
+		
+		add_character_modifier = {
+			modifier = arquebus_normal_progress_modifier
+			days = { 45 60 }
+		}
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	after = {
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0013
+				days = { 365 547 }
+				
+			}
+		}
+	}
+}
+
+CU_ARQ_main.0013 = { #Collecting your improvement
+	type = character_event
+	title = CU_ARQ_main.0013.t
+	desc = CU_ARQ_main.0013.desc
+	theme = martial
+	left_portrait = {
+		character = ROOT
+		animation = happiness
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = personality_bold
+	}
+	
+	option = {
+		name = CU_ARQ_main.0013.a
+		
+		random_list = {
+			10 = {
+				desc = CU_ARQ_main.0013.a.success_good
+				add_character_modifier = {
+					modifier = arquebus_good_imp_modifier
+					days = 9125
+				}
+			}
+			10 = {
+				desc = CU_ARQ_main.0013.a.success_fair
+				add_character_modifier = {
+					modifier = arquebus_fair_imp_modifier
+					days = 9125
+				}
+			}
+			10 = {
+				desc = CU_ARQ_main.0013.a.success_critical
+				add_character_modifier = {
+					modifier = arquebus_excellent_imp_modifier
+					days = 9125
+				}
+			}
+		}
+		
+		hidden_effect = {
+			add_character_flag = flag_improved_arquebus
+		}
+	}
+}

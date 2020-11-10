@@ -1,0 +1,30 @@
+﻿l_english:
+ 
+ # ARQUEBUS IMPROVEMENT MODIFIERS
+ arquebus_fair_imp_modifier:0 "Improved Arquebus"
+ arquebus_fair_imp_modifier_desc:1 "Your war engineers have come up with a practical solution to the bulky Arquebus, a crossbow stock. This allows the Arquebus to be shoulder mounted."
+ arquebus_good_imp_modifier:0 "Refined Arquebus"
+ arquebus_good_imp_modifier_desc:1 "Your most skilled craftsmen have invented an ingenius method of mixing gunpowder and producing the Arquebus, improving the overall quality."
+ arquebus_excellent_imp_modifier:0 "Matchlock Arquebus"
+ arquebus_excellent_imp_modifier_desc:1 "Your artificers have improved the Arquebus with the addition of a matchlock, turning it into a carryable weapon."
+ 
+ # ARQUEBUS IMPROVEMENT EVENT MODIFIERS
+ arquebus_employed_artificer_modifier:0 "Employed Master Artificer"
+ arquebus_employed_artificer_modifier_desc:1 "This character is employing a master artificer at their court."
+ arquebus_employed_locals_modifier:0 "Employed Local Craftsmen"
+ arquebus_employed_locals_modifier_desc:1 "The liege of this county has employed most of the local craftsmen in a massive project."
+ arquebus_normal_progress_modifier:0 "Average Development"
+ arquebus_normal_progress_modifier_desc:1 "This character is currently seeing average success with their current project."
+ arquebus_good_progress_modifier:0 "Major Breakthrough"
+ arquebus_good_progress_modifier_desc:1 "The project this character is working on has seen a major breakthrough, giving them valuable insights."
+ arquebus_bad_progress_modifier:0 "Project Setback"
+ arquebus_bad_progress_modifier_desc:1 "This character is currently facing a disastrous setback with their current project."
+ 
+ # ARQUEBUS REGIMENT MODIFIERS
+ arquebusiers_damage_add:1 "[arquebusier|E] [damage|E]"
+ arquebusiers_damage_mult:0 "$arquebusiers_damage_add$"
+ arquebusiers_toughness_add:1 "[arquebusier|E] [toughness|E]"
+ arquebusiers_toughness_mult:0 "$arquebusiers_toughness_add$"
+ arquebusiers_screen_add:1 "[arquebusier|E] [screen|E]"
+ arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
+ 
