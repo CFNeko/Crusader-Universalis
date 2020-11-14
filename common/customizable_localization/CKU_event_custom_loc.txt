@@ -1,0 +1,21 @@
+﻿SurrenderOfMaineAcceptedRejected = {
+	type = character
+	#random_valid = no
+
+	text = {
+		trigger = {
+			has_character_flag = som_is_accepted_flag
+		}
+		localization_key = som_marriage_accepted
+	}
+	text = {
+		trigger = {
+			has_character_flag = som_is_rejected_flag
+		}
+		localization_key = som_marriage_rejected
+	}
+	text = {
+		localization_key = som_marriage_fallback
+		fallback = yes
+	}
+}

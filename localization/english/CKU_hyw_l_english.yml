@@ -2,18 +2,18 @@
  TRUCE_HUNDRED_YEARS_WAR:"Truce of Tours"
  
  CKU_surrender_maine.0001.t:0 "The Lion and The Lily"
- CKU_surrender_maine.0001.desc:0 "Our neighbours, the ever so irritable French, sent us a proposal to marriage Marguerite D’Anjou. Accepting would lead to a path of peace that some would call foolish. Our forces are hard pressed, and more voices call for peace."
- CKU_surrender_maine.0001.a:0 "Goodbye, [ROOT.Char.GetPrimarySpouse.GetFirstName]. Marguerite shall serve me better"
+ CKU_surrender_maine.0001.desc:0 "As part of the treaty of Tours we have agreed to marry [SCOPE.sC('marguerite_de_anjou').GetFullName], the niece of the King of France. Accepting would lead to a path of peace that some would call foolish. Our forces are hard pressed, and more voices call for peace."
+ CKU_surrender_maine.0001.a:0 "Goodbye, [ROOT.Char.GetPrimarySpouse.GetFirstName]. [SCOPE.sC('marguerite_de_anjou').GetFullName] shall serve me better"
  CKU_surrender_maine.0001.b:0 "Wars are so difficult, peace on the other hand is easy."
- CKU_surrender_maine.0001.c:0 "The French asking for a truce? A sign of weakness!"
- CKU_surrender_maine.0001.d:0 "Sorry, but my wife is better than any French woman could be."
+ CKU_surrender_maine.0001.c:0 "How will [SCOPE.sC('marguerite_de_anjou').GetName] guarantee peace? I was tricked!"
+ CKU_surrender_maine.0001.d:0 "Sorry, but [ROOT.Char.GetPrimarySpouse.GetFirstName] is better than any French woman could be."
  
  CKU_surrender_maine.0002.t:0 "Henry VI is dead"
  CKU_surrender_maine.0002.desc:0 "Henry VI is dead"
  CKU_surrender_maine.0002.a:0 "Oh no, what now?"
  
  CKU_surrender_maine.0003.t:0 "The Lion has agreed"
- CKU_surrender_maine.0003.desc:0 "The weak and frail Lion of England has accepted. This gives us some time to recover and reconsider our position. With the marriage now happening in the close future, the option to send a gift has appeared. A sign of goodwill would stabilize this treaty, but can I lack the money?"
+ CKU_surrender_maine.0003.desc:0 "The weak and frail Lion of England has accepted. This gives us some time to recover and reconsider our position. With the marriage now happening in the near future, the option to send a gift has appeared. A sign of goodwill would stabilize this treaty, but can I lack the money?"
  CKU_surrender_maine.0003.a:0 "A marriage is good enough for me, the English are rich enough."
  CKU_surrender_maine.0003.b:0 "Gold makes the world go round and makes any person happy."
  
@@ -21,12 +21,17 @@
  CKU_surrender_maine.0004.desc:0 "This “king” has refused our proposal. Eternal peace is now far away. It looks like war comes one step closer. Let it be known that the wise king never seeks out war but is always prepared for it. Weakness shall not be shown."
  CKU_surrender_maine.0004.a:0 "I deemed this king to be wise, he has shown to be otherwise."
  CKU_surrender_maine.0004.b:0 "He is a disgrace to any living being!"
- 
+
+#Customizable Localization
+ som_marriage_accepted:0 "According to the Treaty of Tours and the Marriage between Henry VI and Marguerite D’Anjou, the vile English king should have surrendered Maine when it was signed. Of course, being ever so treacherous, they have refused to do so until this moment. While my most hawkish advisors suggest marching an army into Maine, some advice caution and diplomacy."
+ som_marriage_rejected:0 "Maine, a rightful French province, is brutally occupied by the villainous Englishmen and their weak King. It is our duty to the inhabitants to liberate them from these scums. While sending an army to crush them would serve them right, diplomacy may reduce the bloodshed."
+ som_marriage_fallback:0 "What!? I dont understand this letter? Who sent it? What is it about?"
+
  CKU_surrender_maine.0005.t:0 "Start discussion on Surrender of Maine"
- CKU_surrender_maine.0005.desc:0 "Start discussion on Surrender of Maine"
+ CKU_surrender_maine.0005.desc:0 "[ROOT.Char.Custom('SurrenderOfMaineAcceptedRejected')]"
  CKU_surrender_maine.0005.a:0 "Maine was promised to me, I shall press him once more on this!"
- CKU_surrender_maine.0005.b:0 "The pen is mightier than the sword. Let’s hope this foul king can see the wisdom in this saying."
- CKU_surrender_maine.0005.c:0 "Time is infinite when it comes to reconquering lands, let us wait on more favourable circumstances."
+ CKU_surrender_maine.0005.b:0 "The pen is mightier than the sword. Let’s hope he understands this."
+ CKU_surrender_maine.0005.c:0 "Time is infinite when it comes to reconquering lands!"
  
  CKU_surrender_maine.0006.t:0 "A broken Treaty"
  CKU_surrender_maine.0006.desc:0 "The French king has abruptly broken the treaty. This means he can attack us whenever he wants. We need to be vigilant for every day can mean the start of war. The forts need to be manned and the soldiers assembled. Only God knows when the carnage shall start once more."
@@ -43,4 +48,5 @@
  CKU_surrender_maine.0008.b:0 "Hmmm, it pains me to agree, but I do what I must for my subjects."
 
 #Custom Tooltips
+ CKU_surrender_maine.0005.b.tt:0 "[ROOT.Char.GetFullNameRegnal]"
  CKU_surrender_maine.0008.b.tt:0 "[scope.GetName] will get Duchy of $d_anjou$"

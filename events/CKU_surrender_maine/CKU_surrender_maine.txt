@@ -60,19 +60,37 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 		}
 		root = {
 			marry = scope:marguerite_de_anjou
-			add_prestige = medium_prestige_loss
+			add_piety = medium_piety_loss
+		}
+		root.primary_spouse = {
+			add_opinion = {
+				modifier = forced_divorce_opinion
+				target = title:k_england.holder
+			}
+		}
+		if = {
+			limit = {
+				root.primary_spouse = {
+					has_father = yes
+				}
+			}
+			root.primary_spouse.father = {
+				add_opinion = {
+					modifier = gravely_insulted_parent
+					target = title:k_england.holder
+				}
+			}
 		}
 		title:k_france.holder = {
 			trigger_event = {
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
 			}
-		}
-		title:k_france.holder = { # Start discussion on Surrender of Maine
-			trigger_event = {
-				id = CKU_surrender_maine.0005
-				years = 1
-			}
+			#trigger_event = {
+			#	id = CKU_surrender_maine.0005
+			#	years = 1
+			#}
+			add_character_flag = som_is_accepted_flag
 		}
 	}
 	option = { #Yes
@@ -87,17 +105,26 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 		root = {
 			marry = scope:marguerite_de_anjou
 		}
+		scope:marguerite_de_anjou.father = {
+			add_opinion = {
+				modifier = friendly_interaction
+				target = title:k_england.holder
+			}
+		}
 		title:k_france.holder = {
+			add_opinion = {
+				modifier = kept_promise
+				target = title:k_england.holder
+			}
 			trigger_event = {
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
 			}
-		}
-		title:k_france.holder = { # Start discussion on Surrender of Maine
-			trigger_event = {
-				id = CKU_surrender_maine.0005
-				years = 1
-			}
+			#trigger_event = {
+			#	id = CKU_surrender_maine.0005
+			#	years = 1
+			#}
+			add_character_flag = som_is_accepted_flag
 		}
 	}
 	option = { #No
@@ -105,12 +132,23 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 		
 		root = {
 			cancel_truce_both_ways = title:k_france.holder
+			add_prestige = minor_prestige_gain
 		}
 		title:k_france.holder = {
+			add_opinion = {
+				modifier = broke_promise
+				target = title:k_england.holder
+			}
 			trigger_event = {
 				id = CKU_surrender_maine.0004
 				days = { 14 60 }
+				# Trigger Surrender of Maine without the Marriage proceeding!!
 			}
+			#trigger_event = {
+			#	id = CKU_surrender_maine.0005
+			#	years = 1
+			#}
+			add_character_flag = som_is_rejected_flag
 		}
 	}
 	option = { #I am already married
@@ -126,13 +164,23 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 		}
 		root = {
 			cancel_truce_both_ways = title:k_france.holder
+			add_prestige = medium_prestige_gain
 		}
-		add_prestige = medium_prestige_loss
 		title:k_france.holder = {
+			add_opinion = {
+				modifier = insulted_opinion
+				target = title:k_england.holder
+			}
 			trigger_event = {
 				id = CKU_surrender_maine.0004
 				days = { 14 60 }
+				# Trigger Surrender of Maine without the Marriage proceeding!!
 			}
+			#trigger_event = {
+			#	id = CKU_surrender_maine.0005
+			#	years = 1
+			#}
+			add_character_flag = som_is_rejected_flag
 		}
 	}
 }
@@ -176,13 +224,21 @@ CKU_surrender_maine.0003 = { #Marriage between Henry VI and Marguerite d'Anjou h
 
 	option = { # What a joyous event!
 		name = CKU_surrender_maine.0003.a
-		
-		add_prestige = medium_prestige_loss
 	}
 	option = { # Lets send the king a gift
 		name = CKU_surrender_maine.0003.b
 		
-		add_prestige = medium_prestige_loss
+		title:k_france.holder= {
+			pay_short_term_gold = { 
+				target = title:k_england.holder 
+				gold = medium_gold_value }
+		}
+		title:k_england.holder = {
+			add_opinion = {
+				modifier = friendly_interaction
+				target = title:k_france.holder
+			}
+		}
 	}
 }
 
@@ -203,13 +259,53 @@ CKU_surrender_maine.0004 = { #Marriage between Henry VI and Marguerite d'Anjou w
 
 	option = { # What is it he wants? Her father will surely be disappointed
 		name = CKU_surrender_maine.0004.a
-		
-		add_prestige = medium_prestige_loss
+
+		title:k_france.holder = {
+			add_opinion = {
+				modifier = broke_promise
+				target = title:k_england.holder
+			}
+		}
 	}
 	option = { # This is a disgrace! He will pay for this in time!
 		name = CKU_surrender_maine.0004.b
 		
-		add_prestige = medium_prestige_loss
+		if = {
+			limit = {
+				title:k_france.holder = {
+					NOT = {
+						has_relation_rival = title:k_england.holder
+						has_relation_nemesis= title:k_england.holder
+					}
+				}
+			}
+			set_relation_rival = title:k_england.holder
+		}
+		else_if = {
+			limit = {
+				title:k_france.holder = {
+					has_relation_rival = title:k_england.holder
+					NOT = {
+						has_relation_nemesis= title:k_england.holder
+					}
+				}
+			}
+			set_relation_nemesis = title:k_england.holder
+		}
+		else = {
+			limit = {
+				title:k_france.holder = {
+					has_relation_rival = title:k_england.holder
+					has_relation_nemesis= title:k_england.holder
+				}
+			}
+			title:k_france.holder = {
+				add_opinion = {
+					modifier = rejected_opinion
+					target = title:k_england.holder
+				}
+			}
+		}
 	}
 }
 
@@ -231,8 +327,6 @@ CKU_surrender_maine.0005 = { #Start discussion on Surrender of Maine
 	option = { # We should push the english king on this matter
 		name = CKU_surrender_maine.0005.a
 		
-		add_prestige = medium_prestige_loss
-		
 		title:k_england.holder = { # Demand Surrender of Maine
 			trigger_event = {
 				id = CKU_surrender_maine.0007
@@ -243,8 +337,7 @@ CKU_surrender_maine.0005 = { #Start discussion on Surrender of Maine
 	option = { # Lets sweet the deal a little
 		name = CKU_surrender_maine.0005.b
 		
-		add_prestige = medium_prestige_loss
-		
+		#custom_tooltip = CKU_surrender_maine.0005.b.tt
 		title:k_england.holder = { # Lets sweet the deal a little
 			trigger_event = {
 				id = CKU_surrender_maine.0008
