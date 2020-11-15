@@ -1,0 +1,8 @@
+﻿l_english: 
+ ottoman_elective_succession_law:1 "Ottoman Succession"
+ ottoman_elective_succession_law_subname:1 "Ottoman"
+ ottoman_elective_succession_law_effects:2 "There is no rule for succession. When the [ruler|E] passes away, the throne is up for grabs by any of his sons. They race to the capital to claim the throne. The result of this race is determined by collective effort of the elites of the realm."
+ ottoman_elective_candidates:0 "Close Family"
+ ottoman_elective_candidates_tooltip:0 "In order to be a valid Candidate under the Ottoman Succession, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic"
+ ottoman_elective_electors:0 "Councillors and Powerful Vassals"
+ ottoman_elective_electors_tooltip:0 "In order to be a valid [elector|E] under the Ottoman Succession, a vassal must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a direct powerful vassal of the title holder\n$EFFECT_LIST_BULLET$Be a councillor of the title holder"
