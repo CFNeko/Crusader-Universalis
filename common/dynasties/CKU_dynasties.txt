@@ -158,6 +158,16 @@ CKU_osman = {
 	culture = turkish
 }
 
+CKU_timurtash = {
+	name = "Timurtash"
+	culture = turkish
+}
+
+CKU_pasha = {
+	name = "Pasha"
+	culture = albanian
+}
+
 CKU_palatinate_neumarkt = {
 	name = "dynn_palatinate_neumarkt"
 	culture = bavarian
