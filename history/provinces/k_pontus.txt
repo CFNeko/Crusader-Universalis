@@ -36,7 +36,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 
 }
 
@@ -63,7 +66,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 738 - Amisos
@@ -161,7 +167,10 @@
 	
 	# History
 	#
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5585 - Castamon
@@ -236,7 +245,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5591 - Magnopolis
@@ -288,7 +300,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5595 - Carissa
@@ -340,7 +355,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5599 - Sebastopolis
@@ -392,7 +410,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5603 - Malandra
@@ -418,7 +439,10 @@
 	holding = castle_holding
 	
 	# History
-	
+		1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5605 - Euspena
@@ -535,7 +559,10 @@
 	holding = none
 	
 	# History
-	
+		1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5617 - Charsianon
@@ -548,7 +575,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5618 - Therma
@@ -613,7 +643,10 @@
 	holding = none
 	
 	# History
-	
+		1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5623 - Kyzistra
@@ -626,7 +659,10 @@
 	holding = castle_holding
 	
 	# History
-	
+		1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5689 - Oinaion

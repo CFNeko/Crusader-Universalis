@@ -8,7 +8,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 754 - Sozopolis
@@ -21,7 +24,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 755 - Attaleia
@@ -34,7 +40,10 @@
 	holding = city_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 758 - Seleukia
@@ -47,7 +56,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 759 - Ikonion
@@ -60,7 +72,10 @@
 	holding = castle_holding
 	
 	# History
-	
+		1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 760 - Tyana
@@ -73,7 +88,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 761 - Tarsus
@@ -86,7 +104,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 762 - Adana
@@ -99,7 +120,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 4895 - AL-HARUNIYA
@@ -110,7 +134,10 @@
 	religion = orthodox
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 
 }
 
@@ -122,7 +149,10 @@
 	religion = orthodox
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 
 }
 
@@ -134,7 +164,10 @@
 	religion = orthodox
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 
 }
 
@@ -148,7 +181,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5611 - Arabissus
@@ -161,7 +197,10 @@
 	holding = city_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5612 - Cocussus
@@ -174,7 +213,10 @@
 	holding = church_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5624 - Mallus
@@ -187,7 +229,10 @@
 	holding = city_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5625 - Anazaribus
@@ -200,7 +245,10 @@
 	holding = church_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5626 - Faustinopolis
@@ -213,7 +261,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5627 - Podandus
@@ -226,7 +277,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5628 - Cybistra
@@ -239,7 +293,10 @@
 	holding = church_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5629 - Comitanassus
@@ -252,7 +309,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5630 - Garsaura
@@ -265,7 +325,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5631 - Nazianzus
@@ -278,7 +341,10 @@
 	holding = church_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5632 - Parnassos
@@ -291,7 +357,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5633 - Aspona
@@ -304,7 +373,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5634 - Kinna
@@ -317,7 +389,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5635 - Corycus
@@ -330,7 +405,10 @@
 	holding = church_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5636 - Claudiopolis_SELEUCIA
@@ -343,7 +421,10 @@
 	holding = city_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5637 - Adrasos
@@ -356,7 +437,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5638 - Anemurium
@@ -369,7 +453,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5639 - Selinus
@@ -382,7 +469,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5640 - Korakesion
@@ -395,7 +485,10 @@
 	holding = city_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5641 - Side
@@ -408,7 +501,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5642 - Cremna
@@ -421,7 +517,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5643 - Phaselis
@@ -434,7 +533,10 @@
 	holding = church_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 
 }
 
@@ -448,7 +550,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5645 - Myra
@@ -461,7 +566,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5646 - Olbasa
@@ -474,7 +582,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5647 - Telmessos
@@ -487,7 +598,10 @@
 	holding = castle_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5648 - Cibyra
@@ -500,7 +614,10 @@
 	holding = city_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5649 - Cridus
@@ -513,7 +630,10 @@
 	holding = none
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5650 - Aphrodisias
@@ -526,7 +646,10 @@
 	holding = church_holding
 	
 	# History
-
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5651 - Aezani
@@ -539,7 +662,10 @@
 	holding = castle_holding
 	
 	# History
-	
+		1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5652 - Nakoleia
@@ -552,7 +678,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5653 - Midaeum
@@ -565,7 +694,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5654 - Polybotus
@@ -578,7 +710,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 
 }
 
@@ -592,7 +727,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 
 }
 
@@ -606,7 +744,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 
 }
 
@@ -620,7 +761,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5658 - Amorion
@@ -633,7 +777,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5659 - Docimium
@@ -646,7 +793,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5660 - Synnada
@@ -659,7 +809,10 @@
 	holding = church_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5661 - Antiochia
@@ -672,7 +825,10 @@
 	holding = church_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5662 - Neapolis
@@ -685,7 +841,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5663 - Adada
@@ -698,7 +857,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5664 - Selge
@@ -711,7 +873,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5665 - Sagalassus
@@ -724,7 +889,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5666 - Parlais
@@ -737,7 +905,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5667 - Salda
@@ -750,7 +921,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5668 - Kaklauma
@@ -763,7 +937,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5669 - Ouasada
@@ -776,7 +953,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5670 - Mistea
@@ -789,7 +969,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5671 - Lystra
@@ -802,7 +985,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5672 - Isaura
@@ -815,7 +1001,10 @@
 	holding = castle_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5673 - Laranalia
@@ -828,7 +1017,10 @@
 	holding = city_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5674 - Soloi
@@ -841,7 +1033,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5675 - Derbe
@@ -854,7 +1049,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5676 - Barata
@@ -867,7 +1065,10 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}	
 }
 
 # 5677 - Pappa
@@ -880,7 +1081,10 @@
 	holding = church_holding
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
 # 5678 - Katakekaumene
@@ -893,6 +1097,9 @@
 	holding = none
 	
 	# History
-	
+	1444.8.1 = {
+		culture = turkish
+		religion = muwalladi
+	}
 }
 
