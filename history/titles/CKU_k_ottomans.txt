@@ -7,38 +7,15 @@ k_ottoman = {
 		}
 	}
 }
-
+c_adrianopolis = { # Edirne, capital of the Empire
+	1369.1.1 = {
+		change_development_level = 30
+	}
+	1444.8.1 = {
+		holder = CKU_ottomans_1
+	}
+}
 k_nikaea = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_bucellaria = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_bulgaria = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_dobrudja = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_ephese = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_opsikion = {
 	1444.8.1 = {
 		holder = CKU_ottomans_1
 	}
@@ -47,83 +24,12 @@ d_opsikion = {
 d_optimatoi = {
 	1444.8.1 = {
 		holder = CKU_ottomans_1
+		change_development_level = 22
 	}
 }
-
-d_philippopolis = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_strymon = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_thracesia = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_turnovo = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_thessalonika = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-d_thessaly = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
 c_abydos = {
 	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-c_adrianopolis = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-c_antipatreia = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-c_avlonas = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-c_caria = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-c_epeiros = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
-	}
-}
-
-c_honorias = {
-	1444.8.1 = {
+		change_development_level =  24
 		holder = CKU_ottomans_1
 	}
 }
@@ -133,50 +39,172 @@ c_kalliopolis = {
 		holder = CKU_ottomans_1
 	}
 }
+# Rûm Eyalet = {
+	d_armeniac = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+		1444.8.1 = {
+			liege = k_ottoman
+		}
+	}
+	d_bucellaria = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+		
+	}
+	d_paphlagonia = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+	c_sinope = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+	c_sebasteia = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+	c_charsianon = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+	c_honorias = {
+		1444.1.1 = {
+			holder = CKU_sinope_1
+		}
+	}
+#}
+# Anatolia Eyalet	
+	d_thracesia = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+		1444.8.1 = {
+			liege = k_ottoman
+		}
+	}
+	d_ephese = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}
+	d_opsikion = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}
+	
+	d_cibyrrhaeot = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}
+	c_caria = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}	
+	c_lycia = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}
+	c_pacatiana = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}
+	
+	c_philomelium = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
+	}
 
-c_lycia = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
+	c_pisidia = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
 	}
-}
 
-c_metzovo = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
+	c_galatia_salutaris = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
 	}
-}
 
-c_pacatiana = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
+	c_lower_galatia = {
+		1444.1.1 = {
+			holder = CKU_anatolia_1
+		}
 	}
-}
-
-c_philomelium = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
+# Rumelia Eyalet
+	d_bulgaria = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+		1444.8.1 = {
+			liege = k_ottoman
+		}
 	}
-}
-
-c_pisidia = {
-	1444.8.1 = {
-		holder = CKU_ottomans_1
+	d_turnovo = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
 	}
-}
-
-c_vidin = {
-	1422.1.1 = {
-		holder = CKU_ottomans_1
+	d_dobrudja = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
 	}
-}
-
-b_korakesion = {
-	1422.1.1 = {
-		holder = CKU_ottomans_1
+	d_philippopolis = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
 	}
-}
-b_side = {
-	1422.1.1 = {
-		holder = CKU_ottomans_1
+	d_thessalonika = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
 	}
-}
+	d_thessaly = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}
+	d_strymon = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}
+	c_antipatreia = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}
+	c_avlonas = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}
+	c_vidin = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}	
+	c_epeiros = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}
+	c_metzovo = {
+		1442.1.1 = {
+			holder = CKU_rumelia_1
+		}
+	}
