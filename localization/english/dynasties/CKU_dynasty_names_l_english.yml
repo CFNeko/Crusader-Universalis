@@ -20,18 +20,11 @@
  dynn_di_spoleto: "di Spoleto"
  dynn_Visconti: "Visconti"
 
+ #France
  dynn_bar: "Bar"
  dynn_berry: "Berry"
- dynn_Bogdan: "Bogdan"
  dynn_bourgogne_nevers: "Bourgogne-Nevers"
  dynn_bueil: "Bueil"
- dynn_clyte: "De la Clyte"
- dynn_crequy: "Créquy"
- dynn_croy: "Croÿ" 
- dynn_dampierre_flanders: "Dampierre-Flanders" 
- dynn_luxembourg: "Luxembourg"
- dynn_lalaing: "Lalaing"
- dynn_osman: "Osman"
  dynn_valois_bourgogne: "Valois-Bourgogne"
  dynn_bourgogne_montagu: "Bourgogne-Montagu"
  dynn_Walsee: "Walsee"
@@ -58,22 +51,42 @@
  dynn_foix_grailly: "Foix-Grailly"
  dynn_montmorency_laval: "Laval-Montmorency"
  dynn_montfort_laval: "Laval-Montfort"
+ dynn_crequy: "Créquy"
+ dynn_luxembourg_ligny: "Luxembourg-Ligny"
  
- dynn_bourgogne_aviz: "Avis"
- dynn_jagiellon: "Jagiellonian"
+ #Low Countries
+ dynn_clyte: "De la Clyte"
+ dynn_croy: "Croÿ"
+ dynn_dampierre_flanders: "Dampierre-Flanders" 
+ dynn_luxembourg: "Luxembourg"
+ dynn_lalaing: "Lalaing"
+ dynn_lannoy: "Lannoy"
+ 
+ #Germany
  dynn_Mecklenburg: "Mecklenburg"
  dynn_Mecklenburg_werle: "Mecklenburg-Werle"
  dynn_palatinate_neumarkt: "Pfalz-Neumarkt" 
  
- dynn_Kastrioti: "Kastriotit"
+ #Germany
+ dynn_jagiellon: "Jagiellonian"
  dynn_nassau_wiesbaden: "Nassau-Wiesbaden"
  dynn_nassau_weilburg: "Nassau-Weilburg"
  dynn_nassau_siegen: "Nassau-Siegen"
  dynn_nassau_beilstein: "Nassau-Beilstein"
  dynn_nassau_dillenburg: "Nassau-Dillenburg"
  dynn_luxembourg_bohemia: "Luxembourg-Bohemia"
- dynn_luxembourg_ligny: "Luxembourg-Ligny"
 
+ #Portugal
+ dynn_bourgogne_aviz: "Avis"
+
+ #Italy
+
+ #Spain
+
+ dynn_Bogdan: "Bogdan"
+ dynn_osman: "Osman"
+ dynn_Kastrioti: "Kastriotit"
+ 
  dynn_Farrugia:0 "Farrugia"
  dynn_Borg:0 "Borġ"
  dynn_Cilia:0 "Ċilia"

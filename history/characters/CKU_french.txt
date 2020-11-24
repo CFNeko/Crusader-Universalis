@@ -7992,7 +7992,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 559
+			dynasty = CKU_testing_dynasty
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -8689,6 +8689,9 @@
 			1436.1.1 = {
 				birth = yes
 			}
+			1516.8.15 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_15 = {
 			name = "Philippe"
@@ -8700,6 +8703,9 @@
 			1436.11.1 = {
 				birth = yes
 			}
+			1482.9.14 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_16 = {
 			name = "Michel"
@@ -8710,6 +8716,9 @@
 			mother = CKU_bourgogne_minor_12
 			1440.1.1 = {
 				birth = yes
+			}
+			1516.1.1 = {#?
+				death = yes
 			}
 		}
 		
@@ -9583,6 +9592,283 @@
 				birth = yes
 			}
 			1490.1.1 = {#?
+				death = yes
+			}
+		}
+	# }
+	# Lannoy {
+		CKU_lannoy_1 = {
+			name = "Hugues"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			# father = Unknown
+			# mother = Unknown
+			# Married Marguerite de Wavrin
+			1311.1.1 = {#?
+				birth = yes
+			}
+			1349.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_2 = {
+			name = "Hugues"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_1
+			# mother = Marguerite de Wavrin
+			# Married Marie de Berlaymont
+			1335.1.1 = {#?
+				birth = yes
+			}
+			1410.11.9 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_2
+			# mother = Marie de Berlaymont
+			# Married Jeanne de Croÿ
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1390.1.1 = {#?
+				add_spouse = CKU_bourgogne_minor_29
+			}
+			1415.11.9 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_4 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_3
+			mother = CKU_bourgogne_minor_29
+			# Married Jeanne de Poix
+			1410.1.1 = {
+				birth = yes
+			}
+			1493.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_5 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_4
+			# mother = Jeanne de Poix
+			# Married Filips van Horne
+			1410.1.1 = {
+				birth = yes
+			}
+			1493.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_6 = {
+			name = "Antoine"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_3
+			mother = CKU_bourgogne_minor_29
+			# Married Jeanne de Ville
+			1412.1.1 = {
+				birth = yes
+			}
+			1465.2.15 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_7 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_6
+			# mother = Jeanne de Ville
+			1438.1.1 = {
+				birth = yes
+			}
+			1498.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_8 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_6
+			# mother = Jeanne de Ville
+			1443.1.1 = {#?
+				birth = yes
+			}
+			1503.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_9 = {
+			name = "Guillebert"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_1
+			# mother = Marguerite de Wavrin
+			# Married Catherine de Saint-Aubin	
+			1330.1.1 = {#?
+				birth = yes
+			}
+			1409.7.24 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_10 = {
+			name = "Hugues"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_9
+			# mother = Catherine de Saint-Aubin
+			1384.1.1 = {
+				birth = yes
+			}
+			1456.5.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_11 = {
+			name = "Guillebert"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_9
+			# mother = Catherine de Saint-Aubin	
+			# Married Éléonore de Esquennes
+			# Married Jeanne de Ghistelles
+			# Married Isabelle de Flandres-Drincham
+			1386.1.1 = {
+				birth = yes
+			}
+			1462.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_12 = {
+			name = "Baudouin"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_9
+			# mother = Catherine de Saint-Aubin	
+			# Married Marie de Melles
+			# Married Adrienne de Berlaymont
+			trait = stuttering
+			1388.1.1 = {
+				birth = yes
+			}
+			1474.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_13 = {
+			name = "Josselin"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_9
+			# mother = Catherine de Saint-Aubin	
+			# Married Marie de Montgardin
+			1386.1.1 = {#?
+				birth = yes
+			}
+			1478.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_lannoy_14 = {
+			name = "Jean"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_9
+			# mother = Catherine de Saint-Aubin	
+			# Married Marie de Cordes
+			1390.1.1 = {#?
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_15 = {
+			name = "Agnès"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_9
+			# mother = Catherine de Saint-Aubin	
+			# Married Jean de Roubaix
+			1382.1.1 = {#?
+				birth = yes
+			}
+			1464.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_16 = {
+			name = "Baudouin"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_12
+			# mother = Adrienne de Berlaymont
+			1434.1.1 = {#?
+				birth = yes
+			}
+			1501.5.7 = {
+				death = yes
+			}
+		}
+		CKU_lannoy_17 = {
+			name = "Philippote"
+			female = yes
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_12
+			# mother = Adrienne de Berlaymont
+			1437.1.1 = {#?
+				birth = yes
+			}
+			1500.10.11 = {#?
+				death = yes
+			}
+		}
+		CKU_lannoy_18 = {
+			name = "Philippe"
+			religion = catholic
+			culture = flemish
+			dynasty = CKU_lannoy
+			father = CKU_lannoy_11
+			# mother = Jeanne de Ghistelles
+			1429.1.1 = {
+				birth = yes
+			}
+			1495.1.1 = {
 				death = yes
 			}
 		}
@@ -14552,7 +14838,6 @@
 		}
 	# }
 # }
-
 # Walloon = {
 	# Luxembourg {
 	# }

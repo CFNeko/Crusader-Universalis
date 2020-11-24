@@ -1,4 +1,16 @@
-﻿CKU_grailly = {
+﻿CKU_testing_dynasty = {
+	prefix = "dynnp_de"
+	name = "dynn_testing_dynasty"
+	culture = "flemish"
+}
+
+CKU_lannoy = {
+	prefix = "dynnp_de"
+	name = "dynn_lannoy"
+	culture = "flemish"
+}
+
+CKU_grailly = {
 	prefix = "dynnp_de"
 	name = "dynn_grailly"
 	culture = "gascon"
