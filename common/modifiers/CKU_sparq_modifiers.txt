@@ -1,19 +1,19 @@
 ﻿arquebus_excellent_imp_modifier = {
 	icon = martial_positive
-	arquebusiers_damage_add = 10
-	arquebusiers_toughness_add = 5
+	arquebusiers_damage_mult = 0.1
+	arquebusiers_toughness_mult = 0.075
 }
 
 arquebus_good_imp_modifier = {
 	icon = martial_positive
-	arquebusiers_damage_add = 5
-	arquebusiers_toughness_add = 3
+	arquebusiers_damage_mult = 0.075
+	arquebusiers_toughness_mult = 0.05
 }
 
 arquebus_fair_imp_modifier = {
 	icon = martial_positive
-	arquebusiers_damage_add = 2
-	arquebusiers_toughness_add = 1
+	arquebusiers_damage_mult = 0.05
+	arquebusiers_toughness_mult = 0.025
 }
 
 arquebus_employed_locals_modifier = {

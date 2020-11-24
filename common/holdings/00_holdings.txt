@@ -21,6 +21,7 @@
 		barracks_01
 		military_camps_01
 		camel_farms_01
+		gunnery_range_01
 
 		common_tradeport_01
 		hall_of_heroes_01
@@ -61,6 +62,7 @@ city_holding = {
 		barracks_01
 		military_camps_01
 		camel_farms_01
+		gunnery_range_01
 
 		guild_halls_01
 
@@ -89,6 +91,7 @@ church_holding = {
 		barracks_01
 		military_camps_01
 		camel_farms_01
+		gunnery_range_01
 		
 		monastic_schools_01
 		

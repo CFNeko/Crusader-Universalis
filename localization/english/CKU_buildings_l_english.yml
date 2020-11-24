@@ -18,3 +18,15 @@
  building_type_colony_01:0 "Colony"
  building_colony_01:0 "Settlement"
  building_colony_01_desc:0 "A small settlement with a steady influx of immigrants"
+ 
+ # GUNPOWDER REGIMENT BUILDINGS
+ building_type_gunnery_range_01:0 "Gunnery Range"
+ building_type_gunnery_range_01_desc:1 "The Gunnery Range not only contains several fortified buildings designed to drill recruits in the way of firearms, it's also connected to vast swathes of land for them to train for war."
+ building_gunnery_range_01:1 "Simple Range"
+ building_gunnery_range_01_desc:1 "A small clearing in a nearby forest gives us a safe location to drill our inexperienced recruits with their firearms."
+ building_gunnery_range_02:1 "Secured Arsenal"
+ building_gunnery_range_02_desc:2 "Several smithies are constructed within the grounds, supporting the levies with repairs. Firearms have also been secured behind a gated storage room."
+ building_gunnery_range_03:1 "Battalion Lodgings"
+ building_gunnery_range_03_desc:1 "As we continue to expand our grounds we'll need to provide suitable housing for new recruits. These permanent lodgings will give us plenty of bed space for our men."
+ building_gunnery_range_04:1 "Expanded Range"
+ building_gunnery_range_04_desc:0 "$building_type_gunnery_range_01_desc$"
