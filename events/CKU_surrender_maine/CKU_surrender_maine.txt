@@ -86,10 +86,10 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
 			}
-			#trigger_event = {
-			#	id = CKU_surrender_maine.0005
-			#	years = 1
-			#}
+			trigger_event = {
+				id = CKU_surrender_maine.0005
+				years = 1
+			}
 			add_character_flag = som_is_accepted_flag
 		}
 	}
@@ -120,10 +120,10 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 				id = CKU_surrender_maine.0003
 				days = { 14 60 }
 			}
-			#trigger_event = {
-			#	id = CKU_surrender_maine.0005
-			#	years = 1
-			#}
+			trigger_event = {
+				id = CKU_surrender_maine.0005
+				years = 1
+			}
 			add_character_flag = som_is_accepted_flag
 		}
 	}
@@ -142,12 +142,11 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 			trigger_event = {
 				id = CKU_surrender_maine.0004
 				days = { 14 60 }
-				# Trigger Surrender of Maine without the Marriage proceeding!!
 			}
-			#trigger_event = {
-			#	id = CKU_surrender_maine.0005
-			#	years = 1
-			#}
+			trigger_event = {
+				id = CKU_surrender_maine.0005
+				years = 1
+			}
 			add_character_flag = som_is_rejected_flag
 		}
 	}
@@ -174,12 +173,11 @@ CKU_surrender_maine.0001 = { #Marriage between Henry VI and Marguerite d'Anjou
 			trigger_event = {
 				id = CKU_surrender_maine.0004
 				days = { 14 60 }
-				# Trigger Surrender of Maine without the Marriage proceeding!!
 			}
-			#trigger_event = {
-			#	id = CKU_surrender_maine.0005
-			#	years = 1
-			#}
+			trigger_event = {
+				id = CKU_surrender_maine.0005
+				years = 1
+			}
 			add_character_flag = som_is_rejected_flag
 		}
 	}
@@ -322,26 +320,44 @@ CKU_surrender_maine.0005 = { #Start discussion on Surrender of Maine
 	}
 
 	immediate = {
+		# CKU_surrender_maine.0005.a
+		title:c_maine = { save_scope_as = sc_c_maine }
+
+		# CKU_surrender_maine.0005.b
+		title:d_anjou = { save_scope_as = sc_d_anjou }
+		title:d_gascogne = { save_scope_as = sc_d_gascogne }
+		title:d_poitou = { save_scope_as = sc_d_poitou }
+		title:d_normandy = { save_scope_as = sc_d_normandy }
+		title:c_quercy = { save_scope_as = sc_c_quercy }
+		title:c_perigord = { save_scope_as = sc_c_perigord }
+		title:c_limousin = { save_scope_as = sc_c_limousin }
+		title:c_saintonge = { save_scope_as = sc_c_saintonge }
+		title:b_calais = { save_scope_as = sc_b_calais }
 	}
 
 	option = { # We should push the english king on this matter
 		name = CKU_surrender_maine.0005.a
 		
-		title:k_england.holder = { # Demand Surrender of Maine
-			trigger_event = {
-				id = CKU_surrender_maine.0007
-				days = { 14 60 }
+		custom_tooltip = CKU_surrender_maine.0005.a.tt
+		hidden_effect = {
+			title:k_england.holder = { # Demand Surrender of Maine
+				trigger_event = {
+					id = CKU_surrender_maine.0007
+					days = { 14 60 }
+				}
 			}
 		}
 	}
 	option = { # Lets sweet the deal a little
 		name = CKU_surrender_maine.0005.b
 		
-		#custom_tooltip = CKU_surrender_maine.0005.b.tt
-		title:k_england.holder = { # Lets sweet the deal a little
-			trigger_event = {
-				id = CKU_surrender_maine.0008
-				days = { 14 60 }
+		custom_tooltip = CKU_surrender_maine.0005.b.tt
+		hidden_effect = {
+			title:k_england.holder = { # Lets sweet the deal a little
+				trigger_event = {
+					id = CKU_surrender_maine.0008
+					days = { 14 60 }
+				}
 			}
 		}
 	}

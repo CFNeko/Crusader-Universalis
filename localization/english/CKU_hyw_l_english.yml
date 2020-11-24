@@ -48,5 +48,6 @@
  CKU_surrender_maine.0008.b:0 "Hmmm, it pains me to agree, but I do what I must for my subjects."
 
 #Custom Tooltips
- CKU_surrender_maine.0005.b.tt:0 "[ROOT.Char.GetFullNameRegnal]"
- CKU_surrender_maine.0008.b.tt:0 "[scope.GetName] will get Duchy of $d_anjou$"
+ CKU_surrender_maine.0005.a.tt:0 "[ROOT.Char.GetName] will demand [sc_c_maine.GetName]"
+ CKU_surrender_maine.0005.b.tt:0 "Offer the following proposal to Henry VI:\n\nKingdom of France will transfer [sc_d_gascogne.GetName], [sc_d_poitou.GetName], [sc_d_normandy.GetName], [sc_c_quercy.GetName],[sc_c_perigord.GetName], [sc_c_limousin.GetName], [sc_c_saintonge.GetName], [sc_b_calais.GetName] to the Kingdom of England.\n\nKingdom of England will transfer [sc_d_anjou.GetName] to the Kingdom of France. It will also renounce its claims on the Kingdom of France and Aquitaine"
+ CKU_surrender_maine.0008.b.tt:0 "will get Duchy of $d_anjou$"
