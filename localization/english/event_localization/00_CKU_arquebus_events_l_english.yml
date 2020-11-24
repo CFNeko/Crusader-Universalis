@@ -1,5 +1,20 @@
 ﻿l_english:
+
+# GUNPOWDER DISCOVERY EVENT CHAIN
+ CU_ARQ_main.0001.t:0 "Explosive Discovery"
+ CU_ARQ_main.0001.desc:0 "One of our more promiment traders has returned from his recent trading mission abroad. He seems eager to speak to you of the fascinating things he has seen in foreign lands.\n\nAfter you give the man some time to collect his thoughts and recount his adventure you realize why he was so excited.\n\n"They call it 'Gunpowder' my Lord, and this fine black powder is capable of creating powerful explosions like we have never seen!"\n\nSuch a discovery, if properly adapted, could change the way we wage war forever."
+ CU_ARQ_main.0001.a:0 "Summon the Council!"
+ CU_ARQ_main.0001.a.flavor:0 "We must discuss this latest revelation with the Council!"
  
+ CU_ARQ_main.0002.t:0 "Planning Acquisition"
+ CU_ARQ_main.0002.desc:0 "Placeholder."
+ CU_ARQ_main.0002.a:0 "Employ Bright Minds"
+ CU_ARQ_main.0002.a.flavor:0 "We have many Scholars and Alchemists who can be put to use for this task."
+ CU_ARQ_main.0002.b:0 "Send a Trade Mission"
+ CU_ARQ_main.0002.b.flavor:0 "Our Traders have brought us the news, it is now their task to acquire it."
+ CU_ARQ_main.0002.c:0 "Maybe later..."
+ CU_ARQ_main.0002.c.flavor:0 "Perhaps we'll revisit this idea at a later time."
+
 # ARQUEBUS IMPROVEMENT EVENT CHAIN #
  CU_ARQ_main.0010.t:0 "Necessary Improvements"
  CU_ARQ_main.0010.desc:0 "The Arquebus has become a fearsome tool of war in your arsenal but there is still room for improvement.\n\nYour Marshal will attempt to improve the Arquebus at your behest by consulting with the brightest minds, utilizing the best materials to further this new innovation.\n\nIf the power of this weapon can be finely tuned then it may give us the edge we need in future battles..."

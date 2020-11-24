@@ -28,3 +28,11 @@
  arquebusiers_screen_add:1 "[arquebusier|E] [screen|E]"
  arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
  
+ # FIELD WEAPON REGIMENT MODIFIERS
+ field_weapons_damage_add:1 "[field_weapon|E] [damage|E]"
+ field_weapons_damage_mult:0 "$field_weapons_damage_add$"
+ field_weapons_toughness_add:1 "[field_weapon|E] [toughness|E]"
+ field_weapons_toughness_mult:0 "$field_weapons_toughness_add$"
+ field_weapons_screen_add:1 "[field_weapon|E] [screen|E]"
+ field_weapons_siege_value_add:1 "[field_weapon|E] [siege_progress|E]"
+ 

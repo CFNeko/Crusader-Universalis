@@ -1,5 +1,5 @@
 ﻿##########################
-# ARQ MILITARY BUILDINGS #
+# CKU MILITARY BUILDINGS #
 ##########################
 
 ### GUNNERY RANGE
