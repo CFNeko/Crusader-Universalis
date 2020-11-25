@@ -991,6 +991,22 @@
 				death = yes
 			}
 		}
+		CKU_marck_3 = {
+			name = "Katharina"
+			female = yes
+			religion = catholic
+			culture = rhenish
+			dynasty = 7117
+			father = CKU_marck_1
+			mother = CKU_bourgogne_22
+			# Married Arnold van Egmont
+			1417.5.25 = {
+				birth = yes
+			}
+			1476.2.20 = {
+				death = yes
+			}
+		}
 	#}
 #}
 # Low Countries = {
@@ -1012,18 +1028,6 @@
 				birth = yes #unknown
 			}
 			1460.1.1 = {
-				death = yes
-			}
-		}
-		CKU_dutch_3 = {
-			name = "Egmont"
-			religion = catholic
-			culture = dutch
-			dynasty = 7117 #Egmont, Placeholder.
-			1410.1.1 = {
-				birth = yes #unknown
-			}
-			1473.1.1 = {
 				death = yes
 			}
 		}

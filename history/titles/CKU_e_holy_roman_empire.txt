@@ -715,24 +715,24 @@
 				}
 			}
 			d_gelre = {
-				1440.1.1 = {
-					holder = CKU_dutch_3
+				1423.6.25 = {
+					holder = CKU_egmont_33
 					liege = "e_hre"
 				}
 			}
 			c_guelders = {
-				1440.1.1 = {
-					holder = CKU_dutch_3
+				1423.6.25 = {
+					holder = CKU_egmont_33
 				}
 			}
 			c_arnhem = {
-				1440.1.1 = {
-					holder = CKU_dutch_3
+				1423.6.25 = {
+					holder = CKU_egmont_33
 				}
 			}
 			c_zutphen = {
-				1440.1.1 = {
-					holder = CKU_dutch_3
+				1423.6.25 = {
+					holder = CKU_egmont_33
 				}
 			}
 			

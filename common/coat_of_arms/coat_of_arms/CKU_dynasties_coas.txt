@@ -1610,6 +1610,12 @@ CKU_house_tudor = {
 	}
 }
 
+CKU_egmont = {
+	pattern = "pattern_chevron_05.dds"
+	color1 = "yellow"
+	color2 = "red"
+}
+
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
