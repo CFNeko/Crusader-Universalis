@@ -4,6 +4,13 @@
 	culture = "flemish"
 }
 
+CKU_gruuthuse = {
+	prefix = "dynnp_van"
+	name = "dynn_gruuthuse"
+	culture = "flemish"
+	motto = dynn_CKU_gruuthuse_motto
+}
+
 CKU_egmont = {
 	prefix = "dynnp_van"
 	name = "dynn_egmont"

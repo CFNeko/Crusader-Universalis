@@ -899,3 +899,178 @@
 		}
 	# }
 # }
+# Flemish {
+	# van Gruuthuse/van Brugge = {
+		CKU_gruuthuse_1 = {
+			name = "Lambert"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			# father = Unknown
+			# mother = Unknown
+			# Married Unknown
+			1190.1.1 = {
+				birth = yes
+			}
+			1255.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_2 = {
+			name = "Geldolf"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_1
+			# mother = Unknown
+			# Married Margareta van Gistel
+			1220.1.1 = {
+				birth = yes
+			}
+			1269.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_3 = {
+			name = "Geldolf"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_2
+			# mother = Margareta van Gistel
+			# Married Gertrude van Assche
+			1240.1.1 = {
+				birth = yes
+			}
+			1300.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_4 = {
+			name = "Geldolf"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_3
+			# mother = Gertrude van Assche
+			1265.1.1 = {
+				birth = yes
+			}
+			1335.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_5 = {
+			name = "Catharina"
+			female = yes
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_3
+			# mother = Gertrude van Assche
+			# Married Geerard van der Aa
+			1270.1.1 = {
+				birth = yes
+			}
+			1320.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_6 = {
+			name = "Jan"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			# father = Geerard van der Aa
+			mother = CKU_gruuthuse_5
+			# Married Catharina van Steelant
+			# Married Margaretha van Dudzele
+			1295.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_7 = {
+			name = "Jan"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_6
+			# mother = Margaretha van Dudzele
+			# Married Isabelle de Looz Agimont
+			1335.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_8 = {
+			name = "Jan"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_7
+			# mother = Isabelle de Looz Agimont
+			# Married Agnès de Mortaigne
+			1368.1.1 = {
+				birth = yes
+			}
+			1420.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_9 = {
+			name = "Jan"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_8
+			# mother = Agnès de Mortaigne
+			# Married Margareta van Steenhuyse
+			1392.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_10 = {
+			name = "Lodewijk"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_9
+			# mother = Margareta van Steenhuyse
+			# Married Margareta van Borselen
+			trait = calm
+			trait = ambitious
+			trait = diligent
+			trait = education_martial_3
+			trait = intellect_good_2
+			trait = scholar
+			1422.1.1 = {
+				birth = yes
+			}
+			1492.11.24 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_11 = {
+			name = "Jacob"
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_9
+			# mother = Margareta van Steenhuyse
+			1418.1.1 = {
+				birth = yes
+			}
+			1472.1.1 = {
+				death = yes
+			}
+		}
+	# }
+# }
