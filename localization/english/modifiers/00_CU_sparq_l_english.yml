@@ -36,3 +36,6 @@
  field_weapons_screen_add:1 "[field_weapon|E] [screen|E]"
  field_weapons_siege_value_add:1 "[field_weapon|E] [siege_progress|E]"
  
+ # GUNPOWDER DISCOVERY MODIFIERS
+ gunpowder_local_materials_modifier:0 "Using Local Materials"
+ gunpowder_local_materials_modifier_desc:0 "This character is utilizing locally sourced materials in their current project."

@@ -44,3 +44,9 @@ arquebus_bad_progress_modifier = {
 	stewardship = -1
 	tax_mult = -0.05
 }
+
+gunpowder_local_materials_modifier = {
+	icon = economy_negative
+	development_growth_factor = -0.025
+	tax_mult = -0.05
+}
