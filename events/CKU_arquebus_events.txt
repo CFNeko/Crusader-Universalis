@@ -219,7 +219,10 @@ CU_ARQ_main.0004 = { #Alchemists/Scholars successfully produce gunpowder
 		name = CU_ARQ_main.0004.a
 		flavor = CU_ARQ_main.0004.a.flavor
 
-
+		add_character_modifier = {
+			modifier = gunpowder_local_materials_modifier
+			years = 2
+		}
 
 		hidden_effect = {
 			trigger_event = {
@@ -341,7 +344,33 @@ CU_ARQ_main.0006 = { #Trade Mission pays for large sum of gunpowder
 		name = CU_ARQ_main.0006.b
 		flavor = CU_ARQ_main.0006.b.flavor
 
-		
+		scope:gp_trader = {
+			duel = {
+				skill = stewardship
+				value = average_skill_rating
+				5 = {
+					desc = CU_ARQ_main.0006.success
+					compare_modifier = {
+						value = scope:duel_value
+					}
+					remove_short_term_gold = medium_gold_value
+					stress_impact = {
+						greedy = medium_stress_impact_gain
+					}
+				}
+				15 = {
+					desc = CU_ARQ_main.0006.failure
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = -1
+					}
+					remove_short_term_gold = major_gold_value
+					stress_impact = {
+						greedy = major_stress_impact_gain
+					}
+				}
+			}
+		}
 
 		hidden_effect = {
 			trigger_event = {
@@ -379,7 +408,10 @@ CU_ARQ_main.0007 = { #Discovering Gunpowder - Final
 		flavor = CU_ARQ_main.0007.a.flavor
 
 		hidden_effect = {
-			add_character_flag = flag_found_gunpowder
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_found_gunpowder
+			}
 		}
 	}
 }
@@ -745,7 +777,10 @@ CU_ARQ_main.0013 = { #Collecting your improvement
 		}
 		
 		hidden_effect = {
-			add_character_flag = flag_improved_arquebus
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_improved_arquebus
+			}
 		}
 	}
 }

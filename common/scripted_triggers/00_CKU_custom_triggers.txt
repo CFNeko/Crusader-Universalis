@@ -1,7 +1,7 @@
-﻿
+﻿### CUSTOM TRIGGERS
+## By: XanderSC
 
-###REQUIRED YEAR TRIGGER
-##By: SpectreTM
+# REQUIRED YEAR TRIGGER
 required_year_trigger = {
 	custom_description = {
 		text = required_year
@@ -14,5 +14,20 @@ required_year_greater_or_equal_trigger = {
 		text = required_year_greater_or_equal
 		value = $YEAR$
 		current_year >= $YEAR$
+	}
+}
+required_year_lesser_or_equal_trigger = {
+	custom_description = {
+		text = required_year_lesser_or_equal
+		value = $YEAR$
+		current_year <= $YEAR$
+	}
+}
+
+# DISCOVERED GUNPOWDER TRIGGER
+discovered_gunpowder_trigger = {
+	custom_description = {
+		text = discovered_gunpowder
+		has_character_flag = flag_found_gunpowder
 	}
 }

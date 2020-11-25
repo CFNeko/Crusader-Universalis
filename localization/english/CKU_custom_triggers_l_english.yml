@@ -1,8 +1,17 @@
 ﻿l_english:
+
+ ### CUSTOM RULES/TRIGGERS/FLAGS
+ ## By: XanderSC
  
  # REQUIRED YEAR TRIGGER
  required_year_trigger:0 "The required year is $VALUE|V0$."
  NOT_required_year_trigger:0 "The required year isn't $VALUE|V0$."
  required_year_greater_or_equal_trigger:0 "The required year is $VALUE|V0$ or greater."
  NOT_required_year_greater_or_equal_trigger:0 "The required year isn't $VALUE|V0$ or greater."
- 
+ required_year_lesser_or_equal_trigger:0 "The required year is $VALUE|V0$ or lesser."
+ NOT_required_year_lesser_or_equal_trigger:0 "The required year isn't $VALUE|V0$ or lesser."
+
+ # DISCOVERED GUNPOWDER TRIGGER
+ discovered_gunpowder_trigger:0 "The [CULTURE.GetName|V] culture has discovered [gunpowder|E]."
+ NOT_discovered_gunpowder_trigger:0 "The [CULTURE.GetName|V] culture has not discovered [gunpowder|E]."
+ flag_found_gunpowder:0 "Discovered Gunpowder"

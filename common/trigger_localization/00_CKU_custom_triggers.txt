@@ -4,3 +4,9 @@
 required_year_greater_or_equal = {
 	global = required_year_greater_or_equal_trigger
 }
+required_year_lesser_or_equal = {
+	global = required_year_lesser_or_equal_trigger
+}
+discovered_gunpowder = {
+	global = discovered_gunpowder_trigger
+}

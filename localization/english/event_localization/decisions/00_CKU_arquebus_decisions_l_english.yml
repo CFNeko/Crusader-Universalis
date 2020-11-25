@@ -9,3 +9,12 @@
  # ARQUEBUS EVENT DECISION TOOLTIP
  improve_the_arquebus_event_tooltip:0 "Upon their return you will be provided with options on how to begin your improvement project."
  
+ # SEEK GUNPOWDER DECISION
+ seek_gunpowder_decision:0 "Search for Exotic Goods"
+ seek_gunpowder_decision_confirm:0 "Dispatch Trade Mission"
+ seek_gunpowder_decision_tooltip:0 "Your most skilled trader will seek out exotic goods."
+ seek_gunpowder_decision_desc:0 "You will send out a trade mission towards the Silk Road to seek out any rare or exotic goods you've yet to discover."
+
+ # SEEK GUNPOWDER DECISION TOOLTIP
+ seek_gunpowder_event_tooltip:0 "Upon their return your Steward will inspect any items they may have found that you might find useful."
+ 
