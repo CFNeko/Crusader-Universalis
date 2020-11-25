@@ -7,3 +7,12 @@ field_weapons = {
 	alias = { field_weapon }
 	parent = men_at_arms
 }
+
+gunpowder = {
+}
+
+gunpowder_building = {
+	texture = "gfx/interface/icons/message_feed/building.dds"
+	parent = building
+	alias = { gunpowder_buildings }
+}

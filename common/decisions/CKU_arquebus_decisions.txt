@@ -75,7 +75,7 @@ seek_gunpowder_decision = {
 
 	is_shown = {
 		is_ruler = yes
-		required_year_greater_or_equal_trigger = { YEAR = 1215 }
+		required_year_greater_or_equal_trigger = { YEAR = 1350 }
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
