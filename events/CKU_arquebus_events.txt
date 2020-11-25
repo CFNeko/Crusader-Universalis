@@ -80,7 +80,7 @@ CU_ARQ_main.0002 = { #Discovering Gunpowder - Plan
 		animation = personality_rational
 	}
 	right_portrait = {
-		character = cp:councillor_diplomat
+		character = cp:councillor_chancellor
 		animation = personality_bold
 	}
 	
@@ -89,20 +89,20 @@ CU_ARQ_main.0002 = { #Discovering Gunpowder - Plan
 		name = CU_ARQ_main.0002.a
 		flavor = CU_ARQ_main.0002.a.flavor
 
-		trigger = { gold >= major_gold_value }
+		trigger = { gold >= minor_gold_value }
 		show_as_unavailable = {
-			short_term_gold < major_gold_value
+			short_term_gold < minor_gold_value
 		}
 		
-		remove_short_term_gold = major_gold_value
+		remove_short_term_gold = minor_gold_value
 		stress_impact = {
-			greedy = major_stress_impact_gain
+			greedy = minor_stress_impact_gain
 		}
 		
 		hidden_effect = {
 			trigger_event = {
 				id = CU_ARQ_main.0003
-				days = { 45 60 }
+				days = { 15 30 }
 			}
 		}
 		
@@ -132,7 +132,7 @@ CU_ARQ_main.0002 = { #Discovering Gunpowder - Plan
 		hidden_effect = {
 			trigger_event = {
 				id = CU_ARQ_main.0005
-				days = { 120 180 }
+				days = { 15 30 }
 			}
 		}
 		
@@ -148,7 +148,6 @@ CU_ARQ_main.0002 = { #Discovering Gunpowder - Plan
 		#Do nothing for now
 		name = CU_ARQ_main.0002.c
 		flavor = CU_ARQ_main.0002.c.flavor
-		
 		
 		ai_chance = {
 			base = 0
@@ -195,7 +194,7 @@ CU_ARQ_main.0003 = { #Employing Alchemists to produce more gunpowder
 		hidden_effect = {
 			trigger_event = {
 				id = CU_ARQ_main.0004
-				days = { 90 180 }
+				days = { 60 120 }
 			}
 		}
 		
@@ -206,7 +205,63 @@ CU_ARQ_main.0003 = { #Employing Alchemists to produce more gunpowder
 }
 
 CU_ARQ_main.0004 = { #Alchemists/Scholars successfully produce gunpowder
+	type = character_event
+	title = CU_ARQ_main.0004.t
+	desc = CU_ARQ_main.0004.desc
+	theme = learning
+	left_portrait = {
+		character = scope:gp_alchemist
+		animation = personality_rational
+	}
 
+	option = {
+		#Alchemists successfully synthesize gunpowder using local materials
+		name = CU_ARQ_main.0004.a
+		flavor = CU_ARQ_main.0004.a.flavor
+
+
+
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0007
+				days = { 15 30 }
+			}
+		}
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		#Alchemists successfully reproduce gunpowder using imported materials
+		name = CU_ARQ_main.0004.b
+		flavor = CU_ARQ_main.0004.b.flavor
+
+		trigger = { gold >= major_gold_value }
+		show_as_unavailable = {
+			short_term_gold < major_gold_value
+		}
+		
+		remove_short_term_gold = major_gold_value
+		stress_impact = {
+			greedy = major_stress_impact_gain
+		}
+
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0007
+				days = { 15 30 }
+			}
+		}
+
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
 }
 
 CU_ARQ_main.0005 = { #Send another Trade Mission to acquire more gunpowder
@@ -224,14 +279,14 @@ CU_ARQ_main.0005 = { #Send another Trade Mission to acquire more gunpowder
 	}
 	
 	option = {
-		#Trader is offered a deal on a large sum of gunpowder
+		#Trader is sent back to the Silk Road to acquire the gunpowder
 		name = CU_ARQ_main.0005.a
 		flavor = CU_ARQ_main.0005.a.flavor
 		
 		hidden_effect = {
 			trigger_event = {
 				id = CU_ARQ_main.0006
-				days = { 4 7 }
+				days = { 60 120 }
 			}
 		}
 		
@@ -242,11 +297,91 @@ CU_ARQ_main.0005 = { #Send another Trade Mission to acquire more gunpowder
 }
 
 CU_ARQ_main.0006 = { #Trade Mission pays for large sum of gunpowder
+	type = character_event
+	title = CU_ARQ_main.0006.t
+	desc = CU_ARQ_main.0006.desc
+	theme = stewardship
+	left_portrait = {
+		character = scope:gp_trader
+		animation = personality_rational
+	}
 
+	option = {
+		#Trader pays for the large sum of gunpowder
+		name = CU_ARQ_main.0006.a
+		flavor = CU_ARQ_main.0006.a.flavor
+
+		trigger = { gold >= major_gold_value }
+		show_as_unavailable = {
+			short_term_gold < major_gold_value
+		}
+		
+		remove_short_term_gold = major_gold_value
+		stress_impact = {
+			greedy = major_stress_impact_gain
+		}
+
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0007
+				days = { 15 30 }
+			}
+		}
+
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_greed = 0.5
+			}
+		}
+	}
+
+	option = {
+		#Trader haggles for a reduced price on gunpowder
+		name = CU_ARQ_main.0006.b
+		flavor = CU_ARQ_main.0006.b.flavor
+
+		
+
+		hidden_effect = {
+			trigger_event = {
+				id = CU_ARQ_main.0007
+				days = { 15 30 }
+			}
+		}
+
+		ai_chance = {
+			base = 50
+			ai_value_modifier = {
+				ai_boldness = 0.5
+			}
+		}
+	}
 }
 
 CU_ARQ_main.0007 = { #Discovering Gunpowder - Final
+	type = character_event
+	title = CU_ARQ_main.0007.t
+	desc = CU_ARQ_main.0007.desc
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = ROOT
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = scope:gp_final
+		animation = personality_bold
+	}
 
+	option = {
+		#Acquiring your gunpowder
+		name = CU_ARQ_main.0007.a
+		flavor = CU_ARQ_main.0007.a.flavor
+
+		hidden_effect = {
+			add_character_flag = flag_found_gunpowder
+		}
+	}
 }
 
 ##################################################

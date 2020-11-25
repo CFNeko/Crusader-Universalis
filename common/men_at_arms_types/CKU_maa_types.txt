@@ -116,6 +116,7 @@ janissary = {
 	}
 	
 	counters = {
+		archers = 1
 		skirmishers = 1
 		heavy_infantry = 1
 	}
@@ -176,6 +177,7 @@ yeoman_arquebusier = {
 	}
 	
 	counters = {
+		archers = 1
 		pikemen = 1
 		heavy_infantry = 1
 	}
@@ -205,6 +207,7 @@ hussite_gunner = {
 	}
 	
 	counters = {
+		archers = 1
 		pikemen = 1
 		skirmishers = 1
 	}
