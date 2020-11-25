@@ -2152,3 +2152,135 @@ CKU_house_tudor = {
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } rotation = 45 }
 	}
 }
+
+### COA by Torngasuk ###
+
+neville = c_westmorland
+
+percy = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "blue"	
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "blue"
+		color2 = "blue"
+	}
+}
+
+fitzgerald = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"	
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_saltire_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+house_fitzgerald_desmond = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"	
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ermine.dds"
+		color1 = "white"
+		color2 = "black"
+	}	
+	colored_emblem = {
+		texture = "ce_ordinary_saltire_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+house_fitzgerald_kildare = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"	
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_saltire_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+house_fitzgerald_glin = fitzgerald
+house_fitzmaurice = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"	
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_ermine.dds"
+		color1 = "white"
+		color2 = "black"
+	}	
+	colored_emblem = {
+		texture = "ce_ordinary_saltire_5.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+house_fitzgibbon = fitzgerald
+
+burke = { # de Burgh
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "red"
+	}
+}
+
+house_burke_galway = { # de Burgh
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.23 0.23 } scale = { 0.4 0.4 }  }
+	}
+}
+house_burke_mayo = { # de Burgh
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_hand.dds"
+		color1 = "red"
+		instance = { position = { 0.23 0.23 } scale = { 0.4 0.4 }  }
+	}
+}
+house_burke_ulster = burke
+
+butler = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_chief_indented.dds"	
+		color1 = "blue"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }			
+	}	
+}
+
+house_butler_dunboyne = butler
+house_butler_ormonde = butler

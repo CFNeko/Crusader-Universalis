@@ -143,3 +143,72 @@ CKU_house_tudor = {
 	name = "dynn_Tudor"
 	dynasty = 106
 }
+
+# Neville
+house_neville_westmorland = {
+	name = "Neville-Westmorland"
+	dynasty = CKU_Neville
+}
+
+house_neville_salisbury = {
+	name = "Neville-Salisbury"
+	dynasty = CKU_Neville
+}
+
+house_neville_hornby = {
+	name = "Neville-Hornby"
+	dynasty = CKU_Neville
+}
+
+# Fitzgerald
+house_fitzgerald_desmond = {
+	name = "FitzGerald-Desmond"
+	dynasty = CKU_fitzgerald
+}
+
+house_fitzgerald_kildare = {
+	name = "FitzGerald-Kildare"
+	dynasty = CKU_fitzgerald
+}
+
+house_fitzgerald_glin = {
+	name = "FitzGerald-Glin"
+	dynasty = CKU_fitzgerald
+}
+
+house_fitzmaurice = {
+	name = "FitzMaurice"
+	dynasty = CKU_fitzgerald
+}
+
+house_fitzgibbon = {
+	name = "FitzGibbon"
+	dynasty = CKU_fitzgerald
+}
+
+# Burke
+house_burke_galway = {
+	name = "Burke-Galway"
+	dynasty = CKU_burke
+}
+
+house_burke_mayo = {
+	name = "Burke-Mayo"
+	dynasty = CKU_burke
+}
+
+house_burke_ulster = {
+	name = "Burke-Ulster"
+	dynasty = CKU_burke
+}
+
+# Butler
+house_butler_dunboyne = {
+	name = "Butler-Dunboyne"
+	dynasty = CKU_butler
+}
+
+house_butler_ormonde = {
+	name = "Butler-Ormonde"
+	dynasty = CKU_butler
+}

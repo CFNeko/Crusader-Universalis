@@ -83,10 +83,19 @@
 
  #Spain
 
- dynn_Bogdan: "Bogdan"
- dynn_osman: "Osman"
- dynn_Kastrioti: "Kastriotit"
- 
+ #England
+ dynn_neville:0 "Neville"
+ dynn_percy:0 "Percy"
+ dynn_fitzgerald:0 "Fitzgerald"
+ dynn_burke:0 "Burke"
+ dynn_butler:0 "Butler"
+ dynn_Tudor:0 "Tudor"
+
+ #Scotland
+ dynn_Macdonald:0 "MacDonald"
+ dynn_Dunbar:0 "Dunbar"
+ dynn_Hamilton:0 "Hamilton"
+
  dynn_Farrugia:0 "Farrugia"
  dynn_Borg:0 "Borġ"
  dynn_Cilia:0 "Ċilia"
@@ -97,11 +106,10 @@
  dynn_Gonzi:0 "Gonżi"
  dynn_chalon:0 "Chalon"
 
- dynn_Macdonald:0 "MacDonald"
- dynn_Dunbar:0 "Dunbar"
- dynn_Hamilton:0 "Hamilton"
-
  dynn_Beaufort:0 "Beaufort"
  dynn_Beauchamp:0 "Beauchamp"
- dynn_Neville:0 "Neville"
- dynn_Tudor:0 "Tudor"
+ 
+
+ dynn_Bogdan: "Bogdan"
+ dynn_osman: "Osman"
+ dynn_Kastrioti: "Kastriotit"

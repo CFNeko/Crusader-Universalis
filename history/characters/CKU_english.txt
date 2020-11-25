@@ -413,3 +413,5587 @@ CKU_english_22 = { # Duke of Bedford
 #}
 
 #}
+
+### Various English Characters by Torngasuk ### {
+	angloirish0000 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_burke #Burke
+		father = angloirish0001 #Richard
+		1234.1.1 = {
+			birth = yes
+		}
+		1284.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0002 = {
+		name = "Hubert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0003 #William
+		1195.1.1 = {
+			birth = yes
+		}
+		1245.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0004 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0005 #William
+		1293.1.1 = {
+			birth = yes
+		}
+		1343.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0006 = {
+		name = "Margery"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_burke #Burke
+		father = angloirish0001 #Richard
+		1224.1.1 = {
+			birth = yes
+		}
+		1241.1.1 = {
+			add_spouse = angloirish0007 #Theobald
+		}
+		1252.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0008 = {
+		name = "Matilda"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_burke #Burke
+		father = angloirish0001 #Richard
+		1235.1.1 = {
+			birth = yes
+		}
+		1285.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0001 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0003 #William
+		1194.1.1 = {
+			birth = yes
+		}
+		1242.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0009 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0001 #Richard
+		1232.1.1 = {
+			birth = yes
+		}
+		1248.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0010 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0005 #William
+		1283.1.1 = {
+			birth = yes
+		}
+		1332.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0003 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		1160.1.1 = {
+			birth = yes
+		}
+		1205.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0011 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0003 #William
+		1196.1.1 = {
+			birth = yes
+		}
+		1246.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0012 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0001 #Richard
+		1233.1.1 = {
+			birth = yes
+		}
+		1270.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0005 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_burke #Burke
+		father = angloirish0012 #William
+		1258.1.1 = {
+			birth = yes
+		}
+		1308.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0013 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_galway #Burke-Galway
+		father = angloirish0014 #Ulick
+		1322.1.1 = {
+			birth = yes
+		}
+		1387.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0014 = {
+		name = "Ulick"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_galway #Burke-Galway
+		father = angloirish0005 #William
+		1297.1.1 = {
+			birth = yes
+		}
+		1352.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0015 = {
+		name = "Ulick"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_galway #Burke-Galway
+		father = angloirish0013 #Richard
+		1347.1.1 = {
+			birth = yes
+		}
+		1424.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0016 = {
+		name = "Ulick"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_galway #Burke-Galway
+		father = angloirish0015 #Ulick
+		1387.1.1 = {
+			birth = yes
+		}
+		1485.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0017 = {
+		name = "Ulick"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_galway #Burke-Galway
+		father = angloirish0016 #Ulick
+		1427.1.1 = {
+			birth = yes
+		}
+		1509.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0018 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_galway #Burke-Galway
+		father = angloirish0015 #Ulick
+		1372.1.1 = {
+			birth = yes
+		}
+		1430.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0019 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0005 #William
+		1288.1.1 = {
+			birth = yes
+		}
+		1375.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0020 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0021 #Thomas
+		1368.1.1 = {
+			birth = yes
+		}
+		1458.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0022 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0021 #Thomas
+		1358.1.1 = {
+			birth = yes
+		}
+		1408.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0023 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0024 #Walter
+		1388.1.1 = {
+			birth = yes
+		}
+		1438.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0025 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0021 #Thomas
+		1373.1.1 = {
+			birth = yes
+		}
+		1469.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0021 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0019 #Edmund
+		1323.1.1 = {
+			birth = yes
+		}
+		1402.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0026 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0021 #Thomas
+		1353.1.1 = {
+			birth = yes
+		}
+		1403.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0024 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0021 #Thomas
+		1363.1.1 = {
+			birth = yes
+		}
+		1440.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0027 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_mayo #Burke-Mayo
+		father = angloirish0023 #John
+		1413.1.1 = {
+			birth = yes
+		}
+		1463.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0028 = {
+		name = "Aveline"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1299.1.1 = {
+			birth = yes
+		}
+		1349.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0030 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1298.1.1 = {
+			birth = yes
+		}
+		1348.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0031 = {
+		name = "Egidia"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0032 #Walter
+		1263.1.1 = {
+			birth = yes
+		}
+		1313.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0033 = {
+		name = "Eleanor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1282.1.1 = {
+			birth = yes
+		}
+		1324.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0034 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1284.1.1 = {
+			birth = yes
+		}
+		1327.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0035 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0036 #William
+		1332.1.1 = {
+			birth = yes
+		}
+		1363.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0037 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1300.1.1 = {
+			birth = yes
+		}
+		1359.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0038 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1286.1.1 = {
+			birth = yes
+		}
+		1313.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0039 = {
+		name = "Katherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1296.1.1 = {
+			birth = yes
+		}
+		1313.1.1 = {
+			add_spouse = angloirish0040 #Maurice
+		}
+		1331.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0041 = {
+		name = "Maud"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1288.1.1 = {
+			birth = yes
+		}
+		1320.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0029 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0032 #Walter
+		1259.1.1 = {
+			birth = yes
+		}
+		1326.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0042 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0032 #Walter
+		1260.1.1 = {
+			birth = yes
+		}
+		1310.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0043 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0032 #Walter
+		1262.1.1 = {
+			birth = yes
+		}
+		1312.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0044 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1292.1.1 = {
+			birth = yes
+		}
+		1316.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0032 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0001 #Richard
+		1230.1.1 = {
+			birth = yes
+		}
+		1271.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0045 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0029 #Richard
+		1285.1.1 = {
+			birth = yes
+		}
+		1304.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0046 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0032 #Walter
+		1261.1.1 = {
+			birth = yes
+		}
+		1311.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0036 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_burke_ulster #Burke-Ulster
+		father = angloirish0038 #John
+		1312.1.1 = {
+			birth = yes
+		}
+		1333.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0047 = {
+		name = "Anne"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1272.1.1 = {
+			birth = yes
+		}
+		1322.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0049 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1269.1.1 = {
+			birth = yes
+		}
+		1298.1.1 = {
+			add_spouse = angloirish0050 #Joan
+		}
+		1321.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0051 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0052 #John
+		1325.1.1 = {
+			birth = yes
+		}
+		1372.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0053 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0051 #Edmund
+		1356.1.1 = {
+			birth = yes
+		}
+		1382.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0054 = {
+		name = "Gilbert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1276.1.1 = {
+			birth = yes
+		}
+		1327.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0055 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1278.1.1 = {
+			birth = yes
+		}
+		1337.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0056 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0051 #Edmund
+		1355.1.1 = {
+			birth = yes
+		}
+		1405.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0057 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0056 #James
+		1385.1.1 = {
+			birth = yes
+		}
+		1438.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0058 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_butler #Butler
+		father = angloirish0049 #Edmund
+		mother = angloirish0050 #Joan
+		1309.1.1 = {
+			birth = yes
+		}
+		1405.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0059 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1270.1.1 = {
+			birth = yes
+		}
+		1321.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0052 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0049 #Edmund
+		mother = angloirish0050 #Joan
+		1305.1.1 = {
+			birth = yes
+		}
+		1330.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0060 = {
+		name = "Lawrence"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0049 #Edmund
+		mother = angloirish0050 #Joan
+		1306.1.1 = {
+			birth = yes
+		}
+		1338.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0061 = {
+		name = "Nicholas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1277.1.1 = {
+			birth = yes
+		}
+		1327.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0062 = {
+		name = "Piers"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0056 #James
+		1386.1.1 = {
+			birth = yes
+		}
+		1417.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0063 = {
+		name = "Piers"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0057 #James
+		1426.1.1 = {
+			birth = yes
+		}
+		1526.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0064 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1275.1.1 = {
+			birth = yes
+		}
+		1325.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0065 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		1165.1.1 = {
+			birth = yes
+		}
+		1206.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0066 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0065 #Theobald
+		1200.1.1 = {
+			birth = yes
+		}
+		1230.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0007 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0066 #Theobald
+		1224.1.1 = {
+			birth = yes
+		}
+		1241.1.1 = {
+			add_spouse = angloirish0006 #Margery
+		}
+		1248.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0048 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0007 #Theobald
+		mother = angloirish0006 #Margery
+		1242.1.1 = {
+			birth = yes
+		}
+		1285.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0067 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0048 #Theobald
+		1268.1.1 = {
+			birth = yes
+		}
+		1299.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0068 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_butler #Butler
+		father = angloirish0049 #Edmund
+		mother = angloirish0050 #Joan
+		1310.1.1 = {
+			birth = yes
+		}
+		1360.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0069 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0070 #Edmund
+		1440.1.1 = {
+			birth = yes
+		}
+		1501.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0071 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0072 #William
+		1385.1.1 = {
+			birth = yes
+		}
+		1419.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0070 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0073 #James
+		1415.1.1 = {
+			birth = yes
+		}
+		1498.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0073 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0072 #William
+		1390.1.1 = {
+			birth = yes
+		}
+		1445.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0074 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0070 #Edmund
+		1441.1.1 = {
+			birth = yes
+		}
+		1508.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0075 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0072 #William
+		1395.1.1 = {
+			birth = yes
+		}
+		1434.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0076 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0073 #James
+		1417.1.1 = {
+			birth = yes
+		}
+		1467.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0077 = {
+		name = "Nicholas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0078 #Piers
+		1356.1.1 = {
+			birth = yes
+		}
+		1406.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0078 = {
+		name = "Piers"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0079 #Thomas
+		1294.1.1 = {
+			birth = yes
+		}
+		1370.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0080 = {
+		name = "Piers"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0072 #William
+		1380.1.1 = {
+			birth = yes
+		}
+		1415.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0081 = {
+		name = "Piers"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0070 #Edmund
+		1444.1.1 = {
+			birth = yes
+		}
+		1502.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0082 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0078 #Piers
+		1357.1.1 = {
+			birth = yes
+		}
+		1407.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0083 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0073 #James
+		1418.1.1 = {
+			birth = yes
+		}
+		1468.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0084 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0073 #James
+		1420.1.1 = {
+			birth = yes
+		}
+		1470.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0079 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0048 #Theobald
+		1271.1.1 = {
+			birth = yes
+		}
+		1329.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0085 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0078 #Piers
+		1354.1.1 = {
+			birth = yes
+		}
+		1370.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0086 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0073 #James
+		1419.1.1 = {
+			birth = yes
+		}
+		1453.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0087 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0075 #John
+		1420.1.1 = {
+			birth = yes
+		}
+		1464.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0088 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0070 #Edmund
+		1443.1.1 = {
+			birth = yes
+		}
+		1493.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0072 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0078 #Piers
+		1355.1.1 = {
+			birth = yes
+		}
+		1406.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0089 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0073 #James
+		1416.1.1 = {
+			birth = yes
+		}
+		1457.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0090 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_dunboyne #Butler-Dunboyne
+		father = angloirish0070 #Edmund
+		1442.1.1 = {
+			birth = yes
+		}
+		1499.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0091 = {
+		name = "Catherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0092 #Edmund
+		1439.1.1 = {
+			birth = yes
+		}
+		1489.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0093 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0094 #James
+		1397.1.1 = {
+			birth = yes
+		}
+		1447.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0092 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0095 #Richard
+		1420.1.1 = {
+			birth = yes
+		}
+		1464.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0096 = {
+		name = "Eleanor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0097 #James
+		1350.1.1 = {
+			birth = yes
+		}
+		1392.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0098 = {
+		name = "Elena"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0092 #Edmund
+		1440.1.1 = {
+			birth = yes
+		}
+		1490.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0099 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0100 #James
+		1424.1.1 = {
+			birth = yes
+		}
+		1473.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0101 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0049 #Edmund
+		mother = angloirish0050 #Joan
+		1305.1.1 = {
+			birth = yes
+		}
+		1337.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0097 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0101 #James
+		1331.1.1 = {
+			birth = yes
+		}
+		1382.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0094 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0097 #James
+		1362.1.1 = {
+			birth = yes
+		}
+		1405.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0100 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0094 #James
+		1392.1.1 = {
+			birth = yes
+		}
+		1452.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0102 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0100 #James
+		1421.1.1 = {
+			birth = yes
+		}
+		1461.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0103 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0092 #Edmund
+		1438.1.1 = {
+			birth = yes
+		}
+		1487.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0104 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0100 #James
+		1420.1.1 = {
+			birth = yes
+		}
+		1477.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0105 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0097 #James
+		1363.1.1 = {
+			birth = yes
+		}
+		1413.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0106 = {
+		name = "Petronilla"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0101 #James
+		1332.1.1 = {
+			birth = yes
+		}
+		1387.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0107 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0097 #James
+		1356.1.1 = {
+			birth = yes
+		}
+		1367.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0095 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0094 #James
+		1396.1.1 = {
+			birth = yes
+		}
+		1443.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0108 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0092 #Edmund
+		1441.1.1 = {
+			birth = yes
+		}
+		1478.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0109 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0110 #Walter
+		1448.1.1 = {
+			birth = yes
+		}
+		1498.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0111 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0097 #James
+		1359.1.1 = {
+			birth = yes
+		}
+		1398.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0112 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0100 #James
+		1422.1.1 = {
+			birth = yes
+		}
+		1515.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0110 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0093 #Edmund
+		1423.1.1 = {
+			birth = yes
+		}
+		1473.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0113 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_butler_ormonde #Butler-Ormonde
+		father = angloirish0092 #Edmund
+		1442.1.1 = {
+			birth = yes
+		}
+		1506.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0114 = {
+		name = "Alexander"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1155.1.1 = {
+			birth = yes
+		}
+		1205.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0116 = {
+		name = "Amabel"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0117 #Maurice
+		1264.1.1 = {
+			birth = yes
+		}
+		1314.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0118 = {
+		name = "Angharad"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0119 #Gerald
+		1108.1.1 = {
+			birth = yes
+		}
+		1158.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0120 = {
+		name = "David"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0119 #Gerald
+		1106.1.1 = {
+			birth = yes
+		}
+		1176.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0121 = {
+		name = "David"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0122 #Maurice
+		1225.1.1 = {
+			birth = yes
+		}
+		1275.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0123 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0124 #Thomas
+		1418.1.1 = {
+			birth = yes
+		}
+		1498.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0119 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		1075.1.1 = {
+			birth = yes
+		}
+		1135.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0125 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1150.1.1 = {
+			birth = yes
+		}
+		1204.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0126 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0122 #Maurice
+		1219.1.1 = {
+			birth = yes
+		}
+		1243.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0127 = {
+		name = "Gilbert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0128 #John
+		add_trait = bastard
+		1240.1.1 = {
+			birth = yes
+		}
+		1290.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0129 = {
+		name = "Gwladys"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0119 #Gerald
+		1109.1.1 = {
+			birth = yes
+		}
+		1159.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0130 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0131 #Nicholas
+		1308.1.1 = {
+			birth = yes
+		}
+		1348.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0132 = {
+		name = "Juliana"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0126 #Gerald
+		1245.1.1 = {
+			birth = yes
+		}
+		1295.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0133 = {
+		name = "Juliana"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0117 #Maurice
+		1263.1.1 = {
+			birth = yes
+		}
+		1313.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0115 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0119 #Gerald
+		1105.1.1 = {
+			birth = yes
+		}
+		1176.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0134 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1153.1.1 = {
+			birth = yes
+		}
+		1218.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0135 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0136 #Raymond
+		1157.1.1 = {
+			birth = yes
+		}
+		1207.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0137 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0135 #Maurice
+		1182.1.1 = {
+			birth = yes
+		}
+		1232.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0122 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0125 #Gerald
+		1194.1.1 = {
+			birth = yes
+		}
+		1257.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0138 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0139 #Thomas
+		1237.1.1 = {
+			birth = yes
+		}
+		1303.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0117 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0122 #Maurice
+		1238.1.1 = {
+			birth = yes
+		}
+		1277.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0140 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0126 #Gerald
+		1244.1.1 = {
+			birth = yes
+		}
+		1268.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0141 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0131 #Nicholas
+		1307.1.1 = {
+			birth = yes
+		}
+		1399.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0142 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0130 #John
+		1338.1.1 = {
+			birth = yes
+		}
+		1398.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0143 = {
+		name = "Nest"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1163.1.1 = {
+			birth = yes
+		}
+		1213.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0131 = {
+		name = "Nicholas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0138 #Maurice
+		1267.1.1 = {
+			birth = yes
+		}
+		1324.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0144 = {
+		name = "Patrick"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0142 #Maurice
+		1363.1.1 = {
+			birth = yes
+		}
+		1410.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0136 = {
+		name = "Raymond"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0145 #William
+		1132.1.1 = {
+			birth = yes
+		}
+		1182.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0146 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1166.1.1 = {
+			birth = yes
+		}
+		1216.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0147 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1145.1.1 = {
+			birth = yes
+		}
+		1213.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0139 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0137 #Maurice
+		1212.1.1 = {
+			birth = yes
+		}
+		1280.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0148 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0122 #Maurice
+		1230.1.1 = {
+			birth = yes
+		}
+		1280.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0124 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0144 #Patrick
+		1388.1.1 = {
+			birth = yes
+		}
+		1469.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0145 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0119 #Gerald
+		1107.1.1 = {
+			birth = yes
+		}
+		1157.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0149 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_fitzgerald #FitzGerald
+		father = angloirish0115 #Maurice
+		1160.1.1 = {
+			birth = yes
+		}
+		1240.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0150 = {
+		name = "Catherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0151 #Gerald
+		1385.1.1 = {
+			birth = yes
+		}
+		1435.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0151 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0040 #Maurice
+		1335.1.1 = {
+			birth = yes
+		}
+		1398.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0152 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0153 #James
+		1427.1.1 = {
+			birth = yes
+		}
+		1477.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0154 = {
+		name = "Honor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0153 #James
+		1428.1.1 = {
+			birth = yes
+		}
+		1478.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0153 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0151 #Gerald
+		1380.1.1 = {
+			birth = yes
+		}
+		1462.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0155 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0156 #Thomas
+		1295.1.1 = {
+			birth = yes
+		}
+		1345.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0157 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0151 #Gerald
+		1375.1.1 = {
+			birth = yes
+		}
+		1425.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0158 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0153 #James
+		1429.1.1 = {
+			birth = yes
+		}
+		1479.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0128 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0147 #Thomas
+		1185.1.1 = {
+			birth = yes
+		}
+		1261.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0159 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0156 #Thomas
+		1294.1.1 = {
+			birth = yes
+		}
+		1344.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0160 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0151 #Gerald
+		1360.1.1 = {
+			birth = yes
+		}
+		1399.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0161 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0162 #Thomas
+		1411.1.1 = {
+			birth = yes
+		}
+		1452.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0163 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0128 #John
+		1210.1.1 = {
+			birth = yes
+		}
+		1261.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0040 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0156 #Thomas
+		1293.1.1 = {
+			birth = yes
+		}
+		1313.1.1 = {
+			add_spouse = angloirish0039 #Katherine
+		}
+		1356.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0164 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0040 #Maurice
+		mother = angloirish0039 #Katherine
+		1313.1.1 = {
+			birth = yes
+		}
+		1358.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0165 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0151 #Gerald
+		1365.1.1 = {
+			birth = yes
+		}
+		1415.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0166 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0162 #Thomas
+		1410.1.1 = {
+			birth = yes
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0167 = {
+		name = "Nicholas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0040 #Maurice
+		1336.1.1 = {
+			birth = yes
+		}
+		1386.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0168 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0151 #Gerald
+		1370.1.1 = {
+			birth = yes
+		}
+		1420.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0156 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0163 #Maurice
+		1245.1.1 = {
+			birth = yes
+		}
+		1298.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0169 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0156 #Thomas
+		1290.1.1 = {
+			birth = yes
+		}
+		1307.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0162 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0160 #John
+		1386.1.1 = {
+			birth = yes
+		}
+		1420.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0170 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_desmond #FitzGerald-Desmond
+		father = angloirish0153 #James
+		1426.1.1 = {
+			birth = yes
+		}
+		1468.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0171 = {
+		name = "Cathline"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0172 #Philip
+		1361.1.1 = {
+			birth = yes
+		}
+		1411.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0173 = {
+		name = "David"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0174 #John
+		1253.1.1 = {
+			birth = yes
+		}
+		1331.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0175 = {
+		name = "Gilbert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0174 #John
+		1254.1.1 = {
+			birth = yes
+		}
+		1304.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0176 = {
+		name = "Gilbert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0177 #John
+		1277.1.1 = {
+			birth = yes
+		}
+		1352.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0178 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0173 #David
+		1278.1.1 = {
+			birth = yes
+		}
+		1328.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0174 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0128 #John
+		add_trait = bastard
+		1225.1.1 = {
+			birth = yes
+		}
+		1275.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0177 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0174 #John
+		1252.1.1 = {
+			birth = yes
+		}
+		1302.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0179 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0180 #Thomas
+		1275.1.1 = {
+			birth = yes
+		}
+		1325.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0181 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0174 #John
+		1251.1.1 = {
+			birth = yes
+		}
+		1301.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0182 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0177 #John
+		1278.1.1 = {
+			birth = yes
+		}
+		1338.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0183 = {
+		name = "Philip"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0179 #John
+		1300.1.1 = {
+			birth = yes
+		}
+		1351.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0184 = {
+		name = "Philip"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0176 #Gilbert
+		1302.1.1 = {
+			birth = yes
+		}
+		1352.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0172 = {
+		name = "Philip"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0185 #Thomas
+		1330.1.1 = {
+			birth = yes
+		}
+		1380.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0180 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0174 #John
+		1250.1.1 = {
+			birth = yes
+		}
+		1300.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0186 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0180 #Thomas
+		1276.1.1 = {
+			birth = yes
+		}
+		1326.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0185 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0179 #John
+		1310.1.1 = {
+			birth = yes
+		}
+		1402.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0187 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_glin #FitzGerald-Glin
+		father = angloirish0172 #Philip
+		1360.1.1 = {
+			birth = yes
+		}
+		1410.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0188 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0189 #Maurice
+		1348.1.1 = {
+			birth = yes
+		}
+		1428.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0050 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0190 #John
+		1281.1.1 = {
+			birth = yes
+		}
+		1298.1.1 = {
+			add_spouse = angloirish0049 #Edmund
+		}
+		1320.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0191 = {
+		name = "Joanna"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0189 #Maurice
+		1353.1.1 = {
+			birth = yes
+		}
+		1403.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0192 = {
+		name = "Joanne"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0193 #Thomas
+		1321.1.1 = {
+			birth = yes
+		}
+		1371.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0190 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0148 #Thomas
+		1250.1.1 = {
+			birth = yes
+		}
+		1316.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0194 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0193 #Thomas
+		1314.1.1 = {
+			birth = yes
+		}
+		1323.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0195 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0193 #Thomas
+		1314.1.1 = {
+			birth = yes
+		}
+		1323.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0196 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0189 #Maurice
+		1358.1.1 = {
+			birth = yes
+		}
+		1434.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0189 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0193 #Thomas
+		1318.1.1 = {
+			birth = yes
+		}
+		1390.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0197 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0189 #Maurice
+		1350.1.1 = {
+			birth = yes
+		}
+		1397.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0198 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0193 #Thomas
+		1317.1.1 = {
+			birth = yes
+		}
+		1329.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0199 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0189 #Maurice
+		1352.1.1 = {
+			birth = yes
+		}
+		1402.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0193 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0190 #John
+		1290.1.1 = {
+			birth = yes
+		}
+		1328.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0200 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0193 #Thomas
+		1320.1.1 = {
+			birth = yes
+		}
+		1370.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0201 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0189 #Maurice
+		1351.1.1 = {
+			birth = yes
+		}
+		1388.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0202 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgerald_kildare #FitzGerald-Kildare
+		father = angloirish0196 #John
+		1421.1.1 = {
+			birth = yes
+		}
+		1477.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0203 = {
+		name = "David"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0204 #Maurice
+		1308.1.1 = {
+			birth = yes
+		}
+		1358.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0205 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0203 #David
+		1333.1.1 = {
+			birth = yes
+		}
+		1383.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0206 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0207 #Maurice
+		1403.1.1 = {
+			birth = yes
+		}
+		1453.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0204 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0127 #Gilbert
+		1283.1.1 = {
+			birth = yes
+		}
+		1357.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0208 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0204 #Maurice
+		1309.1.1 = {
+			birth = yes
+		}
+		1359.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0207 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0205 #John
+		1363.1.1 = {
+			birth = yes
+		}
+		1419.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0209 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzgibbon #FitzGibbon
+		father = angloirish0206 #John
+		1443.1.1 = {
+			birth = yes
+		}
+		1496.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0210 = {
+		name = "David"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0211 #Maurice
+		1339.1.1 = {
+			birth = yes
+		}
+		1389.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0212 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0211 #Maurice
+		1336.1.1 = {
+			birth = yes
+		}
+		1386.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0213 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1391.1.1 = {
+			birth = yes
+		}
+		1441.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0215 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0211 #Maurice
+		1340.1.1 = {
+			birth = yes
+		}
+		1406.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0216 = {
+		name = "Gerald"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1392.1.1 = {
+			birth = yes
+		}
+		1442.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0217 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0218 #Nicholas
+		1362.1.1 = {
+			birth = yes
+		}
+		1412.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0219 = {
+		name = "James"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1393.1.1 = {
+			birth = yes
+		}
+		1443.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0220 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0211 #Maurice
+		1338.1.1 = {
+			birth = yes
+		}
+		1388.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0214 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0218 #Nicholas
+		1363.1.1 = {
+			birth = yes
+		}
+		1413.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0221 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0222 #Maurice
+		1413.1.1 = {
+			birth = yes
+		}
+		1463.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0223 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0128 #John
+		add_trait = bastard
+		1255.1.1 = {
+			birth = yes
+		}
+		1346.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0211 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0224 #Richard
+		1310.1.1 = {
+			birth = yes
+		}
+		1360.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0222 = {
+		name = "Maurice"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1388.1.1 = {
+			birth = yes
+		}
+		1438.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0218 = {
+		name = "Nicholas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0211 #Maurice
+		1337.1.1 = {
+			birth = yes
+		}
+		1387.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0225 = {
+		name = "Nicholas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1389.1.1 = {
+			birth = yes
+		}
+		1439.1.1 = {
+			death = yes
+		}
+	}
+	
+	angloirish0226 = {
+		name = "Patrick"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1394.1.1 = {
+			birth = yes
+		}
+		1489.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0224 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0223 #Maurice
+		1285.1.1 = {
+			birth = yes
+		}
+		1435.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0227 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0211 #Maurice
+		add_trait = bastard
+		1335.1.1 = {
+			birth = yes
+		}
+		1385.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0228 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0214 #John
+		1390.1.1 = {
+			birth = yes
+		}
+		1440.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0229 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_fitzmaurice #FitzMaurice
+		father = angloirish0223 #Maurice
+		1286.1.1 = {
+			birth = yes
+		}
+		1436.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0230 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = verdun #Verdun
+		father = angloirish0231 #Theobald
+		1305.1.1 = {
+			birth = yes
+		}
+		1360.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0232 = {
+		name = "Isabel"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = verdun #Verdun
+		father = angloirish0231 #Theobald
+		1307.1.1 = {
+			birth = yes
+		}
+		1357.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0233 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = verdun #Verdun
+		father = angloirish0231 #Theobald
+		1303.1.1 = {
+			birth = yes
+		}
+		1334.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0234 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = verdun #Verdun
+		father = angloirish0066 #Theobald
+		1226.1.1 = {
+			birth = yes
+		}
+		1274.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0235 = {
+		name = "Margery"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = verdun #Verdun
+		father = angloirish0231 #Theobald
+		1310.1.1 = {
+			birth = yes
+		}
+		1363.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0236 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = verdun #Verdun
+		father = angloirish0234 #John
+		1248.1.1 = {
+			birth = yes
+		}
+		1309.1.1 = {
+			death = yes
+		}
+	}
+	angloirish0231 = {
+		name = "Theobald"
+		culture = "english"
+		religion = "catholic"
+		dynasty = verdun #Verdun
+		father = angloirish0236 #Theobald
+		1278.1.1 = {
+			birth = yes
+		}
+		1316.1.1 = {
+			death = yes
+		}
+	}
+# }
+### Neville & Percy English Characters by Torngasuk ### {
+	nevillepercy000 = {
+		name = "Alexander"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1293.1.1 = {
+			birth = yes
+		}
+		1366.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy002 = {
+		name = "Alexander"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1336.1.1 = {
+			birth = yes
+		}
+		1391.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy004 = {
+		name = "Alexander"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy005 #Ralph
+		1359.1.1 = {
+			birth = yes
+		}
+		1420.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy006 = {
+		name = "Alexander"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy004 #Alexander
+		1382.1.1 = {
+			birth = yes
+		}
+		1457.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy007 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1358.1.1 = {
+			birth = yes
+		}
+		1433.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy009 = {
+		name = "Anastasia"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1294.1.1 = {
+			birth = yes
+		}
+		1344.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy010 = {
+		name = "Catherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1331.1.1 = {
+			birth = yes
+		}
+		1361.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy011 = {
+		name = "Eleanor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1333.1.1 = {
+			birth = yes
+		}
+		1383.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy012 = {
+		name = "Eleanor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1379.1.1 = {
+			birth = yes
+		}
+		1441.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy013 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1334.1.1 = {
+			birth = yes
+		}
+		1384.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy014 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1384.1.1 = {
+			birth = yes
+		}
+		1400.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy015 = {
+		name = "Euphemia"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1298.1.1 = {
+			birth = yes
+		}
+		1348.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy016 = {
+		name = "Euphemia"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1342.1.1 = {
+			birth = yes
+		}
+		1393.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy017 = {
+		name = "Geoffrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		1197.1.1 = {
+			birth = yes
+		}
+		1242.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy018 = {
+		name = "Humphrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy004 #Alexander
+		1383.1.1 = {
+			birth = yes
+		}
+		1433.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy019 = {
+		name = "Ida"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1297.1.1 = {
+			birth = yes
+		}
+		1347.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy020 = {
+		name = "Idoine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1376.1.1 = {
+			birth = yes
+		}
+		1426.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy021 = {
+		name = "Isabel"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1337.1.1 = {
+			birth = yes
+		}
+		1387.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy022 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1301.1.1 = {
+			birth = yes
+		}
+		1333.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy008 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1330.1.1 = {
+			birth = yes
+		}
+		1388.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy023 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1382.1.1 = {
+			birth = yes
+		}
+		1430.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy024 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1341.1.1 = {
+			birth = yes
+		}
+		1372.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy025 = {
+		name = "Mary"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1296.1.1 = {
+			birth = yes
+		}
+		1346.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy026 = {
+		name = "Maud"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1369.1.1 = {
+			birth = yes
+		}
+		1419.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy027 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy028 #Robert
+		1263.1.1 = {
+			birth = yes
+		}
+		1313.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy003 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1292.1.1 = {
+			birth = yes
+		}
+		1367.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy005 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1339.1.1 = {
+			birth = yes
+		}
+		1380.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy001 = {
+		name = "Ranulph"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy028 #Robert
+		1262.1.1 = {
+			birth = yes
+		}
+		1331.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy029 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy017 #Geoffrey
+		1223.1.1 = {
+			birth = yes
+		}
+		1282.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy028 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy029 #Robert
+		1240.1.1 = {
+			birth = yes
+		}
+		1271.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy030 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy028 #Robert
+		1264.1.1 = {
+			birth = yes
+		}
+		1314.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy031 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1291.1.1 = {
+			birth = yes
+		}
+		1319.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy032 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1338.1.1 = {
+			birth = yes
+		}
+		1388.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy033 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy001 #Ranulph
+		1295.1.1 = {
+			birth = yes
+		}
+		1345.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy034 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1332.1.1 = {
+			birth = yes
+		}
+		1361.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy035 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy008 #John
+		1362.1.1 = {
+			birth = yes
+		}
+		1406.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy036 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_Neville
+		father = nevillepercy003 #Ralph
+		1340.1.1 = {
+			birth = yes
+		}
+		1388.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy037 = {
+		name = "Edmund"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy038 #Geoffrey
+		1273.1.1 = {
+			birth = yes
+		}
+		1323.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy038 = {
+		name = "Geoffrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy017 #Geoffrey
+		1224.1.1 = {
+			birth = yes
+		}
+		1285.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy039 = {
+		name = "Geoffrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy038 #Geoffrey
+		1271.1.1 = {
+			birth = yes
+		}
+		1321.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy040 = {
+		name = "Geoffrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy041 #Robert
+		1333.1.1 = {
+			birth = yes
+		}
+		1383.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy042 = {
+		name = "Giles"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy041 #Robert
+		1330.1.1 = {
+			birth = yes
+		}
+		1380.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy043 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_hornby
+		father = nevillepercy044 #Robert
+		1355.1.1 = {
+			birth = yes
+		}
+		1405.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy045 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy038 #Geoffrey
+		1269.1.1 = {
+			birth = yes
+		}
+		1309.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy046 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy045 #John
+		1299.1.1 = {
+			birth = yes
+		}
+		1355.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy047 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy041 #Robert
+		1329.1.1 = {
+			birth = yes
+		}
+		1379.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy048 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_hornby
+		father = nevillepercy038 #Geoffrey
+		1274.1.1 = {
+			birth = yes
+		}
+		1324.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy049 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_hornby
+		father = nevillepercy044 #Robert
+		1354.1.1 = {
+			birth = yes
+		}
+		1404.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy050 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_hornby
+		father = nevillepercy051 #Thomas
+		1384.1.1 = {
+			birth = yes
+		}
+		1426.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy052 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy038 #Geoffrey
+		1270.1.1 = {
+			birth = yes
+		}
+		1320.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy041 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy052 #Robert
+		1312.1.1 = {
+			birth = yes
+		}
+		1373.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy044 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy041 #Robert
+		1328.1.1 = {
+			birth = yes
+		}
+		1413.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy053 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy041 #Robert
+		1331.1.1 = {
+			birth = yes
+		}
+		1381.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy051 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy044 #Robert
+		1353.1.1 = {
+			birth = yes
+		}
+		1387.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy054 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy038 #Geoffrey
+		1272.1.1 = {
+			birth = yes
+		}
+		1322.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy055 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_hornby
+		father = nevillepercy041 #Robert
+		1332.1.1 = {
+			birth = yes
+		}
+		1382.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy056 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1430.1.1 = {
+			birth = yes
+		}
+		1503.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy058 = {
+		name = "Cecily"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1425.1.1 = {
+			birth = yes
+		}
+		1450.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy059 = {
+		name = "Eleanor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1447.1.1 = {
+			birth = yes
+		}
+		1497.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy060 = {
+		name = "George"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1432.1.1 = {
+			birth = yes
+		}
+		1476.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy061 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1424.1.1 = {
+			birth = yes
+		}
+		1462.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy062 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1431.1.1 = {
+			birth = yes
+		}
+		1471.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy063 = {
+		name = "Katherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1442.1.1 = {
+			birth = yes
+		}
+		1504.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy064 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1450.1.1 = {
+			birth = yes
+		}
+		1506.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy057 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy065 #Ralph
+		1400.1.1 = {
+			birth = yes
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy066 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1428.1.1 = {
+			birth = yes
+		}
+		1471.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy067 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_salisbury
+		father = nevillepercy057 #Richard
+		1429.1.1 = {
+			birth = yes
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy068 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1384.1.1 = {
+			birth = yes
+		}
+		1434.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy069 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy070 #William
+		1437.1.1 = {
+			birth = yes
+		}
+		1490.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy071 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy072 #Edward
+		1442.1.1 = {
+			birth = yes
+		}
+		1492.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy073 = {
+		name = "Anne"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1384.1.1 = {
+			birth = yes
+		}
+		1434.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy074 = {
+		name = "Anne"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1414.1.1 = {
+			birth = yes
+		}
+		1480.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy075 = {
+		name = "Anthony"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy070 #William
+		1422.1.1 = {
+			birth = yes
+		}
+		1480.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy076 = {
+		name = "Cecily"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1415.1.1 = {
+			birth = yes
+		}
+		1495.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy072 = {
+		name = "Edward"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1409.1.1 = {
+			birth = yes
+		}
+		1476.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy077 = {
+		name = "Eleanor"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1398.1.1 = {
+			birth = yes
+		}
+		1415.1.1 = {
+			add_spouse = nevillepercy078 #Henry
+		}
+		1472.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy079 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		add_trait = monk
+		1388.1.1 = {
+			birth = yes
+		}
+		1438.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy080 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy070 #William
+		1435.1.1 = {
+			birth = yes
+		}
+		1490.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy081 = {
+		name = "George"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1407.1.1 = {
+			birth = yes
+		}
+		1469.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy082 = {
+		name = "George"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy072 #Edward
+		1440.1.1 = {
+			birth = yes
+		}
+		1492.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy083 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy081 #George
+		1437.1.1 = {
+			birth = yes
+		}
+		1469.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy084 = {
+		name = "Humphrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy085 #Thomas
+		1439.1.1 = {
+			birth = yes
+		}
+		1469.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy086 = {
+		name = "Jane"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy081 #George
+		1440.1.1 = {
+			birth = yes
+		}
+		1490.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy087 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		add_trait = monk
+		1398.1.1 = {
+			birth = yes
+		}
+		1453.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy088 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy070 #William
+		1433.1.1 = {
+			birth = yes
+		}
+		1483.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy089 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1387.1.1 = {
+			birth = yes
+		}
+		1420.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy090 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy089 #John
+		1410.1.1 = {
+			birth = yes
+		}
+		1461.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy091 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy092 #Ralph
+		1416.1.1 = {
+			birth = yes
+		}
+		1482.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy093 = {
+		name = "John"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy094 #Ralph
+		mother = nevillepercy095 #Elizabeth
+		1427.1.1 = {
+			birth = yes
+		}
+		1450.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy096 = {
+		name = "Katherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1399.1.1 = {
+			birth = yes
+		}
+		1483.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy097 = {
+		name = "Katherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy081 #George
+		1438.1.1 = {
+			birth = yes
+		}
+		1488.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy098 = {
+		name = "Katherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy072 #Edward
+		1nevillepercy.1.1 = {
+			birth = yes
+		}
+		1494.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy099 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1396.1.1 = {
+			birth = yes
+		}
+		1463.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy100 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy089 #John
+		1408.1.1 = {
+			birth = yes
+		}
+		1434.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy101 = {
+		name = "Maud"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1385.1.1 = {
+			birth = yes
+		}
+		1438.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy102 = {
+		name = "Philippa"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1386.1.1 = {
+			birth = yes
+		}
+		1453.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy065 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy008 #John
+		1364.1.1 = {
+			birth = yes
+		}
+		1425.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy092 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1392.1.1 = {
+			birth = yes
+		}
+		1458.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy094 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy089 #John
+		1406.1.1 = {
+			birth = yes
+		}
+		1426.1.1 = {
+			add_spouse = nevillepercy095 #Elizabeth
+		}
+		1484.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy103 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy090 #John
+		1456.1.1 = {
+			birth = yes
+		}
+		1499.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy104 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy072 #Edward
+		1437.1.1 = {
+			birth = yes
+		}
+		1476.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy105 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		1404.1.1 = {
+			birth = yes
+		}
+		1457.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy085 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy089 #John
+		1412.1.1 = {
+			birth = yes
+		}
+		1459.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy106 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy070 #William
+		add_trait = bastard
+		1429.1.1 = {
+			birth = yes
+		}
+		1471.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy107 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy081 #George
+		1439.1.1 = {
+			birth = yes
+		}
+		1489.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy070 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty_house = house_neville_westmorland
+		father = nevillepercy065 #Ralph
+		add_trait = monk
+		1405.1.1 = {
+			birth = yes
+		}
+		1463.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy108 = {
+		name = "Agnes"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1224.1.1 = {
+			birth = yes
+		}
+		1274.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy110 = {
+		name = "Alan"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1240.1.1 = {
+			birth = yes
+		}
+		1290.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy111 = {
+		name = "Alianore"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1336.1.1 = {
+			birth = yes
+		}
+		1361.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy113 = {
+		name = "Alice"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1225.1.1 = {
+			birth = yes
+		}
+		1275.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy114 = {
+		name = "Anastasia"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1226.1.1 = {
+			birth = yes
+		}
+		1276.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy095 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy115 #Henry
+		1393.1.1 = {
+			birth = yes
+		}
+		1426.1.1 = {
+			add_spouse = nevillepercy094 #Ralph
+		}
+		1436.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy116 = {
+		name = "Elizabeth"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy117 #Henry
+		1416.1.1 = {
+			birth = yes
+		}
+		1455.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy118 = {
+		name = "Ellen"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1242.1.1 = {
+			birth = yes
+		}
+		1292.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy119 = {
+		name = "Geoffrey"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1239.1.1 = {
+			birth = yes
+		}
+		1289.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy120 = {
+		name = "George"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1424.1.1 = {
+			birth = yes
+		}
+		1474.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy121 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		1156.1.1 = {
+			birth = yes
+		}
+		1198.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy122 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1235.1.1 = {
+			birth = yes
+		}
+		1272.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy123 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy122 #Henry
+		1273.1.1 = {
+			birth = yes
+		}
+		1314.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy112 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy123 #Henry
+		1300.1.1 = {
+			birth = yes
+		}
+		1352.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy124 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1320.1.1 = {
+			birth = yes
+		}
+		1368.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy125 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy124 #Henry
+		1341.1.1 = {
+			birth = yes
+		}
+		1408.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy115 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy125 #Henry
+		1364.1.1 = {
+			birth = yes
+		}
+		1403.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy117 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy126 #Thomas
+		1391.1.1 = {
+			birth = yes
+		}
+		1432.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy078 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy115 #Henry
+		1393.1.1 = {
+			birth = yes
+		}
+		1415.1.1 = {
+			add_spouse = nevillepercy077 #Eleanor
+		}
+		1455.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy127 = {
+		name = "Henry"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1421.1.1 = {
+			birth = yes
+		}
+		1461.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy128 = {
+		name = "Ingram"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1236.1.1 = {
+			birth = yes
+		}
+		1262.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy129 = {
+		name = "Isabel"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1326.1.1 = {
+			birth = yes
+		}
+		1368.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy130 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1227.1.1 = {
+			birth = yes
+		}
+		1277.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy131 = {
+		name = "Joan"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1420.1.1 = {
+			birth = yes
+		}
+		1470.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy132 = {
+		name = "Joscelin"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1241.1.1 = {
+			birth = yes
+		}
+		1291.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy133 = {
+		name = "Katherine"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1423.1.1 = {
+			birth = yes
+		}
+		1475.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy134 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1318.1.1 = {
+			birth = yes
+		}
+		1375.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy135 = {
+		name = "Margaret"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy117 #Henry
+		1417.1.1 = {
+			birth = yes
+		}
+		1464.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy136 = {
+		name = "Mary"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy124 #Henry
+		1367.1.1 = {
+			birth = yes
+		}
+		1394.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy137 = {
+		name = "Maud"
+		culture = "english"
+		religion = "catholic"
+		female = yes
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1335.1.1 = {
+			birth = yes
+		}
+		1379.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy138 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy125 #Henry
+		1365.1.1 = {
+			birth = yes
+		}
+		1397.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy139 = {
+		name = "Ralph"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1425.1.1 = {
+			birth = yes
+		}
+		1464.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy140 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1322.1.1 = {
+			birth = yes
+		}
+		1372.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy141 = {
+		name = "Richard"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1426.1.1 = {
+			birth = yes
+		}
+		1461.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy142 = {
+		name = "Robert"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1326.1.1 = {
+			birth = yes
+		}
+		1376.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy143 = {
+		name = "Roger"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1324.1.1 = {
+			birth = yes
+		}
+		1374.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy144 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1333.1.1 = {
+			birth = yes
+		}
+		1369.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy145 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy124 #Henry
+		1343.1.1 = {
+			birth = yes
+		}
+		1403.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy126 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy125 #Henry
+		1366.1.1 = {
+			birth = yes
+		}
+		1387.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy146 = {
+		name = "Thomas"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1422.1.1 = {
+			birth = yes
+		}
+		1460.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy147 = {
+		name = "Walter"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1238.1.1 = {
+			birth = yes
+		}
+		1288.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy109 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy121 #Henry
+		1193.1.1 = {
+			birth = yes
+		}
+		1245.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy148 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy109 #William
+		1237.1.1 = {
+			birth = yes
+		}
+		1287.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy149 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy123 #Henry
+		1301.1.1 = {
+			birth = yes
+		}
+		1355.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy150 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy112 #Henry
+		1332.1.1 = {
+			birth = yes
+		}
+		1382.1.1 = {
+			death = yes
+		}
+	}
+	
+	nevillepercy151 = {
+		name = "William"
+		culture = "english"
+		religion = "catholic"
+		dynasty = CKU_percy
+		father = nevillepercy078 #Henry
+		mother = nevillepercy077 #Eleanor
+		1428.1.1 = {
+			birth = yes
+		}
+		1462.1.1 = {
+			death = yes
+		}
+	}
+# }

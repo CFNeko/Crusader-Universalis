@@ -8,12 +8,14 @@ CKU_lannoy = {
 	prefix = "dynnp_de"
 	name = "dynn_lannoy"
 	culture = "flemish"
+	motto = dynn_CKU_lannoy_motto
 }
 
 CKU_grailly = {
 	prefix = "dynnp_de"
 	name = "dynn_grailly"
 	culture = "gascon"
+	motto = dynn_CKU_grailly_motto
 }
 
 CKU_tour_auvergene = {
@@ -48,6 +50,7 @@ CKU_tremoille = {
 	prefix = "dynnp_de_la"
 	name = "dynn_tremoille"
 	culture = "french"
+	motto = dynn_CKU_tremoille_motto
 }
 
 CKU_amboise = {
@@ -124,6 +127,7 @@ CKU_melun = {
 	prefix = "dynnp_de"
 	name = "dynn_melun"
 	culture = "french"
+	motto = dynn_CKU_melun_motto
 }
 
 CKU_louvet = {
@@ -157,6 +161,7 @@ CKU_lalaing = {
 	prefix = "dynnp_de"
 	name = "dynn_lalaing"
 	culture = flemish
+	motto = dynn_CKU_lalaing_motto
 }
 
 CKU_mecklenburg = {
@@ -205,22 +210,20 @@ CKU_kastrioti = {
 CKU_MacDonald = {
 	name = "dynn_Macdonald"
 	culture = "scots"
+	motto = dynn_CKU_MacDonald_motto
 }
 
 CKU_Dunbar = {
 	name = "dynn_Dunbar"
 	culture = "scots"
+	motto = dynn_CKU_Dunbar_motto
 }
 
 CKU_Hamilton = {
 	name = "dynn_Hamilton"
 	culture = "scots"
+	motto = dynn_CKU_Hamilton_motto
 }
-
-#CKU_York = {
-#	name = "dynn_York"
-#	culture = "english"
-#}
 
 CKU_Beaufort = {
 	name = "dynn_Beaufort"
@@ -237,7 +240,32 @@ CKU_Plantagenet = {
 	culture = "english"
 }
 
+### Dynasties by Torngasuk ###
+
 CKU_Neville = {
-	name = "dynn_Neville"
+	name = "dynn_neville"
 	culture = "english"
+}
+
+CKU_percy = {
+	name = "dynn_percy"
+	culture = "english"
+	motto = dynn_CKU_percy_motto
+}
+
+CKU_fitzgerald = {
+	name = "dynn_fitzgerald"
+	culture = "irish"
+	motto = dynn_CKU_fitzgerald_motto
+}
+
+CKU_burke = {
+	name = "dynn_burke"
+	culture = "irish"
+	motto = dynn_CKU_burke_motto
+}
+
+CKU_butler = {
+	name = "dynn_butler"
+	culture = "irish"
 }

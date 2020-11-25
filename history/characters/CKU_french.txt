@@ -9759,6 +9759,7 @@
 			# Married Éléonore de Esquennes
 			# Married Jeanne de Ghistelles
 			# Married Isabelle de Flandres-Drincham
+			trait = education_diplomacy_3
 			1386.1.1 = {
 				birth = yes
 			}
@@ -9776,6 +9777,7 @@
 			# Married Marie de Melles
 			# Married Adrienne de Berlaymont
 			trait = stuttering
+			trait = education_diplomacy_2
 			1388.1.1 = {
 				birth = yes
 			}
