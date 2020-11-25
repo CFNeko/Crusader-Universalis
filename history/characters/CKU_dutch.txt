@@ -1,0 +1,901 @@
+﻿# Dutch {
+	# Egmont = {
+		CKU_egmont_1 = {
+			name = "Wouter"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			# father = Unknown
+			# mother = Unknown
+			# Married Klementia van Gelre
+			1145.1.1 = {
+				birth = yes
+			}
+			1208.9.13 = {
+				death = yes
+			}
+		}
+		CKU_egmont_2 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_1
+			# mother = Klementia van Gelre
+			# Married Badeloge van Amstel-IJsselstein
+			1180.1.1 = {
+				birth = yes
+			}
+			1234.5.17 = {
+				death = yes
+			}
+		}
+		CKU_egmont_3 = {
+			name = "Wouter"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_1
+			# mother = Klementia van Gelre
+			# Married Magdalena von Hessen
+			1182.1.1 = {#?
+				birth = yes
+			}
+			1224.5.16 = {
+				death = yes
+			}
+		}
+		CKU_egmont_4 = {
+			name = "Gerard"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_1
+			# mother = Klementia van Gelre
+			# Married Sandrina von Nassau
+			1185.1.1 = {#?
+				birth = yes
+			}
+			1217.2.20 = {
+				death = yes
+			}
+		}
+		CKU_egmont_5 = {
+			name = "Gerard"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_2
+			# mother = Badeloge van Amstel-IJsselstein
+			# Married Beatrix van Haarlem
+			# Married Mabilia van der Woude
+			1200.1.1 = {
+				birth = yes
+			}
+			1242.12.25 = {
+				death = yes
+			}
+		}
+		CKU_egmont_6 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_5
+			# mother = Beatrix van Haarlem
+			# Married Ada van Brederode
+			1235.1.1 = {
+				birth = yes
+			}
+			1304.3.20 = {
+				death = yes
+			}
+		}
+		CKU_egmont_7 = {
+			name = "Sophia"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_5
+			# mother = Beatrix van Haarlem
+			# Married Jacob van der Woude
+			1237.1.1 = {
+				birth = yes
+			}
+			1309.4.3 = {
+				death = yes
+			}
+		}
+		CKU_egmont_8 = {
+			name = "Gerard"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_6
+			# mother = Ada van Brederode
+			# Married Elisabeth van Strijen
+			1260.1.1 = {#?
+				birth = yes
+			}
+			1300.5.8 = {
+				death = yes
+			}
+		}
+		CKU_egmont_9 = {
+			name = "Halewina"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_6
+			# mother = Ada van Brederode
+			# Married Hendrik van Cuyck
+			1265.1.1 = {#?
+				birth = yes
+			}
+			1325.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_10 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_8
+			# mother = Elisabeth van Strijen
+			# Married Margaretha van Blanckenhem
+			1285.1.1 = {#?
+				birth = yes
+			}
+			1312.7.3 = {
+				death = yes
+			}
+		}
+		CKU_egmont_11 = {
+			name = "Wouter"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_8
+			# mother = Elisabeth van Strijen
+			# Married Beatrijs van der Doortoge
+			1283.1.1 = {
+				birth = yes
+			}
+			1321.9.3 = {
+				death = yes
+			}
+		}
+		CKU_egmont_12 = {
+			name = "Nicolaes"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_8
+			# mother = Elisabeth van Strijen
+			# Married Elisabeth van Heemskerk
+			1287.1.1 = {#?
+				birth = yes
+			}
+			1305.5.21 = {
+				death = yes
+			}
+		}
+		CKU_egmont_13 = {
+			name = "Jan"
+			dynasty = CKU_egmont # Founder of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_8
+			# mother = Elisabeth van Strijen
+			# Married ??? von Brunswick
+			1260.1.1 = {#?
+				birth = yes
+			}
+			1300.5.8 = {
+				death = yes
+			}
+		}
+		CKU_egmont_14 = {
+			name = "Jan"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_11
+			# mother = Beatrijs van der Doortoge
+			# Married Guyote van Amstel-IJsselstein
+			1310.1.1 = {
+				birth = yes
+			}
+			1369.12.28 = {
+				death = yes
+			}
+		}
+		CKU_egmont_15 = {
+			name = "Gerrit"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_11
+			# mother = Beatrijs van der Doortoge
+			# Married Johanna van Raephorst
+			1320.1.1 = {
+				birth = yes
+			}
+			1398.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_16 = {
+			name = "Yda"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_11
+			# mother = Beatrijs van der Doortoge
+			# Married Willem van der Duyn
+			1323.1.1 = {#?
+				birth = yes
+			}
+			1390.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_17 = {
+			name = "Maria"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_11
+			# mother = Beatrijs van der Doortoge
+			# Married Hendrik van Borselen
+			1351.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_18 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Machteld van Hemert
+			1332.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_19 = {
+			name = "Gerrit"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Wilhelmina van Raephorst
+			1334.1.1 = {#?
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_20 = {
+			name = "Albrecht"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			1335.1.1 = {#?
+				birth = yes
+			}
+			1389.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_21 = {
+			name = "Beatrix"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Gijsbert van Vianen
+			1320.1.1 = {
+				birth = yes
+			}
+			1389.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_22 = {
+			name = "Baerte"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Walraven van Brederode
+			# Married Gerard van Culemborg
+			1325.1.1 = {#?
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_23 = {
+			name = "Maria"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Philips van Wassenaer
+			1328.1.1 = {#?
+				birth = yes
+			}
+			1384.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_24 = {
+			name = "Catherina"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Bartholomeus van Raephorst
+			1338.1.1 = {
+				birth = yes
+			}
+			1385.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_25 = {
+			name = "Arend"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Jolanda van Leiningen
+			1340.1.1 = {
+				birth = yes
+			}
+			1409.4.9 = {
+				death = yes
+			}
+		}
+		CKU_egmont_26 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Phillips van Tetrode
+			1329.1.1 = {#?
+				birth = yes
+			}
+			1376.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_27 = {
+			name = "Johannes"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_14
+			# mother = Guyote van Amstel-IJsselstein
+			# Married Wilhelmina van Wateringen
+			# Married Henriëtte van Rodenburg
+			1345.1.1 = {#?
+				birth = yes
+			}
+			1400.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_28 = {
+			name = "Wilhelmina"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_27
+			# mother = Wilhelmina van Wateringen
+			# Married Willem van Noordwijk
+			1395.1.1 = {#?
+				birth = yes
+			}
+			1482.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_29 = {
+			name = "Jan"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_25
+			# mother = Jolanda van Leiningen
+			# Married Maria van Arkel
+			trait = wrathful
+			1385.1.1 = {
+				birth = yes
+			}
+			1451.1.4 = {
+				death = yes
+			}
+		}
+		CKU_egmont_30 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_25
+			# mother = Jolanda van Leiningen
+			# Married Anna van Henin-Boussu
+			1387.1.1 = {
+				birth = yes
+			}
+			1451.12.31 = {
+				death = yes
+			}
+		}
+		CKU_egmont_31 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_25
+			# mother = Jolanda van Leiningen
+			trait = bastard
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1413.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_32 = {
+			name = "Aleid"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_25
+			# mother = Jolanda van Leiningen
+			# Married IJsbrand van Alkemade
+			trait = bastard
+			1375.1.1 = {#?
+				birth = yes
+			}
+			1425.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_33 = {
+			name = "Arnold"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_29
+			# mother = Maria van Arkel
+			# Married Katharina von Kleve
+			1410.7.14 = {
+				birth = yes
+			}
+			1430.1.26 = {
+				add_spouse = CKU_marck_3
+			}
+			1473.2.23 = {
+				death = yes
+			}
+		}
+		CKU_egmont_34 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_29
+			# mother = Maria van Arkel
+			# Married Walburga van Meurs
+			1412.1.26 = {
+				birth = yes
+			}
+			1483.1.19 = {
+				death = yes
+			}
+		}
+		CKU_egmont_35 = {
+			name = "Maria"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_33
+			mother = CKU_marck_3
+			1429.1.17 = {
+				birth = yes
+			}
+			1463.12.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_36 = {
+			name = "Margaretha"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_33
+			mother = CKU_marck_3
+			1436.1.1 = {
+				birth = yes
+			}
+			1486.11.2 = {
+				death = yes
+			}
+		}
+		CKU_egmont_37 = {
+			name = "Adolf"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_33
+			mother = CKU_marck_3
+			1438.2.12 = {
+				birth = yes
+			}
+			1477.6.27 = {
+				death = yes
+			}
+		}
+		CKU_egmont_38 = {
+			name = "Catharina"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_33
+			mother = CKU_marck_3
+			1440.1.1 = {
+				birth = yes
+			}
+			1497.1.25 = {
+				death = yes
+			}
+		}
+		CKU_egmont_39 = {
+			name = "Jan"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_34
+			# mother = Walburga van Meurs
+			1438.4.3 = {
+				birth = yes
+			}
+			1516.8.21 = {
+				death = yes
+			}
+		}
+		CKU_egmont_40 = {
+			name = "Frederik"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_34
+			# mother = Walburga van Meurs
+			1440.1.1 = {
+				birth = yes
+			}
+			1521.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_41 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_34
+			# mother = Walburga van Meurs
+			1440.1.1 = {#?
+				birth = yes
+			}
+			1494.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_42 = {
+			name = "Anna"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_34
+			# mother = Walburga van Meurs
+			1440.1.1 = {
+				birth = yes
+			}
+			1462.9.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_43 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_34
+			# mother = Walburga van Meurs
+			1444.1.1 = {#?
+				birth = yes
+			}
+			1539.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_44 = {
+			name = "Arnold"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_4
+			# mother = Magdalena von Hessen
+			# Married Agatha van Rajestein
+			1210.1.1 = {#?
+				birth = yes
+			}
+			1275.7.7 = {
+				death = yes
+			}
+		}
+		CKU_egmont_45 = {
+			name = "Gerard"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_44
+			# mother = Agatha van Rajestein
+			# Married Femeijnse
+			1240.1.1 = {#?
+				birth = yes
+			}
+			1332.3.31 = {
+				death = yes
+			}
+		}
+		CKU_egmont_46 = {
+			name = "Wouter"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_44
+			# mother = Agatha van Rajestein
+			# Married Hildegonda
+			1250.1.1 = {#?
+				birth = yes
+			}
+			1272.8.20 = {
+				death = yes
+			}
+		}
+		CKU_egmont_47 = {
+			name = "Willem"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_45
+			# mother = Femeijnse
+			# Married Adelis Collaert
+			1285.1.1 = {#?
+				birth = yes
+			}
+			1354.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_48 = {
+			name = "Machteld"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_45
+			# mother = Femeijnse
+			1287.1.1 = {#?
+				birth = yes
+			}
+			1355.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_49 = {
+			name = "Dirk"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_45
+			# mother = Femeijnse
+			1290.1.1 = {#?
+				birth = yes
+			}
+			1335.9.29 = {
+				death = yes
+			}
+		}
+		CKU_egmont_50 = {
+			name = "Lubbert"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_3
+			# mother = Magdalena von Hessen
+			1210.1.1 = {
+				birth = yes
+			}
+			1263.8.5 = {
+				death = yes
+			}
+		}
+		CKU_egmont_51 = {
+			name = "Hendrik"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_10
+			# mother = Unknown
+			trait = bastard
+			1320.1.1 = {#?
+				birth = yes
+			}
+			1380.5.22 = {
+				death = yes
+			}
+		}
+		CKU_egmont_52 = {
+			name = "Aelbrecht"
+			dynasty = CKU_egmont # Part of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_13
+			# mother = ??? von Brunswick
+			# Married Agnes van Beesde
+			1260.1.1 = {#?
+				birth = yes
+			}
+			1401.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_53 = {
+			name = "Aelbrecht"
+			dynasty = CKU_egmont # Part of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_52
+			# mother = Agnes van Beesde
+			# Married Stevina van den Boekhorst
+			1395.1.1 = {#?
+				birth = yes
+			}
+			1468.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_54 = {
+			name = "Otto"
+			dynasty = CKU_egmont # Part of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_52
+			# mother = Agnes van Beesde
+			# Married Machteld van der Goye
+			1399.1.1 = {#?
+				birth = yes
+			}
+			1466.10.6 = {
+				death = yes
+			}
+		}
+		CKU_egmont_55 = {
+			name = "Bertha"
+			female = yes
+			dynasty = CKU_egmont # Part of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_52
+			# mother = Agnes van Beesde
+			# Married Doeve van Rietwijk
+			1401.1.1 = {#?
+				birth = yes
+			}
+			1460.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_egmont_56 = {
+			name = "Aelbrecht"
+			dynasty = CKU_egmont # Part of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_53
+			# mother = Stevina van den Boekhorst
+			1440.1.1 = {
+				birth = yes
+			}
+			1507.8.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_57 = {
+			name = "Jacob"
+			dynasty = CKU_egmont # Part of Egmont-Merestein branch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_53
+			# mother = Stevina van den Boekhorst
+			1440.1.1 = {
+				birth = yes
+			}
+			1500.10.22 = {
+				death = yes
+			}
+		}
+		CKU_egmont_58 = {
+			name = "Dirk"
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_15
+			# mother = Johanna van Raephorst
+			# Married Hendrika van Heemskerk
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1432.1.1 = {
+				death = yes
+			}
+		}
+		CKU_egmont_59 = {
+			name = "Johanna"
+			female = yes
+			dynasty = CKU_egmont
+			religion = "catholic"
+			culture = dutch
+			father = CKU_egmont_58
+			# mother = Hendrika van Heemskerk
+			# Married Jan van de Leck
+			1410.1.1 = {#?
+				birth = yes
+			}
+			1450.4.15 = {
+				death = yes
+			}
+		}
+	# }
+# }
