@@ -18,9 +18,35 @@
 		color = hsv{ 1 0.95 0.45 }
 		
 		cadet_dynasty_names = {
-			"dynn_Hoxha"
-			"dynn_Shehu"
-			"dynn_Dervishi"
+			"dynn_Alltuni"
+ 			"dynn_Arianiti"
+ 			"dynn_Balshaj"
+ 			"dynn_Blinishti"
+			"dynn_Bua"
+			"dynn_Shpata"
+ 			"dynn_Bushati"
+ 			"dynn_Bruni"
+ 			"dynn_Bruti"
+ 			"dynn_Dukagjini"
+ 			"dynn_Dushmani"
+ 			"dynn_Gropa"
+ 			"dynn_Gjini"
+ 			"dynn_Humoja"
+ 			"dynn_Jonima"
+ 			"dynn_Losha"
+			"dynn_Qypryli"
+			"dynn_Mataranga"
+			"dynn_Muzaka"
+ 			"dynn_Progoni"
+			"dynn_Spani"
+			"dynn_Skuraj"
+			"dynn_Taushani"
+			"dynn_Topia"
+			"dynn_Toptani"
+			"dynn_Vrioni"
+			"dynn_Zaharia"
+			"dynn_Zenebishi"
+			"dynn_Zogu"
 			"dynn_Cela"
 			"dynn_Prifti"
 			"dynn_Elezi"
@@ -30,9 +56,35 @@
 			"dynn_Kola"
 		}
 		dynasty_names = {
-			"dynn_Hoxha"
-			"dynn_Shehu"
-			"dynn_Dervishi"
+			"dynn_Alltuni"
+ 			"dynn_Arianiti"
+ 			"dynn_Balshaj"
+ 			"dynn_Blinishti"
+			"dynn_Bua"
+			"dynn_Shpata"
+ 			"dynn_Bushati"
+ 			"dynn_Bruni"
+ 			"dynn_Bruti"
+ 			"dynn_Dukagjini"
+ 			"dynn_Dushmani"
+ 			"dynn_Gropa"
+ 			"dynn_Gjini"
+ 			"dynn_Humoja"
+ 			"dynn_Jonima"
+ 			"dynn_Losha"
+			"dynn_Qypryli"
+			"dynn_Mataranga"
+			"dynn_Muzaka"
+ 			"dynn_Progoni"
+			"dynn_Spani"
+			"dynn_Skuraj"
+			"dynn_Taushani"
+			"dynn_Topia"
+			"dynn_Toptani"
+			"dynn_Vrioni"
+			"dynn_Zaharia"
+			"dynn_Zenebishi"
+			"dynn_Zogu"
 			"dynn_Cela"
 			"dynn_Prifti"
 			"dynn_Elezi"
@@ -43,12 +95,14 @@
 		}
 		
 		male_names = {
-			Abdyl Arber Bardhyll Dalmat Edon Engjell Erjon Fatbard Fisnik Gjergj Gjon Genti Guzim Ilir Ismail Kreshnik
-			Lefter Mergim Mirarber Nderim Qendrim Saban Vjosa Zamir Pjeter Skender Sokol Vasil Xhemal Xhelal Xhafer Ylli
+			Admir Afrim Agim Aleksander Arber Ardit Bardhyll Bashkim Behar Besim Besnik Burim Dalmat Dardan Dhimiter Dren Edon Endrit 
+			Engjell Erjon Fatbard Fisnik Flamur Gjergj Gjon Genti Granit Guzim Ilir Kostandin Kreshnik Kristaq Kristo Lefter Luan
+			Mergim Mirarber Nderim Nikolle Qendrim Zamir Pal Pandeli Pellumb Petrit Pjeter Skender Sokol Vasil Ylli
 		}
 		female_names = {
-			Albana Ajkuna Blerta Blinera Bukuroshe Diellza Doruntina Drita Elira Flutura Ylbere 
-			Lendina Manjola Marsela Ndrita Nora Rovena Roze Sumejja Tirana Vlora Xhesika Zjarrta
+			Aferdita Agnesa Albana Aida Ajkuna Ardita Blerta Blinera Bora Bukuroshe Dafina Dardana Diellza Doruntina Drita Elira Era 
+			Fjolla Flaka Flutura Ylbere Jehona Kaltrina Klaudia Lendina Lindita Lule Manjola Marsela Mirela Ndrita Nora Pranvera Rovena
+			Roze Shpresa Teuta Tirana Venera Vera Vjosa Vlora Xhesika Zjarrta
 		}
 		
 		#founder_named_dynasties = yes
