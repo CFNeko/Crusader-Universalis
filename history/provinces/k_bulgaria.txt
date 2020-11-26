@@ -68,7 +68,7 @@
 	#
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 	
 	

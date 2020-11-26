@@ -10,7 +10,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -26,7 +26,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -42,7 +42,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -58,7 +58,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -74,7 +74,7 @@
 	# History
 		1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -90,7 +90,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -106,7 +106,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -122,7 +122,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -136,7 +136,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 
 }
@@ -151,7 +151,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 
 }
@@ -166,7 +166,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 
 }
@@ -183,7 +183,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -199,7 +199,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -215,7 +215,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -231,7 +231,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -247,7 +247,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -263,7 +263,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -279,7 +279,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -295,7 +295,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -311,7 +311,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -327,7 +327,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -343,7 +343,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -359,7 +359,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -375,7 +375,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -391,7 +391,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -407,7 +407,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -423,7 +423,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -439,7 +439,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -455,7 +455,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -471,7 +471,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -487,7 +487,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -503,7 +503,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -519,7 +519,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -535,7 +535,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 
 }
@@ -552,7 +552,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -568,7 +568,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -584,7 +584,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -600,7 +600,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -616,7 +616,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -632,7 +632,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -648,7 +648,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -664,7 +664,7 @@
 	# History
 		1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -680,7 +680,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -696,7 +696,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -712,7 +712,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 
 }
@@ -729,7 +729,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 
 }
@@ -746,7 +746,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 
 }
@@ -763,7 +763,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -779,7 +779,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -795,7 +795,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -811,7 +811,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -827,7 +827,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -843,7 +843,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -859,7 +859,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -875,7 +875,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -891,7 +891,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -907,7 +907,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -923,7 +923,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -939,7 +939,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -955,7 +955,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -971,7 +971,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -987,7 +987,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -1003,7 +1003,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -1019,7 +1019,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -1035,7 +1035,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -1051,7 +1051,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -1067,7 +1067,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}	
 }
 
@@ -1083,7 +1083,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
@@ -1099,7 +1099,7 @@
 	# History
 	1444.8.1 = {
 		culture = turkish
-		religion = muwalladi
+		religion = hanafi
 	}
 }
 
