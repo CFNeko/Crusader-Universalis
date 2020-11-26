@@ -1,0 +1,52 @@
+﻿namespace = CKU_warwick_succession
+
+CKU_warwick_succession.0001 = { #alert at game start
+	type = character_event
+	title = CKU_warwick_succession.t
+	desc = CKU_warwick_succession.0001.desc
+	theme = death
+	
+	trigger = {
+		is_ai = no
+		root = {
+			# is henry
+		}
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+		character:CKU_english_18 = {
+			save_scope_as = henry_the_dead
+		}
+		character:CKU_english_19 = {
+			save_scope_as =anne_the_dead
+		}
+	}
+
+	option = {
+		name = CKU_warwick_succession.a
+	}
+}
+
+CKU_warwick_succession.0002 = { #First death
+	type = character_event
+	title = CKU_warwick_succession.0002.t
+	desc = CKU_warwick_succession.0002.desc
+	theme = death
+	
+	trigger = {
+		is_ai = no
+	}
+
+	on_trigger_fail = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = CKU_warwick_succession.0002.a
+	}
+}
