@@ -144,6 +144,28 @@ CKU_house_tudor = {
 	dynasty = 106
 }
 
+# Holland (Netherlands)
+house_brederode = {
+	prefix = "dynnp_van"
+	name = "dynn_brederode"
+	culture = "dutch"
+	dynasty = 432
+}
+
+house_vander_duyn = {
+	prefix = "dynnp_van_der"
+	name = "dynn_vander_duyn"
+	culture = "dutch"
+	dynasty = 432
+}
+
+house_adrichem = {
+	prefix = "dynnp_van"
+	name = "dynn_adrichem"
+	culture = "dutch"
+	dynasty = 432
+}
+
 # Neville
 house_neville_westmorland = {
 	name = "Neville-Westmorland"

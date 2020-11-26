@@ -87,6 +87,9 @@
 			1235.1.1 = {
 				birth = yes
 			}
+			1260.1.1 = {
+				add_spouse = CKU_brederode_5
+			}
 			1304.3.20 = {
 				death = yes
 			}
@@ -113,7 +116,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_egmont_6
-			# mother = Ada van Brederode
+			mother = CKU_brederode_5
 			# Married Elisabeth van Strijen
 			1260.1.1 = {#?
 				birth = yes
@@ -129,7 +132,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_egmont_6
-			# mother = Ada van Brederode
+			mother = CKU_brederode_5
 			# Married Hendrik van Cuyck
 			1265.1.1 = {#?
 				birth = yes
@@ -160,9 +163,12 @@
 			culture = dutch
 			father = CKU_egmont_8
 			# mother = Elisabeth van Strijen
-			# Married Beatrijs van der Doortoge
+			# Married Beatrijs van Egmont
 			1283.1.1 = {
 				birth = yes
+			}
+			1310.1.1 = {
+				add_spouse = CKU_brederode_11
 			}
 			1321.9.3 = {
 				death = yes
@@ -204,7 +210,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_egmont_11
-			# mother = Beatrijs van der Doortoge
+			mother = CKU_brederode_11
 			# Married Guyote van Amstel-IJsselstein
 			1310.1.1 = {
 				birth = yes
@@ -219,7 +225,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_egmont_11
-			# mother = Beatrijs van der Doortoge
+			mother = CKU_brederode_11
 			# Married Johanna van Raephorst
 			1320.1.1 = {
 				birth = yes
@@ -235,9 +241,9 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_egmont_11
-			# mother = Beatrijs van der Doortoge
+			mother = CKU_brederode_11
 			# Married Willem van der Duyn
-			1323.1.1 = {#?
+			1295.1.1 = {#?
 				birth = yes
 			}
 			1390.1.1 = {#?
@@ -251,7 +257,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_egmont_11
-			# mother = Beatrijs van der Doortoge
+			mother = CKU_brederode_11
 			# Married Hendrik van Borselen
 			1351.1.1 = {
 				birth = yes
@@ -1414,6 +1420,837 @@
 				birth = yes
 			}
 			1472.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Brederode = {
+		CKU_brederode_1 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			# father = Willem van Teylingen
+			# mother = Agniese van Bentheim
+			# Married Alverade van Heusden
+			1180.1.1 = {
+				birth = yes
+			}
+			1236.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_2 = {
+			name = "Willem"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_1
+			# mother = Alverade van Heusden
+			# Married Margaretha van de Merwede
+			# Married Hillegonda van Voorne
+			1226.1.1 = {
+				birth = yes
+			}
+			1285.6.3 = {
+				death = yes
+			}
+		}
+		CKU_brederode_3 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_1
+			# mother = Alverade van Heusden
+			1228.1.1 = {
+				birth = yes
+			}
+			1279.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_4 = {
+			name = "Floris"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_1
+			# mother = Alverade van Heusden
+			# Married ??? van Naaldwijk
+			1230.1.1 = {
+				birth = yes
+			}
+			1306.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_5 = {
+			name = "Ada"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_1
+			# mother = Alverade van Heusden
+			# Married Willem van Egmont
+			1232.1.1 = {
+				birth = yes
+			}
+			1297.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_6 = {
+			name = "Agniese"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_1
+			# mother = Alverade van Heusden
+			# Married Herbaren van Arkel
+			1245.1.1 = {
+				birth = yes
+			}
+			1280.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_7 = {
+			name = "Floris"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_4
+			# mother = ??? van Naaldwijk
+			# Married Beatrijs van Rodenrijs
+			1259.1.1 = {
+				birth = yes
+			}
+			1321.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_8 = {
+			name = "Jan"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_4
+			# mother = ??? van Naaldwijk
+			# Married Gertrudis van Voorne
+			1260.1.1 = {
+				birth = yes
+			}
+			1297.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_9 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_4
+			# mother = ??? van Naaldwijk
+			# Married Ermengarde
+			1270.1.1 = {
+				birth = yes
+			}
+			1306.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_10 = {
+			name = "Meyne"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_7
+			# mother = Beatrijs van Rodenrijs
+			# Married Arnoud van Hodenpijl
+			1292.1.1 = {
+				birth = yes
+			}
+			1330.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_11 = {
+			name = "Beatrijs"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_9
+			# mother = Ermengarde
+			# Married Wouter van Egmont
+			1290.1.1 = {
+				birth = yes
+			}
+			1323.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_12 = {
+			name = "Willem"
+			dynasty_house = house_vander_duyn #Founder of Van der Duyn branch of Brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_8
+			# mother = Gertrudis van Voorne
+			# Married Ida van Egmont
+			1285.1.1 = {
+				birth = yes
+			}
+			1309.1.1 = {#?
+				add_spouse = CKU_egmont_16
+			}
+			1348.4.22 = {
+				death = yes
+			}
+		}
+		CKU_brederode_13 = {
+			name = "Jan"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_12
+			mother = CKU_egmont_16
+			# Married Aechte van Hoylede
+			1310.1.1 = {
+				birth = yes
+			}
+			1369.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_14 = {
+			name = "Jan"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_13
+			# mother = Aechte van Hoylede
+			1340.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_15 = {
+			name = "Daem"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_13
+			# mother = Aechte van Hoylede
+			# Married Alijt Jacob Bredendochter
+			# Married Christine van Wielesteyn
+			1335.1.1 = {
+				birth = yes
+			}
+			1417.1.17 = {
+				death = yes
+			}
+		}
+		CKU_brederode_16 = {
+			name = "Jan"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_15
+			# mother = Alijt Jacob Bredendochter
+			# Married Sophie van den Wale‏‎
+			1379.1.1 = {
+				birth = yes
+			}
+			1435.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_17 = {
+			name = "Adam"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_16
+			# mother = Sophie van den Wale
+			# Married Unknown‏‎
+			1415.1.1 = {
+				birth = yes
+			}
+			1464.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_18 = {
+			name = "Jacob"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_15
+			# mother = Christine van Wielesteyn
+			# Married Aleijd van der Mije‏‎
+			1372.1.1 = {
+				birth = yes
+			}
+			1439.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_19 = {
+			name = "Adam"
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_18
+			# mother = Aleijd van der Mije
+			# Married Elisabeth van Montfoort‏‎
+			1402.1.1 = {
+				birth = yes
+			}
+			1452.12.7 = {
+				death = yes
+			}
+		}
+		CKU_brederode_20 = {
+			name = "Katrijn"
+			female = yes
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_18
+			# mother = Aleijd van der Mije
+			# Married Aernt van der Giessen‏‎
+			1410.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_21 = {
+			name = "Machteld"
+			female = yes
+			dynasty_house = house_vander_duyn
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_19
+			# mother = Elisabeth van Montfoort‏‎
+			1444.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_22 = {
+			name = "Floris"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_2
+			# mother = Margaretha van de Merwede
+			# Married Brechta van Rollant
+			trait = bastard_founder
+			1260.1.1 = {
+				birth = yes
+			}
+			1327.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_23 = {
+			name = "Florentius"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_22
+			# mother = Brechta van Rollant
+			# Married Badeloge
+			1290.1.1 = {
+				birth = yes
+			}
+			1363.1.23 = {
+				death = yes
+			}
+		}
+		CKU_brederode_24 = {
+			name = "Floris"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_23
+			# mother = Badeloge
+			# Married Unknown
+			1330.1.1 = {
+				birth = yes
+			}
+			1397.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_25 = {
+			name = "Floris"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_24
+			# mother = Unknown
+			# Married Lijsbeth van Zaenen
+			1370.1.1 = {
+				birth = yes
+			}
+			1427.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_26 = {
+			name = "Claas"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_25
+			# mother = Lijsbeth van Zaenen
+			# Married Aleid van Tetrode
+			1395.1.1 = {
+				birth = yes
+			}
+			1459.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_27 = {
+			name = "Simon"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_25
+			# mother = Lijsbeth van Zaenen
+			1400.1.1 = {
+				birth = yes
+			}
+			1482.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_28 = {
+			name = "Simon"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_25
+			# mother = Lijsbeth van Zaenen
+			give_nickname = nick_the_younger
+			1401.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_29 = {
+			name = "Willem"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_25
+			# mother = Lijsbeth van Zaenen
+			1420.1.1 = {
+				birth = yes
+			}
+			1487.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_30 = {
+			name = "Claas"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_26
+			# mother = Aleid van Tetrode
+			# Married Lijsbeth van den Bergh
+			1415.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_31 = {
+			name = "Maria"
+			female = yes
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_26
+			# mother = Aleid van Tetrode
+			# Married Franck van de Bergh
+			1427.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_32 = {
+			name = "Boudijne"
+			female = yes
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_26
+			# mother = Aleid van Tetrode
+			1428.1.1 = {
+				birth = yes
+			}
+			1467.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_33 = {
+			name = "Boudewijn"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_26
+			# mother = Aleid van Tetrode
+			1431.1.1 = {
+				birth = yes
+			}
+			1467.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_34 = {
+			name = "Adriaan"
+			dynasty_house = house_adrichem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_30
+			# mother = Lijsbeth van den Bergh
+			1440.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_35 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_2
+			# mother = Hillegonda van Voorne
+			# Married Maria van der Lecke
+			1256.1.1 = {
+				birth = yes
+			}
+			1318.12.16 = {
+				death = yes
+			}
+		}
+		CKU_brederode_36 = {
+			name = "Alverade"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_2
+			# mother = Hillegonda van Voorne
+			# Married Dirk van Poelgeest
+			1258.1.1 = {
+				birth = yes
+			}
+			1323.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_37 = {
+			name = "Elizabeth"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_2
+			# mother = Hillegonda van Voorne
+			# Married Herman van Woerden
+			1250.1.1 = {
+				birth = yes
+			}
+			1323.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_38 = {
+			name = "Willem"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_35
+			# mother = Maria van der Lecke
+			# Married Elisabeth von Kleve
+			1278.1.1 = {
+				birth = yes
+			}
+			1316.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_39 = {
+			name = "Hendrik"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_35
+			# mother = Maria van der Lecke
+			# Married Elisabeth de Fontaines
+			1318.1.1 = {
+				birth = yes
+			}
+			1345.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_40 = {
+			name = "Catharina"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_35
+			# mother = Maria van der Lecke
+			# Married Jan van Polanen
+			1320.1.1 = {#?
+				birth = yes
+			}
+			1372.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_41 = {
+			name = "Elizabeth"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_35
+			# mother = Maria van der Lecke
+			# Married Hendrik van Loenersloot
+			1323.1.1 = {#?
+				birth = yes
+			}
+			1360.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_42 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_38
+			# mother = Elisabeth von Kleve
+			# Married Beatrix and Valkenburg
+			1308.1.1 = {
+				birth = yes
+			}
+			1377.11.11 = {
+				death = yes
+			}
+		}
+		CKU_brederode_43 = {
+			name = "Reinoud"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_42
+			# mother = Beatrix and Valkenburg
+			# Married Jolanda van Gennep
+			1336.1.1 = {
+				birth = yes
+			}
+			1390.11.11 = {
+				death = yes
+			}
+		}
+		CKU_brederode_44 = {
+			name = "Walraven"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_42
+			# mother = Beatrix and Valkenburg
+			1338.1.1 = {
+				birth = yes
+			}
+			1369.8.17 = {
+				death = yes
+			}
+		}
+		CKU_brederode_45 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_42
+			# mother = Beatrix and Valkenburg
+			1340.1.1 = {
+				birth = yes
+			}
+			1387.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_46 = {
+			name = "Willem"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_42
+			# mother = Beatrix and Valkenburg
+			1346.1.1 = {
+				birth = yes
+			}
+			1389.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_47 = {
+			name = "Dirk"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_43
+			# mother = Jolanda van Gennep
+			1370.1.1 = {
+				birth = yes
+			}
+			1415.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_48 = {
+			name = "Jan"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_43
+			# mother = Jolanda van Gennep
+			# Married Johanna van Abcoude
+			1372.1.1 = {
+				birth = yes
+			}
+			1415.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_49 = {
+			name = "Walraven"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_43
+			# mother = Jolanda van Gennep
+			# Married Johanna van Vianen
+			1373.1.1 = {
+				birth = yes
+			}
+			1417.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_50 = {
+			name = "Willem"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_43
+			# mother = Jolanda van Gennep
+			# Married Margaretha van Merwede
+			1380.1.1 = {
+				birth = yes
+			}
+			1451.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_51 = {
+			name = "Reinoud"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_49
+			# mother = Johanna van Vianen
+			# Married Elisabeth Willems
+			1415.1.1 = {
+				birth = yes
+			}
+			1473.10.16 = {
+				death = yes
+			}
+		}
+		CKU_brederode_52 = {
+			name = "Gijsbrecht"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_49
+			# mother = Johanna van Vianen
+			1416.1.1 = {
+				birth = yes
+			}
+			1475.8.15 = {
+				death = yes
+			}
+		}
+		CKU_brederode_53 = {
+			name = "Walravina"
+			female = yes
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_49
+			# mother = Johanna van Vianen
+			# Married Geraard van Broekhuyzen
+			1418.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_brederode_54 = {
+			name = "Walraven"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_51
+			# mother = Elisabeth Willems
+			1440.1.1 = {
+				birth = yes
+			}
+			1500.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_brederode_55 = {
+			name = "Reinoud"
+			dynasty_house = house_brederode
+			religion = "catholic"
+			culture = dutch
+			father = CKU_brederode_51
+			# mother = Elisabeth Willems
+			1444.1.1 = {
+				birth = yes
+			}
+			1481.1.1 = {
 				death = yes
 			}
 		}

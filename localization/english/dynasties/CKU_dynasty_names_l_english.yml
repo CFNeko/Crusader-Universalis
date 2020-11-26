@@ -1,5 +1,8 @@
 ﻿l_english:
+ #### Prefixes ####
+ dynnp_van_der:0 "van der "
 
+ #### Names ####
  #Italy
  dynn_adorno: "Adorno"
  dynn_acquaviva: "Acquaviva"
@@ -64,6 +67,9 @@
  dynn_egmont: "Egmont"
  dynn_gruuthuse: "Gruuthuse"
  dynn_borssele: "Borssele"
+ dynn_brederode: "Brederode"
+ dynn_vander_duyn: "Duyn"
+ dynn_adrichem: "Adrichem"
  
  #Germany
  dynn_Mecklenburg: "Mecklenburg"
