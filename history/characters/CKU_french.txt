@@ -7992,7 +7992,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			#dynasty = CKU_gruuthuse
+			#dynasty = CKU_borssele
 			martial = 20
 			1395.1.1 = {
 				birth = yes

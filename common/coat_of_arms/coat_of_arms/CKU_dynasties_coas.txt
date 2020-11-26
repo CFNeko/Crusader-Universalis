@@ -1637,6 +1637,12 @@ CKU_gruuthuse = {
 	}
 }
 
+CKU_borssele = {
+	pattern = "pattern_horizontal_stripes_01.dds"
+	color1 = "black"
+	color2 = "white"
+}
+
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"

@@ -898,6 +898,526 @@
 			}
 		}
 	# }
+	# Borssele = {
+		CKU_borssele_1 = {
+			name = "Nicolaas"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			# father = Unknown
+			# mother = Unknown
+			# Married Jutta Gerulfingen/van Holland
+			1180.1.1 = {
+				birth = yes
+			}
+			1263.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_2 = {
+			name = "Peter"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_1
+			# mother = Unknown
+			# Married Hadewig van Cruiningen
+			1210.1.1 = {
+				birth = yes
+			}
+			1278.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_3 = {
+			name = "Hendrik"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_1
+			# mother = Unknown
+			# Married Clarissa van Gavere
+			1212.1.1 = {
+				birth = yes
+			}
+			1266.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_4 = {
+			name = "Jutta"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_2
+			# mother = Hadewig van Cruiningen
+			# Married Hendrik van der Lecke
+			1244.1.1 = {
+				birth = yes
+			}
+			1296.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_5 = {
+			name = "Floris"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_2
+			# mother = Hadewig van Cruiningen
+			# Married Unknown
+			1270.1.1 = {
+				birth = yes
+			}
+			1322.6.22 = {
+				death = yes
+			}
+		}
+		CKU_borssele_6 = {
+			name = "Oda"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_2
+			# mother = Hadewig van Cruiningen
+			# Married Willem van Strijen
+			1255.1.1 = {
+				birth = yes
+			}
+			1294.11.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_7 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_5
+			# mother = Unknown
+			# Married Robert van Grimberghe
+			1300.1.1 = {#?
+				birth = yes
+			}
+			1325.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_borssele_8 = {
+			name = "Wolfert"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_3
+			# mother = Clarissa van Gavere
+			# Married Sybille van Praet
+			# Married Catharina van Durbuy
+			1245.1.1 = {
+				birth = yes
+			}
+			1299.8.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_9 = {
+			name = "Wolfert"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_8
+			# mother = Sybille van Praet
+			# Married Aleid van Zandenburg/Avesnes
+			1280.1.1 = {
+				birth = yes
+			}
+			1317.4.6 = {
+				death = yes
+			}
+		}
+		CKU_borssele_10 = {
+			name = "Claas"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_8
+			# mother = Sybille van Praet
+			# Married Johanna van Zevenbergen
+			1290.1.1 = {#?
+				birth = yes
+			}
+			1351.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_11 = {
+			name = "Heilwig"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_8
+			# mother = Sybille van Praet
+			# Married Gerard van Voorne
+			1280.1.1 = {
+				birth = yes
+			}
+			1329.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_12 = {
+			name = "Wolfert"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_9
+			# mother = Aleid van Zandenburg/Avesnes
+			# Married Hadewich Both
+			1313.1.1 = {
+				birth = yes
+			}
+			1351.6.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_13 = {
+			name = "Wolfert"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_12
+			# mother = Hadewich Both
+			# Married Catharina van de Woestijne
+			1351.1.1 = {
+				birth = yes
+			}
+			1379.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_14 = {
+			name = "Hendrik"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_12
+			# mother = Hadewich Both
+			# Married Maria van Vianen/Egmont
+			1336.1.1 = {
+				birth = yes
+			}
+			1383.6.1 = {
+				add_spouse = CKU_egmont_17
+			}
+			1401.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_15 = {
+			name = "Aleid"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_12
+			# mother = Hadewich Both
+			# Married Jan van Kruiningen
+			1343.1.1 = {#?
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_16 = {
+			name = "Wolfert"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_14
+			mother = CKU_egmont_17
+			# Married Hadewich van Borselen
+			1385.1.1 = {
+				birth = yes
+			}
+			1403.9.18 = {
+				add_spouse = CKU_borssele_28
+			}
+			1409.1.16 = {
+				death = yes
+			}
+		}
+		CKU_borssele_17 = {
+			name = "Catherina"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_14
+			mother = CKU_egmont_17
+			1386.1.1 = {
+				birth = yes
+			}
+			1432.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_18 = {
+			name = "Hadewich"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_14
+			mother = CKU_egmont_17
+			# Married Jan van Heemstede
+			1388.1.1 = {#?
+				birth = yes
+			}
+			1411.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_19 = {
+			name = "Hendrik"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_16
+			mother = CKU_borssele_28
+			# Married Johanna van Halewijn
+			trait = ambitious
+			trait = diligent
+			trait = education_stewardship_2
+			trait = reaver
+			1404.1.1 = {
+				birth = yes
+			}
+			1474.3.15 = {
+				death = yes
+			}
+		}
+		CKU_borssele_20 = {
+			name = "Wolfert"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_19
+			# mother = Johanna van Halewijn
+			# Married Maria Stewart
+			trait = charming
+			trait = content
+			trait = brave
+			1433.1.1 = {
+				birth = yes
+			}
+			1486.4.29 = {
+				death = yes
+			}
+		}
+		CKU_borssele_21 = {
+			name = "Margaretha"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_19
+			# mother = Johanna van Halewijn
+			# Married Lodewijk van Gruuthuse
+			1435.1.1 = {
+				birth = yes
+			}
+			1474.3.15 = {
+				death = yes
+			}
+		}
+		CKU_borssele_22 = {
+			name = "Albrecht"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_10
+			# mother = Johanna van Zevenbergen
+			# Married Beatrix van Domburg
+			1310.1.1 = {#?
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_23 = {
+			name = "Frank"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_10
+			# mother = Johanna van Zevenbergen
+			# Married Eleonora van Zuijlen
+			1320.1.1 = {#?
+				birth = yes
+			}
+			1386.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_24 = {
+			name = "Floris"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_10
+			# mother = Johanna van Zevenbergen
+			1320.1.1 = {#?
+				birth = yes
+			}
+			1363.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_25 = {
+			name = "Claas"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_22
+			# mother = Beatrix van Domburg
+			# Married Maria van Arnemuiden
+			1377.1.1 = {
+				birth = yes
+			}
+			1411.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_26 = {
+			name = "Gillis"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_22
+			# mother = Beatrix van Domburg
+			# Married Anna van Domburg
+			1365.1.1 = {#?
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_27 = {
+			name = "Jacob"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_25
+			# mother = Maria van Arnemuiden
+			# Married Anna de Hennin
+			1411.1.1 = {
+				birth = yes
+			}
+			1469.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_28 = {
+			name = "Hadewich"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_25
+			# mother = Maria van Arnemuiden
+			# Married Wolfert van Borssele
+			1380.1.1 = {#?
+				birth = yes
+			}
+			1411.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_borssele_29 = {
+			name = "Adriaan"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_27
+			# mother = Anna de Hennin
+			# Married Maria van Cats
+			1417.1.1 = {
+				birth = yes
+			}
+			1468.6.6 = {
+				death = yes
+			}
+		}
+		CKU_borssele_30 = {
+			name = "Floris"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_26
+			# mother = Anna van Domburg
+			# Married Lisebet Hondt
+			1387.1.1 = {#?
+				birth = yes
+			}
+			1447.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_31 = {
+			name = "Floris"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_23
+			# mother = Eleonora van Zuijlen
+			# Married Oede van Bergen
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1422.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_32 = {
+			name = "Frank"
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_31
+			# mother = Oede van Bergen
+			# Married Jacoba von Wittelsbach-Bavaria
+			trait = diligent
+			1395.1.1 = {
+				birth = yes
+			}
+			1470.1.1 = {
+				death = yes
+			}
+		}
+		CKU_borssele_33 = {
+			name = "Eleonore"
+			female = yes
+			dynasty = CKU_borssele
+			religion = "catholic"
+			culture = dutch
+			father = CKU_borssele_31
+			# mother = Oede van Bergen
+			# Married Gijsbrecht van Nijenrode
+			1400.1.1 = {#?
+				birth = yes
+			}
+			1472.1.1 = {
+				death = yes
+			}
+		}
+	# }
 # }
 # Flemish {
 	# van Gruuthuse/van Brugge = {

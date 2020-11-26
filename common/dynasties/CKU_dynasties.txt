@@ -4,6 +4,12 @@
 	culture = "flemish"
 }
 
+CKU_borssele = {
+	prefix = "dynnp_van"
+	name = "dynn_borssele"
+	culture = "dutch"
+}
+
 CKU_gruuthuse = {
 	prefix = "dynnp_van"
 	name = "dynn_gruuthuse"
