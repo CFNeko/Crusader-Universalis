@@ -166,6 +166,42 @@ house_adrichem = {
 	dynasty = 432
 }
 
+# Wassenaer
+house_duivenvoorde = {
+	prefix = "dynnp_van"
+	name = "dynn_duivenvoorde"
+	culture = "dutch"
+	dynasty = CKU_wassenaer
+}
+
+house_santhorst = {
+	prefix = "dynnp_van"
+	name = "dynn_santhorst"
+	culture = "dutch"
+	dynasty = CKU_wassenaer
+}
+
+house_cranenburch = {
+	prefix = "dynnp_van"
+	name = "dynn_cranenburch"
+	culture = "dutch"
+	dynasty = CKU_wassenaer
+}
+
+house_polanen = {
+	prefix = "dynnp_van"
+	name = "dynn_polanen"
+	culture = "dutch"
+	dynasty = CKU_wassenaer
+}
+
+house_vander_leck = {
+	prefix = "dynnp_van_der"
+	name = "dynn_leck"
+	culture = "dutch"
+	dynasty = CKU_wassenaer
+}
+
 # Neville
 house_neville_westmorland = {
 	name = "Neville-Westmorland"
