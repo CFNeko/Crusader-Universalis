@@ -87,28 +87,28 @@ d_hereford = {
 		liege = k_england
 	}
 	1449.1.1 = {
-		holder = CKU_english_21
+		holder = nevillepercy066
 		liege = k_england
 	}
 }
 
 c_warwickshire = {
 	1440.1.1 = {
-		holder = CKU_english_21
+		holder = nevillepercy066
 		liege = d_hereford
 	}
 }
 
 c_northamptonshire = {
 	1440.1.1 = {
-		holder = CKU_english_21
+		holder = nevillepercy066
 		liege = d_hereford
 	}
 }
 
 c_huntingdonshire = {
 	1440.1.1 = {
-		holder = CKU_english_21
+		holder = nevillepercy066
 		liege = d_hereford
 	}
 }

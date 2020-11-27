@@ -256,21 +256,6 @@ CKU_english_18 = {  # Henry Beauchamp
 	}
 }
 
-CKU_english_19 = {  # Anne Beauchamp
-	name = "Anne"
-	female = yes
-	dynasty = CKU_Beauchamp
-	religion = catholic
-	culture = english
-	father = CKU_english_20
-	1426.1.1 = {
-		birth = yes
-	}
-	1492.1.1 = {
-		death = yes
-	}
-}
-
 CKU_english_20 = {  # Richard Beauchamp
 	name = "Richard"
 	dynasty = CKU_Beauchamp
@@ -280,22 +265,6 @@ CKU_english_20 = {  # Richard Beauchamp
 		birth = yes
 	}
 	1439.1.1 = {
-		death = yes
-	}
-}
-
-CKU_english_21 = {  # Richard Neville "the kingmaker" (big important guy)
-	name = "Richard"
-	dynasty = CKU_Neville
-	religion = catholic
-	culture = english
-	1428.1.1 = {
-		birth = yes
-	}
-	1436.1.1 = {
-		add_spouse = CKU_english_19			# He inherited the duchy when she died
-	}
-	1471.1.1 = {
 		death = yes
 	}
 }
@@ -4729,6 +4698,9 @@ CKU_english_22 = { # Duke of Bedford
 		father = nevillepercy057 #Richard
 		1428.1.1 = {
 			birth = yes
+		}
+		1436.1.1 = {
+			add_spouse = CKU_english_19
 		}
 		1471.1.1 = {
 			death = yes

@@ -541,25 +541,15 @@ CKU_valois_bourgogne = {
 		texture = "ce_diagonal_stripes_01.dds"
 		color1 = "blue"
 		color2 = "yellow"
+		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 }  }
 		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
 	}
 	colored_emblem = {
 		texture = "ce_square_border_shield_compony.dds"
 		color1 = "red"
 		color2 = "red"
-		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }		
-	}
-	colored_emblem = {
-		texture = "ce_diagonal_stripes_01.dds"
-		color1 = "blue"
-		color2 = "yellow"
 		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 }  }
-	}
-	colored_emblem = {
-		texture = "ce_square_border_shield_compony.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 }  }		
+		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }		
 	}
 }
 
@@ -1641,6 +1631,135 @@ CKU_borssele = {
 	pattern = "pattern_horizontal_stripes_01.dds"
 	color1 = "black"
 	color2 = "white"
+}
+
+CKU_vanden_bergh = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_lion_rampant_crown.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.50 0.50 } scale = { 0.75 0.75 }  }
+	}
+	colored_emblem = {
+		texture = "ce_square_border_shield_thick.dds"
+		color1 = "black"
+		color2 = "black"		
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.07 0.07 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.35 0.07 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.65 0.07 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.93 0.07 } scale = { 0.10 0.10 }	}
+
+		instance = { position = { 0.07 0.35 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.07 0.65 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.93 0.35 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.93 0.65 } scale = { 0.10 0.10 }	}
+
+		instance = { position = { 0.07 0.93 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.35 0.93 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.65 0.93 } scale = { 0.10 0.10 }	}
+		instance = { position = { 0.93 0.93 } scale = { 0.10 0.10 }	}
+	}
+}
+
+CKU_wassenaer = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.30 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.70 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.5 0.70 } scale = { 0.50 0.50 }  }
+	}
+}
+
+house_duivenvoorde = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.30 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.70 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.5 0.70 } scale = { 0.50 0.50 }  }
+	}
+}
+
+house_santhorst = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.30 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.70 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.5 0.70 } scale = { 0.50 0.50 }  }
+	}
+}
+
+house_cranenburch = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.30 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.70 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.5 0.70 } scale = { 0.50 0.50 }  }
+	}
+}
+
+house_polanen = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.30 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.70 0.30 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.5 0.70 } scale = { 0.50 0.50 }  }
+	}
+}
+
+house_vander_leck = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+
+	sub = {
+        parent = "house_polanen"  # defined elsewhere
+        instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+        instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+	}
+	sub = {
+        parent = "CKU_vanden_bergh"  # defined elsewhere
+        instance = { offset = { 0.5 0.0 } scale = { 0.5 0.5 }  } # top left
+        instance = { offset = { 0.0 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    }
 }
 
 house_brederode = {

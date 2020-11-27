@@ -1,6 +1,7 @@
 ﻿l_english:
  #### Prefixes ####
  dynnp_van_der:0 "van der "
+ dynnp_van_den:0 "van den "
 
  #### Names ####
  #Italy
@@ -70,6 +71,13 @@
  dynn_brederode: "Brederode"
  dynn_vander_duyn: "Duyn"
  dynn_adrichem: "Adrichem"
+ dynn_wassenaer: "Wassenaer"
+ dynn_duivenvoorde: "Duivenvoorde"
+ dynn_santhorst: "Santhorst"
+ dynn_cranenburch: "Cranenburch"
+ dynn_polanen: "Polanen"
+ dynn_leck: "Leck"
+ dynn_vanden_bergh: "Bergh"
  
  #Germany
  dynn_Mecklenburg: "Mecklenburg"

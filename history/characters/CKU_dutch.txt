@@ -2174,6 +2174,9 @@
 			father = CKU_brederode_43
 			# mother = Jolanda van Gennep
 			# Married Margaretha van Merwede
+			trait = wrathful
+			trait = ambitious
+			trait = stubborn
 			1380.1.1 = {
 				birth = yes
 			}
@@ -2189,6 +2192,7 @@
 			father = CKU_brederode_49
 			# mother = Johanna van Vianen
 			# Married Elisabeth Willems
+			trait = faith_warrior
 			1415.1.1 = {
 				birth = yes
 			}
@@ -2203,6 +2207,7 @@
 			culture = dutch
 			father = CKU_brederode_49
 			# mother = Johanna van Vianen
+			trait = theologian
 			1416.1.1 = {
 				birth = yes
 			}
@@ -2251,6 +2256,986 @@
 				birth = yes
 			}
 			1481.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Wassenaer = {
+		CKU_wassenaer_1 = {
+			name = "Filips"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			# father = Kerstant van Wassenaer
+			# mother = Halewine van Leijden
+			# Married Agnes Persijn
+			1170.1.1 = {
+				birth = yes
+			}
+			1225.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_2 = {
+			name = "Dirk"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_1
+			# mother = Agnes Persijn
+			# Married Bertha van Teylingen
+			1197.1.1 = {
+				birth = yes
+			}
+			1245.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_3 = {
+			name = "Filips"
+			dynasty_house = house_duivenvoorde # Founder of Duivenvoorde branch of Wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_1
+			# mother = Agnes Persijn
+			# Married Florentina van Teylingen
+			1200.1.1 = {
+				birth = yes
+			}
+			1258.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_4 = {
+			name = "Filips"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_2
+			# mother = Bertha van Teylingen
+			# Married ??? van de Wateringhe
+			1220.1.1 = {
+				birth = yes
+			}
+			1300.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_5 = {
+			name = "Dirk"
+			dynasty_house = house_santhorst # Founder of Santhorst branch of Wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_2
+			# mother = Bertha van Teylingen
+			# Married Ricarda
+			1225.1.1 = {
+				birth = yes
+			}
+			1296.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_6 = {
+			name = "Bartholomeus"
+			dynasty_house = house_cranenburch # Founder of Cranenburch branch of Wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_2
+			# mother = Bertha van Teylingen
+			# Married Godilt van Bleyswyck
+			1225.1.1 = {
+				birth = yes
+			}
+			1308.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_7 = {
+			name = "Dirk"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_4
+			# mother = ??? van de Wateringhe
+			# Married Alverardis Bertha van Cuijk
+			1240.1.1 = {#?
+				birth = yes
+			}
+			1310.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_8 = {
+			name = "Filips"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_7
+			# mother = Alverardis Bertha van Cuijk
+			# Married Goedele van Benthem
+			# Married Elisabeth van der Dussen
+			1307.1.1 = {
+				birth = yes
+			}
+			1348.1.5 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_9 = {
+			name = "Heilwig"
+			female = yes
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_8
+			# mother = Goedele van Benthem
+			# Married Willem van Duivenvoorde
+			1317.1.1 = {
+				birth = yes
+			}
+			1360.1.5 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_10 = {
+			name = "Dirk"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_8
+			# mother = Elisabeth van der Dussen
+			# Married Machteld Oem
+			1325.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_11 = {
+			name = "Filips"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_10
+			# mother = Machteld Oem
+			# Married Maria van Egmont
+			1359.1.1 = {
+				birth = yes
+			}
+			1380.1.1 = {#?
+				add_spouse = CKU_egmont_23
+			}
+			1428.12.5 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_12 = {
+			name = "Hendrik"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_11
+			mother = CKU_egmont_23
+			# Married Catherina van Gruuthuse
+			trait = callous
+			trait = ambitious
+			1402.1.1 = {#?
+				birth = yes
+			}
+			1420.1.1 = {
+				set_relation_rival = character:CKU_wassenaer_11 #Was a Cod, just like his younger brother. He besieged and improsened his father.
+			}
+			1422.1.1 = {
+				add_spouse = CKU_gruuthuse_12
+			}
+			1447.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_13 = {
+			name = "Jan"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_11
+			mother = CKU_egmont_23
+			# Married Catherina van Reimerswaal
+			# Married Haze? van Cats
+			trait = callous
+			1421.1.1 = {#?
+				birth = yes
+			}
+			1436.1.1 = {
+				set_relation_rival = character:CKU_wassenaer_11 #He was Cod in the Hook and Cod wars, deliberately stolen his fathers possessions. His father was a Hook.
+			}
+			1493.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_14 = {
+			name = "Dirk"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_11
+			mother = CKU_egmont_23
+			1423.1.1 = {#?
+				birth = yes
+			}
+			1465.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_15 = {
+			name = "Jacob"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_12
+			mother = CKU_gruuthuse_12
+			# Married Johanna van Diest
+			1423.1.1 = {#?
+				birth = yes
+			}
+			1451.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_16 = {
+			name = "Jan"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_12
+			mother = CKU_gruuthuse_12
+			# Married Catherina de Craon
+			# Married Johanna van Halewijn
+			1429.1.1 = {
+				birth = yes
+			}
+			1497.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_17 = {
+			name = "Filips"
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_12
+			mother = CKU_gruuthuse_12
+			1430.1.1 = {#?
+				birth = yes
+			}
+			1474.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_18 = {
+			name = "Agnes"
+			female = yes
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_12
+			mother = CKU_gruuthuse_12
+			# Married Willem van Stavele
+			1425.1.1 = {#?
+				birth = yes
+			}
+			1444.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_19 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_12
+			mother = CKU_gruuthuse_12
+			1431.1.1 = {#?
+				birth = yes
+			}
+			1469.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_20 = {
+			name = "Arend"
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_3
+			# mother = Florentina van Teylingen
+			# Married Mehaut van Crayenhorst
+			1227.1.1 = {
+				birth = yes
+			}
+			1280.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_21 = {
+			name = "Jan"
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_3
+			# mother = Florentina van Teylingen
+			# Married ??? Liere
+			1225.1.1 = {
+				birth = yes
+			}
+			1280.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_22 = {
+			name = "Agnes"
+			female = yes
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_20
+			# mother = Mehaut van Crayenhorst
+			# Married Gerard van Raephorst
+			1259.1.1 = {
+				birth = yes
+			}
+			1335.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_23 = {
+			name = "Filips"
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_21
+			# mother = ??? Liere
+			# Married Elisabeth van Vianen
+			1248.1.1 = {
+				birth = yes
+			}
+			1301.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_24 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_21
+			# mother = ??? Liere
+			# Married Jan van der Dussen
+			1260.1.1 = {
+				birth = yes
+			}
+			1300.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_25 = {
+			name = "Jan"
+			dynasty_house = house_polanen #Founder of Polanen branch of Wassenaer
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_23
+			# mother = Elisabeth van Vianen
+			# Married Catharina van Brederode
+			1285.1.1 = {
+				birth = yes
+			}
+			1322.1.1 = {
+				add_spouse = CKU_brederode_40
+			}
+			1342.9.26 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_26 = {
+			name = "Willem"
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_23
+			# mother = Elisabeth van Vianen
+			# Married Unknown
+			1290.1.1 = {
+				birth = yes
+			}
+			1353.8.12 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_27 = {
+			name = "Maria"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_25
+			mother = CKU_brederode_40
+			# Married Jan van Montfoort
+			# Married Gerrit van Heemstede
+			1323.1.1 = {
+				birth = yes
+			}
+			1382.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_28 = {
+			name = "Jan"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_25
+			mother = CKU_brederode_40
+			# Married Oda van Horne
+			# Married Machteld van Rotselaar
+			# Married Margriet zur Lippe
+			1325.1.1 = {
+				birth = yes
+			}
+			1378.11.3 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_29 = {
+			name = "Filips"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_25
+			mother = CKU_brederode_40
+			# Married Elisabeth van de Lek
+			1328.1.1 = {
+				birth = yes
+			}
+			1375.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_30 = {
+			name = "Dirk"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_25
+			mother = CKU_brederode_40
+			# Married Elburg van Arkel
+			1330.1.1 = {#?
+				birth = yes
+			}
+			1394.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_31 = {
+			name = "Gerard"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_25
+			mother = CKU_brederode_40
+			# Married Lutgard van Wulvenhorst
+			1324.1.1 = {#?
+				birth = yes
+			}
+			1388.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_32 = {
+			name = "Rixa"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_31
+			# mother = Lutgard van Wulvenhorst
+			# Married Elias van Woudenberg
+			1356.7.7 = {
+				birth = yes
+			}
+			1402.8.11 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_33 = {
+			name = "Willem"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_31
+			# mother = Lutgard van Wulvenhorst
+			1360.1.1 = {#?	
+				birth = yes
+			}
+			1426.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_34 = {
+			name = "Otto"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_30
+			# mother = Elburg van Arkel
+			# Married Janne? van Voorst en Keppel
+			1350.1.1 = {#?
+				birth = yes
+			}
+			1440.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_35 = {
+			name = "Jan"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_34
+			# mother = Janne? van Voorst en Keppel
+			# Married Elburg van Langerak
+			1375.1.1 = {#?
+				birth = yes
+			}
+			1439.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_36 = {
+			name = "Aiserade"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_34
+			# mother = Janne? van Voorst en Keppel
+			# Married Jan van Langerak
+			1379.1.1 = {#?
+				birth = yes
+			}
+			1432.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_37 = {
+			name = "Cunnigunde"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_34
+			# mother = Janne? van Voorst en Keppel
+			# Married Frederik van Rechteren
+			1379.1.1 = {#?
+				birth = yes
+			}
+			1432.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_38 = {
+			name = "Jan"
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_28
+			# mother = Oda van Horne
+			# Married Maria van Brabant
+			# Married Odilia zu Solms-Ravenstein
+			1360.1.1 = {
+				birth = yes
+			}
+			1394.8.11 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_39 = {
+			name = "Johanna"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_38
+			# mother = Odilia zu Solms-Ravenstein
+			# Married Engelbrecht von Nassau-Dillenburg
+			1392.1.10 = {
+				birth = yes
+			}
+			1445.5.15 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_40 = {
+			name = "Hendrik"
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_28
+			# mother = Machteld van Rotselaar
+			# Married Maria van Diest
+			# Married Johanna van Ghistelles
+			1354.1.1 = {
+				birth = yes
+			}
+			1428.8.8 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_41 = {
+			name = "Johanna"
+			female = yes
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_40
+			# mother = Johanna van Ghistelles
+			# Married Jan van Hoogstraten
+			1400.1.1 = {
+				birth = yes
+			}
+			1471.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_42 = {
+			name = "Elisana"
+			female = yes
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_40
+			# mother = Johanna van Ghistelles
+			# Married Eustache de Bousies
+			1426.1.1 = {#?
+				birth = yes
+			}
+			1484.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_43 = {
+			name = "Dirk"
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_28
+			# mother = Machteld van Rotselaar
+			# Married Gilisje van Cralingen
+			1353.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_44 = {
+			name = "Jan"
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_43
+			# mother = Gilisje van Cralingen
+			# Married Margareta van Lier
+			# Married Johanna van Egmont
+			1380.1.1 = {#?
+				birth = yes
+			}
+			1430.1.1 = {#?
+				add_spouse = CKU_egmont_59
+			}
+			1440.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_45 = {
+			name = "Gillisje"
+			female = yes
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_44
+			mother = CKU_egmont_59
+			# Married Floris van Kijfhoek
+			1432.1.1 = {#?
+				birth = yes
+			}
+			1475.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_46 = {
+			name = "Oda"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_28
+			# mother = Machteld van Rotselaar
+			# Married Hendrik van Montfoort
+			1351.1.1 = {
+				birth = yes
+			}
+			1417.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_47 = {
+			name = "Beatrix"
+			female = yes
+			dynasty_house = house_polanen
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_28
+			# mother = Oda van Horne
+			# Married Hendrik van Bautershem
+			1344.1.1 = {
+				birth = yes
+			}
+			1394.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_48 = {
+			name = "Otto"
+			dynasty_house = house_vander_leck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_28
+			# mother = Margriet zur Lippe
+			# Married Sophia van den Bergh
+			1370.1.1 = {
+				birth = yes
+			}
+			1428.10.20 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_49 = {
+			name = "Amalberga"
+			female = yes
+			dynasty_house = house_duivenvoorde
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_26
+			# mother = Unknown
+			# Married Jan Corsselaar-van Wittem
+			trait = bastard
+			1317.1.1 = {
+				birth = yes
+			}
+			1370.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_50 = {
+			name = "Filips"
+			dynasty_house = house_santhorst
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_5
+			# mother = Ricarda
+			# Married Elisabeth
+			1250.1.1 = {
+				birth = yes
+			}
+			1315.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_51 = {
+			name = "Dirk"
+			dynasty_house = house_santhorst
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_5
+			# mother = Ricarda
+			1255.1.1 = {
+				birth = yes
+			}
+			1301.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_52 = {
+			name = "Clementia"
+			female = yes
+			dynasty_house = house_santhorst
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_50
+			# mother = Elisabeth
+			# Married Maurin van der Does
+			1301.1.1 = {
+				birth = yes
+			}
+			1350.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_wassenaer_53 = {
+			name = "Engelbert"
+			dynasty_house = house_cranenburch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_6
+			# mother = Godilt van Bleyswyck
+			# Married Unknown
+			1255.1.1 = {
+				birth = yes
+			}
+			1320.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_54 = {
+			name = "Dirk"
+			dynasty_house = house_cranenburch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_53
+			# mother = Unknown
+			# Married Elisabeth von Wittelsbach-Bayern
+			1295.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				add_spouse = 462735
+			}
+			1355.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_55 = {
+			name = "Engelbert"
+			dynasty_house = house_cranenburch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_54
+			mother = 462735
+			# Married Lijsbeth Mouwerijn
+			1350.1.1 = {
+				birth = yes
+			}
+			1421.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_56 = {
+			name = "Jan"
+			dynasty_house = house_cranenburch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_55
+			# mother = Lijsbeth Mouwerijn
+			# Married Beatrix
+			1370.1.1 = {
+				birth = yes
+			}
+			1447.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_57 = {
+			name = "Floris"
+			dynasty_house = house_cranenburch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_56
+			# mother = Beatrix
+			# Married Unknown
+			1404.1.1 = {
+				birth = yes
+			}
+			1464.1.1 = {
+				death = yes
+			}
+		}
+		CKU_wassenaer_58 = {
+			name = "Claas"
+			dynasty_house = house_cranenburch
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_57
+			# mother = Unknown
+			# Married Unknown
+			1442.1.1 = {
+				birth = yes
+			}
+			1502.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# van dem Bergh = {
+		CKU_bergh_1 = {
+			name = "Willem"
+			dynasty = CKU_vanden_bergh
+			religion = "catholic"
+			culture = dutch
+			father = CKU_wassenaer_48
+			# mother = Sophia van den Bergh
+			# Married Machtild van Bentheim
+			1404.2.22 = {
+				birth = yes
+			}
+			1465.10.25 = {
+				death = yes
+			}
+		}
+		CKU_bergh_2 = {
+			name = "Machteld"
+			dynasty = CKU_vanden_bergh
+			religion = "catholic"
+			culture = dutch
+			father = CKU_bergh_1
+			# mother = Machtild van Bentheim
+			# Married Nicolaas van Tecklenburg
+			1440.1.1 = {
+				birth = yes
+			}
+			1508.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bergh_3 = {
+			name = "Oswald"
+			dynasty = CKU_vanden_bergh
+			religion = "catholic"
+			culture = dutch
+			father = CKU_bergh_1
+			# mother = Machtild van Bentheim
+			# Married Elisabeth van Meurs
+			1442.2.28 = {
+				birth = yes
+			}
+			1506.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bergh_4 = {
+			name = "Ludolph"
+			dynasty = CKU_vanden_bergh
+			religion = "catholic"
+			culture = dutch
+			father = CKU_bergh_1
+			# mother = Machtild van Bentheim
+			# Married Catharina van den Capelle
+			1443.1.1 = {
+				birth = yes
+			}
+			1499.5.15 = {
 				death = yes
 			}
 		}
@@ -2426,6 +3411,22 @@
 				birth = yes
 			}
 			1472.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gruuthuse_12 = {
+			name = "Catherina"
+			female = yes
+			dynasty = CKU_gruuthuse
+			religion = "catholic"
+			culture = flemish
+			father = CKU_gruuthuse_9
+			# mother = Margareta van Steenhuyse
+			# Married Hendrik van Wassenaer
+			1423.1.1 = {#?
+				birth = yes
+			}
+			1460.1.1 = {
 				death = yes
 			}
 		}
