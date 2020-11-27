@@ -71,6 +71,7 @@
  semigallian_collective_noun:0 "Semigallians"
 
  # RELIGION #############
+ # Christianity #
  hussite:0 "Hussitism"
  hussite_adj:0 "Hussite"
  hussite_adherent:0 "Hussites"
@@ -99,3 +100,30 @@
 
  tenet_mass_translation_name:0 "Mass Translation"
  tenet_mass_translation_desc:0 "By translating our holy book to the masses, everyone may understand the doctrines of our faith. Through it may we open the eyes of all infidels and apostates to the divine truth."
+ 
+ #Islam#
+ shafii:0 "Shafi'i"
+ shafii_adj:0 "Shafi'i"
+ shafii_adherent:0 "Shafi'ite"
+ shafii_adherents:0 "Shafi'ites"
+ shafii_desc:0 "Imam As-Shafi'i was renown for his careful deliberation and his adherence towards the Hadith. The followers of this school accordingly uphold the Hadith and rule of Islamic Law as their central doctrine."
+ 
+ maliki:0 "Maliki"
+ maliki_adj:0 "Maliki"
+ maliki_adherent:0 "Malikite"
+ maliki_adherents:0 "Malikites"
+ maliki_desc:0 "-"
+ 
+ hanafi:0 "Hanafi"
+ hanafi_adj:0 "Hanafi"
+ hanafi_adherent:0 "Hanafite"
+ hanafii_adherents:0 "Hanafites"
+ hanafi_desc:0 "-"
+ 
+ hanbali:0 "Hanbali"
+ hanbali_adj:0 "Hanbali"
+ hanbali_adherent:0 "Hanbalite"
+ hanbali_adherents:0 "Hanbalites"
+ hanbali_desc:0 "-"
+ 
+
