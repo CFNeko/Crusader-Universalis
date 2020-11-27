@@ -398,7 +398,7 @@ CU_ARQ_main.0007 = { #Discovering Gunpowder - Final
 		animation = personality_rational
 	}
 	right_portrait = {
-		character = scope:gp_final
+		character = cp:councillor_chancellor
 		animation = personality_bold
 	}
 
@@ -406,6 +406,8 @@ CU_ARQ_main.0007 = { #Discovering Gunpowder - Final
 		#Acquiring your gunpowder
 		name = CU_ARQ_main.0007.a
 		flavor = CU_ARQ_main.0007.a.flavor
+
+		custom_tooltip = CU_ARQ_main.acquired.gunpowder
 
 		hidden_effect = {
 			add_to_global_variable_list = {

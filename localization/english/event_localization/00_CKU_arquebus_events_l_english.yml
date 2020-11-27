@@ -5,18 +5,51 @@
 
 # GUNPOWDER DISCOVERY EVENT CHAIN
  CU_ARQ_main.0001.t:0 "Explosive Discovery"
- CU_ARQ_main.0001.desc:0 "One of our more promiment traders has returned from his recent trading mission abroad. He seems eager to speak to you of the fascinating things he has seen in foreign lands.\n\nAfter you give the man some time to collect his thoughts and recount his adventure you realize why he was so excited.\n\n"They call it 'Gunpowder' my Lord, and this fine black powder is capable of creating powerful explosions like we have never seen!"\n\nSuch a discovery, if properly adapted, could change the way we wage war forever."
+ CU_ARQ_main.0001.desc:0 "One of our more promiment traders has returned from his recent trading mission abroad. He seems eager to speak to you of the fascinating things he has seen in foreign lands.\n\nAfter you give the man some time to collect his thoughts and recount his adventure you realize why he was so excited.\n\n"They call it 'Gunpowder' my Liege, and this fine black powder is capable of creating powerful explosions like we have never seen!"\n\nSuch a discovery, if properly adapted, could change the way we wage war forever."
  CU_ARQ_main.0001.a:0 "Summon the Council!"
  CU_ARQ_main.0001.a.flavor:0 "We must discuss this latest revelation with the Council!"
  
  CU_ARQ_main.0002.t:0 "Planning Acquisition"
- CU_ARQ_main.0002.desc:0 "Placeholder."
+ CU_ARQ_main.0002.desc:0 "The Council you have summoned has decided to send your Chancellor as their delegate. They have decided on two distinct plans to propose to you.\n\n"My Liege, we believe we can either acquire a vast enough sum to last us decades or reproduce it ourselves."\n\nYour Chancellor lays the plans down infront of you and waits for your response."
  CU_ARQ_main.0002.a:0 "Employ Bright Minds"
  CU_ARQ_main.0002.a.flavor:0 "We have many Scholars and Alchemists who can be put to use for this task."
  CU_ARQ_main.0002.b:0 "Send a Trade Mission"
  CU_ARQ_main.0002.b.flavor:0 "Our Traders have brought us the news, it is now their task to acquire it."
  CU_ARQ_main.0002.c:0 "Maybe later..."
  CU_ARQ_main.0002.c.flavor:0 "Perhaps we'll revisit this idea at a later time."
+
+ CU_ARQ_main.0003.t:0 "Alchemical Mysteries"
+ CU_ARQ_main.0003.desc:0 "You've decided that it would be better to start producing the [gunpowder|E] yourself.\n\nTo help you with this task you've also decided to employ the leading Alchemical experts so that you can retain this knowledge without giving too much away to neighboring realms.\n\n"My liege, I am your Chief Alchemist and I'm here to report that we're ready to begin the process of synthesizing gunpowder." They look at you and wait for your answer."
+ CU_ARQ_main.0003.a:0 "Begin Synthesizing!"
+ CU_ARQ_main.0003.a.flavor:0 "We've gathered our best Alchemists for this task, put them to work."
+
+ CU_ARQ_main.0004.t:0 "Fruits of Labor"
+ CU_ARQ_main.0004.desc:0 "Placeholder."
+ CU_ARQ_main.0004.a:0 "Utilize Local Materials"
+ CU_ARQ_main.0004.a.flavor:0 "We can collect whatever reagents are required from our local quarries and mines."
+ CU_ARQ_main.0004.b:0 "Import Necessary Materials"
+ CU_ARQ_main.0004.b.flavor:0 "Instead of stripping our realm dry, perhaps we can import the required reagents?"
+
+ CU_ARQ_main.0005.t:0 "The Road of Silk"
+ CU_ARQ_main.0005.desc:0 "Instead of producing the mixture ourselves, you've decided it would be best to stockpile a large sum and save resources on production.\n\nTo accomplish this you've tasked your Master Trader with a larger trade mission this time, to head back to the Silk Road.\n\n"It's time for us to head off, My liege! We'll make sure to report back with any favorable trade deals." They wait for you to provide them with the necessary amount of gold so they can begin their journey."
+ CU_ARQ_main.0005.a:0 "Back to the Silk Road!"
+ CU_ARQ_main.0005.a.flavor:0 "With an ample supply of gold we can send our Traders back to acquire a large sum of gunpowder."
+
+ CU_ARQ_main.0006.t:0 "Artificia Exotica"
+ CU_ARQ_main.0006.desc:0 "Placeholder."
+ CU_ARQ_main.0006.a:0 "Strike the Deal"
+ CU_ARQ_main.0006.a.flavor:0 "The locals here have offered us a large sum of gunpowder for a reasonable cost, perhaps we should accept?"
+ CU_ARQ_main.0006.b:0 "Barter with the Locals"
+ CU_ARQ_main.0006.b.flavor:0 "Your trader is positive he can establish better terms for our trade agreement, should we barter?"
+ CU_ARQ_main.0006.success:0 "Your Trader has succeeded in hagggling for a reduced price on the deal!"
+ CU_ARQ_main.0006.failure:0 "Your Trader has failed in his bartering, the deal was struck at the original price."
+
+ CU_ARQ_main.0007.t:0 "Catching Fire"
+ CU_ARQ_main.0007.desc:0 "The Council has sent your Chancellor to discuss some good news. They've arranged a meeting with you so they can perform a demonstration of their latest acquisition.\n\n"My liege, I come with good news and a spectacular display. We've acquired the [gunpowder|E] that has eluded us for some time! Our war engineers have already begun adapting this resource for use in a new weapon that they've called the Handgonne." They then retrieve a long pole like object and lead you outside to the courtyard. "With this we can change the course of history forever."\n\nYour Chancellor then lights the fuse at the end of the Handgonne and aims down range, firing off a loud bang that sends a lead projectile sailing through a suit of armor waiting at the end of the courtyard."
+ CU_ARQ_main.0007.a:0 "We have acquired Gunpowder!"
+ CU_ARQ_main.0007.a.flavor:0 "With the success of our project we have now acquired the means to procure gunpowder ourselves. Success!"
+
+ CU_ARQ_main.acquired.gunpowder:0 "You may now begin researching innovations that use [gunpowder|E]. The first such innovation is the Handgonne."
  
 # ARQUEBUS IMPROVEMENT EVENT CHAIN #
  CU_ARQ_main.0010.t:0 "Necessary Improvements"
