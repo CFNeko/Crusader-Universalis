@@ -309,7 +309,7 @@
 			#Tenet:
 			doctrine = tenet_struggle_submission
 			doctrine = tenet_legalism
-			doctrine = tenet_literalism
+			doctrine = tenet_adaptive
 
 			#DOCTRINES:
 			#Sunni
