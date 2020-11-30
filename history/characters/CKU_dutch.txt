@@ -327,7 +327,7 @@
 			}
 		}
 		CKU_egmont_22 = {
-			name = "Baerte"
+			name = "Bertha"
 			female = yes
 			dynasty = CKU_egmont
 			religion = "catholic"
@@ -508,7 +508,7 @@
 			culture = dutch
 			father = CKU_egmont_29
 			# mother = Maria van Arkel
-			# Married Katharina von Kleve
+			# Married Katharina von der Mark
 			1410.7.14 = {
 				birth = yes
 			}
@@ -2087,8 +2087,12 @@
 			culture = dutch
 			father = CKU_brederode_42
 			# mother = Beatrix and Valkenburg
+			# Married Bertha van Egmont
 			1338.1.1 = {
 				birth = yes
+			}
+			1360.1.1 = {
+				add_spouse = CKU_egmont_22
 			}
 			1369.8.17 = {
 				death = yes
@@ -3179,9 +3183,9 @@
 		}
 	# }
 	# van dem Bergh = {
-		CKU_bergh_1 = {
+		CKU_wassenaer_59 = {
 			name = "Willem"
-			dynasty = CKU_vanden_bergh
+			dynasty_house = house_vanden_bergh
 			religion = "catholic"
 			culture = dutch
 			father = CKU_wassenaer_48
@@ -3194,12 +3198,13 @@
 				death = yes
 			}
 		}
-		CKU_bergh_2 = {
+		CKU_wassenaer_60 = {
 			name = "Machteld"
-			dynasty = CKU_vanden_bergh
+			female = yes
+			dynasty_house = house_vanden_bergh
 			religion = "catholic"
 			culture = dutch
-			father = CKU_bergh_1
+			father = CKU_wassenaer_59
 			# mother = Machtild van Bentheim
 			# Married Nicolaas van Tecklenburg
 			1440.1.1 = {
@@ -3209,12 +3214,12 @@
 				death = yes
 			}
 		}
-		CKU_bergh_3 = {
+		CKU_wassenaer_61 = {
 			name = "Oswald"
-			dynasty = CKU_vanden_bergh
+			dynasty_house = house_vanden_bergh
 			religion = "catholic"
 			culture = dutch
-			father = CKU_bergh_1
+			father = CKU_wassenaer_59
 			# mother = Machtild van Bentheim
 			# Married Elisabeth van Meurs
 			1442.2.28 = {
@@ -3224,12 +3229,12 @@
 				death = yes
 			}
 		}
-		CKU_bergh_4 = {
+		CKU_wassenaer_62 = {
 			name = "Ludolph"
-			dynasty = CKU_vanden_bergh
+			dynasty_house = house_vanden_bergh
 			religion = "catholic"
 			culture = dutch
-			father = CKU_bergh_1
+			father = CKU_wassenaer_59
 			# mother = Machtild van Bentheim
 			# Married Catharina van den Capelle
 			1443.1.1 = {

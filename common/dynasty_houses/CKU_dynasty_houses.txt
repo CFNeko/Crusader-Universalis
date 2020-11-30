@@ -202,6 +202,13 @@ house_vander_leck = {
 	dynasty = CKU_wassenaer
 }
 
+house_vanden_bergh = {
+	prefix = "dynnp_van_den"
+	name = "dynn_vanden_bergh"
+	culture = "dutch"
+	dynasty = CKU_wassenaer
+}
+
 # Neville
 house_neville_westmorland = {
 	name = "Neville-Westmorland"

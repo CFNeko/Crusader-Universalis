@@ -7992,7 +7992,17 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			#dynasty = CKU_wassenaer
+			dynasty = 248
+			martial = 20
+			1395.1.1 = {
+				birth = yes
+			}
+		}
+		CKU_francien_test_2 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 12462
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -8275,6 +8285,9 @@
 			1414.1.1 = {
 				birth = yes
 			}
+			1464.5.25 = {
+				death = yes
+			}
 		}
 		
 		CKU_bourgogne_14 = {
@@ -8290,18 +8303,25 @@
 			1415.1.1 = {
 				add_spouse = CKU_bourgogne_minor_5
 			}
+			1491.1.1 = {
+				death = yes
+			}
 		}
 		
 		CKU_bourgogne_15 = {
-			name = "Anne"
+			name = "Élisabeth"
 			female = yes
 			religion = catholic
 			culture = burgundian
 			dynasty_house = house_bourgogne_nevers
 			father = CKU_bourgogne_14
 			mother = CKU_bourgogne_minor_5
+			# Married Johann von Kleve-Mark
 			1439.8.24 = {
 				birth = yes
+			}
+			1483.6.21 = {
+				death = yes
 			}
 		}
 		
@@ -8406,8 +8426,8 @@
 			1394.1.1 = {
 				birth = yes
 			}
-			1406.1.1 = {
-				add_spouse = CKU_marck_1
+			1466.10.30 = {
+				death = yes
 			}
 		}
 		
@@ -8458,6 +8478,9 @@
 			mother = CKU_bourgogne_minor_23
 			1404.1.1 = {
 				birth = yes
+			}
+			1479.4.27 = {
+				death = yes
 			}
 		}
 		
@@ -8522,6 +8545,9 @@
 			1400.1.1 = {
 				birth = yes
 			}
+			1495.1.1 = {
+				death = yes
+			}
 		}
 		
 		CKU_bourgogne_minor_3 = {
@@ -8547,6 +8573,9 @@
 			1395.1.1 = {
 				birth = yes
 			}
+			1465.1.1 = {
+				death = yes
+			}
 		}
 		
 		CKU_bourgogne_minor_5 = { # Wife of Jean, Count of Nevers
@@ -8556,6 +8585,9 @@
 			culture = french
 			1420.1.1 = {
 				birth = yes
+			}
+			1470.1.1 = {
+				death = yes
 			}
 		}
 		
@@ -8849,6 +8881,9 @@
 			1390.1.1 = {
 				birth = yes
 			}
+			1460.1.1 = {
+				death = yes
+			}
 		}
 		CKU_bourgogne_minor_26 = {
 			name = "Jehan"
@@ -8857,6 +8892,9 @@
 			#dynasty = ???
 			1392.1.1 = {
 				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
 			}
 		}
 		CKU_bourgogne_minor_27 = {

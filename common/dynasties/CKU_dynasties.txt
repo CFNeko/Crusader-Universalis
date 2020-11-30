@@ -4,12 +4,6 @@
 	culture = "flemish"
 }
 
-CKU_vanden_bergh = {
-	prefix = "dynnp_van_den"
-	name = "dynn_vanden_bergh"
-	culture = "dutch"
-}
-
 CKU_wassenaer = {
 	prefix = "dynnp_van"
 	name = "dynn_wassenaer"

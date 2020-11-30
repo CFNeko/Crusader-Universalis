@@ -553,6 +553,9 @@
 			1339.1.1 = {
 				birth = yes
 			}
+			1357.11.30 = {
+				add_spouse = CKU_marck_29
+			}
 			1416.9.4 = {
 				death = yes
 			}
@@ -641,7 +644,7 @@
 				birth = yes
 			}
 			1403.8.1 = {
-				add_spouse = CKU_wassenaer_38
+				add_spouse = CKU_wassenaer_39
 			}
 			1442.6.3 = {
 				death = yes
@@ -682,7 +685,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_41
-			#mother = Johanna van Polanen
+			mother = CKU_wassenaer_39
 			# Married Maria von Loon-Heinsberg
 			1410.8.1 = {
 				birth = yes
@@ -702,7 +705,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_41
-			#mother = Johanna van Polanen
+			mother = CKU_wassenaer_39
 			# Married Genoveva von Virneburg
 			1414.1.7 = {
 				birth = yes
@@ -715,7 +718,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_41
-			#mother = Johanna van Polanen
+			mother = CKU_wassenaer_39
 			# Married Dietrich von Sayn
 			1415.1.1 = {
 				birth = yes
@@ -728,7 +731,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_41
-			#mother = Johanna van Polanen
+			mother = CKU_wassenaer_39
 			# Married Johann von Nassau-Wiesbaden
 			1418.2.2 = {
 				birth = yes
