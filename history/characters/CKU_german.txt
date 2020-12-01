@@ -1497,6 +1497,368 @@
 			}
 		}
 	# }
+	# Isenberg = {
+		CKU_berg_1 = {
+			name = "Dietrich"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = 33180
+			# mother = Sophie de Ardenne-Verdun
+			# Married Adelheid von Sponheim
+			1215.1.1 = {
+				birth = yes
+			}
+			1301.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_2 = {
+			name = "Engelbert"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = 33180
+			# mother = Sophie de Ardenne-Verdun
+			1220.1.1 = {
+				birth = yes
+			}
+			1250.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_3 = {
+			name = "Bruno"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = 33180
+			# mother = Sophie de Ardenne-Verdun
+			1222.1.1 = {#?
+				birth = yes
+			}
+			1258.12.20 = {
+				death = yes
+			}
+		}
+		CKU_berg_4 = {
+			name = "Gottfried"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = 33180
+			# mother = Sophie de Ardenne-Verdun
+			# Married 
+			1221.1.1 = {#?
+				birth = yes
+			}
+			1247.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_5 = {
+			name = "Agnes"
+			female = yes
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = 33180
+			# mother = Sophie de Ardenne-Verdun
+			# Married Christian von Oldenburg
+			1190.1.1 = {#?
+				birth = yes
+			}
+			1250.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_berg_6 = {
+			name = "Johann"
+			dynasty_house = house_isenberg 
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_1
+			# mother = Adelheid von Sponheim
+			# Married Agnes von Wildenburg
+			1246.1.1 = {
+				birth = yes
+			}
+			1277.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_7 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_1
+			# mother = Adelheid von Sponheim
+			# Married Heinrich von Wildenburg
+			1253.1.1 = {
+				birth = yes
+			}
+			1311.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_8 = {
+			name = "Sophie"
+			female = yes
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_1
+			# mother = Adelheid von Sponheim
+			# Married Bertold von Büren
+			1253.1.1 = {
+				birth = yes
+			}
+			1300.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_berg_9 = {
+			name = "Dietrich"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_6
+			# mother = Agnes von Wildenburg
+			# Married Bertrada von Goetterswick
+			1265.1.1 = {#?
+				birth = yes
+			}
+			1303.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_10 = {
+			name = "Johann"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_9
+			# mother = Bertrada von Goetterswick
+			# Married Uda von Ravensberg
+			# Married Margareta von Ahaus
+			1300.1.1 = {#?
+				birth = yes
+			}
+			1364.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_11 = {
+			name = "Dietrich"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_10
+			# mother = Uda von Ravensberg
+			# Married Johanna von Reifferscheid
+			1347.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_12 = {
+			name = "Eberhard"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_11
+			# mother = Johanna von Reifferscheid
+			# Married Ponzetta von Saffenberg
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1426.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_13 = {
+			name = "Wilhelm"
+			dynasty_house = house_isenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_12
+			# mother = Ponzetta von Saffenberg
+			# Married Agnes von Limburg-Broich
+			1420.1.1 = {
+				birth = yes
+			}
+			1459.2.28 = {
+				death = yes
+			}
+		}
+		CKU_berg_14 = {
+			name = "Eberhard"
+			dynasty_house = house_limburg_styrum #Founder of Limburg-Styrum branch of Berg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_1
+			# mother = Adelheid von Sponheim
+			# Married ?Agnes von Limburg?
+			1252.1.1 = {
+				birth = yes
+			}
+			1304.6.17 = {
+				death = yes
+			}
+		}
+		CKU_berg_15 = {
+			name = "Dietrich"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_14
+			# mother = ?Agnes von Limburg?
+			# Married Bertradis
+			1280.1.1 = {
+				birth = yes
+			}
+			1301.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_16 = {
+			name = "Dietrich"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_15
+			# mother = Bertradis
+			# Married Unknown
+			1300.1.1 = {
+				birth = yes
+			}
+			1327.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_17 = {
+			name = "Johann"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_16
+			# mother = Unknown
+			# Married Unknown
+			1322.1.1 = {
+				birth = yes
+			}
+			1359.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_18 = {
+			name = "Dietrich"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_16
+			# mother = Unknown
+			# Married Cunigunde
+			1322.1.1 = {
+				birth = yes
+			}
+			1364.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_19 = {
+			name = "Dietrich"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_18
+			# mother = Cunigunde
+			1350.1.1 = {#?
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_20 = {
+			name = "Dietrich"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_17
+			# mother = Unknown
+			# Married Johanna
+			1348.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_21 = {
+			name = "Dietrich"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_20
+			# mother = Johanna
+			# Married Johanna von Reifferscheid
+			1348.1.1 = {
+				birth = yes
+			}
+			1396.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_22 = {
+			name = "Eberhard"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_21
+			# mother = Johanna von Reifferscheid
+			# Married Ponzetta von Saffenberg
+			1380.1.1 = {
+				birth = yes
+			}
+			1426.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berg_23 = {
+			name = "Wilhelm"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_22
+			# mother = Ponzetta von Saffenberg
+			# Married Agnes von Limburg-Broich
+			1420.1.1 = {#?
+				birth = yes
+			}
+			1459.2.28 = {
+				death = yes
+			}
+		}
+		CKU_berg_24 = {
+			name = "Eberhard"
+			dynasty_house = house_limburg_styrum
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_berg_22
+			# mother = Ponzetta von Saffenberg
+			1423.1.1 = {#?
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+	# }
 	# Minor Lords = {
 		CKU_rhenish_1 = {	
 			name = "Louis"

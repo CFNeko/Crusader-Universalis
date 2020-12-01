@@ -8002,7 +8002,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 12462
+			dynasty = 287
 			martial = 20
 			1395.1.1 = {
 				birth = yes

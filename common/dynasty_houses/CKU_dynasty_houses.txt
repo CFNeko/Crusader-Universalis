@@ -209,6 +209,19 @@ house_vanden_bergh = {
 	dynasty = CKU_wassenaer
 }
 
+# Berg
+house_isenberg = {
+	name = "dynn_isenberg"
+	culture = "rhenish"
+	dynasty = 248
+}
+
+house_limburg_styrum = {
+	name = "dynn_limburg_styrum"
+	culture = "rhenish"
+	dynasty = 248
+}
+
 # Neville
 house_neville_westmorland = {
 	name = "Neville-Westmorland"
