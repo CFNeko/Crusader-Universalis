@@ -7992,17 +7992,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = 248
-			martial = 20
-			1395.1.1 = {
-				birth = yes
-			}
-		}
-		CKU_francien_test_2 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = 287
+			dynasty = CKU_testing_dynasty
 			martial = 20
 			1395.1.1 = {
 				birth = yes

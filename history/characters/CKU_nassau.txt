@@ -608,7 +608,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_35
-			#mother = Margarethe von der Mark
+			mother = CKU_marck_29
 			# Married Jutta von Diez
 			# Married Kunigunde von Isenburg-Limburg
 			1362.1.1 = {
@@ -624,7 +624,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_35
-			#mother = Margarethe von der Mark
+			mother = CKU_marck_29
 			1362.1.1 = {
 				birth = yes
 			}
@@ -638,7 +638,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_35
-			#mother = Margarethe von der Mark
+			mother = CKU_marck_29
 			# Married Johanna van Polanen
 			1370.1.1 = {
 				birth = yes
@@ -656,7 +656,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_35
-			#mother = Margarethe von der Mark
+			mother = CKU_marck_29
 			1375.1.1 = {
 				birth = yes
 			}
@@ -828,7 +828,7 @@
 			culture = franconian
 			father = CKU_nassau_51
 			#mother = Katharina von Randerode
-			# Married Metze von Isenburg
+			# Married Mechtild von Isenburg-Limburg
 			1386.1.1 = {
 				birth = yes
 			}
@@ -865,7 +865,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_54
-			#mother = Metze von Isenburg
+			#mother = Mechtild von Isenburg-Limburg
 			# Married Johann von Schöneck
 			1416.1.1 = {
 				birth = yes
@@ -877,7 +877,7 @@
 			religion = "catholic"
 			culture = franconian
 			father = CKU_nassau_54
-			#mother = Metze von Isenburg
+			#mother = Mechtild von Isenburg-Limburg
 			1420.1.1 = {
 				birth = yes
 			}

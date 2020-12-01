@@ -222,6 +222,19 @@ house_limburg_styrum = {
 	dynasty = 248
 }
 
+# Horne
+house_horne_houtekerke = {
+	name = "dynn_horne_houtekerke"
+	culture = "dutch"
+	dynasty = CKU_horne
+}
+
+house_cranendonck = {
+	name = "dynn_horne_cranendonck"
+	culture = "dutch"
+	dynasty = CKU_horne
+}
+
 # Neville
 house_neville_westmorland = {
 	name = "Neville-Westmorland"

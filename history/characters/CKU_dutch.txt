@@ -2708,6 +2708,9 @@
 			1325.1.1 = {
 				birth = yes
 			}
+			1348.5.21 = {
+				add_spouse = CKU_horne_14
+			}
 			1378.11.3 = {
 				death = yes
 			}
@@ -2855,7 +2858,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_wassenaer_28
-			# mother = Oda van Horne
+			mother = CKU_horne_14
 			# Married Maria van Brabant
 			# Married Odilia zu Solms-Ravenstein
 			1360.1.1 = {
@@ -3002,7 +3005,7 @@
 			religion = "catholic"
 			culture = dutch
 			father = CKU_wassenaer_28
-			# mother = Oda van Horne
+			mother = CKU_horne_14
 			# Married Hendrik van Bautershem
 			1344.1.1 = {
 				birth = yes
@@ -3245,6 +3248,543 @@
 			}
 		}
 	# }
+	# van Horne = {
+		CKU_horne_1 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			# father = Hendrik van Horne
+			# mother = Unknown
+			# Married Heilwig van Altena
+			1200.1.1 = {
+				birth = yes
+			}
+			1264.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_2 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_1
+			# mother = Heilwig van Altena
+			# Married Agnes van Leuven
+			1240.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_3 = {
+			name = "Engelbert"
+			dynasty_house = house_cranendonck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_1
+			# mother = Heilwig van Altena
+			# Married Ermegard van Mierlo
+			1195.1.1 = {#?
+				birth = yes
+			}
+			1265.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_4 = {
+			name = "Gerard"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_1
+			# mother = Heilwig van Altena
+			1244.1.1 = {#?
+				birth = yes
+			}
+			1272.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_5 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_2
+			# mother = Agnes van Leuven
+			# Married Sophie van Heusden
+			1270.1.1 = {
+				birth = yes
+			}
+			1301.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_6 = {
+			name = "Dirk"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_2
+			# mother = Agnes van Leuven
+			1265.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_7 = {
+			name = "Engelbert"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_2
+			# mother = Agnes van Leuven
+			1270.1.1 = {
+				birth = yes
+			}
+			1310.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_8 = {
+			name = "Gerard"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_2
+			# mother = Agnes van Leuven
+			# Married Johanna van Leuven
+			# Married Irmgard von Kleve
+			1270.1.1 = {
+				birth = yes
+			}
+			1331.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_9 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_8
+			# mother = Johanna van Leuven
+			# Married Oda van Putten
+			# Married Elisabeth von Kleve
+			1302.1.1 = {
+				birth = yes
+			}
+			1343.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_10 = {
+			name = "Dirk"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_8
+			# mother = Irmgard von Kleve
+			# Married Catharina van Berthout
+			1320.1.1 = {
+				birth = yes
+			}
+			1378.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_horne_11 = {
+			name = "Gerard"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Oda van Putten
+			1320.1.1 = {
+				birth = yes
+			}
+			1345.9.26 = {
+				death = yes
+			}
+		}
+		CKU_horne_12 = {
+			name = "Johanna"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Oda van Putten
+			# Married Gijsbrecht van Abcoude
+			1320.1.1 = {
+				birth = yes
+			}
+			1356.7.4 = {
+				death = yes
+			}
+		}
+		CKU_horne_13 = {
+			name = "Aleid"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Oda van Putten
+			# Married Dirk van Cranendonk(Horne)
+			1320.1.1 = {
+				birth = yes
+			}
+			1370.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_horne_14 = {
+			name = "Oda"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Oda van Putten
+			# Married Jan van Polanen
+			1320.1.1 = {
+				birth = yes
+			}
+			1353.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_15 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Oda van Putten
+			# Married Johan van Arkel
+			1326.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_16 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Elisabeth von Kleve
+			# Married Machteld van Arkel
+			1336.1.1 = {
+				birth = yes
+			}
+			1358.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_17 = {
+			name = "Dirk Loef"
+			dynasty_house = house_horne_houtekerke # Founder of Horne-Houtekerke branch of Van Horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Elisabeth von Kleve
+			# Married Isabelle de Montigny
+			1338.1.1 = {
+				birth = yes
+			}
+			1403.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_18 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Elisabeth von Kleve
+			# Married Hendrik van Diest
+			1339.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_19 = {
+			name = "Arnold"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_9
+			# mother = Elisabeth von Kleve
+			1339.1.1 = {
+				birth = yes
+			}
+			1389.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_20 = {
+			name = "Dirk"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_16
+			# mother = Machteld van Arkel
+			1350.1.1 = {
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_21 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_16
+			# mother = Machteld van Arkel
+			# Married Johanna von Loon
+			1355.1.1 = {
+				birth = yes
+			}
+			1417.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_22 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_10
+			# mother = Catharina van Berthout
+			# Married Maria van Randerode
+			1370.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_23 = {
+			name = "Hendrik"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_10
+			# mother = Catharina van Berthout
+			# Married Margarethe de Rochefort
+			1370.1.1 = {
+				birth = yes
+			}
+			1408.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_24 = {
+			name = "Maria"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_22
+			# mother = Maria van Randerode
+			1395.1.1 = {
+				birth = yes
+			}
+			1433.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_25 = {
+			name = "Jan"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_23
+			# mother = Margarethe de Rochefort
+			# Married Mathilde von Reifferscheid
+			1395.1.1 = {
+				birth = yes
+			}
+			1447.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_26 = {
+			name = "Willem"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_21
+			# mother = Johanna von Loon
+			# Married Jeanne de Montigny
+			1380.1.1 = {
+				birth = yes
+			}
+			1433.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_27 = {
+			name = "Oda"
+			female = yes
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_21
+			# mother = Johanna von Loon
+			# Married Johann von Gemen
+			1385.1.1 = {
+				birth = yes
+			}
+			1442.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_28 = {
+			name = "Hendrik"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_25
+			# mother = Mathilde von Reifferscheid
+			# Married Elisabeth van Diest
+			# Married Antoinette van Gaveren Lieferingen
+			1422.1.1 = {
+				birth = yes
+			}
+			1483.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_29 = {
+			name = "Jacob"
+			dynasty = CKU_horne
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_26
+			# mother = Jeanne de Montigny
+			# Married Johanna van Meurs
+			1420.1.1 = {
+				birth = yes
+			}
+			1488.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_30 = {
+			name = "Arnold"
+			dynasty_house = house_horne_houtekerke
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_17
+			# mother = Isabelle de Montigny
+			# Married Johanna van Hondeschote
+			1360.1.1 = {
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_31 = {
+			name = "Jan"
+			dynasty_house = house_horne_houtekerke
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_30
+			# mother = Johanna van Hondeschote
+			# Married Marguerite de la Tremoille
+			1380.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				add_spouse = CKU_tremoille_8
+			}
+			1436.8.23 = {
+				death = yes
+			}
+		}
+		CKU_horne_32 = {
+			name = "Filips"
+			dynasty_house = house_horne_houtekerke
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_31
+			mother = CKU_tremoille_8
+			# Married Jeanne de Lannoy
+			# Married Margaretha van Horne
+			1421.1.1 = {
+				birth = yes
+			}
+			1488.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_33 = {
+			name = "Willem"
+			dynasty_house = house_cranendonck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_3
+			# mother = Ermegard van Mierlo
+			# Married Katharina von Kessel
+			1243.1.1 = {
+				birth = yes
+			}
+			1289.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_34 = {
+			name = "Willem"
+			dynasty_house = house_cranendonck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_33
+			# mother = Katharina von Kessel
+			# Married Elisabeth van Steyn
+			1275.1.1 = {
+				birth = yes
+			}
+			1321.1.1 = {
+				death = yes
+			}
+		}
+		CKU_horne_35 = {
+			name = "Dirk"
+			dynasty_house = house_cranendonck
+			religion = "catholic"
+			culture = dutch
+			father = CKU_horne_34
+			# mother = Elisabeth van Steyn
+			# Married Aleid van Horne
+			1305.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				add_spouse = CKU_horne_13
+			}
+			1343.7.20 = {
+				death = yes
+			}
+		}
+	# }
 # }
 # Flemish {
 	# van Gruuthuse/van Brugge = {
@@ -3432,6 +3972,38 @@
 				birth = yes
 			}
 			1460.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# de Trazegnies = {
+		CKU_trazegnies_1 = {
+			name = "Arnould"
+			dynasty = CKU_trazegnies
+			religion = "catholic"
+			culture = flemish
+			# father = Anselme de Hamal
+			mother = CKU_bourgogne_minor_59
+			# Married Anne de Trazegnies
+			1395.1.1 = {#?
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_trazegnies_2 = {
+			name = "Anselme"
+			dynasty = CKU_trazegnies
+			religion = "catholic"
+			culture = flemish
+			father = CKU_trazegnies_1
+			# mother = Anne de Trazegnies
+			# Married Marie van Arnemuiden
+			1425.1.1 = {#?
+				birth = yes
+			}
+			1490.1.1 = {
 				death = yes
 			}
 		}
