@@ -56,7 +56,7 @@ gunnery_range_01 = {
 	
 	next_building = gunnery_range_02
 
-	type_icon = "icon_building_royal_armory.dds"
+	type_icon = "icon_building_gunnery_range.dds"
 	
 	ai_value = {
 		base = 100
