@@ -3785,6 +3785,301 @@
 			}
 		}
 	# }
+	# Withem = {
+		CKU_withem_1 = {
+			name = "Jan"
+			dynasty = 7198
+			religion = "catholic"
+			culture = dutch
+			father = 487042
+			# mother = Catharina Corsselaar
+			# Married Catharina van Holsit
+			trait = bastard
+			1310.1.1 = {
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_withem_2 = {
+			name = "Johan"
+			dynasty_house = house_withem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_withem_1
+			# mother = Catharina van Holsit
+			# Married Catharina Hoen
+			# Married Maria van Stalle
+			1340.1.1 = {
+				birth = yes
+			}
+			1405.1.1 = {
+				death = yes
+			}
+		}
+		CKU_withem_3 = {
+			name = "Johan"
+			dynasty_house = house_withem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_withem_2
+			# mother = Catharina Hoen
+			# Married Margaretha van Pallandt
+			1365.1.1 = {
+				birth = yes
+			}
+			1443.5.26 = {
+				death = yes
+			}
+		}
+		CKU_withem_4 = {
+			name = "Maria"
+			female = yes
+			dynasty_house = house_withem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_withem_3
+			# mother = Margaretha van Pallandt
+			1425.1.1 = {
+				birth = yes
+			}
+			1497.1.1 = {
+				death = yes
+			}
+		}
+		CKU_withem_5 = {
+			name = "Hendrik"
+			dynasty_house = house_withem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_withem_2
+			# mother = Maria van Stalle
+			# Married Margaretha de Enghien
+			1375.1.1 = {
+				birth = yes
+			}
+			1444.1.1 = {
+				death = yes
+			}
+		}
+		CKU_withem_6 = {
+			name = "Hendrik"
+			dynasty_house = house_withem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_withem_5
+			# mother = Margaretha de Enghien
+			# Married Jacoba van Bergen Glymes
+			1419.1.1 = {
+				birth = yes
+			}
+			1454.1.1 = {
+				death = yes
+			}
+		}
+		CKU_withem_7 = {
+			name = "Hendrik"
+			dynasty_house = house_withem
+			religion = "catholic"
+			culture = dutch
+			father = CKU_withem_6
+			# mother = Jacoba van Bergen Glymes
+			# Married Elisabeth van der Spout
+			1440.1.1 = {
+				birth = yes
+			}
+			1515.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Berghes = {
+		CKU_berghes_1 = {
+			name = "Jan"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = 487042
+			# mother = Elisabeth van Cortygin
+			# Married Agnès de Jodoigne
+			trait = bastard
+			1298.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_2 = {
+			name = "Jacques"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_1
+			# mother = Agnès de Jodoigne
+			# Married Unknown
+			1320.1.1 = {
+				birth = yes
+			}
+			1341.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_3 = {
+			name = "Jan"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_2
+			# mother = Unknown
+			# Married Isabelle de Walhain
+			1340.1.1 = {
+				birth = yes
+			}
+			1379.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_4 = {
+			name = "Jan"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_3
+			# mother = Isabelle de Walhain
+			# Married Isabelle de Grez
+			1360.1.1 = {
+				birth = yes
+			}
+			1428.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_5 = {
+			name = "Jan"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_4
+			# mother = Isabelle de Grez
+			# Married Johanna van Boutersem
+			1390.1.1 = {
+				birth = yes
+			}
+			1427.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_6 = {
+			name = "Boudewijn"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_4
+			# mother = Isabelle de Grez
+			# Married Marie de Tourinnes
+			1390.1.1 = {
+				birth = yes
+			}
+			1452.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_7 = {
+			name = "Agnes"
+			female = yes
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_4
+			# mother = Isabelle de Grez
+			# Married Frederic de Brandenbourg
+			1400.1.1 = {
+				birth = yes
+			}
+			1460.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_8 = {
+			name = "Boudewijn"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_6
+			# mother = Marie de Tourinnes
+			# Married Anne de la Haye
+			1423.1.1 = {#?
+				birth = yes
+			}
+			1487.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_9 = {
+			name = "Isabelle"
+			female = yes
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_6
+			# mother = Marie de Tourinnes
+			# Married Jakob du Salm
+			1425.1.1 = {#?
+				birth = yes
+			}
+			1495.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_10 = {
+			name = "Jan"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_5
+			# mother = Johanna van Boutersem
+			# Married Margaretha de Rouveroy-Saint Simon
+			1417.1.1 = {
+				birth = yes
+			}
+			1494.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_11 = {
+			name = "Filips"
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_5
+			# mother = Johanna van Boutersem
+			# Married Joanna van Hamal
+			1422.1.1 = {
+				birth = yes
+			}
+			1469.1.1 = {
+				death = yes
+			}
+		}
+		CKU_berghes_12 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty_house = house_berghes
+			religion = "catholic"
+			culture = dutch
+			father = CKU_berghes_5
+			# mother = Johanna van Boutersem
+			# Married Adriaan van Kruiningen
+			1425.1.1 = {
+				birth = yes
+			}
+			1458.1.1 = {
+				death = yes
+			}
+		}
+	# }
 # }
 # Flemish {
 	# van Gruuthuse/van Brugge = {
@@ -4004,6 +4299,175 @@
 				birth = yes
 			}
 			1490.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Baenst = {
+		CKU_baenst_1 = {
+			name = "Jan"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			# father = Richard de Baenst
+			# mother = Maria van Reygersvliet
+			# Married Elisabeth Bave
+			1340.1.1 = {
+				birth = yes
+			}
+			1403.3.21 = {
+				death = yes
+			}
+		}
+		CKU_baenst_2 = {
+			name = "Jan"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_1
+			# mother = Elisabeth Bave
+			# Married Anna Slyps
+			1378.1.1 = {
+				birth = yes
+			}
+			1462.1.1 = {
+				death = yes
+			}
+		}
+		CKU_baenst_3 = {
+			name = "Elisabeth"
+			female = yes
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_1
+			# mother = Elisabeth Bave
+			# Married Joris van Hertsberghe
+			1380.1.1 = {#?
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_baenst_4 = {
+			name = "Clara"
+			female = yes
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_1
+			# mother = Elisabeth Bave
+			# Married Jan de Bul
+			1381.1.1 = {#?
+				birth = yes
+			}
+			1426.1.1 = {
+				death = yes
+			}
+		}
+		CKU_baenst_5 = {
+			name = "Antoine"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_1
+			# mother = Elisabeth Bave
+			# Married Isabelle Moens
+			# Married Elisabeth Gherbode
+			1395.1.1 = {
+				birth = yes
+			}
+			1465.1.17 = {
+				death = yes
+			}
+		}
+		CKU_baenst_6 = {
+			name = "Guy"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_1
+			# mother = Elisabeth Bave
+			# Married Anna de Groote
+			1380.1.1 = {
+				birth = yes
+			}
+			1462.7.8 = {
+				death = yes
+			}
+		}
+		CKU_baenst_7 = {
+			name = "Olivier"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_1
+			# mother = Elisabeth Bave
+			1396.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_baenst_8 = {
+			name = "Guy"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_6
+			# mother = Anna de Groote
+			# Married Josine Masin
+			1430.1.1 = {
+				birth = yes
+			}
+			1502.1.1 = {
+				death = yes
+			}
+		}
+		CKU_baenst_9 = {
+			name = "Jan"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_2
+			# mother = Anna Slyps
+			# Married Margareta de Fever
+			1420.1.1 = {
+				birth = yes
+			}
+			1486.3.18 = {
+				death = yes
+			}
+		}
+		CKU_baenst_10 = {
+			name = "Jan"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_9
+			# mother = Margareta de Fever
+			# Married Geertrui Malet
+			1440.1.1 = {
+				birth = yes
+			}
+			1495.1.1 = {
+				death = yes
+			}
+		}
+		CKU_baenst_11 = {
+			name = "Zeger"
+			dynasty = CKU_baenst
+			religion = "catholic"
+			culture = flemish
+			father = CKU_baenst_2
+			# mother = Anna Slyps
+			# Married Catharina Honin
+			1415.1.1 = {
+				birth = yes
+			}
+			1472.1.1 = {
 				death = yes
 			}
 		}

@@ -4,6 +4,18 @@
 	culture = "flemish"
 }
 
+CKU_baenst = {
+	prefix = "dynnp_de"
+	name = "dynn_baenst"
+	culture = "flemish"
+}
+
+CKU_alsace = {
+	prefix = "dynnp_d_"
+	name = "dynn_alsace"
+	culture = "french"
+}
+
 CKU_trazegnies = {
 	prefix = "dynnp_de"
 	name = "dynn_trazegnies"

@@ -57,6 +57,9 @@
  dynn_montfort_laval: "Laval-Montfort"
  dynn_crequy: "Créquy"
  dynn_luxembourg_ligny: "Luxembourg-Ligny"
+ dynn_alsace: "Alsace"
+ dynn_lorraine: "Lorraine"
+ dynn_henin_lietard: "Hénin-Liétard"
  
  #Low Countries
  dynn_clyte: "De la Clyte"
@@ -82,6 +85,9 @@
  dynn_horne_houtekerke: "Horne-Houtekerke"
  dynn_horne_cranendonck: "Cranendonck"
  dynn_trazegnies: "Trazegnies"
+ dynn_baenst: "Baenst"
+ dynn_withem: "Withem"
+ dynn_berghes: "Berghes"
  
  #Germany
  dynn_Mecklenburg: "Mecklenburg"
@@ -89,15 +95,16 @@
  dynn_palatinate_neumarkt: "Pfalz-Neumarkt"
  dynn_isenberg: "Isenberg"
  dynn_limburg_styrum: "Limburg-Styrum"
- 
- #Germany
- dynn_jagiellon: "Jagiellonian"
+ dynn_mark_arenberg: "Mark-Arenberg"
  dynn_nassau_wiesbaden: "Nassau-Wiesbaden"
  dynn_nassau_weilburg: "Nassau-Weilburg"
  dynn_nassau_siegen: "Nassau-Siegen"
  dynn_nassau_beilstein: "Nassau-Beilstein"
  dynn_nassau_dillenburg: "Nassau-Dillenburg"
  dynn_luxembourg_bohemia: "Luxembourg-Bohemia"
+ 
+ #Poland
+ dynn_jagiellon: "Jagiellonian"
 
  #Portugal
  dynn_bourgogne_aviz: "Avis"

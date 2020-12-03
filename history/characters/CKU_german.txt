@@ -644,7 +644,7 @@
 			religion = catholic
 			culture = swabian
 			female = yes
-			dynasty = 294
+			dynasty_house = house_lorraine
 			trait = brave
 			trait = calm
 			trait = ambitious
@@ -1493,6 +1493,51 @@
 				birth = yes
 			}
 			1439.1.1 = {
+				death = yes
+			}
+		}
+		CKU_marck_38 = {
+			name = "Eberhard"
+			dynasty_house = house_mark_arenberg # Founder of Mark-Arenberg branch of Mark
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_marck_23
+			# mother = Mathilde von Arenberg
+			# Married Maria von Looz
+			1305.1.1 = {
+				birth = yes
+			}
+			1387.1.1 = {
+				death = yes
+			}
+		}
+		CKU_marck_39 = {
+			name = "Eberhard"
+			dynasty_house = house_mark_arenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_marck_38
+			# mother = Maria von Looz
+			# Married Marie de Braquemont
+			1365.1.1 = {
+				birth = yes
+			}
+			1454.1.1 = {
+				death = yes
+			}
+		}
+		CKU_marck_40 = {
+			name = "Johann"
+			dynasty_house = house_mark_arenberg
+			religion = "catholic"
+			culture = rhenish
+			father = CKU_marck_39
+			# mother = Marie de Braquemont
+			# Married 
+			1410.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
 				death = yes
 			}
 		}

@@ -1165,6 +1165,48 @@ CKU_wavrin = {
 	}
 }
 
+CKU_alsace = {
+	pattern = "pattern_bend_01.dds"
+	color1 = "yellow"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_eagle_small.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.25 0.25 } scale = { 0.30 0.30 } rotation = 315 }
+		instance = { position = { 0.50 0.50 } scale = { 0.30 0.30 } rotation = 315 }
+		instance = { position = { 0.75 0.75 } scale = { 0.30 0.30 } rotation = 315 }
+	}
+}
+
+house_lorraine = {
+	pattern = "pattern_bend_01.dds"
+	color1 = "yellow"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_eagle_small.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.25 0.25 } scale = { 0.30 0.30 } rotation = 315 }
+		instance = { position = { 0.50 0.50 } scale = { 0.30 0.30 } rotation = 315 }
+		instance = { position = { 0.75 0.75 } scale = { 0.30 0.30 } rotation = 315 }
+	}
+	colored_emblem = {
+		texture = "ce_label_03.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.50 0.50 } scale = { 1.0 1.0 } }
+	}
+}
+
+house_henin_lietard = {
+	pattern = "pattern_bend_01.dds"
+	color1 = "red"
+	color2 = "yellow"
+}
+
 CKU_grailly = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -1670,6 +1712,21 @@ CKU_borssele = {
 	color2 = "white"
 }
 
+CKU_baenst = {
+	pattern = "pattern_horizontal_stripes_01.dds"
+	color1 = "black"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_martlet.dds"
+		color1 = "white"
+		color2 = "black"
+		instance = { position = { 0.25 0.20 } scale = { 0.40 0.40 }  }
+		instance = { position = { 0.50 0.20 } scale = { 0.40 0.40 }  }
+		instance = { position = { 0.75 0.20 } scale = { 0.40 0.40 }  }
+	}
+}
+
 CKU_horne = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -1926,6 +1983,81 @@ house_limburg_styrum = {
 		color2 = "yellow"
 		instance = { position = { 0.75 0.25 } scale = { 0.50 0.50 }  }
 		instance = { position = { 0.25 0.75 } scale = { 0.50 0.50 }  }
+	}
+}
+
+house_mark_arenberg = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+
+	sub = {
+		parent = "7117"  # defined elsewhere
+		instance = { offset = { 0.5 0.0 } scale = { 0.5 0.5 }  } # top left
+		instance = { offset = { 0.0 0.5 } scale = { 0.5 0.5 }  } # bottom right
+	}
+	colored_emblem = {
+		texture = "ce_cinquefoil_01.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.15 0.15 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.25 0.35 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.35 0.15 } scale = { 0.25 0.25 }  }
+
+		instance = { position = { 0.65 0.65 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.75 0.85 } scale = { 0.25 0.25 }  }
+		instance = { position = { 0.85 0.65 } scale = { 0.25 0.25 }  }
+	}
+}
+
+house_withem = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+
+	sub = {
+		parent = "d_brabant"  # defined elsewhere
+		instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+		instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+	}
+	colored_emblem = {
+		texture = "ce_cross_engrailed_large.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 }  }
+	}
+}
+
+house_berghes = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "yellow"
+	color2 = "green"
+	
+	colored_emblem = {
+		texture = "ce_ordinary_canton.dds"
+		color1 = "black"
+		color2 = "black"
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.25 0.25 } scale = {  0.5 0.5 }  }
+	}
+	colored_emblem = {
+		texture = "ce_pales_03.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.75 0.25 } scale = {  0.5 0.5 }  }
+	}
+	colored_emblem = {
+		texture = "ce_mascle.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.35 0.65 } scale = {  0.25 0.25 }  }
+		instance = { position = { 0.50 0.85 } scale = {  0.25 0.25 }  }
+		instance = { position = { 0.65 0.65 } scale = {  0.25 0.25 }  }
 	}
 }
 
