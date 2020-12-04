@@ -100,12 +100,22 @@ innovation_military_4 = {
 			this = culture:scottish
 			this = culture:irish
 			this = culture:welsh
+
+			#Central Germanic Group
+			this = culture:swabian
+			this = culture:dutch
+			this = culture:bavarian
+			this = culture:franconian
 			
 			#Baltic Group
 			this = culture:czech
 			this = culture:polish
 			this = culture:lithuanian
 			this = culture:pommeranian
+
+			#East Slavic Group
+			this = culture:russian
+			this = culture:volhynian
 		}
 	}
 	
