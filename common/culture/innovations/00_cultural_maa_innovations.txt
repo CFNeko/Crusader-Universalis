@@ -712,7 +712,7 @@ innovation_janissary = {
 
 	unlock_maa = janissary
 
-	flag = global_regular
+	flag = global_maa
 	flag = early_modern_era_regular
 }
 
@@ -742,7 +742,7 @@ innovation_tercio = {
 
 	unlock_maa = tercio
 
-	flag = global_regular
+	flag = global_maa
 	flag = early_modern_era_regular
 }
 
@@ -771,7 +771,7 @@ innovation_yeoman_arquebusier = {
 
 	unlock_maa = yeoman_arquebusier
 
-	flag = global_regular
+	flag = global_maa
 	flag = early_modern_era_regular
 }
 
@@ -800,6 +800,64 @@ innovation_hussite_gunner = {
 
 	unlock_maa = hussite_gunner
 
-	flag = global_regular
+	flag = global_maa
+	flag = early_modern_era_regular
+}
+
+innovation_pishchal = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		OR = {
+			this = culture:russian
+			this = culture:volhynian
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#	has_innovation = innovation_handgonne
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = pishchal
+
+	flag = global_maa
+	flag = early_modern_era_regular
+}
+
+innovation_reiter = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		OR = {
+			this = culture:swabian
+			this = culture:dutch
+			this = culture:bavarian
+			this = culture:franconian
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#	has_innovation = innovation_handgonne
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = reiter
+
+	flag = global_maa
 	flag = early_modern_era_regular
 }

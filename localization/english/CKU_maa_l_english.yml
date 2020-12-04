@@ -2,7 +2,7 @@
 
  #MaA types
  arquebusiers:2 "[arquebusiers|E]"
- field_weapons:2 "[field_weapon|E]"
+ field_weapons:2 "[field_weapons|E]"
  
  #Special MaA
  arquebusier:0 "Arquebusiers"
@@ -14,6 +14,8 @@
  tercio:0 "Tercios"
  yeoman_arquebusier:0 "Yeomen Arquebusiers"
  hussite_gunner:0 "Hussite Handgunners"
+ pishchal:0 "Pishchal'niki"
+ reiter:0 "Black Riders"
  
  #MaA Descriptions
  arquebusier_flavor:1 "#F Arquebusiers are lightly-armored soldiers clad in half-plate wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
@@ -21,6 +23,8 @@
  tercio_flavor:1 "#F Tercios are a regiment of mixed composition, mainly fielding Pikemen and Arquebusiers. This troop mixture makes them a powerful foe in combat.#!"
  yeoman_arquebusier_flavor:1 "#F Yeomen Arquebusiers are elite light footmen wielding the rare Arquebus, a powerful weapon on the battlefield.#!"
  hussite_gunner_flavor:1 "#F Hussite Handgunners are lightly-armored soldiers that utilize wagon carts as a defensive measure, wielding the deadly Arquebus.#!"
+ pishchal_flavor:1 "#F Pishchal'niki are lightly-armored soldiers that have been trained in the use of the Pishchal, a unique variant of the Arquebus.#!"
+ reiter_flavor:1 "#F Black Riders are armored cavalrymen that carry a combination of pistols and a sword. Their maneuverability makes them a deadly foe in combat.#!"
  musketeer_flavor:1 "#F Musketeers are the evolution of the Arquebusier. They are deadlier and far more agile at the expense of armor for protection.#!"
  culverin_flavor:1 "#F Culverins are thin horse-drawn cannons that fire grapeshot to ravage enemy formations. They are highly effective against infantry.#!"
  
