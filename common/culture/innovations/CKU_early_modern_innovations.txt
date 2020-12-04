@@ -121,6 +121,13 @@ innovation_military_4 = {
 	
 	#can_progress = {
 	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#	custom_description = {
+	#		text = "discovered_gunpowder"
+	#		is_target_in_global_variable_list = {
+	#			name = unavailable_unique_decisions
+	#			target = flag:flag_found_gunpowder
+	#		}
+	#	}
 	#}
 	
 	modifier = {
