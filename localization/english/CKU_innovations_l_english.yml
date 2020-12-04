@@ -298,11 +298,14 @@
  innovation_deccan_unity:0 "Deccan Unity"
  innovation_deccan_unity_desc:0 "The influx of new beliefs and religions into our society has made it clear that our past focus on regionalism has been a mistake. We should band together with others of our faith and ensure a strong and enduring state that can stand up to external pressures."
 
-###CKU Here###
+################
+### CKU Here ###
+################
 
+### RENAISSANCE ERA
  culture_era_early_modern:0 "Renaissance"
  
- #Cultural/Regional
+ ## Cultural/Regional
  innovation_gallowglass:0 "Gallowglass"
  innovation_gallowglass_desc:0 "Gallowglasses were an elite class of mercenary warriors in Scotland. They were primarily members of the Norse-Gaelic clans that coalesced over the years after the Viking era."
 
@@ -324,20 +327,22 @@
  innovation_reiter:0 "Black Riders"
  innovation_reiter_desc:0 "With the rapid advances in warfare recently we've begun to adapt our light cavalry to ride smaller horses, carry compact handgonnes known as pistols, and ride armored. These Schwarze Reiters, are a fearsome foe for any enemy."
  
- #Military
+ ## Military
  innovation_military_1:0 "Bastions"
  innovation_military_2:0 "Culverins"
  innovation_military_2_desc:0 "Utilizing the same principles as the Arquebus, and its precursor the Handgonne, we have created the Culverin. This is a larger and more powerful version of the Arquebus adapted for use on the battlefield."
  innovation_military_3:0 "Professional Soldiers"
  innovation_military_4:0 "Arquebus"
+ innovation_military_4_desc:0 "Many years have passed since the introduction of the Handgonne into our arsenal - a deadly ranged weapon. However, with the addition of key requests from our soldiers we can improve upon this concept further."
  innovation_military_5:0 "Musket"
+ innovation_military_5_desc:0 "The adoption of various improvements to the Arquebus has resulted in the creation of an entirely new weapon. The Musket is an infantryman's light gun with a long barrel, typically smooth-bored, and fired from the shoulder."
  innovation_military_6:0 "Blast Furnaces"
  innovation_military_7:0 "Pike Square"
  innovation_military_8:0 "Pike & Shot"
  innovation_military_9:0 "Limbers & Caissons"
  innovation_military_10:0 "Commissioned Officers"
  
- #Civic
+ ## Civic
  innovation_civic_1:0 "Governorship"
  innovation_civic_2:0 "Springs"
  innovation_civic_3:0 "Double-Entry Bookeeping"
